@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="metadata">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" use="required" type="xsd:string" />
+                            <xsd:attribute name="type" type="xsd:string" />
+                            <xsd:attribute name="mimetype" type="xsd:string" />
+                            <xsd:attribute ref="xml:space" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="assembly">
+                        <xsd:complexType>
+                            <xsd:attribute name="alias" type="xsd:string" />
+                            <xsd:attribute name="name" type="xsd:string" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+                            <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+                            <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+                            <xsd:attribute ref="xml:space" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="001_Abbrechen" xml:space="preserve">
+        <value>Atcelt</value>
+    </data>
+    <data name="001_Ausschneiden" xml:space="preserve">
+        <value>Izgriezt</value>
+    </data>
+    <data name="001_Bilder" xml:space="preserve">
+        <value>Bildes</value>
+    </data>
+    <data name="001_Datei" xml:space="preserve">
+        <value>Failu</value>
+    </data>
+    <data name="001_DateiBereitsVorhanden" xml:space="preserve">
+        <value>Pēc finiša, tā jau pastāv fails ar tādu nosaukumu</value>
+    </data>
+    <data name="001_DateienNichtKopiert" xml:space="preserve">
+        <value>Failus nevar kopēt</value>
+    </data>
+    <data name="001_DateienNichtVerschoben" xml:space="preserve">
+        <value>Failus nevar pārvietot</value>
+    </data>
+    <data name="001_DateiMehrzahl" xml:space="preserve">
+        <value>Faili</value>
+    </data>
+    <data name="001_DiesesGerät" xml:space="preserve">
+        <value>Šī ierīce</value>
+    </data>
+    <data name="001_Dokumente" xml:space="preserve">
+        <value>Dokumenti</value>
+    </data>
+    <data name="001_Downloads" xml:space="preserve">
+        <value>Lejupielādes</value>
+    </data>
+    <data name="001_Einfügen" xml:space="preserve">
+        <value>Ievietojiet</value>
+    </data>
+    <data name="001_Ersetzen" xml:space="preserve">
+        <value>Aizstāt</value>
+    </data>
+    <data name="001_FürAlle" xml:space="preserve">
+        <value>Attiecas uz visiem</value>
+    </data>
+    <data name="001_Integrieren" xml:space="preserve">
+        <value>Integrēt</value>
+    </data>
+    <data name="001_Klingeltöne" xml:space="preserve">
+        <value>Ringtones</value>
+    </data>
+    <data name="001_Kopieren" xml:space="preserve">
+        <value>Kopija</value>
+    </data>
+    <data name="001_Löschen" xml:space="preserve">
+        <value>Dzēst</value>
+    </data>
+    <data name="001_LöschenBestätigung" xml:space="preserve">
+        <value>Neatgriezeniski izdzēšot</value>
+    </data>
+    <data name="001_Musik" xml:space="preserve">
+        <value>Mūzika</value>
+    </data>
+    <data name="001_NichtMöglich" xml:space="preserve">
+        <value>Nav iespējams</value>
+    </data>
+    <data name="001_OneDrive" xml:space="preserve">
+        <value>Viena draiva</value>
+    </data>
+    <data name="001_Ordner" xml:space="preserve">
+        <value>Mapi</value>
+    </data>
+    <data name="001_OrdnerBereitsVorhanden" xml:space="preserve">
+        <value>Mape ar šādu nosaukumu jau pastāv mērķa</value>
+    </data>
+    <data name="001_OrdnerMehrzahl" xml:space="preserve">
+        <value>Mapi</value>
+    </data>
+    <data name="001_OrdnerNichtErstellt" xml:space="preserve">
+        <value>Nevarēja izveidot mapi</value>
+    </data>
+    <data name="001_OrdnerNichÖffnen" xml:space="preserve">
+        <value>Nevar atvērt mapi</value>
+    </data>
+    <data name="001_Privat" xml:space="preserve">
+        <value>Privāts</value>
+    </data>
+    <data name="001_SDKarte" xml:space="preserve">
+        <value>SD karti</value>
+    </data>
+    <data name="001_Teilen" xml:space="preserve">
+        <value>Daļas</value>
+    </data>
+    <data name="001_Umbenennen" xml:space="preserve">
+        <value>Pārdēvēt</value>
+    </data>
+    <data name="001_Verschieben" xml:space="preserve">
+        <value>Pārvietot</value>
+    </data>
+    <data name="001_Videos" xml:space="preserve">
+        <value>Video</value>
+    </data>
+    <data name="001_ZugriffVerweigert" xml:space="preserve">
+        <value>Piekļuve liegta</value>
+    </data>
+    <data name="001_Überspringen" xml:space="preserve">
+        <value>Skip</value>
+    </data>
+    <data name="001_Hinzufügen" xml:space="preserve">
+        <value>Pievienot</value>
+    </data>
+    <data name="001_KeinName" xml:space="preserve">
+        <value>Nav ievadīts nosaukums</value>
+    </data>
+    <data name="001_Name" xml:space="preserve">
+        <value>vārds</value>
+    </data>
+    <data name="001_NeuerOrdner" xml:space="preserve">
+        <value>Pievienot mapi</value>
+    </data>
+    <data name="001_Schließen" xml:space="preserve">
+        <value>Aizveriet</value>
+    </data>
+    <data name="001_NameFalsch" xml:space="preserve">
+        <value>Šo nosaukumu nevar izmantot</value>
+    </data>
+    <data name="001_EinenMoment" xml:space="preserve">
+        <value>Vienu mirklīti, lūdzu,</value>
+    </data>
+    <data name="001_DateiNichtGelöscht" xml:space="preserve">
+        <value>Failu nevarēja izdzēst</value>
+    </data>
+    <data name="001_OrdnerNichtLöschen" xml:space="preserve">
+        <value>Mapi nevarēja dzēst</value>
+    </data>
+    <data name="001_DateienNichtEingefügt" xml:space="preserve">
+        <value>Failu nevarēja pievienot</value>
+    </data>
+    <data name="001_DateienNichtVorhanden" xml:space="preserve">
+        <value>Faili vairs nav pieejami</value>
+    </data>
+    <data name="001_DateiNichtVorhanden" xml:space="preserve">
+        <value>Fails vairs nav pieejams</value>
+    </data>
+    <data name="001_KopierenVerschieben" xml:space="preserve">
+        <value>Kopēt vai pārvietot</value>
+    </data>
+    <data name="000_AppName" xml:space="preserve">
+        <value>Failu pārlūks X</value>
+    </data>
+    <data name="001_AllesAbwählen" xml:space="preserve">
+        <value>Atteikties no visiem</value>
+    </data>
+    <data name="001_AllesAuswählen" xml:space="preserve">
+        <value>Atlasīt visu</value>
+    </data>
+    <data name="001_DateiNichtUmbenannt" xml:space="preserve">
+        <value>Failu nevar pārdēvēt</value>
+    </data>
+    <data name="001_OrdnerNichtUmbenannt" xml:space="preserve">
+        <value>Mapi nevarēja pārdēvēt</value>
+    </data>
+    <data name="001_Heimnetzgruppe" xml:space="preserve">
+        <value>Mājas</value>
+    </data>
+    <data name="001_NurVollversion" xml:space="preserve">
+        <value>Pilna versija pieejama tikai</value>
+    </data>
+    <data name="001_Warnung" xml:space="preserve">
+        <value>Brīdinājums</value>
+    </data>
+    <data name="001_WarnungPrivate" xml:space="preserve">
+        <value>Privātais sektors ir izvietota app direktorijā un ir aizsargāta ar paroli. Lūdzu, pierakstiet savu paroli un glabājiet to drošā vietā.
+Svarīgi!
+Vai jūs zaudējat savu paroli vai jūs atinstalēt šo app, lai dati ir zaudēti uz visiem laikiem.</value>
+    </data>
+    <data name="001_Weiter" xml:space="preserve">
+        <value>Nākamo</value>
+    </data>
+    <data name="001_Fehler" xml:space="preserve">
+        <value>Kļūda</value>
+    </data>
+    <data name="001_KeinPasswort" xml:space="preserve">
+        <value>Nav ievadīta parole</value>
+    </data>
+    <data name="001_Passwort" xml:space="preserve">
+        <value>Parole</value>
+    </data>
+    <data name="001_PasswortErstellen" xml:space="preserve">
+        <value>Izveidot paroli</value>
+    </data>
+    <data name="001_PasswortNicht" xml:space="preserve">
+        <value>Paroli nevar izmantot</value>
+    </data>
+    <data name="001_PasswortUnterschied" xml:space="preserve">
+        <value>Paroles ir atšķirīgas</value>
+    </data>
+    <data name="001_PasswortWiederholen" xml:space="preserve">
+        <value>Atkārtojiet paroli</value>
+    </data>
+    <data name="001_Datum" xml:space="preserve">
+        <value>Datums</value>
+    </data>
+    <data name="001_FileType" xml:space="preserve">
+        <value>Tips</value>
+    </data>
+    <data name="001_OrdnerSortieren" xml:space="preserve">
+        <value>Kārtošanas mapes</value>
+    </data>
+    <data name="001_Entfernen" xml:space="preserve">
+        <value>Noņemt</value>
+    </data>
+    <data name="001_VerbindungNicht" xml:space="preserve">
+        <value>Savienojums neizdevās</value>
+    </data>
+    <data name="001_DateiNichtGeöffnet" xml:space="preserve">
+        <value>Failu nevar atvērt</value>
+    </data>
+    <data name="001_DateiHeruntergeladen" xml:space="preserve">
+        <value>Fails ir pieejams lejupielādei</value>
+    </data>
+    <data name="001_ArtDerVerbindung" xml:space="preserve">
+        <value>Savienojuma tips</value>
+    </data>
+    <data name="001_VerknüpftesKonto" xml:space="preserve">
+        <value>Saistīto kontu</value>
+    </data>
+    <data name="001_AnderesKonto" xml:space="preserve">
+        <value>Citu kontu</value>
+    </data>
+    <data name="001_DateiOrdnerNichtGelöscht" xml:space="preserve">
+        <value>Nevar izdzēst failu vai mapi</value>
+    </data>
+    <data name="001_Abmelden" xml:space="preserve">
+        <value>Veiciet atteikšanos</value>
+    </data>
+    <data name="001_Berechtigung" xml:space="preserve">
+        <value>Piekļuves tiesības</value>
+    </data>
+    <data name="001_DateienOrdnerNichtEingefügt" xml:space="preserve">
+        <value>Failu vai mapi nevar pievienot</value>
+    </data>
+    <data name="001_DateienSortieren" xml:space="preserve">
+        <value>Kārtot failus</value>
+    </data>
+    <data name="001_DateiOrdnerBereitsVorhanden" xml:space="preserve">
+        <value>Jau pastāv fails vai mape ar tādu nosaukumu mērķa</value>
+    </data>
+    <data name="001_DateiOrdnerNichtVorhanden" xml:space="preserve">
+        <value>Fails vai mape vairs nav pieejams</value>
+    </data>
+    <data name="001_FreigabeLink" xml:space="preserve">
+        <value>Koplietot saites</value>
+    </data>
+    <data name="001_Lesen" xml:space="preserve">
+        <value>Lasīt</value>
+    </data>
+    <data name="001_LesenSchreiben" xml:space="preserve">
+        <value>Lasīt un rakstīt</value>
+    </data>
+    <data name="001_OneDriveÄndern" xml:space="preserve">
+        <value>Konta maiņa vienā diskā
+-Pašreizējais savienojums
+-Savienojumu, neatsakoties
+-Jaunu savienojumu</value>
+    </data>
+    <data name="001_AnStart" xml:space="preserve">
+        <value>PIN, lai sāktu</value>
+    </data>
+    <data name="001_DateiGrößerLimit" xml:space="preserve">
+        <value>Fails ir lielāks par ierobežojumu</value>
+    </data>
+    <data name="001_DDBestätigen" xml:space="preserve">
+        <value>Apstipriniet vilkt - un - nomest rīcības</value>
+    </data>
+    <data name="001_DDUmgang" xml:space="preserve">
+        <value>Vilkt - un - nomest rīcības</value>
+    </data>
+    <data name="001_DownloadLimit" xml:space="preserve">
+        <value>Limitu, lai atvērtu failus lejupielādēt</value>
+    </data>
+    <data name="001_DragAndDrop" xml:space="preserve">
+        <value>Vilkt - un - nomest</value>
+    </data>
+    <data name="001_Einmal" xml:space="preserve">
+        <value>Pēc tam, kad app ir aizvērts</value>
+    </data>
+    <data name="001_Einstellungen" xml:space="preserve">
+        <value>Iestatījumi</value>
+    </data>
+    <data name="001_Fragen" xml:space="preserve">
+        <value>Jautājumi</value>
+    </data>
+    <data name="001_Ignorieren" xml:space="preserve">
+        <value>Ignorēt</value>
+    </data>
+    <data name="001_Immer" xml:space="preserve">
+        <value>Vienmēr</value>
+    </data>
+    <data name="001_Ja" xml:space="preserve">
+        <value>jā</value>
+    </data>
+    <data name="001_Mehreren" xml:space="preserve">
+        <value>Vairākas</value>
+    </data>
+    <data name="001_Nein" xml:space="preserve">
+        <value>nē</value>
+    </data>
+    <data name="001_Nie" xml:space="preserve">
+        <value>Nekad</value>
+    </data>
+    <data name="001_OnlineVerhalten" xml:space="preserve">
+        <value>Rīcību tiešsaistē failu atvēršanai</value>
+    </data>
+    <data name="001_OnlineÖffnen" xml:space="preserve">
+        <value>Atvērt tiešsaistes</value>
+    </data>
+    <data name="001_PasswortAbfrage" xml:space="preserve">
+        <value>Parole</value>
+    </data>
+    <data name="001_PasswortZurück" xml:space="preserve">
+        <value>Paroles atiestatīšana</value>
+    </data>
+    <data name="001_PrivaterOrdner" xml:space="preserve">
+        <value>Privātajai mapei</value>
+    </data>
+    <data name="001_Sortierung" xml:space="preserve">
+        <value>Kārtošanai</value>
+    </data>
+    <data name="001_SortierungSpeichern" xml:space="preserve">
+        <value>Saglabāt, pasūtīšana</value>
+    </data>
+    <data name="001_Standard" xml:space="preserve">
+        <value>Standarta</value>
+    </data>
+    <data name="001_Unendlich" xml:space="preserve">
+        <value>Bezgalība</value>
+    </data>
+    <data name="001_Zurück" xml:space="preserve">
+        <value>Atpakaļ</value>
+    </data>
+    <data name="001_ÖffnenVomOrdner" xml:space="preserve">
+        <value>Ikreiz, atverot mapi</value>
+    </data>
+    <data name="001_Benutzername" xml:space="preserve">
+        <value>Lietotāja vārds</value>
+    </data>
+    <data name="001_PasswortSpeichern" xml:space="preserve">
+        <value>Saglabāt paroli</value>
+    </data>
+    <data name="001_Server" xml:space="preserve">
+        <value>Server</value>
+    </data>
+    <data name="001_Übernehmen" xml:space="preserve">
+        <value>Pārņemt</value>
+    </data>
+    <data name="001_TemporäreDateien" xml:space="preserve">
+        <value>Pagaidu faili</value>
+    </data>
+    <data name="001_TemporäreDateienAnzeigen" xml:space="preserve">
+        <value>Pagaidu failu apskate</value>
+    </data>
+    <data name="001_TemporäreDateienLöschen" xml:space="preserve">
+        <value>Dzēst pagaidu failus, sistēmas startēšanas laikā</value>
+    </data>
+    <data name="001_TemporäreDateienLöschenTask" xml:space="preserve">
+        <value>Dzēst pagaidu failus</value>
+    </data>
+    <data name="001_KopierenVerschiebenOnlineOnline" xml:space="preserve">
+        <value>Kopēt vai pārvietot no tiešsaistes Online netiek atbalstīta.
+Kopēt failus uz tālruni un pēc tam tiešsaistē.</value>
+    </data>
+	
+	
+	
+	
+	
+	<data name="002_BegrüßungTitel" xml:space="preserve">
+        <value>Lūdzu uzmanīgi izlasiet šos norādījumus</value>
+    </data>
+    <data name="002_Bergrüßung" xml:space="preserve">
+        <value>Paldies, ka izmantojat šo app.
+Šajā app izmanto vilkt - un - nomest sistēmas.
+Lai ritinātu izmantot pelēkā josla loga labajā pusē.</value>
+    </data>
+    <data name="002_NichtAnzeigen" xml:space="preserve">
+        <value>Nerādīt startēšanas laikā</value>
+    </data>
+    <data name="002_Dateiauswahl" xml:space="preserve">
+        <value>Faila izvēle</value>
+    </data>
+    <data name="002_DateiauswahlInfo" xml:space="preserve">
+        <value>Failu atlasītāja ļauj jums kopēt failus no mapes, kas nav atvērta.
+-Dokumenti
+-Downloads
+-Ringtones</value>
+    </data>
+    <data name="002_DateiauswahlKopiert" xml:space="preserve">
+        <value>Faili ir nokopēti.
+To var ielīmēt tagad visur.</value>
+    </data>
+    <data name="000_Beschreibung" xml:space="preserve">
+        <value>Failu pārvaldnieks Windows 10 mobilo jaunas paaudzes. Ar diviem logiem un vilkšanu un nomešanu. Paredzēta absolūta lietošanas ērtumu. Atmiņas kartes, viens disks un dropbox atbalsta.
+Izmēģiniet tagad bez maksas.</value>
+    </data>
+    <data name="000_Funktionen_1" xml:space="preserve">
+        <value>Divi ar maināmu izmēru logu</value>
+    </data>
+    <data name="000_Funktionen_10" xml:space="preserve">
+        <value>Nodrošina visu ekrānu formātus</value>
+    </data>
+    <data name="000_Funktionen_2" xml:space="preserve">
+        <value>Vilkt un nomest ātri kopēt vai pārvietot</value>
+    </data>
+    <data name="000_Funktionen_3" xml:space="preserve">
+        <value>Atbalsta vairākas atmiņas kartes</value>
+    </data>
+    <data name="000_Funktionen_4" xml:space="preserve">
+        <value>Pilnīgu integrāciju vienā diskā</value>
+    </data>
+    <data name="000_Funktionen_5" xml:space="preserve">
+        <value>Dropbox pilna integrācija</value>
+    </data>
+    <data name="000_Funktionen_6" xml:space="preserve">
+        <value>Ar paroli aizsargātu privāto zonu</value>
+    </data>
+    <data name="000_Funktionen_7" xml:space="preserve">
+        <value>Vairākiem pārdēvēšana</value>
+    </data>
+    <data name="000_Funktionen_8" xml:space="preserve">
+        <value>Papildu kārtošanas opcijas</value>
+    </data>
+    <data name="000_Funktionen_9" xml:space="preserve">
+        <value>Failu atlases nodrošināta teritorijas</value>
+    </data>
+    <data name="000_Schlagwort_1" xml:space="preserve">
+        <value>failu</value>
+    </data>
+    <data name="000_Schlagwort_2" xml:space="preserve">
+        <value>Pārvaldnieks</value>
+    </data>
+    <data name="000_Schlagwort_3" xml:space="preserve">
+        <value>Internet Explorer</value>
+    </data>
+    <data name="000_Schlagwort_4" xml:space="preserve">
+        <value>viena draiva</value>
+    </data>
+    <data name="000_Schlagwort_5" xml:space="preserve">
+        <value>kopējai datu bāzei</value>
+    </data>
+    <data name="000_Schlagwort_6" xml:space="preserve">
+        <value>mākonis</value>
+    </data>
+    <data name="000_Schlagwort_7" xml:space="preserve">
+        <value>mapi tīkla</value>
+    </data>
+    <data name="002_Bewerten" xml:space="preserve">
+        <value>Novērtēt šo app</value>
+    </data>
+    <data name="002_BewertenText" xml:space="preserve">
+        <value>Palīdziet mums izplatīt šo app.
+Vērtēt un skatīt šo app 5 zvaigznes.
+Un šī augstākā app jums bez maksas.</value>
+    </data>
+    <data name="002_BewertungNachricht" xml:space="preserve">
+        <value>Nosūtiet mums e-pastu.
+Ievadiet savu vārdu.
+To profilu, kurš tiek izmantots ar Microsoft kontu.
+Mēs nosūtīsim jums saiti pēc tam.</value>
+    </data>
+    <data name="002_Danke_1" xml:space="preserve">
+        <value>Paldies, ka izmantojāt mūsu progr.</value>
+    </data>
+    <data name="002_Danke_2" xml:space="preserve">
+        <value>Īpašu paldies</value>
+    </data>
+    <data name="002_Hilfe" xml:space="preserve">
+        <value>Manuāla</value>
+    </data>
+    <data name="002_JetztBewerten" xml:space="preserve">
+        <value>Likme, tagad</value>
+    </data>
+    <data name="002_Kaufen" xml:space="preserve">
+        <value>Pirkt šo app</value>
+    </data>
+    <data name="002_Kontakt" xml:space="preserve">
+        <value>Kā sazināties ar</value>
+    </data>
+    <data name="002_Kostenlos" xml:space="preserve">
+        <value>Bez maksas piecu zvaigžņu</value>
+    </data>
+    <data name="002_MicrosoftBenutzerName" xml:space="preserve">
+        <value>Nosaukums, ko izmantojat programmā Microsoft kontu</value>
+    </data>
+    <data name="002_Postanschrift" xml:space="preserve">
+        <value>Pasta adrese</value>
+    </data>
+    <data name="002_PromoApp" xml:space="preserve">
+        <value>8.1 bloķēt ekrānu</value>
+    </data>
+    <data name="002_Sprache" xml:space="preserve">
+        <value>Valodas</value>
+    </data>
+    <data name="002_SpracheÄndern" xml:space="preserve">
+        <value>Mainīt valodu</value>
+    </data>
+    <data name="002_VielenDank" xml:space="preserve">
+        <value>liels paldies</value>
+    </data>
+    <data name="002_Webseite" xml:space="preserve">
+        <value>Web lapu</value>
+    </data>
+    <data name="002_Über" xml:space="preserve">
+        <value>Par</value>
+    </data>
+</root>

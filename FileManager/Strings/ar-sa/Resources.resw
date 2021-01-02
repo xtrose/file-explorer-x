@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="001_Abbrechen" xml:space="preserve">
+    <value>إلغاء الأمر</value>
+  </data>
+  <data name="001_Ausschneiden" xml:space="preserve">
+    <value>قطع</value>
+  </data>
+  <data name="001_Bilder" xml:space="preserve">
+    <value>صور</value>
+  </data>
+  <data name="001_Datei" xml:space="preserve">
+    <value>الملف</value>
+  </data>
+  <data name="001_DateiBereitsVorhanden" xml:space="preserve">
+    <value>في النهاية، فإنه يوجد بالفعل ملف باسم</value>
+  </data>
+  <data name="001_DateienNichtKopiert" xml:space="preserve">
+    <value>تعذر نسخ الملفات</value>
+  </data>
+  <data name="001_DateienNichtVerschoben" xml:space="preserve">
+    <value>تعذر نقل الملفات</value>
+  </data>
+  <data name="001_DateiMehrzahl" xml:space="preserve">
+    <value>الملفات</value>
+  </data>
+  <data name="001_DiesesGerät" xml:space="preserve">
+    <value>هذا الجهاز</value>
+  </data>
+  <data name="001_Dokumente" xml:space="preserve">
+    <value>الوثائق</value>
+  </data>
+  <data name="001_Downloads" xml:space="preserve">
+    <value>التنزيلات</value>
+  </data>
+  <data name="001_Einfügen" xml:space="preserve">
+    <value>إدراج</value>
+  </data>
+  <data name="001_Ersetzen" xml:space="preserve">
+    <value>استبدال</value>
+  </data>
+  <data name="001_FürAlle" xml:space="preserve">
+    <value>تطبيق على الكل</value>
+  </data>
+  <data name="001_Integrieren" xml:space="preserve">
+    <value>دمج</value>
+  </data>
+  <data name="001_Klingeltöne" xml:space="preserve">
+    <value>نغمات</value>
+  </data>
+  <data name="001_Kopieren" xml:space="preserve">
+    <value>نسخة</value>
+  </data>
+  <data name="001_Löschen" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="001_LöschenBestätigung" xml:space="preserve">
+    <value>حذف بشكل دائم</value>
+  </data>
+  <data name="001_Musik" xml:space="preserve">
+    <value>الموسيقى</value>
+  </data>
+  <data name="001_NichtMöglich" xml:space="preserve">
+    <value>ليس من الممكن</value>
+  </data>
+  <data name="001_OneDrive" xml:space="preserve">
+    <value>محرك واحد</value>
+  </data>
+  <data name="001_Ordner" xml:space="preserve">
+    <value>مجلد</value>
+  </data>
+  <data name="001_OrdnerBereitsVorhanden" xml:space="preserve">
+    <value>يوجد بالفعل مجلد بهذا الاسم في الهدف</value>
+  </data>
+  <data name="001_OrdnerMehrzahl" xml:space="preserve">
+    <value>مجلد</value>
+  </data>
+  <data name="001_OrdnerNichtErstellt" xml:space="preserve">
+    <value>تعذر إنشاء المجلد</value>
+  </data>
+  <data name="001_OrdnerNichÖffnen" xml:space="preserve">
+    <value>غير قادر على فتح مجلد</value>
+  </data>
+  <data name="001_Privat" xml:space="preserve">
+    <value>القطاع الخاص</value>
+  </data>
+  <data name="001_SDKarte" xml:space="preserve">
+    <value>بطاقة SD</value>
+  </data>
+  <data name="001_Teilen" xml:space="preserve">
+    <value>حصة</value>
+  </data>
+  <data name="001_Umbenennen" xml:space="preserve">
+    <value>إعادة تسمية</value>
+  </data>
+  <data name="001_Verschieben" xml:space="preserve">
+    <value>نقل</value>
+  </data>
+  <data name="001_Videos" xml:space="preserve">
+    <value>أشرطة الفيديو</value>
+  </data>
+  <data name="001_ZugriffVerweigert" xml:space="preserve">
+    <value>تم رفض الوصول</value>
+  </data>
+  <data name="001_Überspringen" xml:space="preserve">
+    <value>تخطي</value>
+  </data>
+  <data name="001_Hinzufügen" xml:space="preserve">
+    <value>إضافة</value>
+  </data>
+  <data name="001_KeinName" xml:space="preserve">
+    <value>لا يوجد اسم دخلت</value>
+  </data>
+  <data name="001_Name" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="001_NeuerOrdner" xml:space="preserve">
+    <value>إضافة مجلد</value>
+  </data>
+  <data name="001_Schließen" xml:space="preserve">
+    <value>قم بإغلاق</value>
+  </data>
+  <data name="001_NameFalsch" xml:space="preserve">
+    <value>لا يمكن استخدام اسم</value>
+  </data>
+  <data name="001_EinenMoment" xml:space="preserve">
+    <value>لحظة واحدة من فضلك</value>
+  </data>
+  <data name="001_DateiNichtGelöscht" xml:space="preserve">
+    <value>لا يمكن حذف الملف</value>
+  </data>
+  <data name="001_OrdnerNichtLöschen" xml:space="preserve">
+    <value>تعذر حذف المجلد</value>
+  </data>
+  <data name="001_DateienNichtEingefügt" xml:space="preserve">
+    <value>تعذر إضافة الملف</value>
+  </data>
+  <data name="001_DateienNichtVorhanden" xml:space="preserve">
+    <value>الملفات التي لم تعد متوفرة</value>
+  </data>
+  <data name="001_DateiNichtVorhanden" xml:space="preserve">
+    <value>الملف لم يعد متوفراً</value>
+  </data>
+  <data name="001_KopierenVerschieben" xml:space="preserve">
+    <value>نسخ أو نقل</value>
+  </data>
+  <data name="000_AppName" xml:space="preserve">
+    <value>مستكشف الملفات X</value>
+  </data>
+  <data name="001_AllesAbwählen" xml:space="preserve">
+    <value>الانسحاب من كافة</value>
+  </data>
+  <data name="001_AllesAuswählen" xml:space="preserve">
+    <value>حدد كافة</value>
+  </data>
+  <data name="001_DateiNichtUmbenannt" xml:space="preserve">
+    <value>لا يمكن إعادة تسمية الملف</value>
+  </data>
+  <data name="001_OrdnerNichtUmbenannt" xml:space="preserve">
+    <value>لا يمكن إعادة تسمية المجلد</value>
+  </data>
+  <data name="001_Heimnetzgruppe" xml:space="preserve">
+    <value>مجموعة المشاركة المنزلية</value>
+  </data>
+  <data name="001_NurVollversion" xml:space="preserve">
+    <value>متاح فقط في النسخة الكاملة</value>
+  </data>
+  <data name="001_Warnung" xml:space="preserve">
+    <value>تحذير</value>
+  </data>
+  <data name="001_WarnungPrivate" xml:space="preserve">
+    <value>القطاع الخاص الموجود في الدليل للتطبيق ومحمي بواسطة كلمة مرور. الرجاء كتابة كلمة المرور الخاصة بك والاحتفاظ بها في مكان أمن.
+هام!
+تفقد كلمة المرور الخاصة بك، أو يمكنك إزالة تثبيت هذا التطبيق، حيث يتم فقدان البيانات إلى الأبد.</value>
+  </data>
+  <data name="001_Weiter" xml:space="preserve">
+    <value>القادم</value>
+  </data>
+  <data name="001_Fehler" xml:space="preserve">
+    <value>خطأ</value>
+  </data>
+  <data name="001_KeinPasswort" xml:space="preserve">
+    <value>لا توجد كلمة المرور التي تم إدخالها</value>
+  </data>
+  <data name="001_Passwort" xml:space="preserve">
+    <value>كلمة المرور</value>
+  </data>
+  <data name="001_PasswortErstellen" xml:space="preserve">
+    <value>إنشاء كلمة مرور</value>
+  </data>
+  <data name="001_PasswortNicht" xml:space="preserve">
+    <value>لا يمكن استخدام كلمة المرور</value>
+  </data>
+  <data name="001_PasswortUnterschied" xml:space="preserve">
+    <value>تعتبر كلمات المرور المختلفة</value>
+  </data>
+  <data name="001_PasswortWiederholen" xml:space="preserve">
+    <value>تكرار كلمة السر</value>
+  </data>
+  <data name="001_Datum" xml:space="preserve">
+    <value>تاريخ</value>
+  </data>
+  <data name="001_FileType" xml:space="preserve">
+    <value>نوع</value>
+  </data>
+  <data name="001_OrdnerSortieren" xml:space="preserve">
+    <value>فرز المجلدات</value>
+  </data>
+  <data name="001_Entfernen" xml:space="preserve">
+    <value>إزالة</value>
+  </data>
+  <data name="001_VerbindungNicht" xml:space="preserve">
+    <value>فشل الاتصال</value>
+  </data>
+  <data name="001_DateiNichtGeöffnet" xml:space="preserve">
+    <value>تعذر فتح الملف</value>
+  </data>
+  <data name="001_DateiHeruntergeladen" xml:space="preserve">
+    <value>يتوفر الملف للتحميل</value>
+  </data>
+  <data name="001_ArtDerVerbindung" xml:space="preserve">
+    <value>نوع الاتصال</value>
+  </data>
+  <data name="001_VerknüpftesKonto" xml:space="preserve">
+    <value>حساب مرتبط</value>
+  </data>
+  <data name="001_AnderesKonto" xml:space="preserve">
+    <value>حساب آخر</value>
+  </data>
+  <data name="001_DateiOrdnerNichtGelöscht" xml:space="preserve">
+    <value>لا يمكن حذف ملف أو مجلد</value>
+  </data>
+  <data name="001_Abmelden" xml:space="preserve">
+    <value>قم بتسجيل الخروج</value>
+  </data>
+  <data name="001_Berechtigung" xml:space="preserve">
+    <value>إذن الوصول</value>
+  </data>
+  <data name="001_DateienOrdnerNichtEingefügt" xml:space="preserve">
+    <value>لا يمكن إضافة ملف أو مجلد</value>
+  </data>
+  <data name="001_DateienSortieren" xml:space="preserve">
+    <value>فرز الملفات</value>
+  </data>
+  <data name="001_DateiOrdnerBereitsVorhanden" xml:space="preserve">
+    <value>يوجد بالفعل ملف أو مجلد بالاسم في الهدف</value>
+  </data>
+  <data name="001_DateiOrdnerNichtVorhanden" xml:space="preserve">
+    <value>الملف أو المجلد لم يعد متوفراً</value>
+  </data>
+  <data name="001_FreigabeLink" xml:space="preserve">
+    <value>رابط مشاركة</value>
+  </data>
+  <data name="001_Lesen" xml:space="preserve">
+    <value>قراءة</value>
+  </data>
+  <data name="001_LesenSchreiben" xml:space="preserve">
+    <value>القراءة والكتابة</value>
+  </data>
+  <data name="001_OneDriveÄndern" xml:space="preserve">
+    <value>حساب تغيير محرك أقراص واحد
+-الاتصال الحالي
+-الاتصال بتسجيل الخروج
+-اتصال جديد</value>
+  </data>
+  <data name="001_AnStart" xml:space="preserve">
+    <value>رقم التعريف الشخصي للبدء</value>
+  </data>
+  <data name="001_DateiGrößerLimit" xml:space="preserve">
+    <value>الملف أكبر من الحد الأقصى</value>
+  </data>
+  <data name="001_DDBestätigen" xml:space="preserve">
+    <value>تأكيد سحب-واسقاط العمل</value>
+  </data>
+  <data name="001_DDUmgang" xml:space="preserve">
+    <value>إجراءات سحب-واسقاط</value>
+  </data>
+  <data name="001_DownloadLimit" xml:space="preserve">
+    <value>تحميل الحد لفتح الملفات</value>
+  </data>
+  <data name="001_DragAndDrop" xml:space="preserve">
+    <value>السحب والإفلات</value>
+  </data>
+  <data name="001_Einmal" xml:space="preserve">
+    <value>وبمجرد إغلاق التطبيق</value>
+  </data>
+  <data name="001_Einstellungen" xml:space="preserve">
+    <value>إعدادات</value>
+  </data>
+  <data name="001_Fragen" xml:space="preserve">
+    <value>الأسئلة</value>
+  </data>
+  <data name="001_Ignorieren" xml:space="preserve">
+    <value>تجاهل</value>
+  </data>
+  <data name="001_Immer" xml:space="preserve">
+    <value>دائماً</value>
+  </data>
+  <data name="001_Ja" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="001_Mehreren" xml:space="preserve">
+    <value>عدة</value>
+  </data>
+  <data name="001_Nein" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="001_Nie" xml:space="preserve">
+    <value>ابدأ</value>
+  </data>
+  <data name="001_OnlineVerhalten" xml:space="preserve">
+    <value>السلوك على شبكة الإنترنت لفتح الملفات</value>
+  </data>
+  <data name="001_OnlineÖffnen" xml:space="preserve">
+    <value>فتح على الإنترنت</value>
+  </data>
+  <data name="001_PasswortAbfrage" xml:space="preserve">
+    <value>كلمة المرور</value>
+  </data>
+  <data name="001_PasswortZurück" xml:space="preserve">
+    <value>إعادة تعيين كلمة المرور</value>
+  </data>
+  <data name="001_PrivaterOrdner" xml:space="preserve">
+    <value>مجلد خاص</value>
+  </data>
+  <data name="001_Sortierung" xml:space="preserve">
+    <value>الفرز</value>
+  </data>
+  <data name="001_SortierungSpeichern" xml:space="preserve">
+    <value>حفظ ترتيب</value>
+  </data>
+  <data name="001_Standard" xml:space="preserve">
+    <value>القياسية</value>
+  </data>
+  <data name="001_Unendlich" xml:space="preserve">
+    <value>انفينيتي</value>
+  </data>
+  <data name="001_Zurück" xml:space="preserve">
+    <value>مرة أخرى</value>
+  </data>
+  <data name="001_ÖffnenVomOrdner" xml:space="preserve">
+    <value>في كل مرة تقوم بفتح المجلد</value>
+  </data>
+  <data name="001_Benutzername" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="001_PasswortSpeichern" xml:space="preserve">
+    <value>حفظ كلمة المرور</value>
+  </data>
+  <data name="001_Server" xml:space="preserve">
+    <value>خادم</value>
+  </data>
+  <data name="001_Übernehmen" xml:space="preserve">
+    <value>تولي</value>
+  </data>
+  <data name="001_TemporäreDateien" xml:space="preserve">
+    <value>الملفات المؤقتة</value>
+  </data>
+  <data name="001_TemporäreDateienAnzeigen" xml:space="preserve">
+    <value>عرض الملفات المؤقتة</value>
+  </data>
+  <data name="001_TemporäreDateienLöschen" xml:space="preserve">
+    <value>حذف الملفات المؤقتة عند بدء التشغيل</value>
+  </data>
+  <data name="001_TemporäreDateienLöschenTask" xml:space="preserve">
+    <value>حذف الملفات المؤقتة</value>
+  </data>
+  <data name="001_KopierenVerschiebenOnlineOnline" xml:space="preserve">
+    <value>نسخ أو نقل من الإنترنت على الإنترنت غير معتمدة.
+نسخ الملفات إلى الهاتف، ومن ثم إلى الإنترنت</value>
+  </data>
+  <data name="002_BegrüßungTitel" xml:space="preserve">
+    <value>بعناية</value>
+  </data>
+  <data name="002_Bergrüßung" xml:space="preserve">
+    <value>شكرا لاستخدام هذا التطبيق.
+هذا التطبيق يستخدم نظام سحب-واسقاط.
+استخدم الشريط الرمادي إلى يمين الإطار للتمرير.</value>
+  </data>
+  <data name="002_NichtAnzeigen" xml:space="preserve">
+    <value>عدم إظهار عند بدء التشغيل</value>
+  </data>
+  <data name="002_Dateiauswahl" xml:space="preserve">
+    <value>اختيار ملف</value>
+  </data>
+  <data name="002_DateiauswahlInfo" xml:space="preserve">
+    <value>ملف محدد يتيح لك نسخ الملفات من المجلدات التي لا يمكن فتحها.
+-الوثائق
+--التنزيلات
+--نغمات</value>
+  </data>
+  <data name="002_DateiauswahlKopiert" xml:space="preserve">
+    <value>تم نسخ الملفات.
+يمكنك الآن لصقه في أي مكان.</value>
+  </data>
+  <data name="000_Beschreibung" xml:space="preserve">
+    <value>جيل جديد من إدارة الملفات على 10 ويندوز موبايل. مع اثنين من النوافذ والسحب والإفلات. صمم لسهولة الاستخدام المطلق. تدعم بطاقات الذاكرة ومحرك أقراص واحد والمربع المنسدل.
+حاول الآن مجاناً.</value>
+  </data>
+  <data name="000_Funktionen_1" xml:space="preserve">
+    <value>نافذة ثانية اثنين</value>
+  </data>
+  <data name="000_Funktionen_10" xml:space="preserve">
+    <value>ويدعم جميع تنسيقات الشاشة</value>
+  </data>
+  <data name="000_Funktionen_2" xml:space="preserve">
+    <value>السحب والإفلات لنسخ سريعة أو نقل</value>
+  </data>
+  <data name="000_Funktionen_3" xml:space="preserve">
+    <value>يدعم العديد من بطاقات الذاكرة</value>
+  </data>
+  <data name="000_Funktionen_4" xml:space="preserve">
+    <value>الاندماج الكامل لمحرك أقراص واحد</value>
+  </data>
+  <data name="000_Funktionen_5" xml:space="preserve">
+    <value>التكامل الكامل من المربع المنسدل</value>
+  </data>
+  <data name="000_Funktionen_6" xml:space="preserve">
+    <value>محمي بكلمة مرور المجال الخاص</value>
+  </data>
+  <data name="000_Funktionen_7" xml:space="preserve">
+    <value>إعادة تسمية متعددة</value>
+  </data>
+  <data name="000_Funktionen_8" xml:space="preserve">
+    <value>متقدم خيارات الفرز</value>
+  </data>
+  <data name="000_Funktionen_9" xml:space="preserve">
+    <value>اختيار ملف للمناطق الآمنة</value>
+  </data>
+  <data name="000_Schlagwort_1" xml:space="preserve">
+    <value>الملف</value>
+  </data>
+  <data name="000_Schlagwort_2" xml:space="preserve">
+    <value>مدير</value>
+  </data>
+  <data name="000_Schlagwort_3" xml:space="preserve">
+    <value>إكسبلورر</value>
+  </data>
+  <data name="000_Schlagwort_4" xml:space="preserve">
+    <value>محرك واحد</value>
+  </data>
+  <data name="000_Schlagwort_5" xml:space="preserve">
+    <value>المربع المنسدل</value>
+  </data>
+  <data name="000_Schlagwort_6" xml:space="preserve">
+    <value>سحابة</value>
+  </data>
+  <data name="000_Schlagwort_7" xml:space="preserve">
+    <value>مجلد شبكة الاتصال</value>
+  </data>
+  <data name="002_Bewerten" xml:space="preserve">
+    <value>معدل هذا التطبيق</value>
+  </data>
+  <data name="002_BewertenText" xml:space="preserve">
+    <value>مساعدتنا في نشر هذا التطبيق.
+معدل واستعراض هذا التطبيق 5 النجوم.
+ويمكنك الحصول على هذا التطبيق الأعلى مجاناً.</value>
+  </data>
+  <data name="002_BewertungNachricht" xml:space="preserve">
+    <value>إرسال بريد إلكتروني إلينا.
+قم بإدخال اسمك.
+تلك التي كنت تستخدم حساب Microsoft الخاص بك.
+نرسل لك وصلة بعد ذلك.</value>
+  </data>
+  <data name="002_Danke_1" xml:space="preserve">
+    <value>شكرا لك على استخدام تطبيقات لدينا.</value>
+  </data>
+  <data name="002_Danke_2" xml:space="preserve">
+    <value>شكر خاص</value>
+  </data>
+  <data name="002_Hilfe" xml:space="preserve">
+    <value>دليل</value>
+  </data>
+  <data name="002_JetztBewerten" xml:space="preserve">
+    <value>معدل الآن</value>
+  </data>
+  <data name="002_Kaufen" xml:space="preserve">
+    <value>شراء هذا التطبيق</value>
+  </data>
+  <data name="002_Kontakt" xml:space="preserve">
+    <value>كيفية الاتصال مع</value>
+  </data>
+  <data name="002_Kostenlos" xml:space="preserve">
+    <value>مجاناً لخمس نجوم</value>
+  </data>
+  <data name="002_MicrosoftBenutzerName" xml:space="preserve">
+    <value>الاسم الذي تستخدمه في حساب Microsoft الخاص بك</value>
+  </data>
+  <data name="002_Postanschrift" xml:space="preserve">
+    <value>العنوان البريدي</value>
+  </data>
+  <data name="002_PromoApp" xml:space="preserve">
+    <value>8.1 قفل الشاشة</value>
+  </data>
+  <data name="002_Sprache" xml:space="preserve">
+    <value>اللغة</value>
+  </data>
+  <data name="002_SpracheÄndern" xml:space="preserve">
+    <value>تغيير اللغة</value>
+  </data>
+  <data name="002_VielenDank" xml:space="preserve">
+    <value>شكرا جزيلا</value>
+  </data>
+  <data name="002_Webseite" xml:space="preserve">
+    <value>صفحة ويب</value>
+  </data>
+  <data name="002_Über" xml:space="preserve">
+    <value>حول</value>
+  </data>
+</root>

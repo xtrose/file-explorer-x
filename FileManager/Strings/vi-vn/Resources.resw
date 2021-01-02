@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="001_Abbrechen" xml:space="preserve">
+    <value>Hủy bỏ</value>
+  </data>
+  <data name="001_Ausschneiden" xml:space="preserve">
+    <value>Cắt ra</value>
+  </data>
+  <data name="001_Bilder" xml:space="preserve">
+    <value>Hình ảnh</value>
+  </data>
+  <data name="001_Datei" xml:space="preserve">
+    <value>Tập tin</value>
+  </data>
+  <data name="001_DateiBereitsVorhanden" xml:space="preserve">
+    <value>Lúc kết thúc, nó đã tồn tại một tập tin với tên</value>
+  </data>
+  <data name="001_DateienNichtKopiert" xml:space="preserve">
+    <value>Không thể sao được tệp</value>
+  </data>
+  <data name="001_DateienNichtVerschoben" xml:space="preserve">
+    <value>Không thể chuyển được file</value>
+  </data>
+  <data name="001_DateiMehrzahl" xml:space="preserve">
+    <value>Tập tin</value>
+  </data>
+  <data name="001_DiesesGerät" xml:space="preserve">
+    <value>Thiết bị này</value>
+  </data>
+  <data name="001_Dokumente" xml:space="preserve">
+    <value>Tài liệu</value>
+  </data>
+  <data name="001_Downloads" xml:space="preserve">
+    <value>Tải hàng tuần</value>
+  </data>
+  <data name="001_Einfügen" xml:space="preserve">
+    <value>Chèn</value>
+  </data>
+  <data name="001_Ersetzen" xml:space="preserve">
+    <value>Thay thế</value>
+  </data>
+  <data name="001_FürAlle" xml:space="preserve">
+    <value>Áp dụng cho tất cả</value>
+  </data>
+  <data name="001_Integrieren" xml:space="preserve">
+    <value>Tích hợp</value>
+  </data>
+  <data name="001_Klingeltöne" xml:space="preserve">
+    <value>Nhạc chuông</value>
+  </data>
+  <data name="001_Kopieren" xml:space="preserve">
+    <value>Bản sao</value>
+  </data>
+  <data name="001_Löschen" xml:space="preserve">
+    <value>Xóa bỏ</value>
+  </data>
+  <data name="001_LöschenBestätigung" xml:space="preserve">
+    <value>Xóa vĩnh viễn</value>
+  </data>
+  <data name="001_Musik" xml:space="preserve">
+    <value>Âm nhạc</value>
+  </data>
+  <data name="001_NichtMöglich" xml:space="preserve">
+    <value>Không thể</value>
+  </data>
+  <data name="001_OneDrive" xml:space="preserve">
+    <value>Một ổ đĩa</value>
+  </data>
+  <data name="001_Ordner" xml:space="preserve">
+    <value>Thư mục</value>
+  </data>
+  <data name="001_OrdnerBereitsVorhanden" xml:space="preserve">
+    <value>Một cặp với tên này đã tồn tại trong mục tiêu</value>
+  </data>
+  <data name="001_OrdnerMehrzahl" xml:space="preserve">
+    <value>Thư mục</value>
+  </data>
+  <data name="001_OrdnerNichtErstellt" xml:space="preserve">
+    <value>Không thể tạo được thư mục</value>
+  </data>
+  <data name="001_OrdnerNichÖffnen" xml:space="preserve">
+    <value>Không thể mở thư mục</value>
+  </data>
+  <data name="001_Privat" xml:space="preserve">
+    <value>Riêng</value>
+  </data>
+  <data name="001_SDKarte" xml:space="preserve">
+    <value>Thẻ SD</value>
+  </data>
+  <data name="001_Teilen" xml:space="preserve">
+    <value>Chia sẻ</value>
+  </data>
+  <data name="001_Umbenennen" xml:space="preserve">
+    <value>Đổi tên</value>
+  </data>
+  <data name="001_Verschieben" xml:space="preserve">
+    <value>Chuyển động</value>
+  </data>
+  <data name="001_Videos" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="001_ZugriffVerweigert" xml:space="preserve">
+    <value>Truy cập bị từ chối</value>
+  </data>
+  <data name="001_Überspringen" xml:space="preserve">
+    <value>Nhảy</value>
+  </data>
+  <data name="001_Hinzufügen" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="001_KeinName" xml:space="preserve">
+    <value>Không có tên nhập</value>
+  </data>
+  <data name="001_Name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="001_NeuerOrdner" xml:space="preserve">
+    <value>Thêm cặp</value>
+  </data>
+  <data name="001_Schließen" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="001_NameFalsch" xml:space="preserve">
+    <value>Tên có thể không được sử dụng</value>
+  </data>
+  <data name="001_EinenMoment" xml:space="preserve">
+    <value>Xin vui lòng chờ một chút</value>
+  </data>
+  <data name="001_DateiNichtGelöscht" xml:space="preserve">
+    <value>Không thể xóa được file</value>
+  </data>
+  <data name="001_OrdnerNichtLöschen" xml:space="preserve">
+    <value>Thư mục không thể xóa</value>
+  </data>
+  <data name="001_DateienNichtEingefügt" xml:space="preserve">
+    <value>Tập tin không thể được thêm</value>
+  </data>
+  <data name="001_DateienNichtVorhanden" xml:space="preserve">
+    <value>Các tập tin không còn có sẵn</value>
+  </data>
+  <data name="001_DateiNichtVorhanden" xml:space="preserve">
+    <value>Tập tin không còn có sẵn</value>
+  </data>
+  <data name="001_KopierenVerschieben" xml:space="preserve">
+    <value>Sao chép hoặc di chuyển</value>
+  </data>
+  <data name="000_AppName" xml:space="preserve">
+    <value>File Explorer X</value>
+  </data>
+  <data name="001_AllesAbwählen" xml:space="preserve">
+    <value>Loại bỏ tất cả</value>
+  </data>
+  <data name="001_AllesAuswählen" xml:space="preserve">
+    <value>Chọn tất cả</value>
+  </data>
+  <data name="001_DateiNichtUmbenannt" xml:space="preserve">
+    <value>Không đổi tên tập tin</value>
+  </data>
+  <data name="001_OrdnerNichtUmbenannt" xml:space="preserve">
+    <value>Không thể đổi tên thư mục</value>
+  </data>
+  <data name="001_Heimnetzgruppe" xml:space="preserve">
+    <value>Homegroup</value>
+  </data>
+  <data name="001_NurVollversion" xml:space="preserve">
+    <value>Chỉ có sẵn trong các phiên bản đầy đủ</value>
+  </data>
+  <data name="001_Warnung" xml:space="preserve">
+    <value>Cảnh báo</value>
+  </data>
+  <data name="001_WarnungPrivate" xml:space="preserve">
+    <value>Khu vực tư nhân nằm trong thư mục của các ứng dụng và được bảo vệ bằng mật khẩu. Xin vui lòng ghi lại mật khẩu của bạn và giữ nó ở nơi an toàn.
+Quan trọng!
+Bạn có mất mật khẩu của bạn hoặc bạn gỡ bỏ cài đặt ứng dụng này, do đó, các dữ liệu bị mất mãi mãi.</value>
+  </data>
+  <data name="001_Weiter" xml:space="preserve">
+    <value>Tiếp theo</value>
+  </data>
+  <data name="001_Fehler" xml:space="preserve">
+    <value>Lỗi</value>
+  </data>
+  <data name="001_KeinPasswort" xml:space="preserve">
+    <value>Không có mật khẩu</value>
+  </data>
+  <data name="001_Passwort" xml:space="preserve">
+    <value>Mật khẩu</value>
+  </data>
+  <data name="001_PasswortErstellen" xml:space="preserve">
+    <value>Tạo mật khẩu</value>
+  </data>
+  <data name="001_PasswortNicht" xml:space="preserve">
+    <value>Mật khẩu không thể được sử dụng</value>
+  </data>
+  <data name="001_PasswortUnterschied" xml:space="preserve">
+    <value>Mật khẩu phải khác nhau</value>
+  </data>
+  <data name="001_PasswortWiederholen" xml:space="preserve">
+    <value>Lặp lại mật khẩu</value>
+  </data>
+  <data name="001_Datum" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="001_FileType" xml:space="preserve">
+    <value>Loại hình</value>
+  </data>
+  <data name="001_OrdnerSortieren" xml:space="preserve">
+    <value>Sắp xếp các thư mục</value>
+  </data>
+  <data name="001_Entfernen" xml:space="preserve">
+    <value>Loại bỏ</value>
+  </data>
+  <data name="001_VerbindungNicht" xml:space="preserve">
+    <value>Kết nối không thành công</value>
+  </data>
+  <data name="001_DateiNichtGeöffnet" xml:space="preserve">
+    <value>Không thể mở được tập tin</value>
+  </data>
+  <data name="001_DateiHeruntergeladen" xml:space="preserve">
+    <value>Tập tin có sẵn để tải về</value>
+  </data>
+  <data name="001_ArtDerVerbindung" xml:space="preserve">
+    <value>Loại kết nối</value>
+  </data>
+  <data name="001_VerknüpftesKonto" xml:space="preserve">
+    <value>Tài khoản liên kết</value>
+  </data>
+  <data name="001_AnderesKonto" xml:space="preserve">
+    <value>Một tài khoản khác</value>
+  </data>
+  <data name="001_DateiOrdnerNichtGelöscht" xml:space="preserve">
+    <value>Tập tin hoặc thư mục không thể xóa</value>
+  </data>
+  <data name="001_Abmelden" xml:space="preserve">
+    <value>Đăng xuất</value>
+  </data>
+  <data name="001_Berechtigung" xml:space="preserve">
+    <value>Cho phép truy cập</value>
+  </data>
+  <data name="001_DateienOrdnerNichtEingefügt" xml:space="preserve">
+    <value>Tệp hoặc cặp không thể được thêm</value>
+  </data>
+  <data name="001_DateienSortieren" xml:space="preserve">
+    <value>Sắp xếp tập tin</value>
+  </data>
+  <data name="001_DateiOrdnerBereitsVorhanden" xml:space="preserve">
+    <value>Hiện đã là một tập tin hoặc thư mục có tên trong mục tiêu</value>
+  </data>
+  <data name="001_DateiOrdnerNichtVorhanden" xml:space="preserve">
+    <value>Tệp hoặc cặp không còn có sẵn</value>
+  </data>
+  <data name="001_FreigabeLink" xml:space="preserve">
+    <value>Chia sẻ liên kết</value>
+  </data>
+  <data name="001_Lesen" xml:space="preserve">
+    <value>Đọc</value>
+  </data>
+  <data name="001_LesenSchreiben" xml:space="preserve">
+    <value>Đọc và viết</value>
+  </data>
+  <data name="001_OneDriveÄndern" xml:space="preserve">
+    <value>Thay đổi tài khoản one drive
+-Hiện tại kết nối
+-Kết nối đăng xuất
+-Kết nối mới</value>
+  </data>
+  <data name="001_AnStart" xml:space="preserve">
+    <value>Pin để bắt đầu</value>
+  </data>
+  <data name="001_DateiGrößerLimit" xml:space="preserve">
+    <value>Tập tin là lớn hơn giới hạn</value>
+  </data>
+  <data name="001_DDBestätigen" xml:space="preserve">
+    <value>Xác nhận kéo - và - thả hành động</value>
+  </data>
+  <data name="001_DDUmgang" xml:space="preserve">
+    <value>Kéo - và - thả hành động</value>
+  </data>
+  <data name="001_DownloadLimit" xml:space="preserve">
+    <value>Tải về hạn mở tập tin</value>
+  </data>
+  <data name="001_DragAndDrop" xml:space="preserve">
+    <value>Kéo - và - thả</value>
+  </data>
+  <data name="001_Einmal" xml:space="preserve">
+    <value>Một khi ứng dụng được đóng lại</value>
+  </data>
+  <data name="001_Einstellungen" xml:space="preserve">
+    <value>Cài đặt</value>
+  </data>
+  <data name="001_Fragen" xml:space="preserve">
+    <value>Câu hỏi</value>
+  </data>
+  <data name="001_Ignorieren" xml:space="preserve">
+    <value>Bỏ qua</value>
+  </data>
+  <data name="001_Immer" xml:space="preserve">
+    <value>Luôn luôn</value>
+  </data>
+  <data name="001_Ja" xml:space="preserve">
+    <value>Vâng</value>
+  </data>
+  <data name="001_Mehreren" xml:space="preserve">
+    <value>Một số</value>
+  </data>
+  <data name="001_Nein" xml:space="preserve">
+    <value>Không</value>
+  </data>
+  <data name="001_Nie" xml:space="preserve">
+    <value>Không bao giờ</value>
+  </data>
+  <data name="001_OnlineVerhalten" xml:space="preserve">
+    <value>Các hành vi trực tuyến để mở tập tin</value>
+  </data>
+  <data name="001_OnlineÖffnen" xml:space="preserve">
+    <value>Mở trực tuyến</value>
+  </data>
+  <data name="001_PasswortAbfrage" xml:space="preserve">
+    <value>Mật khẩu</value>
+  </data>
+  <data name="001_PasswortZurück" xml:space="preserve">
+    <value>Đặt lại mật khẩu</value>
+  </data>
+  <data name="001_PrivaterOrdner" xml:space="preserve">
+    <value>Tư nhân thư mục</value>
+  </data>
+  <data name="001_Sortierung" xml:space="preserve">
+    <value>Phân loại</value>
+  </data>
+  <data name="001_SortierungSpeichern" xml:space="preserve">
+    <value>Tiết kiệm đặt hàng</value>
+  </data>
+  <data name="001_Standard" xml:space="preserve">
+    <value>Tiêu chuẩn</value>
+  </data>
+  <data name="001_Unendlich" xml:space="preserve">
+    <value>Vô cực</value>
+  </data>
+  <data name="001_Zurück" xml:space="preserve">
+    <value>Trở lại</value>
+  </data>
+  <data name="001_ÖffnenVomOrdner" xml:space="preserve">
+    <value>Mỗi khi bạn mở thư mục</value>
+  </data>
+  <data name="001_Benutzername" xml:space="preserve">
+    <value>Tên người dùng</value>
+  </data>
+  <data name="001_PasswortSpeichern" xml:space="preserve">
+    <value>Lưu mật khẩu</value>
+  </data>
+  <data name="001_Server" xml:space="preserve">
+    <value>Máy chủ</value>
+  </data>
+  <data name="001_Übernehmen" xml:space="preserve">
+    <value>Tiếp nhận</value>
+  </data>
+  <data name="001_TemporäreDateien" xml:space="preserve">
+    <value>Tệp tạm thời</value>
+  </data>
+  <data name="001_TemporäreDateienAnzeigen" xml:space="preserve">
+    <value>Xem tệp tạm thời</value>
+  </data>
+  <data name="001_TemporäreDateienLöschen" xml:space="preserve">
+    <value>Xóa các tập tin tạm thời lúc khởi động</value>
+  </data>
+  <data name="001_TemporäreDateienLöschenTask" xml:space="preserve">
+    <value>Xóa các tệp tạm thời</value>
+  </data>
+  <data name="001_KopierenVerschiebenOnlineOnline" xml:space="preserve">
+    <value>Sao chép hoặc di chuyển từ trực tuyến để trực tuyến không được hỗ trợ.
+Sao chép các tập tin để điện thoại, và sau đó đến trực tuyến.</value>
+  </data>
+  <data name="002_BegrüßungTitel" xml:space="preserve">
+    <value>Xin vui lòng đọc các hướng dẫn cẩn thận</value>
+  </data>
+  <data name="002_Bergrüßung" xml:space="preserve">
+    <value>Cảm ơn bạn đã sử dụng ứng dụng này.
+Ứng dụng này sử dụng một hệ thống kéo - và - thả.
+Sử dụng thanh màu xám ở bên phải của cửa sổ để cuộn.</value>
+  </data>
+  <data name="002_NichtAnzeigen" xml:space="preserve">
+    <value>Không hiển thị lúc khởi động</value>
+  </data>
+  <data name="002_Dateiauswahl" xml:space="preserve">
+    <value>Lựa chọn tập tin</value>
+  </data>
+  <data name="002_DateiauswahlInfo" xml:space="preserve">
+    <value>Chọn tập tin cho phép bạn sao chép tập tin từ thư mục không thể mở được.
+-Tài liệu
+-Tải xuống
+-Nhạc chuông</value>
+  </data>
+  <data name="002_DateiauswahlKopiert" xml:space="preserve">
+    <value>Các tập tin đã được sao chép.
+Bạn bây giờ có thể dán nó ở bất cứ đâu.</value>
+  </data>
+  <data name="000_Beschreibung" xml:space="preserve">
+    <value>Một thế hệ mới của quản lý tập tin cho Windows 10 di động. Có hai cửa sổ và kéo và thả. Được thiết kế cho tuyệt đối dễ sử dụng. Hỗ trợ thẻ nhớ, một ổ đĩa và dropbox.
+Thử ngay bây giờ cho miễn phí.</value>
+  </data>
+  <data name="000_Funktionen_1" xml:space="preserve">
+    <value>Hai cửa sổ resizable</value>
+  </data>
+  <data name="000_Funktionen_10" xml:space="preserve">
+    <value>Hỗ trợ tất cả định dạng màn hình</value>
+  </data>
+  <data name="000_Funktionen_2" xml:space="preserve">
+    <value>Kéo và thả để nhanh chóng sao chép hoặc di chuyển</value>
+  </data>
+  <data name="000_Funktionen_3" xml:space="preserve">
+    <value>Hỗ trợ thẻ nhớ nhiều</value>
+  </data>
+  <data name="000_Funktionen_4" xml:space="preserve">
+    <value>Tích hợp đầy đủ của một ổ đĩa</value>
+  </data>
+  <data name="000_Funktionen_5" xml:space="preserve">
+    <value>Tích hợp đầy đủ dropbox</value>
+  </data>
+  <data name="000_Funktionen_6" xml:space="preserve">
+    <value>Mật khẩu bảo vệ khu vực tư nhân</value>
+  </data>
+  <data name="000_Funktionen_7" xml:space="preserve">
+    <value>Đổi tên nhiều</value>
+  </data>
+  <data name="000_Funktionen_8" xml:space="preserve">
+    <value>Nâng cao phân loại tùy chọn</value>
+  </data>
+  <data name="000_Funktionen_9" xml:space="preserve">
+    <value>Lựa chọn tập tin để bảo đảm khu vực</value>
+  </data>
+  <data name="000_Schlagwort_1" xml:space="preserve">
+    <value>tập tin</value>
+  </data>
+  <data name="000_Schlagwort_2" xml:space="preserve">
+    <value>Quản lý</value>
+  </data>
+  <data name="000_Schlagwort_3" xml:space="preserve">
+    <value>Thám hiểm</value>
+  </data>
+  <data name="000_Schlagwort_4" xml:space="preserve">
+    <value>một ổ đĩa</value>
+  </data>
+  <data name="000_Schlagwort_5" xml:space="preserve">
+    <value>Dropbox</value>
+  </data>
+  <data name="000_Schlagwort_6" xml:space="preserve">
+    <value>đám mây</value>
+  </data>
+  <data name="000_Schlagwort_7" xml:space="preserve">
+    <value>Cặp mạng</value>
+  </data>
+  <data name="002_Bewerten" xml:space="preserve">
+    <value>Tỷ lệ ứng dụng này</value>
+  </data>
+  <data name="002_BewertenText" xml:space="preserve">
+    <value>Giúp chúng tôi lan truyền ứng dụng này.
+Tỷ lệ và xem xét này ứng dụng 5 sao.
+Và bạn sẽ có được điều này ứng dụng hàng đầu cho miễn phí.</value>
+  </data>
+  <data name="002_BewertungNachricht" xml:space="preserve">
+    <value>Gửi email cho chúng tôi.
+Nhập tên của bạn.
+Một trong những bạn đang sử dụng tài khoản Microsoft của bạn.
+Chúng tôi gửi cho bạn một liên kết sau đó.</value>
+  </data>
+  <data name="002_Danke_1" xml:space="preserve">
+    <value>Cảm ơn bạn đã sử dụng ứng dụng của chúng tôi.</value>
+  </data>
+  <data name="002_Danke_2" xml:space="preserve">
+    <value>Đặc biệt nhờ</value>
+  </data>
+  <data name="002_Hilfe" xml:space="preserve">
+    <value>Hướng dẫn sử dụng</value>
+  </data>
+  <data name="002_JetztBewerten" xml:space="preserve">
+    <value>Tỷ lệ bây giờ</value>
+  </data>
+  <data name="002_Kaufen" xml:space="preserve">
+    <value>Mua ứng dụng này</value>
+  </data>
+  <data name="002_Kontakt" xml:space="preserve">
+    <value>Làm thế nào để liên hệ với</value>
+  </data>
+  <data name="002_Kostenlos" xml:space="preserve">
+    <value>Miễn phí cho 5 sao</value>
+  </data>
+  <data name="002_MicrosoftBenutzerName" xml:space="preserve">
+    <value>Tên bạn đang sử dụng tài khoản Microsoft của bạn</value>
+  </data>
+  <data name="002_Postanschrift" xml:space="preserve">
+    <value>Địa chỉ bưu điện</value>
+  </data>
+  <data name="002_PromoApp" xml:space="preserve">
+    <value>màn hình khóa 8.1</value>
+  </data>
+  <data name="002_Sprache" xml:space="preserve">
+    <value>Ngôn ngữ</value>
+  </data>
+  <data name="002_SpracheÄndern" xml:space="preserve">
+    <value>Thay đổi ngôn ngữ</value>
+  </data>
+  <data name="002_VielenDank" xml:space="preserve">
+    <value>Cảm ơn rất nhiều</value>
+  </data>
+  <data name="002_Webseite" xml:space="preserve">
+    <value>Trang web</value>
+  </data>
+  <data name="002_Über" xml:space="preserve">
+    <value>Về</value>
+  </data>
+</root>

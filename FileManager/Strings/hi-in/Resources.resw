@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="001_Abbrechen" xml:space="preserve">
+    <value>रद्द करें</value>
+  </data>
+  <data name="001_Ausschneiden" xml:space="preserve">
+    <value>में कटौती</value>
+  </data>
+  <data name="001_Bilder" xml:space="preserve">
+    <value>चित्र</value>
+  </data>
+  <data name="001_Datei" xml:space="preserve">
+    <value>फ़ाइल</value>
+  </data>
+  <data name="001_DateiBereitsVorhanden" xml:space="preserve">
+    <value>समाप्त से कम, यह पहले से ही नाम के साथ एक फ़ाइल मौजूद है</value>
+  </data>
+  <data name="001_DateienNichtKopiert" xml:space="preserve">
+    <value>फ़ाइलें नहीं बनाई जा सकी</value>
+  </data>
+  <data name="001_DateienNichtVerschoben" xml:space="preserve">
+    <value>फ़ाइलों को हटाया नहीं जा सका</value>
+  </data>
+  <data name="001_DateiMehrzahl" xml:space="preserve">
+    <value>फ़ाइलें</value>
+  </data>
+  <data name="001_DiesesGerät" xml:space="preserve">
+    <value>यह डिवाइस</value>
+  </data>
+  <data name="001_Dokumente" xml:space="preserve">
+    <value>दस्तावेज़</value>
+  </data>
+  <data name="001_Downloads" xml:space="preserve">
+    <value>डाउनलोड</value>
+  </data>
+  <data name="001_Einfügen" xml:space="preserve">
+    <value>सम्मिलित करें</value>
+  </data>
+  <data name="001_Ersetzen" xml:space="preserve">
+    <value>बदलें</value>
+  </data>
+  <data name="001_FürAlle" xml:space="preserve">
+    <value>सभी के लिए लागू करें</value>
+  </data>
+  <data name="001_Integrieren" xml:space="preserve">
+    <value>एकीकृत</value>
+  </data>
+  <data name="001_Klingeltöne" xml:space="preserve">
+    <value>रिंगटोन</value>
+  </data>
+  <data name="001_Kopieren" xml:space="preserve">
+    <value>प्रतिलिपि</value>
+  </data>
+  <data name="001_Löschen" xml:space="preserve">
+    <value>हटाएँ</value>
+  </data>
+  <data name="001_LöschenBestätigung" xml:space="preserve">
+    <value>स्थायी रूप से हटाने</value>
+  </data>
+  <data name="001_Musik" xml:space="preserve">
+    <value>संगीत</value>
+  </data>
+  <data name="001_NichtMöglich" xml:space="preserve">
+    <value>संभव नहीं</value>
+  </data>
+  <data name="001_OneDrive" xml:space="preserve">
+    <value>एक ड्राइव</value>
+  </data>
+  <data name="001_Ordner" xml:space="preserve">
+    <value>फ़ोल्डर</value>
+  </data>
+  <data name="001_OrdnerBereitsVorhanden" xml:space="preserve">
+    <value>इस नाम वाला एक फ़ोल्डर पहले से ही लक्ष्य में मौजूद है</value>
+  </data>
+  <data name="001_OrdnerMehrzahl" xml:space="preserve">
+    <value>फ़ोल्डर</value>
+  </data>
+  <data name="001_OrdnerNichtErstellt" xml:space="preserve">
+    <value>फ़ोल्डर नहीं बनाया जा सका</value>
+  </data>
+  <data name="001_OrdnerNichÖffnen" xml:space="preserve">
+    <value>फ़ोल्डर खोलने में असमर्थ</value>
+  </data>
+  <data name="001_Privat" xml:space="preserve">
+    <value>निजी</value>
+  </data>
+  <data name="001_SDKarte" xml:space="preserve">
+    <value>एसडी कार्ड</value>
+  </data>
+  <data name="001_Teilen" xml:space="preserve">
+    <value>साझा करें</value>
+  </data>
+  <data name="001_Umbenennen" xml:space="preserve">
+    <value>का नाम बदलें</value>
+  </data>
+  <data name="001_Verschieben" xml:space="preserve">
+    <value>ले जाएँ</value>
+  </data>
+  <data name="001_Videos" xml:space="preserve">
+    <value>वीडियो</value>
+  </data>
+  <data name="001_ZugriffVerweigert" xml:space="preserve">
+    <value>प्रवेश निषेध</value>
+  </data>
+  <data name="001_Überspringen" xml:space="preserve">
+    <value>छोड़ें</value>
+  </data>
+  <data name="001_Hinzufügen" xml:space="preserve">
+    <value>जोड़ें</value>
+  </data>
+  <data name="001_KeinName" xml:space="preserve">
+    <value>कोई नाम दर्ज किया गया</value>
+  </data>
+  <data name="001_Name" xml:space="preserve">
+    <value>नाम</value>
+  </data>
+  <data name="001_NeuerOrdner" xml:space="preserve">
+    <value>फ़ोल्डर जोड़ें</value>
+  </data>
+  <data name="001_Schließen" xml:space="preserve">
+    <value>बंद करें</value>
+  </data>
+  <data name="001_NameFalsch" xml:space="preserve">
+    <value>नाम नहीं किया जा सकता</value>
+  </data>
+  <data name="001_EinenMoment" xml:space="preserve">
+    <value>एक सेकेण्ड</value>
+  </data>
+  <data name="001_DateiNichtGelöscht" xml:space="preserve">
+    <value>फ़ाइल को हटाया नहीं जा सकता</value>
+  </data>
+  <data name="001_OrdnerNichtLöschen" xml:space="preserve">
+    <value>फ़ोल्डर हटाया नहीं जा सका</value>
+  </data>
+  <data name="001_DateienNichtEingefügt" xml:space="preserve">
+    <value>फ़ाइल को जोड़ा नहीं जा सका</value>
+  </data>
+  <data name="001_DateienNichtVorhanden" xml:space="preserve">
+    <value>फ़ाइलें अब उपलब्ध नहीं हैं</value>
+  </data>
+  <data name="001_DateiNichtVorhanden" xml:space="preserve">
+    <value>फ़ाइल अब उपलब्ध नहीं है</value>
+  </data>
+  <data name="001_KopierenVerschieben" xml:space="preserve">
+    <value>की प्रतिलिपि बनाएँ या ले जाएँ</value>
+  </data>
+  <data name="000_AppName" xml:space="preserve">
+    <value>फ़ाइल एक्सप्लोरर X</value>
+  </data>
+  <data name="001_AllesAbwählen" xml:space="preserve">
+    <value>सब से बाहर निकलना</value>
+  </data>
+  <data name="001_AllesAuswählen" xml:space="preserve">
+    <value>सभी का चयन करें</value>
+  </data>
+  <data name="001_DateiNichtUmbenannt" xml:space="preserve">
+    <value>फ़ाइल का नाम बदला जा सकता है नहीं</value>
+  </data>
+  <data name="001_OrdnerNichtUmbenannt" xml:space="preserve">
+    <value>फ़ोल्डर का नाम बदला जा सकता है नहीं</value>
+  </data>
+  <data name="001_Heimnetzgruppe" xml:space="preserve">
+    <value>होमग्रुप</value>
+  </data>
+  <data name="001_NurVollversion" xml:space="preserve">
+    <value>केवल पूर्ण संस्करण में उपलब्ध</value>
+  </data>
+  <data name="001_Warnung" xml:space="preserve">
+    <value>चेतावनी</value>
+  </data>
+  <data name="001_WarnungPrivate" xml:space="preserve">
+    <value>निजी क्षेत्र अनुप्रयोग की निर्देशिका में स्थित है और एक पासवर्ड द्वारा सुरक्षित है। कृपया नीचे अपना पासवर्ड लिखें और इसे किसी सुरक्षित स्थान पर रखें।
+महत्वपूर्ण!
+आप अपने पासवर्ड या आप इस अनुप्रयोग की स्थापना रद्द करने, तो डेटा हमेशा के लिए खो दिया है खो देते हैं।</value>
+  </data>
+  <data name="001_Weiter" xml:space="preserve">
+    <value>अगले</value>
+  </data>
+  <data name="001_Fehler" xml:space="preserve">
+    <value>त्रुटि</value>
+  </data>
+  <data name="001_KeinPasswort" xml:space="preserve">
+    <value>कोई पासवर्ड दर्ज किया</value>
+  </data>
+  <data name="001_Passwort" xml:space="preserve">
+    <value>पासवर्ड</value>
+  </data>
+  <data name="001_PasswortErstellen" xml:space="preserve">
+    <value>पासवर्ड बनाएँ</value>
+  </data>
+  <data name="001_PasswortNicht" xml:space="preserve">
+    <value>पासवर्ड नहीं किया जा सकता</value>
+  </data>
+  <data name="001_PasswortUnterschied" xml:space="preserve">
+    <value>पासवर्ड अलग होते हैं</value>
+  </data>
+  <data name="001_PasswortWiederholen" xml:space="preserve">
+    <value>पासवर्ड दोहराएँ</value>
+  </data>
+  <data name="001_Datum" xml:space="preserve">
+    <value>दिनांक</value>
+  </data>
+  <data name="001_FileType" xml:space="preserve">
+    <value>प्रकार</value>
+  </data>
+  <data name="001_OrdnerSortieren" xml:space="preserve">
+    <value>सॉर्ट करें फ़ोल्डर्स</value>
+  </data>
+  <data name="001_Entfernen" xml:space="preserve">
+    <value>निकालें</value>
+  </data>
+  <data name="001_VerbindungNicht" xml:space="preserve">
+    <value>कनेक्शन विफल</value>
+  </data>
+  <data name="001_DateiNichtGeöffnet" xml:space="preserve">
+    <value>फ़ाइल खोली नहीं जा सकी</value>
+  </data>
+  <data name="001_DateiHeruntergeladen" xml:space="preserve">
+    <value>फ़ाइल डाउनलोड के लिए उपलब्ध है</value>
+  </data>
+  <data name="001_ArtDerVerbindung" xml:space="preserve">
+    <value>कनेक्शन का प्रकार</value>
+  </data>
+  <data name="001_VerknüpftesKonto" xml:space="preserve">
+    <value>लिंक किया गया खाता</value>
+  </data>
+  <data name="001_AnderesKonto" xml:space="preserve">
+    <value>किसी अन्य खाते</value>
+  </data>
+  <data name="001_DateiOrdnerNichtGelöscht" xml:space="preserve">
+    <value>फ़ाइल या फ़ोल्डर हटाया नहीं जा सका</value>
+  </data>
+  <data name="001_Abmelden" xml:space="preserve">
+    <value>लॉग ऑफ़ करें</value>
+  </data>
+  <data name="001_Berechtigung" xml:space="preserve">
+    <value>पहुँच अनुमति</value>
+  </data>
+  <data name="001_DateienOrdnerNichtEingefügt" xml:space="preserve">
+    <value>फ़ाइल या फ़ोल्डर जोड़ा नहीं जा सका</value>
+  </data>
+  <data name="001_DateienSortieren" xml:space="preserve">
+    <value>फ़ाइलें इससे सॉर्ट करें</value>
+  </data>
+  <data name="001_DateiOrdnerBereitsVorhanden" xml:space="preserve">
+    <value>वहाँ पहले से ही है एक फ़ाइल या फ़ोल्डर नाम में लक्ष्य के साथ</value>
+  </data>
+  <data name="001_DateiOrdnerNichtVorhanden" xml:space="preserve">
+    <value>फ़ाइल या फ़ोल्डर अब उपलब्ध नहीं है</value>
+  </data>
+  <data name="001_FreigabeLink" xml:space="preserve">
+    <value>लिंक शेयर करें</value>
+  </data>
+  <data name="001_Lesen" xml:space="preserve">
+    <value>पढ़ें</value>
+  </data>
+  <data name="001_LesenSchreiben" xml:space="preserve">
+    <value>लिखने और पढने</value>
+  </data>
+  <data name="001_OneDriveÄndern" xml:space="preserve">
+    <value>खाता परिवर्तित करें एक ड्राइव
+-वर्तमान कनेक्शन
+-कनेक्शन लॉग ऑफ़
+-नए कनेक्शन</value>
+  </data>
+  <data name="001_AnStart" xml:space="preserve">
+    <value>प्रारंभ करने के लिए पिन</value>
+  </data>
+  <data name="001_DateiGrößerLimit" xml:space="preserve">
+    <value>फ़ाइल सीमा से बड़ा है</value>
+  </data>
+  <data name="001_DDBestätigen" xml:space="preserve">
+    <value>पुष्टि ड्रैग-एण्ड-ड्रॉप कार्रवाई</value>
+  </data>
+  <data name="001_DDUmgang" xml:space="preserve">
+    <value>ड्रैग-एण्ड-ड्रॉप कार्रवाई</value>
+  </data>
+  <data name="001_DownloadLimit" xml:space="preserve">
+    <value>सीमा फ़ाइलें खोलने के लिए डाउनलोड करें</value>
+  </data>
+  <data name="001_DragAndDrop" xml:space="preserve">
+    <value>ड्रैग-एण्ड-ड्रॉप</value>
+  </data>
+  <data name="001_Einmal" xml:space="preserve">
+    <value>एक बार जब app बंद कर दिया है</value>
+  </data>
+  <data name="001_Einstellungen" xml:space="preserve">
+    <value>सेटिंग्स</value>
+  </data>
+  <data name="001_Fragen" xml:space="preserve">
+    <value>प्रश्न</value>
+  </data>
+  <data name="001_Ignorieren" xml:space="preserve">
+    <value>पर ध्यान न दें</value>
+  </data>
+  <data name="001_Immer" xml:space="preserve">
+    <value>हमेशा</value>
+  </data>
+  <data name="001_Ja" xml:space="preserve">
+    <value>हाँ</value>
+  </data>
+  <data name="001_Mehreren" xml:space="preserve">
+    <value>कई</value>
+  </data>
+  <data name="001_Nein" xml:space="preserve">
+    <value>नहीं</value>
+  </data>
+  <data name="001_Nie" xml:space="preserve">
+    <value>कभी नहीं</value>
+  </data>
+  <data name="001_OnlineVerhalten" xml:space="preserve">
+    <value>फ़ाइलों को खोलने के लिए ऑनलाइन व्यवहार</value>
+  </data>
+  <data name="001_OnlineÖffnen" xml:space="preserve">
+    <value>ऑनलाइन खोलें</value>
+  </data>
+  <data name="001_PasswortAbfrage" xml:space="preserve">
+    <value>पासवर्ड</value>
+  </data>
+  <data name="001_PasswortZurück" xml:space="preserve">
+    <value>पासवर्ड रीसेट करें</value>
+  </data>
+  <data name="001_PrivaterOrdner" xml:space="preserve">
+    <value>निजी फ़ोल्डर</value>
+  </data>
+  <data name="001_Sortierung" xml:space="preserve">
+    <value>छँटाई</value>
+  </data>
+  <data name="001_SortierungSpeichern" xml:space="preserve">
+    <value>सहेजें आदेश</value>
+  </data>
+  <data name="001_Standard" xml:space="preserve">
+    <value>मानक</value>
+  </data>
+  <data name="001_Unendlich" xml:space="preserve">
+    <value>इन्फिनिटी</value>
+  </data>
+  <data name="001_Zurück" xml:space="preserve">
+    <value>वापस</value>
+  </data>
+  <data name="001_ÖffnenVomOrdner" xml:space="preserve">
+    <value>हर बार जब आप फ़ोल्डर खोलें</value>
+  </data>
+  <data name="001_Benutzername" xml:space="preserve">
+    <value>उपयोगकर्ता नाम</value>
+  </data>
+  <data name="001_PasswortSpeichern" xml:space="preserve">
+    <value>पासवर्ड सहेजें</value>
+  </data>
+  <data name="001_Server" xml:space="preserve">
+    <value>सर्वर</value>
+  </data>
+  <data name="001_Übernehmen" xml:space="preserve">
+    <value>ले</value>
+  </data>
+  <data name="001_TemporäreDateien" xml:space="preserve">
+    <value>अस्थायी फ़ाइलें</value>
+  </data>
+  <data name="001_TemporäreDateienAnzeigen" xml:space="preserve">
+    <value>अस्थायी फ़ाइलें देख रहे हैं वो</value>
+  </data>
+  <data name="001_TemporäreDateienLöschen" xml:space="preserve">
+    <value>स्टार्टअप पर अस्थाई फ़ाइलों को हटाएँ</value>
+  </data>
+  <data name="001_TemporäreDateienLöschenTask" xml:space="preserve">
+    <value>अस्थायी फ़ाइलें हटाएँ</value>
+  </data>
+  <data name="001_KopierenVerschiebenOnlineOnline" xml:space="preserve">
+    <value>की प्रतिलिपि बनाएँ या ऑनलाइन ऑनलाइन करने के लिए समर्थित नहीं है से जाना।
+फोन करने के लिए, और तब ऑनलाइन करने के लिए फ़ाइलों की प्रतिलिपि बनाएँ।</value>
+  </data>
+  <data name="002_BegrüßungTitel" xml:space="preserve">
+    <value>कृपया इन निर्देशों को ध्यानपूर्वक पढें</value>
+  </data>
+  <data name="002_Bergrüßung" xml:space="preserve">
+    <value>इस एप्लिकेशन का उपयोग करने के लिए धन्यवाद।
+इस app एक खींचें - और - ड्रॉप सिस्टम का उपयोग करता है।
+धूसर पट्टी विंडो के दाईं ओर करने के लिए स्क्रॉल करने के लिए का उपयोग करें।</value>
+  </data>
+  <data name="002_NichtAnzeigen" xml:space="preserve">
+    <value>स्टार्टअप पर न दिखाएँ</value>
+  </data>
+  <data name="002_Dateiauswahl" xml:space="preserve">
+    <value>फ़ाइल चयन</value>
+  </data>
+  <data name="002_DateiauswahlInfo" xml:space="preserve">
+    <value>फ़ाइल चयनकर्ता आपको नहीं खोला जा सकता फ़ोल्डर से फ़ाइलों की प्रतिलिपि बनाएँ।
+-दस्तावेज़
+-डाउनलोड
+-रिंगटोन</value>
+  </data>
+  <data name="002_DateiauswahlKopiert" xml:space="preserve">
+    <value>फ़ाइलों की प्रतिलिपि बनाई गई है।
+अब आप इसे कहीं भी पेस्ट कर सकते हैं।</value>
+  </data>
+  <data name="000_Beschreibung" xml:space="preserve">
+    <value>फ़ाइल प्रबंधक Windows 10 मोबाइल के लिए की एक नई पीढ़ी। दो Windows और ड्रैग-एण्ड-ड्रॉप के साथ। पूर्ण उपयोग में आसानी के लिए डिज़ाइन किया गया। मेमोरी कार्ड, एक ड्राइव और ड्रॉपबॉक्स का समर्थन करता है।
+अब मुक्त करने के लिए प्रयास करें।</value>
+  </data>
+  <data name="000_Funktionen_1" xml:space="preserve">
+    <value>दो resizable खिड़की</value>
+  </data>
+  <data name="000_Funktionen_10" xml:space="preserve">
+    <value>सभी स्क्रीन प्रारूप का समर्थन करता है</value>
+  </data>
+  <data name="000_Funktionen_2" xml:space="preserve">
+    <value>ड्रैग-एण्ड-ड्रॉप जल्दी प्रतिलिपि या ले जाने के लिए</value>
+  </data>
+  <data name="000_Funktionen_3" xml:space="preserve">
+    <value>एक से अधिक मेमोरी कार्ड का समर्थन करता है</value>
+  </data>
+  <data name="000_Funktionen_4" xml:space="preserve">
+    <value>एक ड्राइव के पूर्ण एकीकरण</value>
+  </data>
+  <data name="000_Funktionen_5" xml:space="preserve">
+    <value>पूर्ण dropbox एकीकरण</value>
+  </data>
+  <data name="000_Funktionen_6" xml:space="preserve">
+    <value>पासवर्ड सुरक्षित निजी क्षेत्र</value>
+  </data>
+  <data name="000_Funktionen_7" xml:space="preserve">
+    <value>एक से अधिक नाम बदलें</value>
+  </data>
+  <data name="000_Funktionen_8" xml:space="preserve">
+    <value>उन्नत सॉर्टिंग विकल्प</value>
+  </data>
+  <data name="000_Funktionen_9" xml:space="preserve">
+    <value>सुरक्षित क्षेत्रों के लिए फ़ाइल चयन</value>
+  </data>
+  <data name="000_Schlagwort_1" xml:space="preserve">
+    <value>फ़ाइल</value>
+  </data>
+  <data name="000_Schlagwort_2" xml:space="preserve">
+    <value>प्रबंधक</value>
+  </data>
+  <data name="000_Schlagwort_3" xml:space="preserve">
+    <value>एक्सप्लोरर</value>
+  </data>
+  <data name="000_Schlagwort_4" xml:space="preserve">
+    <value>एक ड्राइव</value>
+  </data>
+  <data name="000_Schlagwort_5" xml:space="preserve">
+    <value>dropbox</value>
+  </data>
+  <data name="000_Schlagwort_6" xml:space="preserve">
+    <value>बादल</value>
+  </data>
+  <data name="000_Schlagwort_7" xml:space="preserve">
+    <value>फ़ोल्डर नेटवर्क</value>
+  </data>
+  <data name="002_Bewerten" xml:space="preserve">
+    <value>दर इस app</value>
+  </data>
+  <data name="002_BewertenText" xml:space="preserve">
+    <value>हमें इस app का प्रसार में मदद।
+रेट करने और समीक्षा इस app 5 सितारे।
+और आप इस शीर्ष app मुक्त करने के लिए मिलता है।</value>
+  </data>
+  <data name="002_BewertungNachricht" xml:space="preserve">
+    <value>हमें एक ईमेल भेजें।
+अपना नाम दर्ज करें।
+एक है जो आप अपने Microsoft खाते के साथ उपयोग कर रहे हैं।
+हम आपको एक लिंक फिर भेजें।</value>
+  </data>
+  <data name="002_Danke_1" xml:space="preserve">
+    <value>आप हमारे एप्लिकेशन का उपयोग कर के लिए धन्यवाद।</value>
+  </data>
+  <data name="002_Danke_2" xml:space="preserve">
+    <value>विशेष धन्यवाद करने के लिए</value>
+  </data>
+  <data name="002_Hilfe" xml:space="preserve">
+    <value>मैनुअल</value>
+  </data>
+  <data name="002_JetztBewerten" xml:space="preserve">
+    <value>अब दर</value>
+  </data>
+  <data name="002_Kaufen" xml:space="preserve">
+    <value>इस app खरीद</value>
+  </data>
+  <data name="002_Kontakt" xml:space="preserve">
+    <value>के साथ संपर्क करने के लिए कैसे</value>
+  </data>
+  <data name="002_Kostenlos" xml:space="preserve">
+    <value>पांच सितारा के लिए नि: शुल्क</value>
+  </data>
+  <data name="002_MicrosoftBenutzerName" xml:space="preserve">
+    <value>आप में अपने Microsoft खाते का उपयोग कर रहे हैं नाम</value>
+  </data>
+  <data name="002_Postanschrift" xml:space="preserve">
+    <value>डाक का पता</value>
+  </data>
+  <data name="002_PromoApp" xml:space="preserve">
+    <value>8.1 लॉक स्क्रीन</value>
+  </data>
+  <data name="002_Sprache" xml:space="preserve">
+    <value>भाषा</value>
+  </data>
+  <data name="002_SpracheÄndern" xml:space="preserve">
+    <value>भाषा बदलें</value>
+  </data>
+  <data name="002_VielenDank" xml:space="preserve">
+    <value>बहुत-बहुत धन्यवाद</value>
+  </data>
+  <data name="002_Webseite" xml:space="preserve">
+    <value>वेब पेज</value>
+  </data>
+  <data name="002_Über" xml:space="preserve">
+    <value>के बारे में</value>
+  </data>
+</root>

@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="001_Abbrechen" xml:space="preserve">
+    <value>Annuleren</value>
+  </data>
+  <data name="001_Ausschneiden" xml:space="preserve">
+    <value>Uitgesneden</value>
+  </data>
+  <data name="001_Bilder" xml:space="preserve">
+    <value>Foto 's</value>
+  </data>
+  <data name="001_Datei" xml:space="preserve">
+    <value>Bestand</value>
+  </data>
+  <data name="001_DateiBereitsVorhanden" xml:space="preserve">
+    <value>Bij aankomst bestaat het al een bestand met de naam</value>
+  </data>
+  <data name="001_DateienNichtKopiert" xml:space="preserve">
+    <value>Bestanden konden niet worden gekopieerd</value>
+  </data>
+  <data name="001_DateienNichtVerschoben" xml:space="preserve">
+    <value>Bestanden kunnen niet worden verplaatst</value>
+  </data>
+  <data name="001_DateiMehrzahl" xml:space="preserve">
+    <value>Bestanden</value>
+  </data>
+  <data name="001_DiesesGerät" xml:space="preserve">
+    <value>Dit apparaat</value>
+  </data>
+  <data name="001_Dokumente" xml:space="preserve">
+    <value>Documenten</value>
+  </data>
+  <data name="001_Downloads" xml:space="preserve">
+    <value>Downloads</value>
+  </data>
+  <data name="001_Einfügen" xml:space="preserve">
+    <value>Invoegen</value>
+  </data>
+  <data name="001_Ersetzen" xml:space="preserve">
+    <value>Vervangen</value>
+  </data>
+  <data name="001_FürAlle" xml:space="preserve">
+    <value>Toepassen op alle</value>
+  </data>
+  <data name="001_Integrieren" xml:space="preserve">
+    <value>Integreren</value>
+  </data>
+  <data name="001_Klingeltöne" xml:space="preserve">
+    <value>Ringtones</value>
+  </data>
+  <data name="001_Kopieren" xml:space="preserve">
+    <value>Kopie</value>
+  </data>
+  <data name="001_Löschen" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="001_LöschenBestätigung" xml:space="preserve">
+    <value>Permanent verwijderen</value>
+  </data>
+  <data name="001_Musik" xml:space="preserve">
+    <value>Muziek</value>
+  </data>
+  <data name="001_NichtMöglich" xml:space="preserve">
+    <value>Niet mogelijk</value>
+  </data>
+  <data name="001_OneDrive" xml:space="preserve">
+    <value>Één station</value>
+  </data>
+  <data name="001_Ordner" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="001_OrdnerBereitsVorhanden" xml:space="preserve">
+    <value>Een map met deze naam bestaat al in het doeldomein</value>
+  </data>
+  <data name="001_OrdnerMehrzahl" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="001_OrdnerNichtErstellt" xml:space="preserve">
+    <value>Map kon niet worden aangemaakt.</value>
+  </data>
+  <data name="001_OrdnerNichÖffnen" xml:space="preserve">
+    <value>Niet in staat om map te openen</value>
+  </data>
+  <data name="001_Privat" xml:space="preserve">
+    <value>Privé</value>
+  </data>
+  <data name="001_SDKarte" xml:space="preserve">
+    <value>SD-kaart</value>
+  </data>
+  <data name="001_Teilen" xml:space="preserve">
+    <value>Delen</value>
+  </data>
+  <data name="001_Umbenennen" xml:space="preserve">
+    <value>Naam wijzigen</value>
+  </data>
+  <data name="001_Verschieben" xml:space="preserve">
+    <value>Verplaatsen</value>
+  </data>
+  <data name="001_Videos" xml:space="preserve">
+    <value>Video 's</value>
+  </data>
+  <data name="001_ZugriffVerweigert" xml:space="preserve">
+    <value>Toegang geweigerd</value>
+  </data>
+  <data name="001_Überspringen" xml:space="preserve">
+    <value>Skip</value>
+  </data>
+  <data name="001_Hinzufügen" xml:space="preserve">
+    <value>Toevoegen</value>
+  </data>
+  <data name="001_KeinName" xml:space="preserve">
+    <value>Geen naam ingevoerd</value>
+  </data>
+  <data name="001_Name" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="001_NeuerOrdner" xml:space="preserve">
+    <value>Map toevoegen</value>
+  </data>
+  <data name="001_Schließen" xml:space="preserve">
+    <value>Sluiten</value>
+  </data>
+  <data name="001_NameFalsch" xml:space="preserve">
+    <value>De naam kan niet worden gebruikt</value>
+  </data>
+  <data name="001_EinenMoment" xml:space="preserve">
+    <value>Een moment alstublieft</value>
+  </data>
+  <data name="001_DateiNichtGelöscht" xml:space="preserve">
+    <value>Bestand kon niet worden verwijderd</value>
+  </data>
+  <data name="001_OrdnerNichtLöschen" xml:space="preserve">
+    <value>Map kan niet verwijderd worden</value>
+  </data>
+  <data name="001_DateienNichtEingefügt" xml:space="preserve">
+    <value>Bestand kan niet worden toegevoegd</value>
+  </data>
+  <data name="001_DateienNichtVorhanden" xml:space="preserve">
+    <value>Bestanden zijn niet langer beschikbaar</value>
+  </data>
+  <data name="001_DateiNichtVorhanden" xml:space="preserve">
+    <value>Bestand is niet langer beschikbaar</value>
+  </data>
+  <data name="001_KopierenVerschieben" xml:space="preserve">
+    <value>Kopiëren of verplaatsen</value>
+  </data>
+  <data name="000_AppName" xml:space="preserve">
+    <value>Verkenner X</value>
+  </data>
+  <data name="001_AllesAbwählen" xml:space="preserve">
+    <value>Afmelden voor alle</value>
+  </data>
+  <data name="001_AllesAuswählen" xml:space="preserve">
+    <value>Alles selecteren</value>
+  </data>
+  <data name="001_DateiNichtUmbenannt" xml:space="preserve">
+    <value>Bestand kan niet worden gewijzigd</value>
+  </data>
+  <data name="001_OrdnerNichtUmbenannt" xml:space="preserve">
+    <value>Map kan niet worden gewijzigd</value>
+  </data>
+  <data name="001_Heimnetzgruppe" xml:space="preserve">
+    <value>Thuisgroep</value>
+  </data>
+  <data name="001_NurVollversion" xml:space="preserve">
+    <value>Alleen beschikbaar in de volledige versie</value>
+  </data>
+  <data name="001_Warnung" xml:space="preserve">
+    <value>Waarschuwing</value>
+  </data>
+  <data name="001_WarnungPrivate" xml:space="preserve">
+    <value>De particuliere sector bevindt zich in de map van de app en wordt beschermd door een wachtwoord. Gelieve schrijf uw wachtwoord en bewaar deze op een veilige plaats.
+Belangrijk!
+Je heb verliest uw wachtwoord of u verwijderen van dit app, zodat de gegevens verloren voor altijd.</value>
+  </data>
+  <data name="001_Weiter" xml:space="preserve">
+    <value>Volgende</value>
+  </data>
+  <data name="001_Fehler" xml:space="preserve">
+    <value>Fout</value>
+  </data>
+  <data name="001_KeinPasswort" xml:space="preserve">
+    <value>Geen wachtwoord ingevoerd</value>
+  </data>
+  <data name="001_Passwort" xml:space="preserve">
+    <value>Wachtwoord</value>
+  </data>
+  <data name="001_PasswortErstellen" xml:space="preserve">
+    <value>Wachtwoord maken</value>
+  </data>
+  <data name="001_PasswortNicht" xml:space="preserve">
+    <value>Wachtwoord kan niet worden gebruikt</value>
+  </data>
+  <data name="001_PasswortUnterschied" xml:space="preserve">
+    <value>Wachtwoorden zijn verschillend</value>
+  </data>
+  <data name="001_PasswortWiederholen" xml:space="preserve">
+    <value>Herhaal wachtwoord</value>
+  </data>
+  <data name="001_Datum" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="001_FileType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="001_OrdnerSortieren" xml:space="preserve">
+    <value>Mappen sorteren</value>
+  </data>
+  <data name="001_Entfernen" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="001_VerbindungNicht" xml:space="preserve">
+    <value>Verbinding mislukt</value>
+  </data>
+  <data name="001_DateiNichtGeöffnet" xml:space="preserve">
+    <value>Bestand kan niet worden geopend</value>
+  </data>
+  <data name="001_DateiHeruntergeladen" xml:space="preserve">
+    <value>Bestand is beschikbaar voor download</value>
+  </data>
+  <data name="001_ArtDerVerbindung" xml:space="preserve">
+    <value>Type verbinding</value>
+  </data>
+  <data name="001_VerknüpftesKonto" xml:space="preserve">
+    <value>Gekoppelde account</value>
+  </data>
+  <data name="001_AnderesKonto" xml:space="preserve">
+    <value>Een andere account</value>
+  </data>
+  <data name="001_DateiOrdnerNichtGelöscht" xml:space="preserve">
+    <value>Bestand of map kon niet worden verwijderd</value>
+  </data>
+  <data name="001_Abmelden" xml:space="preserve">
+    <value>Afmelden</value>
+  </data>
+  <data name="001_Berechtigung" xml:space="preserve">
+    <value>Toegangsmachtiging</value>
+  </data>
+  <data name="001_DateienOrdnerNichtEingefügt" xml:space="preserve">
+    <value>Bestand of map kon niet worden toegevoegd</value>
+  </data>
+  <data name="001_DateienSortieren" xml:space="preserve">
+    <value>Bestanden sorteren</value>
+  </data>
+  <data name="001_DateiOrdnerBereitsVorhanden" xml:space="preserve">
+    <value>Er is al een bestand of map met de naam in het doeldomein</value>
+  </data>
+  <data name="001_DateiOrdnerNichtVorhanden" xml:space="preserve">
+    <value>Bestand of map is niet langer beschikbaar</value>
+  </data>
+  <data name="001_FreigabeLink" xml:space="preserve">
+    <value>Link delen</value>
+  </data>
+  <data name="001_Lesen" xml:space="preserve">
+    <value>Lezen</value>
+  </data>
+  <data name="001_LesenSchreiben" xml:space="preserve">
+    <value>Lees en schrijf</value>
+  </data>
+  <data name="001_OneDriveÄndern" xml:space="preserve">
+    <value>Account wijzigen één station
+-De huidige verbinding
+-Verbinding afmelden
+-Nieuwe verbinding</value>
+  </data>
+  <data name="001_AnStart" xml:space="preserve">
+    <value>PIN om te starten</value>
+  </data>
+  <data name="001_DateiGrößerLimit" xml:space="preserve">
+    <value>Het bestand is groter dan de limiet</value>
+  </data>
+  <data name="001_DDBestätigen" xml:space="preserve">
+    <value>Bevestigen slepen - en - neerzetten actie</value>
+  </data>
+  <data name="001_DDUmgang" xml:space="preserve">
+    <value>Slepen en neerzetten actie</value>
+  </data>
+  <data name="001_DownloadLimit" xml:space="preserve">
+    <value>Download limiet om bestanden te openen</value>
+  </data>
+  <data name="001_DragAndDrop" xml:space="preserve">
+    <value>Slepen en neerzetten</value>
+  </data>
+  <data name="001_Einmal" xml:space="preserve">
+    <value>Zodra de app is gesloten</value>
+  </data>
+  <data name="001_Einstellungen" xml:space="preserve">
+    <value>Instellingen</value>
+  </data>
+  <data name="001_Fragen" xml:space="preserve">
+    <value>Vragen</value>
+  </data>
+  <data name="001_Ignorieren" xml:space="preserve">
+    <value>Negeren</value>
+  </data>
+  <data name="001_Immer" xml:space="preserve">
+    <value>Altijd</value>
+  </data>
+  <data name="001_Ja" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="001_Mehreren" xml:space="preserve">
+    <value>Verschillende</value>
+  </data>
+  <data name="001_Nein" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="001_Nie" xml:space="preserve">
+    <value>Nooit</value>
+  </data>
+  <data name="001_OnlineVerhalten" xml:space="preserve">
+    <value>Online gedrag om bestanden te openen</value>
+  </data>
+  <data name="001_OnlineÖffnen" xml:space="preserve">
+    <value>Open online</value>
+  </data>
+  <data name="001_PasswortAbfrage" xml:space="preserve">
+    <value>Wachtwoord</value>
+  </data>
+  <data name="001_PasswortZurück" xml:space="preserve">
+    <value>Reset wachtwoord</value>
+  </data>
+  <data name="001_PrivaterOrdner" xml:space="preserve">
+    <value>Persoonlijke map</value>
+  </data>
+  <data name="001_Sortierung" xml:space="preserve">
+    <value>Sorteren</value>
+  </data>
+  <data name="001_SortierungSpeichern" xml:space="preserve">
+    <value>Opslaan bestellen</value>
+  </data>
+  <data name="001_Standard" xml:space="preserve">
+    <value>Standaard</value>
+  </data>
+  <data name="001_Unendlich" xml:space="preserve">
+    <value>Oneindigheid</value>
+  </data>
+  <data name="001_Zurück" xml:space="preserve">
+    <value>Terug</value>
+  </data>
+  <data name="001_ÖffnenVomOrdner" xml:space="preserve">
+    <value>Telkens wanneer u opent de map</value>
+  </data>
+  <data name="001_Benutzername" xml:space="preserve">
+    <value>Gebruikersnaam</value>
+  </data>
+  <data name="001_PasswortSpeichern" xml:space="preserve">
+    <value>Wachtwoord opslaan</value>
+  </data>
+  <data name="001_Server" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="001_Übernehmen" xml:space="preserve">
+    <value>Overnemen</value>
+  </data>
+  <data name="001_TemporäreDateien" xml:space="preserve">
+    <value>Tijdelijke bestanden</value>
+  </data>
+  <data name="001_TemporäreDateienAnzeigen" xml:space="preserve">
+    <value>Tijdelijke bestanden weergeven</value>
+  </data>
+  <data name="001_TemporäreDateienLöschen" xml:space="preserve">
+    <value>Verwijderen van tijdelijke bestanden bij het opstarten</value>
+  </data>
+  <data name="001_TemporäreDateienLöschenTask" xml:space="preserve">
+    <value>Verwijder tijdelijke bestanden</value>
+  </data>
+  <data name="001_KopierenVerschiebenOnlineOnline" xml:space="preserve">
+    <value>Kopiëren of verplaatsen van online naar online wordt niet ondersteund.
+Kopieer de bestanden naar de telefoon, en vervolgens naar online.</value>
+  </data>
+  <data name="002_BegrüßungTitel" xml:space="preserve">
+    <value>Lees deze instructies aandachtig door</value>
+  </data>
+  <data name="002_Bergrüßung" xml:space="preserve">
+    <value>Bedankt voor het gebruiken van dit app.
+Deze app maakt gebruik van een drag - en - drop systeem.
+Gebruik de grijze balk aan de rechterkant van het venster wilt schuiven.</value>
+  </data>
+  <data name="002_NichtAnzeigen" xml:space="preserve">
+    <value>Niet weergeven bij opstarten</value>
+  </data>
+  <data name="002_Dateiauswahl" xml:space="preserve">
+    <value>Bestandsselectie</value>
+  </data>
+  <data name="002_DateiauswahlInfo" xml:space="preserve">
+    <value>De selector bestand kunt u bestanden kopiëren van mappen die niet kunnen worden geopend.
+-Documenten
+-Downloads
+-Ringtones</value>
+  </data>
+  <data name="002_DateiauswahlKopiert" xml:space="preserve">
+    <value>De bestanden zijn gekopieerd.
+U kunt deze nu overal plakken.</value>
+  </data>
+  <data name="000_Beschreibung" xml:space="preserve">
+    <value>Een nieuwe generatie van file manager voor Windows 10 mobile. Met twee ramen en slepen en neerzetten. Ontworpen voor absolute gebruiksgemak. Ondersteunt geheugenkaarten, een drive en dropbox.
+Probeer nu gratis.</value>
+  </data>
+  <data name="000_Funktionen_1" xml:space="preserve">
+    <value>Twee resizable venster</value>
+  </data>
+  <data name="000_Funktionen_10" xml:space="preserve">
+    <value>Ondersteunt alle schermformaten</value>
+  </data>
+  <data name="000_Funktionen_2" xml:space="preserve">
+    <value>Slepen en neerzetten voor snel kopiëren of verplaatsen</value>
+  </data>
+  <data name="000_Funktionen_3" xml:space="preserve">
+    <value>Ondersteunt meerdere geheugenkaarten</value>
+  </data>
+  <data name="000_Funktionen_4" xml:space="preserve">
+    <value>Volledige integratie van één schijf</value>
+  </data>
+  <data name="000_Funktionen_5" xml:space="preserve">
+    <value>Volledige dropbox integratie</value>
+  </data>
+  <data name="000_Funktionen_6" xml:space="preserve">
+    <value>Wachtwoord beschermde privéruimte</value>
+  </data>
+  <data name="000_Funktionen_7" xml:space="preserve">
+    <value>Meerdere hernoemen</value>
+  </data>
+  <data name="000_Funktionen_8" xml:space="preserve">
+    <value>Geavanceerde opties voor sorteren</value>
+  </data>
+  <data name="000_Funktionen_9" xml:space="preserve">
+    <value>De selectie van het taaldossier voor beveiligde gebieden</value>
+  </data>
+  <data name="000_Schlagwort_1" xml:space="preserve">
+    <value>bestand</value>
+  </data>
+  <data name="000_Schlagwort_2" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="000_Schlagwort_3" xml:space="preserve">
+    <value>Explorer</value>
+  </data>
+  <data name="000_Schlagwort_4" xml:space="preserve">
+    <value>één station</value>
+  </data>
+  <data name="000_Schlagwort_5" xml:space="preserve">
+    <value>Dropbox</value>
+  </data>
+  <data name="000_Schlagwort_6" xml:space="preserve">
+    <value>wolk</value>
+  </data>
+  <data name="000_Schlagwort_7" xml:space="preserve">
+    <value>map netwerk</value>
+  </data>
+  <data name="002_Bewerten" xml:space="preserve">
+    <value>Stem op dit app</value>
+  </data>
+  <data name="002_BewertenText" xml:space="preserve">
+    <value>Help ons verspreid dit app.
+Stem op en Bekijk deze app 5 sterren.
+En je krijgt dit top app gratis.</value>
+  </data>
+  <data name="002_BewertungNachricht" xml:space="preserve">
+    <value>Stuur ons een e-mail.
+Voer uw naam in.
+Degene die u met uw Microsoft-account gebruikt.
+Wij sturen u een link dan.</value>
+  </data>
+  <data name="002_Danke_1" xml:space="preserve">
+    <value>Dank u voor het gebruik van onze apps.</value>
+  </data>
+  <data name="002_Danke_2" xml:space="preserve">
+    <value>Speciale dank aan</value>
+  </data>
+  <data name="002_Hilfe" xml:space="preserve">
+    <value>Handmatig</value>
+  </data>
+  <data name="002_JetztBewerten" xml:space="preserve">
+    <value>Stem nu</value>
+  </data>
+  <data name="002_Kaufen" xml:space="preserve">
+    <value>Deze app kopen</value>
+  </data>
+  <data name="002_Kontakt" xml:space="preserve">
+    <value>Hoe contact</value>
+  </data>
+  <data name="002_Kostenlos" xml:space="preserve">
+    <value>Gratis voor vijf sterren</value>
+  </data>
+  <data name="002_MicrosoftBenutzerName" xml:space="preserve">
+    <value>Naam die u in uw Microsoft-account gebruikt</value>
+  </data>
+  <data name="002_Postanschrift" xml:space="preserve">
+    <value>Postadres</value>
+  </data>
+  <data name="002_PromoApp" xml:space="preserve">
+    <value>8.1 slotscherm</value>
+  </data>
+  <data name="002_Sprache" xml:space="preserve">
+    <value>Taal</value>
+  </data>
+  <data name="002_SpracheÄndern" xml:space="preserve">
+    <value>Taal wijzigen</value>
+  </data>
+  <data name="002_VielenDank" xml:space="preserve">
+    <value>Hartelijk dank</value>
+  </data>
+  <data name="002_Webseite" xml:space="preserve">
+    <value>Webpagina</value>
+  </data>
+  <data name="002_Über" xml:space="preserve">
+    <value>Over</value>
+  </data>
+</root>

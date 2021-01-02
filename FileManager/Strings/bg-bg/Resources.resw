@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="001_Abbrechen" xml:space="preserve">
+    <value>Отказ</value>
+  </data>
+  <data name="001_Ausschneiden" xml:space="preserve">
+    <value>Изрязани</value>
+  </data>
+  <data name="001_Bilder" xml:space="preserve">
+    <value>Снимки</value>
+  </data>
+  <data name="001_Datei" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="001_DateiBereitsVorhanden" xml:space="preserve">
+    <value>На финала вече съществува файл с име</value>
+  </data>
+  <data name="001_DateienNichtKopiert" xml:space="preserve">
+    <value>Файловете не могат да бъдат копирани</value>
+  </data>
+  <data name="001_DateienNichtVerschoben" xml:space="preserve">
+    <value>Файловете не може да бъде преместен</value>
+  </data>
+  <data name="001_DateiMehrzahl" xml:space="preserve">
+    <value>Файлове</value>
+  </data>
+  <data name="001_DiesesGerät" xml:space="preserve">
+    <value>Това устройство</value>
+  </data>
+  <data name="001_Dokumente" xml:space="preserve">
+    <value>Документи</value>
+  </data>
+  <data name="001_Downloads" xml:space="preserve">
+    <value>Файлове за изтегляне</value>
+  </data>
+  <data name="001_Einfügen" xml:space="preserve">
+    <value>Вмъкване</value>
+  </data>
+  <data name="001_Ersetzen" xml:space="preserve">
+    <value>Замени</value>
+  </data>
+  <data name="001_FürAlle" xml:space="preserve">
+    <value>Приложи към всички</value>
+  </data>
+  <data name="001_Integrieren" xml:space="preserve">
+    <value>Интегриране на</value>
+  </data>
+  <data name="001_Klingeltöne" xml:space="preserve">
+    <value>Мелодии</value>
+  </data>
+  <data name="001_Kopieren" xml:space="preserve">
+    <value>Копие</value>
+  </data>
+  <data name="001_Löschen" xml:space="preserve">
+    <value>Изтриване</value>
+  </data>
+  <data name="001_LöschenBestätigung" xml:space="preserve">
+    <value>Изтриване завинаги</value>
+  </data>
+  <data name="001_Musik" xml:space="preserve">
+    <value>Музика</value>
+  </data>
+  <data name="001_NichtMöglich" xml:space="preserve">
+    <value>Не е възможно</value>
+  </data>
+  <data name="001_OneDrive" xml:space="preserve">
+    <value>Един диск</value>
+  </data>
+  <data name="001_Ordner" xml:space="preserve">
+    <value>Папка</value>
+  </data>
+  <data name="001_OrdnerBereitsVorhanden" xml:space="preserve">
+    <value>Вече съществува папка с това име в целевите</value>
+  </data>
+  <data name="001_OrdnerMehrzahl" xml:space="preserve">
+    <value>Папка</value>
+  </data>
+  <data name="001_OrdnerNichtErstellt" xml:space="preserve">
+    <value>Папката не можа да бъде създадена</value>
+  </data>
+  <data name="001_OrdnerNichÖffnen" xml:space="preserve">
+    <value>Не може да отвори папката</value>
+  </data>
+  <data name="001_Privat" xml:space="preserve">
+    <value>Частни</value>
+  </data>
+  <data name="001_SDKarte" xml:space="preserve">
+    <value>SD карта</value>
+  </data>
+  <data name="001_Teilen" xml:space="preserve">
+    <value>Дял</value>
+  </data>
+  <data name="001_Umbenennen" xml:space="preserve">
+    <value>Преименуване</value>
+  </data>
+  <data name="001_Verschieben" xml:space="preserve">
+    <value>Премести</value>
+  </data>
+  <data name="001_Videos" xml:space="preserve">
+    <value>Видео</value>
+  </data>
+  <data name="001_ZugriffVerweigert" xml:space="preserve">
+    <value>Отказан достъп</value>
+  </data>
+  <data name="001_Überspringen" xml:space="preserve">
+    <value>Skip</value>
+  </data>
+  <data name="001_Hinzufügen" xml:space="preserve">
+    <value>Добавяне</value>
+  </data>
+  <data name="001_KeinName" xml:space="preserve">
+    <value>Няма Въведеното име</value>
+  </data>
+  <data name="001_Name" xml:space="preserve">
+    <value>Име</value>
+  </data>
+  <data name="001_NeuerOrdner" xml:space="preserve">
+    <value>Добавяне на папка</value>
+  </data>
+  <data name="001_Schließen" xml:space="preserve">
+    <value>Затвори</value>
+  </data>
+  <data name="001_NameFalsch" xml:space="preserve">
+    <value>Името не може да се използва</value>
+  </data>
+  <data name="001_EinenMoment" xml:space="preserve">
+    <value>В един момент, моля</value>
+  </data>
+  <data name="001_DateiNichtGelöscht" xml:space="preserve">
+    <value>Файлът не можа да бъде изтрит</value>
+  </data>
+  <data name="001_OrdnerNichtLöschen" xml:space="preserve">
+    <value>Папката не можа да бъде изтрит</value>
+  </data>
+  <data name="001_DateienNichtEingefügt" xml:space="preserve">
+    <value>Файлът не можа да бъде добавен</value>
+  </data>
+  <data name="001_DateienNichtVorhanden" xml:space="preserve">
+    <value>Файлове вече не са налични</value>
+  </data>
+  <data name="001_DateiNichtVorhanden" xml:space="preserve">
+    <value>Файлът вече не е наличен</value>
+  </data>
+  <data name="001_KopierenVerschieben" xml:space="preserve">
+    <value>Копиране или преместване на</value>
+  </data>
+  <data name="000_AppName" xml:space="preserve">
+    <value>Файлов мениджър X</value>
+  </data>
+  <data name="001_AllesAbwählen" xml:space="preserve">
+    <value>Се откажете от всички</value>
+  </data>
+  <data name="001_AllesAuswählen" xml:space="preserve">
+    <value>Избери всички</value>
+  </data>
+  <data name="001_DateiNichtUmbenannt" xml:space="preserve">
+    <value>Файлът не можа да бъде преименувана</value>
+  </data>
+  <data name="001_OrdnerNichtUmbenannt" xml:space="preserve">
+    <value>Папката не можа да бъде преименувана</value>
+  </data>
+  <data name="001_Heimnetzgruppe" xml:space="preserve">
+    <value>Домашна група</value>
+  </data>
+  <data name="001_NurVollversion" xml:space="preserve">
+    <value>Достъпна само в пълната версия</value>
+  </data>
+  <data name="001_Warnung" xml:space="preserve">
+    <value>Предупреждение</value>
+  </data>
+  <data name="001_WarnungPrivate" xml:space="preserve">
+    <value>В частния сектор се намира в директорията на приложението и е защитен с парола. Моля напишете паролата си и го пазят на сигурно място.
+Важно!
+Загубите вашата парола или да деинсталирате този апартамент, така че тези данни са загубени завинаги.</value>
+  </data>
+  <data name="001_Weiter" xml:space="preserve">
+    <value>Следваща</value>
+  </data>
+  <data name="001_Fehler" xml:space="preserve">
+    <value>Грешка</value>
+  </data>
+  <data name="001_KeinPasswort" xml:space="preserve">
+    <value>Няма парола влизам</value>
+  </data>
+  <data name="001_Passwort" xml:space="preserve">
+    <value>Парола</value>
+  </data>
+  <data name="001_PasswortErstellen" xml:space="preserve">
+    <value>Създаване на парола</value>
+  </data>
+  <data name="001_PasswortNicht" xml:space="preserve">
+    <value>Паролата не може да се използва</value>
+  </data>
+  <data name="001_PasswortUnterschied" xml:space="preserve">
+    <value>Паролите са различни</value>
+  </data>
+  <data name="001_PasswortWiederholen" xml:space="preserve">
+    <value>Повторете парола</value>
+  </data>
+  <data name="001_Datum" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="001_FileType" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="001_OrdnerSortieren" xml:space="preserve">
+    <value>Подреждане на папки</value>
+  </data>
+  <data name="001_Entfernen" xml:space="preserve">
+    <value>Премахване на</value>
+  </data>
+  <data name="001_VerbindungNicht" xml:space="preserve">
+    <value>Връзката е неуспешна</value>
+  </data>
+  <data name="001_DateiNichtGeöffnet" xml:space="preserve">
+    <value>Файлът не можа да бъде отворен</value>
+  </data>
+  <data name="001_DateiHeruntergeladen" xml:space="preserve">
+    <value>Файлът е наличен за изтегляне</value>
+  </data>
+  <data name="001_ArtDerVerbindung" xml:space="preserve">
+    <value>Тип на връзката</value>
+  </data>
+  <data name="001_VerknüpftesKonto" xml:space="preserve">
+    <value>Свързан акаунт</value>
+  </data>
+  <data name="001_AnderesKonto" xml:space="preserve">
+    <value>Друг акаунт</value>
+  </data>
+  <data name="001_DateiOrdnerNichtGelöscht" xml:space="preserve">
+    <value>Файлът или папката не можа да бъде изтрит</value>
+  </data>
+  <data name="001_Abmelden" xml:space="preserve">
+    <value>Дънер на разстояние от</value>
+  </data>
+  <data name="001_Berechtigung" xml:space="preserve">
+    <value>Разрешение за достъп</value>
+  </data>
+  <data name="001_DateienOrdnerNichtEingefügt" xml:space="preserve">
+    <value>Файлът или папката не можа да бъде добавен</value>
+  </data>
+  <data name="001_DateienSortieren" xml:space="preserve">
+    <value>Сортиране на файлове</value>
+  </data>
+  <data name="001_DateiOrdnerBereitsVorhanden" xml:space="preserve">
+    <value>Вече има файл или папка с името в целевите</value>
+  </data>
+  <data name="001_DateiOrdnerNichtVorhanden" xml:space="preserve">
+    <value>Файлът или папката вече не е наличен</value>
+  </data>
+  <data name="001_FreigabeLink" xml:space="preserve">
+    <value>Споделете линк</value>
+  </data>
+  <data name="001_Lesen" xml:space="preserve">
+    <value>Прочети</value>
+  </data>
+  <data name="001_LesenSchreiben" xml:space="preserve">
+    <value>Четене и писане</value>
+  </data>
+  <data name="001_OneDriveÄndern" xml:space="preserve">
+    <value>Предвид промените един диск
+-Текущата връзка
+-Връзка за излизане
+-Нова връзка</value>
+  </data>
+  <data name="001_AnStart" xml:space="preserve">
+    <value>ПИН за стартиране</value>
+  </data>
+  <data name="001_DateiGrößerLimit" xml:space="preserve">
+    <value>Файлът е по-голям от лимита</value>
+  </data>
+  <data name="001_DDBestätigen" xml:space="preserve">
+    <value>Потвърдете влача - и - капка действие</value>
+  </data>
+  <data name="001_DDUmgang" xml:space="preserve">
+    <value>Влача - и - капка действие</value>
+  </data>
+  <data name="001_DownloadLimit" xml:space="preserve">
+    <value>Download граница за отваряне на файлове</value>
+  </data>
+  <data name="001_DragAndDrop" xml:space="preserve">
+    <value>Влача-и-капка</value>
+  </data>
+  <data name="001_Einmal" xml:space="preserve">
+    <value>След като ап е затворен</value>
+  </data>
+  <data name="001_Einstellungen" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="001_Fragen" xml:space="preserve">
+    <value>Въпроси</value>
+  </data>
+  <data name="001_Ignorieren" xml:space="preserve">
+    <value>Игнорирай</value>
+  </data>
+  <data name="001_Immer" xml:space="preserve">
+    <value>Винаги</value>
+  </data>
+  <data name="001_Ja" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="001_Mehreren" xml:space="preserve">
+    <value>Няколко</value>
+  </data>
+  <data name="001_Nein" xml:space="preserve">
+    <value>Не</value>
+  </data>
+  <data name="001_Nie" xml:space="preserve">
+    <value>Никога не</value>
+  </data>
+  <data name="001_OnlineVerhalten" xml:space="preserve">
+    <value>Онлайн поведение за отваряне на файлове</value>
+  </data>
+  <data name="001_OnlineÖffnen" xml:space="preserve">
+    <value>Отвори онлайн</value>
+  </data>
+  <data name="001_PasswortAbfrage" xml:space="preserve">
+    <value>Парола</value>
+  </data>
+  <data name="001_PasswortZurück" xml:space="preserve">
+    <value>Възстановяване на парола</value>
+  </data>
+  <data name="001_PrivaterOrdner" xml:space="preserve">
+    <value>Лична папка</value>
+  </data>
+  <data name="001_Sortierung" xml:space="preserve">
+    <value>Сортиране</value>
+  </data>
+  <data name="001_SortierungSpeichern" xml:space="preserve">
+    <value>Запиши поръчване</value>
+  </data>
+  <data name="001_Standard" xml:space="preserve">
+    <value>Стандарт</value>
+  </data>
+  <data name="001_Unendlich" xml:space="preserve">
+    <value>Безкрайност</value>
+  </data>
+  <data name="001_Zurück" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="001_ÖffnenVomOrdner" xml:space="preserve">
+    <value>Всеки път, когато отворите папката</value>
+  </data>
+  <data name="001_Benutzername" xml:space="preserve">
+    <value>Потребителско име</value>
+  </data>
+  <data name="001_PasswortSpeichern" xml:space="preserve">
+    <value>Запиши паролата</value>
+  </data>
+  <data name="001_Server" xml:space="preserve">
+    <value>Сървър</value>
+  </data>
+  <data name="001_Übernehmen" xml:space="preserve">
+    <value>Поеме</value>
+  </data>
+  <data name="001_TemporäreDateien" xml:space="preserve">
+    <value>Временни файлове</value>
+  </data>
+  <data name="001_TemporäreDateienAnzeigen" xml:space="preserve">
+    <value>Разглеждане на временни файлове</value>
+  </data>
+  <data name="001_TemporäreDateienLöschen" xml:space="preserve">
+    <value>Изтриване на временните файлове при стартиране</value>
+  </data>
+  <data name="001_TemporäreDateienLöschenTask" xml:space="preserve">
+    <value>Изтриване на временни файлове</value>
+  </data>
+  <data name="001_KopierenVerschiebenOnlineOnline" xml:space="preserve">
+    <value>Копирайте или преместете от онлайн онлайн не се поддържа.
+Копиране на файлове в телефона а след това онлайн.</value>
+  </data>
+  <data name="002_BegrüßungTitel" xml:space="preserve">
+    <value>Моля, прочетете тези инструкции внимателно</value>
+  </data>
+  <data name="002_Bergrüßung" xml:space="preserve">
+    <value>Благодаря за използването на този апартамент.
+Този app използва влача - и - капка система.
+Използвайте сивата бар в дясно на прозореца, за да превъртите.</value>
+  </data>
+  <data name="002_NichtAnzeigen" xml:space="preserve">
+    <value>Не показвай при стартиране</value>
+  </data>
+  <data name="002_Dateiauswahl" xml:space="preserve">
+    <value>Избор на файл</value>
+  </data>
+  <data name="002_DateiauswahlInfo" xml:space="preserve">
+    <value>Избор на файл ви позволява да копирате файлове от папки, които не могат да бъдат отворени.
+-Документи
+-Файлове за изтегляне
+-Мелодии</value>
+  </data>
+  <data name="002_DateiauswahlKopiert" xml:space="preserve">
+    <value>Файловете са копирани.
+Сега можете да поставите го навсякъде.</value>
+  </data>
+  <data name="000_Beschreibung" xml:space="preserve">
+    <value>Ново поколение на файлов мениджър за Windows 10 мобилни. С два Windows и влача-и-капка. Проектиран за абсолютна лекота на използване. Поддържа карти с памет, един диск и dropbox.
+Опитайте сега безплатно.</value>
+  </data>
+  <data name="000_Funktionen_1" xml:space="preserve">
+    <value>Два прозореца промяна на размера</value>
+  </data>
+  <data name="000_Funktionen_10" xml:space="preserve">
+    <value>Поддържа всички формати на екрана</value>
+  </data>
+  <data name="000_Funktionen_2" xml:space="preserve">
+    <value>Влача-и-капка за бърз копие или движа</value>
+  </data>
+  <data name="000_Funktionen_3" xml:space="preserve">
+    <value>Поддържа няколко карти с памет</value>
+  </data>
+  <data name="000_Funktionen_4" xml:space="preserve">
+    <value>Пълното интегриране на един диск</value>
+  </data>
+  <data name="000_Funktionen_5" xml:space="preserve">
+    <value>Пълен dropbox интеграция</value>
+  </data>
+  <data name="000_Funktionen_6" xml:space="preserve">
+    <value>Защитени с парола частни област</value>
+  </data>
+  <data name="000_Funktionen_7" xml:space="preserve">
+    <value>Преименуване на множество</value>
+  </data>
+  <data name="000_Funktionen_8" xml:space="preserve">
+    <value>Разширени опции за сортиране</value>
+  </data>
+  <data name="000_Funktionen_9" xml:space="preserve">
+    <value>Избор на файл за защитени зони</value>
+  </data>
+  <data name="000_Schlagwort_1" xml:space="preserve">
+    <value>файл</value>
+  </data>
+  <data name="000_Schlagwort_2" xml:space="preserve">
+    <value>Мениджър</value>
+  </data>
+  <data name="000_Schlagwort_3" xml:space="preserve">
+    <value>Изследовател</value>
+  </data>
+  <data name="000_Schlagwort_4" xml:space="preserve">
+    <value>един диск</value>
+  </data>
+  <data name="000_Schlagwort_5" xml:space="preserve">
+    <value>Dropbox</value>
+  </data>
+  <data name="000_Schlagwort_6" xml:space="preserve">
+    <value>облак</value>
+  </data>
+  <data name="000_Schlagwort_7" xml:space="preserve">
+    <value>мрежова папка</value>
+  </data>
+  <data name="002_Bewerten" xml:space="preserve">
+    <value>Оценете този апартамент</value>
+  </data>
+  <data name="002_BewertenText" xml:space="preserve">
+    <value>Помогнете ни да разпределим това ап.
+Ставка и преглед на тази ап 5 звезди.
+И получавате това Топ ап безплатно.</value>
+  </data>
+  <data name="002_BewertungNachricht" xml:space="preserve">
+    <value>Изпратете ни имейл.
+Въведете вашето име.
+Този, който използвате с вашия акаунт в Microsoft.
+Ние ви изпрати връзка тогава.</value>
+  </data>
+  <data name="002_Danke_1" xml:space="preserve">
+    <value>Благодаря ви за използване на нашите приложения.</value>
+  </data>
+  <data name="002_Danke_2" xml:space="preserve">
+    <value>Специални благодарности на</value>
+  </data>
+  <data name="002_Hilfe" xml:space="preserve">
+    <value>Ръководство</value>
+  </data>
+  <data name="002_JetztBewerten" xml:space="preserve">
+    <value>Скорост сега</value>
+  </data>
+  <data name="002_Kaufen" xml:space="preserve">
+    <value>Купи този апартамент</value>
+  </data>
+  <data name="002_Kontakt" xml:space="preserve">
+    <value>Как да се свържете с</value>
+  </data>
+  <data name="002_Kostenlos" xml:space="preserve">
+    <value>Безплатно за пет звезда</value>
+  </data>
+  <data name="002_MicrosoftBenutzerName" xml:space="preserve">
+    <value>Име използвате във вашия акаунт в Microsoft</value>
+  </data>
+  <data name="002_Postanschrift" xml:space="preserve">
+    <value>Пощенски адрес</value>
+  </data>
+  <data name="002_PromoApp" xml:space="preserve">
+    <value>8.1 заключване на екрана</value>
+  </data>
+  <data name="002_Sprache" xml:space="preserve">
+    <value>Език</value>
+  </data>
+  <data name="002_SpracheÄndern" xml:space="preserve">
+    <value>Промяна на езика</value>
+  </data>
+  <data name="002_VielenDank" xml:space="preserve">
+    <value>Много благодаря</value>
+  </data>
+  <data name="002_Webseite" xml:space="preserve">
+    <value>Уеб страница</value>
+  </data>
+  <data name="002_Über" xml:space="preserve">
+    <value>За</value>
+  </data>
+</root>

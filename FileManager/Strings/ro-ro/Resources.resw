@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="001_Abbrechen" xml:space="preserve">
+    <value>Revocare</value>
+  </data>
+  <data name="001_Ausschneiden" xml:space="preserve">
+    <value>Taie</value>
+  </data>
+  <data name="001_Bilder" xml:space="preserve">
+    <value>Imagini</value>
+  </data>
+  <data name="001_Datei" xml:space="preserve">
+    <value>Fişier</value>
+  </data>
+  <data name="001_DateiBereitsVorhanden" xml:space="preserve">
+    <value>La linia de sosire, există deja un fişier cu numele</value>
+  </data>
+  <data name="001_DateienNichtKopiert" xml:space="preserve">
+    <value>Dosar nu ar putea fi copiate</value>
+  </data>
+  <data name="001_DateienNichtVerschoben" xml:space="preserve">
+    <value>Fişierele nu poate fi mutat</value>
+  </data>
+  <data name="001_DateiMehrzahl" xml:space="preserve">
+    <value>Fişiere</value>
+  </data>
+  <data name="001_DiesesGerät" xml:space="preserve">
+    <value>Acest aparat</value>
+  </data>
+  <data name="001_Dokumente" xml:space="preserve">
+    <value>Documente</value>
+  </data>
+  <data name="001_Downloads" xml:space="preserve">
+    <value>Download-uri</value>
+  </data>
+  <data name="001_Einfügen" xml:space="preserve">
+    <value>Inserare</value>
+  </data>
+  <data name="001_Ersetzen" xml:space="preserve">
+    <value>Înlocui</value>
+  </data>
+  <data name="001_FürAlle" xml:space="preserve">
+    <value>Se aplică tuturor</value>
+  </data>
+  <data name="001_Integrieren" xml:space="preserve">
+    <value>Integra</value>
+  </data>
+  <data name="001_Klingeltöne" xml:space="preserve">
+    <value>Tonuri de apel</value>
+  </data>
+  <data name="001_Kopieren" xml:space="preserve">
+    <value>Copie</value>
+  </data>
+  <data name="001_Löschen" xml:space="preserve">
+    <value>Şterge</value>
+  </data>
+  <data name="001_LöschenBestätigung" xml:space="preserve">
+    <value>Şterge definitiv</value>
+  </data>
+  <data name="001_Musik" xml:space="preserve">
+    <value>Muzica</value>
+  </data>
+  <data name="001_NichtMöglich" xml:space="preserve">
+    <value>Nu este posibil</value>
+  </data>
+  <data name="001_OneDrive" xml:space="preserve">
+    <value>O unitate</value>
+  </data>
+  <data name="001_Ordner" xml:space="preserve">
+    <value>Pliant</value>
+  </data>
+  <data name="001_OrdnerBereitsVorhanden" xml:space="preserve">
+    <value>Un folder cu acest nume există deja în ţintă</value>
+  </data>
+  <data name="001_OrdnerMehrzahl" xml:space="preserve">
+    <value>Pliant</value>
+  </data>
+  <data name="001_OrdnerNichtErstellt" xml:space="preserve">
+    <value>Imposibil de creat folderul</value>
+  </data>
+  <data name="001_OrdnerNichÖffnen" xml:space="preserve">
+    <value>Imposibil de deschis folderul</value>
+  </data>
+  <data name="001_Privat" xml:space="preserve">
+    <value>Privat</value>
+  </data>
+  <data name="001_SDKarte" xml:space="preserve">
+    <value>SD card</value>
+  </data>
+  <data name="001_Teilen" xml:space="preserve">
+    <value>Cota</value>
+  </data>
+  <data name="001_Umbenennen" xml:space="preserve">
+    <value>Redenumire</value>
+  </data>
+  <data name="001_Verschieben" xml:space="preserve">
+    <value>Muta</value>
+  </data>
+  <data name="001_Videos" xml:space="preserve">
+    <value>Clipuri video</value>
+  </data>
+  <data name="001_ZugriffVerweigert" xml:space="preserve">
+    <value>Acces interzis</value>
+  </data>
+  <data name="001_Überspringen" xml:space="preserve">
+    <value>Skip</value>
+  </data>
+  <data name="001_Hinzufügen" xml:space="preserve">
+    <value>Adauga</value>
+  </data>
+  <data name="001_KeinName" xml:space="preserve">
+    <value>Nici un nume intrat</value>
+  </data>
+  <data name="001_Name" xml:space="preserve">
+    <value>nume</value>
+  </data>
+  <data name="001_NeuerOrdner" xml:space="preserve">
+    <value>Adauga pliant</value>
+  </data>
+  <data name="001_Schließen" xml:space="preserve">
+    <value>Închide</value>
+  </data>
+  <data name="001_NameFalsch" xml:space="preserve">
+    <value>Numele nu poate fi folosit</value>
+  </data>
+  <data name="001_EinenMoment" xml:space="preserve">
+    <value>Un moment te rog</value>
+  </data>
+  <data name="001_DateiNichtGelöscht" xml:space="preserve">
+    <value>Imposibil de şters fişier</value>
+  </data>
+  <data name="001_OrdnerNichtLöschen" xml:space="preserve">
+    <value>Imposibil de şters folderul</value>
+  </data>
+  <data name="001_DateienNichtEingefügt" xml:space="preserve">
+    <value>Dosar nu ar putea fi adăugat</value>
+  </data>
+  <data name="001_DateienNichtVorhanden" xml:space="preserve">
+    <value>Nu mai sunt disponibile</value>
+  </data>
+  <data name="001_DateiNichtVorhanden" xml:space="preserve">
+    <value>Fişierul nu mai este disponibil</value>
+  </data>
+  <data name="001_KopierenVerschieben" xml:space="preserve">
+    <value>Copia sau muta</value>
+  </data>
+  <data name="000_AppName" xml:space="preserve">
+    <value>Explorer X</value>
+  </data>
+  <data name="001_AllesAbwählen" xml:space="preserve">
+    <value>Renunţaţi la toate</value>
+  </data>
+  <data name="001_AllesAuswählen" xml:space="preserve">
+    <value>Selectează tot</value>
+  </data>
+  <data name="001_DateiNichtUmbenannt" xml:space="preserve">
+    <value>Dosar nu ar putea fi redenumit</value>
+  </data>
+  <data name="001_OrdnerNichtUmbenannt" xml:space="preserve">
+    <value>Folderul nu poate fi redenumit</value>
+  </data>
+  <data name="001_Heimnetzgruppe" xml:space="preserve">
+    <value>Grup de domiciliu</value>
+  </data>
+  <data name="001_NurVollversion" xml:space="preserve">
+    <value>Disponibil doar în versiunea completă</value>
+  </data>
+  <data name="001_Warnung" xml:space="preserve">
+    <value>Avertisment</value>
+  </data>
+  <data name="001_WarnungPrivate" xml:space="preserve">
+    <value>Sectorul privat este situat în directorul aplicaţiei şi este protejat de o parola. Vă rugăm să notați parola şi păstraţi-l într-un loc sigur.
+Important!
+Se pierde parola sau dezinstalarea acest app, deci datele este pierdut pentru totdeauna.</value>
+  </data>
+  <data name="001_Weiter" xml:space="preserve">
+    <value>Următoarea</value>
+  </data>
+  <data name="001_Fehler" xml:space="preserve">
+    <value>Eroare</value>
+  </data>
+  <data name="001_KeinPasswort" xml:space="preserve">
+    <value>Nici o parolă introduse</value>
+  </data>
+  <data name="001_Passwort" xml:space="preserve">
+    <value>Parola</value>
+  </data>
+  <data name="001_PasswortErstellen" xml:space="preserve">
+    <value>Creare parolă</value>
+  </data>
+  <data name="001_PasswortNicht" xml:space="preserve">
+    <value>Parola nu poate fi folosit</value>
+  </data>
+  <data name="001_PasswortUnterschied" xml:space="preserve">
+    <value>Parolele sunt diferite</value>
+  </data>
+  <data name="001_PasswortWiederholen" xml:space="preserve">
+    <value>Repeta parola</value>
+  </data>
+  <data name="001_Datum" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="001_FileType" xml:space="preserve">
+    <value>Tip</value>
+  </data>
+  <data name="001_OrdnerSortieren" xml:space="preserve">
+    <value>Sortare dosare</value>
+  </data>
+  <data name="001_Entfernen" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="001_VerbindungNicht" xml:space="preserve">
+    <value>Conexiunea a eşuat</value>
+  </data>
+  <data name="001_DateiNichtGeöffnet" xml:space="preserve">
+    <value>Imposibil de deschis fișierul</value>
+  </data>
+  <data name="001_DateiHeruntergeladen" xml:space="preserve">
+    <value>Fişierul este disponibil pentru download</value>
+  </data>
+  <data name="001_ArtDerVerbindung" xml:space="preserve">
+    <value>Tipul de conexiune</value>
+  </data>
+  <data name="001_VerknüpftesKonto" xml:space="preserve">
+    <value>Cont</value>
+  </data>
+  <data name="001_AnderesKonto" xml:space="preserve">
+    <value>Un alt cont</value>
+  </data>
+  <data name="001_DateiOrdnerNichtGelöscht" xml:space="preserve">
+    <value>Fişierul sau dosarul nu ar putea fi şterse</value>
+  </data>
+  <data name="001_Abmelden" xml:space="preserve">
+    <value>Faceţi Log off</value>
+  </data>
+  <data name="001_Berechtigung" xml:space="preserve">
+    <value>Permisiunea de acces</value>
+  </data>
+  <data name="001_DateienOrdnerNichtEingefügt" xml:space="preserve">
+    <value>Fişierul sau dosarul nu ar putea fi adăugate</value>
+  </data>
+  <data name="001_DateienSortieren" xml:space="preserve">
+    <value>Sortare dosar</value>
+  </data>
+  <data name="001_DateiOrdnerBereitsVorhanden" xml:space="preserve">
+    <value>Există deja un fişier sau un folder cu numele în ţintă</value>
+  </data>
+  <data name="001_DateiOrdnerNichtVorhanden" xml:space="preserve">
+    <value>Fișier sau un folder nu mai este disponibil</value>
+  </data>
+  <data name="001_FreigabeLink" xml:space="preserve">
+    <value>Share link</value>
+  </data>
+  <data name="001_Lesen" xml:space="preserve">
+    <value>Citeste</value>
+  </data>
+  <data name="001_LesenSchreiben" xml:space="preserve">
+    <value>Citire si scriere</value>
+  </data>
+  <data name="001_OneDriveÄndern" xml:space="preserve">
+    <value>Cont schimba o unitate
+-Curent de conexiune
+-Conexiune logging off
+-Conexiune</value>
+  </data>
+  <data name="001_AnStart" xml:space="preserve">
+    <value>PIN-UL pentru a începe</value>
+  </data>
+  <data name="001_DateiGrößerLimit" xml:space="preserve">
+    <value>Fişierul este mai mare decât limita</value>
+  </data>
+  <data name="001_DDBestätigen" xml:space="preserve">
+    <value>Confirma drag - şi - drop acţiune</value>
+  </data>
+  <data name="001_DDUmgang" xml:space="preserve">
+    <value>Acţiuni drag - şi - drop</value>
+  </data>
+  <data name="001_DownloadLimit" xml:space="preserve">
+    <value>Limită pentru a deschide fişiere</value>
+  </data>
+  <data name="001_DragAndDrop" xml:space="preserve">
+    <value>Drag - şi - drop</value>
+  </data>
+  <data name="001_Einmal" xml:space="preserve">
+    <value>Odată ce app este inchisa</value>
+  </data>
+  <data name="001_Einstellungen" xml:space="preserve">
+    <value>Setări</value>
+  </data>
+  <data name="001_Fragen" xml:space="preserve">
+    <value>Întrebări</value>
+  </data>
+  <data name="001_Ignorieren" xml:space="preserve">
+    <value>Ignora</value>
+  </data>
+  <data name="001_Immer" xml:space="preserve">
+    <value>Întotdeauna</value>
+  </data>
+  <data name="001_Ja" xml:space="preserve">
+    <value>da</value>
+  </data>
+  <data name="001_Mehreren" xml:space="preserve">
+    <value>Mai multe</value>
+  </data>
+  <data name="001_Nein" xml:space="preserve">
+    <value>nu</value>
+  </data>
+  <data name="001_Nie" xml:space="preserve">
+    <value>Niciodată</value>
+  </data>
+  <data name="001_OnlineVerhalten" xml:space="preserve">
+    <value>Comportamentul online pentru a deschide fişiere</value>
+  </data>
+  <data name="001_OnlineÖffnen" xml:space="preserve">
+    <value>Deschide online</value>
+  </data>
+  <data name="001_PasswortAbfrage" xml:space="preserve">
+    <value>Parola</value>
+  </data>
+  <data name="001_PasswortZurück" xml:space="preserve">
+    <value>Reseteaza parola</value>
+  </data>
+  <data name="001_PrivaterOrdner" xml:space="preserve">
+    <value>Folder privat</value>
+  </data>
+  <data name="001_Sortierung" xml:space="preserve">
+    <value>Sortare</value>
+  </data>
+  <data name="001_SortierungSpeichern" xml:space="preserve">
+    <value>Salvaţi comanda</value>
+  </data>
+  <data name="001_Standard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="001_Unendlich" xml:space="preserve">
+    <value>Infinity</value>
+  </data>
+  <data name="001_Zurück" xml:space="preserve">
+    <value>Spate</value>
+  </data>
+  <data name="001_ÖffnenVomOrdner" xml:space="preserve">
+    <value>De fiecare dată când deschideţi folderul</value>
+  </data>
+  <data name="001_Benutzername" xml:space="preserve">
+    <value>Nume de utilizator</value>
+  </data>
+  <data name="001_PasswortSpeichern" xml:space="preserve">
+    <value>Salvaţi parola</value>
+  </data>
+  <data name="001_Server" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="001_Übernehmen" xml:space="preserve">
+    <value>Preia</value>
+  </data>
+  <data name="001_TemporäreDateien" xml:space="preserve">
+    <value>Fişiere temporare</value>
+  </data>
+  <data name="001_TemporäreDateienAnzeigen" xml:space="preserve">
+    <value>Vizualizarea fişierelor temporare</value>
+  </data>
+  <data name="001_TemporäreDateienLöschen" xml:space="preserve">
+    <value>Ştergeţi fişierele temporare la startup</value>
+  </data>
+  <data name="001_TemporäreDateienLöschenTask" xml:space="preserve">
+    <value>Ştergeţi fişierele temporare</value>
+  </data>
+  <data name="001_KopierenVerschiebenOnlineOnline" xml:space="preserve">
+    <value>Copia sau muta din online online nu este acceptată.
+Copiaţi fişierele la telefonul, şi apoi la online.</value>
+  </data>
+  <data name="002_BegrüßungTitel" xml:space="preserve">
+    <value>Vă rugăm să citiţi cu atenţie aceste instrucţiuni</value>
+  </data>
+  <data name="002_Bergrüßung" xml:space="preserve">
+    <value>Mulţumiri pentru folosind acest app.
+Acest app foloseste un sistem de drag - şi - drop.
+Utilizaţi bara gri în partea dreaptă a ferestrei pentru a defila.</value>
+  </data>
+  <data name="002_NichtAnzeigen" xml:space="preserve">
+    <value>Nu se afișează la startup</value>
+  </data>
+  <data name="002_Dateiauswahl" xml:space="preserve">
+    <value>Selectarea fişier</value>
+  </data>
+  <data name="002_DateiauswahlInfo" xml:space="preserve">
+    <value>Selectorul de fişier vă permite să copiaţi fişierele din foldere care nu pot fi deschise.
+-Documente
+-Descărcări
+-Tonuri de apel</value>
+  </data>
+  <data name="002_DateiauswahlKopiert" xml:space="preserve">
+    <value>Fisierele au fost copiate.
+Tu poţi acum lipiţi-l oriunde.</value>
+  </data>
+  <data name="000_Beschreibung" xml:space="preserve">
+    <value>O nouă generaţie de manager de fişiere pentru Windows 10 mobile. Cu două ferestre şi drag-and-drop. Proiectate pentru ușurinţa absolută de utilizare. Acceptă carduri de memorie, o unitate şi dropbox.
+Încercaţi acum pentru drum liber.</value>
+  </data>
+  <data name="000_Funktionen_1" xml:space="preserve">
+    <value>Două Redimensionabil fereastră</value>
+  </data>
+  <data name="000_Funktionen_10" xml:space="preserve">
+    <value>Suporta toate formatele de ecran</value>
+  </data>
+  <data name="000_Funktionen_2" xml:space="preserve">
+    <value>Drag-and-drop pentru rapid copiați sau</value>
+  </data>
+  <data name="000_Funktionen_3" xml:space="preserve">
+    <value>Suporta mai multe carduri de memorie</value>
+  </data>
+  <data name="000_Funktionen_4" xml:space="preserve">
+    <value>Integrarea deplină a o unitate</value>
+  </data>
+  <data name="000_Funktionen_5" xml:space="preserve">
+    <value>Integrare completă dropbox</value>
+  </data>
+  <data name="000_Funktionen_6" xml:space="preserve">
+    <value>Zona privată de protejat prin parolă</value>
+  </data>
+  <data name="000_Funktionen_7" xml:space="preserve">
+    <value>Redenumi mai multe</value>
+  </data>
+  <data name="000_Funktionen_8" xml:space="preserve">
+    <value>Avansate opţiuni de sortare</value>
+  </data>
+  <data name="000_Funktionen_9" xml:space="preserve">
+    <value>Selectarea fişier pentru zone securizate</value>
+  </data>
+  <data name="000_Schlagwort_1" xml:space="preserve">
+    <value>fişier</value>
+  </data>
+  <data name="000_Schlagwort_2" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="000_Schlagwort_3" xml:space="preserve">
+    <value>Explorer</value>
+  </data>
+  <data name="000_Schlagwort_4" xml:space="preserve">
+    <value>o unitate</value>
+  </data>
+  <data name="000_Schlagwort_5" xml:space="preserve">
+    <value>Dropbox</value>
+  </data>
+  <data name="000_Schlagwort_6" xml:space="preserve">
+    <value>nor</value>
+  </data>
+  <data name="000_Schlagwort_7" xml:space="preserve">
+    <value>folderul rețea</value>
+  </data>
+  <data name="002_Bewerten" xml:space="preserve">
+    <value>Rata de acest app</value>
+  </data>
+  <data name="002_BewertenText" xml:space="preserve">
+    <value>Ajutaţi-ne să răspândească acest app.
+Rata şi revizuirea acest app 5 stele.
+Şi veţi obţine acest app sus pentru drum liber.</value>
+  </data>
+  <data name="002_BewertungNachricht" xml:space="preserve">
+    <value>Trimite-ne un e-mail.
+Introduceţi numele dvs.
+Cel care îl utilizaţi cu contul de Microsoft.
+Vom trimite un link apoi.</value>
+  </data>
+  <data name="002_Danke_1" xml:space="preserve">
+    <value>Vă mulţumim pentru utilizarea nostru de aplicaţii.</value>
+  </data>
+  <data name="002_Danke_2" xml:space="preserve">
+    <value>Mulţumiri speciale pentru</value>
+  </data>
+  <data name="002_Hilfe" xml:space="preserve">
+    <value>Manualul</value>
+  </data>
+  <data name="002_JetztBewerten" xml:space="preserve">
+    <value>Rata de acum</value>
+  </data>
+  <data name="002_Kaufen" xml:space="preserve">
+    <value>Cumpara acest app</value>
+  </data>
+  <data name="002_Kontakt" xml:space="preserve">
+    <value>Cum să contactaţi cu</value>
+  </data>
+  <data name="002_Kostenlos" xml:space="preserve">
+    <value>Gratuit pentru cinci stele</value>
+  </data>
+  <data name="002_MicrosoftBenutzerName" xml:space="preserve">
+    <value>Numele pe care îl utilizaţi în contul Microsoft</value>
+  </data>
+  <data name="002_Postanschrift" xml:space="preserve">
+    <value>Adresa poştală</value>
+  </data>
+  <data name="002_PromoApp" xml:space="preserve">
+    <value>8.1 blocare ecran</value>
+  </data>
+  <data name="002_Sprache" xml:space="preserve">
+    <value>Limba</value>
+  </data>
+  <data name="002_SpracheÄndern" xml:space="preserve">
+    <value>Schimba limba</value>
+  </data>
+  <data name="002_VielenDank" xml:space="preserve">
+    <value>îţi mulţumesc foarte mult</value>
+  </data>
+  <data name="002_Webseite" xml:space="preserve">
+    <value>Pagina de web</value>
+  </data>
+  <data name="002_Über" xml:space="preserve">
+    <value>Despre</value>
+  </data>
+</root>

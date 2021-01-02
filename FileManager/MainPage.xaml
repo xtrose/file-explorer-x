@@ -1,0 +1,251 @@
+﻿<Page
+    x:Class="FileManager.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FileManager"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+
+
+
+
+    <!--Style Container für Listboxen-->
+    <Page.Resources>
+        <Style x:Key="LBImagesItemStyle" TargetType="ListBoxItem">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="VerticalContentAlignment" Value="Top"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListBoxItem">
+                        <Border x:Name="LayoutRoot" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" HorizontalAlignment="{TemplateBinding HorizontalAlignment}" VerticalAlignment="{TemplateBinding VerticalAlignment}">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="MouseOver"/>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="LayoutRoot">
+                                                <DiscreteObjectKeyFrame KeyTime="0"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <DoubleAnimation Duration="0" To=".5" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="ContentContainer"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="SelectionStates">
+                                    <VisualState x:Name="Unselected"/>
+                                    <VisualState x:Name="Selected">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="LayoutRoot">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="#ffcbd5df"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentContainer">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="White"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <ContentControl x:Name="ContentContainer" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" Foreground="{TemplateBinding Foreground}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
+
+
+
+
+    <!--Hauptgrid-->
+    <Grid x:Name="grMain" RequestedTheme="Light">
+        <Grid.Background>
+            <ImageBrush ImageSource="Images/background_2.png" />
+        </Grid.Background>
+
+
+
+
+
+        <!--Linkes Frame-->
+        <Grid x:Name="frameLeft" HorizontalAlignment="Left" VerticalAlignment="Top" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!--StackPanal gesamt-->
+            <StackPanel x:Name="spFrameLeft" Grid.Row="0" VerticalAlignment="Top">
+
+                <!--StackPanal Menü-->
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="Images/background_1.png" />
+                </StackPanel.Background>
+
+                <!--Liste Menüpunkte-->
+                <StackPanel x:Name="spMenuLeft" Orientation="Horizontal" />
+                <Rectangle Height="1" Fill="#ffcf2828"/>
+                <Rectangle Height="2" Fill="#ff888888"/>
+            </StackPanel>
+
+            <!--ScrollViewer Dateien-->
+            <ScrollViewer Grid.Row="1" x:Name="svLeft" VerticalScrollBarVisibility="Visible" >
+
+                <!--Grid Fenster-->
+                <Grid>
+
+                    <!--Grid Scroll Bereich-->
+                    <Grid Background="Transparent"  x:Name="grScrollLeft" HorizontalAlignment="Right" Holding="GrScroll_Holding" Tag="0~svLeft" />
+                    <Grid Background="Transparent"  x:Name="grLeft" PointerEntered="grLeft_PointerEntered" PointerExited="grLeft_PointerExited" PointerReleased="grLeft_PointerReleased" Tag="0~svLeft">
+                        <ListBox x:Name="lbLeft" ItemsSource="{Binding ClassTest, Mode=TwoWay}" Background="Transparent" ItemContainerStyle="{StaticResource LBImagesItemStyle}" >
+                            <ListBox.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <local:WrapPanel/>
+                                </ItemsPanelTemplate>
+                            </ListBox.ItemsPanel>
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid Background="{Binding background}" Tag="{Binding grListTag}" Width="{Binding grListWidth}" Height="{Binding grListHeight}" Margin="{Binding grListMargin}" ManipulationMode="All" PointerEntered="GrList_PointerEntered" PointerExited="GrList_PointerExited" PointerReleased="GrList_PointerReleased" ManipulationStarted="GrList_ManipulationStarted" ManipulationDelta="GrList_ManipulationDelta" ManipulationCompleted=" GrList_ManipulationCompleted" Holding="GrScroll_Holding">
+                                        <StackPanel >
+                                            <Grid Width="{Binding grListWidth}" Height="{Binding grListWidth}" VerticalAlignment="Center" HorizontalAlignment="Center" >
+                                                <Image MaxWidth="{Binding grListWidth}" MaxHeight="{Binding grListWidth}" Source="{Binding icon}"/>
+                                            </Grid>
+                                            <TextBlock Text="{Binding name, Mode=TwoWay}" FontSize="{Binding grListFontSize}" TextAlignment="Center" TextWrapping="Wrap" />
+                                        </StackPanel>
+                                        <Image Source="{Binding imgSelected}" Visibility="{Binding imgSelectedVisibility}"/>
+                                        <Image Source="{Binding imgMenu}" Tag="{Binding grListTag}" Visibility="{Binding imgMenuVisibility}" Width="{Binding imgMenuWidth}" Margin="{Binding imgMenuMargin}" VerticalAlignment="Bottom" HorizontalAlignment="Right" PointerReleased="Image_PointerReleased"/>
+                                    </Grid>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </Grid>
+                </Grid>
+            </ScrollViewer>
+
+            <!-- Progress Ring -->
+            <ProgressRing Name="prLeft" Grid.Row="1" IsActive="False" VerticalAlignment="Top" HorizontalAlignment="Right" />
+
+            <!-- Grid Ladeanzeige -->
+            <Grid Name="grLoadingLeft_top" Background="#BB000000" Grid.Row="0" Visibility="Collapsed" >
+                <StackPanel VerticalAlignment="Bottom">
+                    <Rectangle Height="1" Fill="#ffcf2828"/>
+                    <Rectangle Height="2" Fill="#ff888888"/>
+                </StackPanel>
+            </Grid>
+            <Grid Name="grLoadingLeft_bottom" Background="#BBFFFFFF" Grid.Row="1" Visibility="Collapsed">
+                <StackPanel VerticalAlignment="Center">
+                    <TextBlock Name="tbLoadingLeft" FontSize="12" HorizontalAlignment="Center" />
+                    <ProgressRing Name="prLoadingLeft" HorizontalAlignment="Center" Margin="0,12,0,12" />
+                    <Button Name="btnLoadingLeft" Margin="0,0,0,12" FontSize="12" HorizontalAlignment="Center" />
+                </StackPanel>
+            </Grid>
+        </Grid>
+
+
+
+
+
+        <!--Rechtes Frame-->
+        <Grid x:Name="frameRight" HorizontalAlignment="Left" VerticalAlignment="Top" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!--StackPanal gesamt-->
+            <StackPanel x:Name="spFrameRight" Grid.Row="0" VerticalAlignment="Top">
+
+                <!--StackPanal Menü-->
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="Images/background_1.png" />
+                </StackPanel.Background>
+
+                <!--Liste Menüpunkte-->
+                <StackPanel x:Name="spMenuRight" Orientation="Horizontal" />
+                <Rectangle Height="1" Fill="#ffcf2828"/>
+                <Rectangle Height="2" Fill="#ff888888"/>
+            </StackPanel>
+
+            <!--ScrollViewer Dateien-->
+            <ScrollViewer Grid.Row="1" x:Name="svRight" VerticalScrollBarVisibility="Visible" >
+
+                <!--Grid Fenster-->
+                <Grid>
+
+                    <!--Grid Scroll Bereich-->
+                    <Grid x:Name="grScrollRight" Background="Transparent" HorizontalAlignment="Right" Holding="GrScroll_Holding" Tag="0~svRight" />
+                    <Grid x:Name="grRight" Background="Transparent" PointerEntered="grRight_PointerEntered" PointerExited="grRight_PointerExited" PointerReleased="grRight_PointerReleased" Tag="0~svRight" >
+                        <ListBox x:Name="lbRight" ItemsSource="{Binding ClassFiles}" Background="Transparent" ItemContainerStyle="{StaticResource LBImagesItemStyle}">
+                            <ListBox.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <local:WrapPanel/>
+                                </ItemsPanelTemplate>
+                            </ListBox.ItemsPanel>
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid Background="{Binding background}" Tag="{Binding grListTag}" Width="{Binding grListWidth}" Height="{Binding grListHeight}" Margin="{Binding grListMargin}" ManipulationMode="All" PointerEntered="GrList_PointerEntered" PointerExited="GrList_PointerExited" PointerReleased="GrList_PointerReleased" ManipulationStarted="GrList_ManipulationStarted" ManipulationDelta="GrList_ManipulationDelta" ManipulationCompleted=" GrList_ManipulationCompleted" Holding="GrScroll_Holding">
+                                        <StackPanel >
+                                            <Grid Width="{Binding grListWidth}" Height="{Binding grListWidth}" VerticalAlignment="Center" HorizontalAlignment="Center" >
+                                                <Image MaxWidth="{Binding grListWidth}" MaxHeight="{Binding grListWidth}" Source="{Binding icon}" />
+                                            </Grid>
+                                            <TextBlock Text="{Binding name}" FontSize="{Binding grListFontSize}" TextAlignment="Center" TextWrapping="Wrap" />
+                                        </StackPanel>
+                                        <Image Source="{Binding imgSelected}" Visibility="{Binding imgSelectedVisibility}" />
+                                        <Image Source="{Binding imgMenu}" Tag="{Binding grListTag}" Visibility="{Binding imgMenuVisibility}" Width="{Binding imgMenuWidth}" Margin="{Binding imgMenuMargin}" VerticalAlignment="Bottom" HorizontalAlignment="Right" PointerReleased="Image_PointerReleased"/>
+                                    </Grid>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </Grid>
+                </Grid>
+            </ScrollViewer>
+
+            <!-- Progress Ring -->
+            <ProgressRing Name="prRight" Grid.Row="1" IsActive="False" VerticalAlignment="Top" HorizontalAlignment="Right" />
+
+            <!-- Grid Ladeanzeige -->
+            <Grid Name="grLoadingRight_top" Background="#BB000000" Grid.Row="0" Visibility="Collapsed">
+                <StackPanel VerticalAlignment="Bottom">
+                    <Rectangle Height="1" Fill="#ffcf2828"/>
+                    <Rectangle Height="2" Fill="#ff888888"/>
+                </StackPanel>
+            </Grid>
+            <Grid Name="grLoadingRight_bottom" Background="#BBFFFFFF" Grid.Row="1" Visibility="Collapsed">
+                <StackPanel VerticalAlignment="Center">
+                    <TextBlock Name="tbLoadingRight" FontSize="12" HorizontalAlignment="Center" />
+                    <ProgressRing Name="prLoadingRight" HorizontalAlignment="Center" IsActive="True" Margin="0,12,0,12" />
+                    <Button Name="btnLoadingRight" Margin="0,0,0,12" FontSize="12" HorizontalAlignment="Center" />
+                </StackPanel>
+            </Grid>
+        </Grid>
+
+
+
+        <!--Trennlinie-->
+        <Grid x:Name="rectLine" Width="12" ManipulationMode="All" HorizontalAlignment="Left">
+            <Grid.RenderTransform>
+                <CompositeTransform x:Name="rectTransform" />
+            </Grid.RenderTransform>
+            <Rectangle Width="12" Fill="#ffcf2828" />
+            <Rectangle Width="10" Fill="#FF222222" />
+        </Grid>
+        <Grid x:Name="ellipseLine" Height="32" Width="32" ManipulationMode="All" ManipulationStarted="rectLine_ManipulationStarted" ManipulationCompleted="rectLine_ManipulationCompleted" ManipulationDelta="rectLine_ManipulationDelta" HorizontalAlignment="Left" >
+            <Ellipse Height="32" Width="32" Fill="#ffcf2828" />
+            <Ellipse Height="30" Width="30" Fill="#FF222222" />
+            <Image Source="Images/imgFrameResize.png" />
+        </Grid>
+
+
+
+        <!--Grid Alpha beim Flyout Menü-->
+        <Grid x:Name="grAlpha" Background="#33000000" Visibility="Collapsed" />
+
+
+    </Grid>
+</Page>

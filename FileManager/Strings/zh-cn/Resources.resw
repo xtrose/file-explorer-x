@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="001_Abbrechen" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="001_Ausschneiden" xml:space="preserve">
+    <value>切出</value>
+  </data>
+  <data name="001_Bilder" xml:space="preserve">
+    <value>图片</value>
+  </data>
+  <data name="001_Datei" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="001_DateiBereitsVorhanden" xml:space="preserve">
+    <value>在终点，它已经存在一个同名的文件</value>
+  </data>
+  <data name="001_DateienNichtKopiert" xml:space="preserve">
+    <value>无法复制文件</value>
+  </data>
+  <data name="001_DateienNichtVerschoben" xml:space="preserve">
+    <value>无法移动文件</value>
+  </data>
+  <data name="001_DateiMehrzahl" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="001_DiesesGerät" xml:space="preserve">
+    <value>此设备</value>
+  </data>
+  <data name="001_Dokumente" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="001_Downloads" xml:space="preserve">
+    <value>下载</value>
+  </data>
+  <data name="001_Einfügen" xml:space="preserve">
+    <value>插入</value>
+  </data>
+  <data name="001_Ersetzen" xml:space="preserve">
+    <value>替换</value>
+  </data>
+  <data name="001_FürAlle" xml:space="preserve">
+    <value>适用于所有</value>
+  </data>
+  <data name="001_Integrieren" xml:space="preserve">
+    <value>集成</value>
+  </data>
+  <data name="001_Klingeltöne" xml:space="preserve">
+    <value>铃声</value>
+  </data>
+  <data name="001_Kopieren" xml:space="preserve">
+    <value>副本</value>
+  </data>
+  <data name="001_Löschen" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="001_LöschenBestätigung" xml:space="preserve">
+    <value>永久删除</value>
+  </data>
+  <data name="001_Musik" xml:space="preserve">
+    <value>音乐</value>
+  </data>
+  <data name="001_NichtMöglich" xml:space="preserve">
+    <value>不可能</value>
+  </data>
+  <data name="001_OneDrive" xml:space="preserve">
+    <value>一个驱动器</value>
+  </data>
+  <data name="001_Ordner" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="001_OrdnerBereitsVorhanden" xml:space="preserve">
+    <value>目标中已存在具有此名称的文件夹</value>
+  </data>
+  <data name="001_OrdnerMehrzahl" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="001_OrdnerNichtErstellt" xml:space="preserve">
+    <value>无法创建文件夹</value>
+  </data>
+  <data name="001_OrdnerNichÖffnen" xml:space="preserve">
+    <value>无法打开文件夹</value>
+  </data>
+  <data name="001_Privat" xml:space="preserve">
+    <value>私人</value>
+  </data>
+  <data name="001_SDKarte" xml:space="preserve">
+    <value>SD 卡</value>
+  </data>
+  <data name="001_Teilen" xml:space="preserve">
+    <value>拖放</value>
+  </data>
+  <data name="001_Umbenennen" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="001_Verschieben" xml:space="preserve">
+    <value>移动</value>
+  </data>
+  <data name="001_Videos" xml:space="preserve">
+    <value>视频</value>
+  </data>
+  <data name="001_ZugriffVerweigert" xml:space="preserve">
+    <value>访问被拒绝</value>
+  </data>
+  <data name="001_Überspringen" xml:space="preserve">
+    <value>跳过</value>
+  </data>
+  <data name="001_Hinzufügen" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="001_KeinName" xml:space="preserve">
+    <value>没有输入名</value>
+  </data>
+  <data name="001_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="001_NeuerOrdner" xml:space="preserve">
+    <value>添加文件夹</value>
+  </data>
+  <data name="001_Schließen" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="001_NameFalsch" xml:space="preserve">
+    <value>名称不能用</value>
+  </data>
+  <data name="001_EinenMoment" xml:space="preserve">
+    <value>请等一等</value>
+  </data>
+  <data name="001_DateiNichtGelöscht" xml:space="preserve">
+    <value>无法删除文件</value>
+  </data>
+  <data name="001_OrdnerNichtLöschen" xml:space="preserve">
+    <value>无法删除文件夹</value>
+  </data>
+  <data name="001_DateienNichtEingefügt" xml:space="preserve">
+    <value>无法添加文件</value>
+  </data>
+  <data name="001_DateienNichtVorhanden" xml:space="preserve">
+    <value>文件不再可用</value>
+  </data>
+  <data name="001_DateiNichtVorhanden" xml:space="preserve">
+    <value>文件已不再可用</value>
+  </data>
+  <data name="001_KopierenVerschieben" xml:space="preserve">
+    <value>复制或移动</value>
+  </data>
+  <data name="000_AppName" xml:space="preserve">
+    <value>文件资源管理器 X</value>
+  </data>
+  <data name="001_AllesAbwählen" xml:space="preserve">
+    <value>退出所有</value>
+  </data>
+  <data name="001_AllesAuswählen" xml:space="preserve">
+    <value>选择所有</value>
+  </data>
+  <data name="001_DateiNichtUmbenannt" xml:space="preserve">
+    <value>无法重命名文件</value>
+  </data>
+  <data name="001_OrdnerNichtUmbenannt" xml:space="preserve">
+    <value>无法重命名文件夹</value>
+  </data>
+  <data name="001_Heimnetzgruppe" xml:space="preserve">
+    <value>家庭组</value>
+  </data>
+  <data name="001_NurVollversion" xml:space="preserve">
+    <value>只有在完整版</value>
+  </data>
+  <data name="001_Warnung" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="001_WarnungPrivate" xml:space="preserve">
+    <value>私营部门位于应用程序的目录中，并由密码保护。请写下您的密码并保持它在一个安全的地方。
+很重要 ！
+你失去您的密码或您卸载此应用程序，因此永远的数据丢失。</value>
+  </data>
+  <data name="001_Weiter" xml:space="preserve">
+    <value>下一个</value>
+  </data>
+  <data name="001_Fehler" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="001_KeinPasswort" xml:space="preserve">
+    <value>没有输入密码</value>
+  </data>
+  <data name="001_Passwort" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="001_PasswortErstellen" xml:space="preserve">
+    <value>创建密码</value>
+  </data>
+  <data name="001_PasswortNicht" xml:space="preserve">
+    <value>密码不能用</value>
+  </data>
+  <data name="001_PasswortUnterschied" xml:space="preserve">
+    <value>密码是不同</value>
+  </data>
+  <data name="001_PasswortWiederholen" xml:space="preserve">
+    <value>重复输入密码</value>
+  </data>
+  <data name="001_Datum" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="001_FileType" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="001_OrdnerSortieren" xml:space="preserve">
+    <value>排序文件夹</value>
+  </data>
+  <data name="001_Entfernen" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="001_VerbindungNicht" xml:space="preserve">
+    <value>连接失败</value>
+  </data>
+  <data name="001_DateiNichtGeöffnet" xml:space="preserve">
+    <value>不能打开文件</value>
+  </data>
+  <data name="001_DateiHeruntergeladen" xml:space="preserve">
+    <value>文件是可供下载</value>
+  </data>
+  <data name="001_ArtDerVerbindung" xml:space="preserve">
+    <value>连接类型</value>
+  </data>
+  <data name="001_VerknüpftesKonto" xml:space="preserve">
+    <value>链接的帐户</value>
+  </data>
+  <data name="001_AnderesKonto" xml:space="preserve">
+    <value>另一个帐户</value>
+  </data>
+  <data name="001_DateiOrdnerNichtGelöscht" xml:space="preserve">
+    <value>无法删除文件或文件夹</value>
+  </data>
+  <data name="001_Abmelden" xml:space="preserve">
+    <value>注销</value>
+  </data>
+  <data name="001_Berechtigung" xml:space="preserve">
+    <value>访问权限</value>
+  </data>
+  <data name="001_DateienOrdnerNichtEingefügt" xml:space="preserve">
+    <value>无法添加文件或文件夹</value>
+  </data>
+  <data name="001_DateienSortieren" xml:space="preserve">
+    <value>文件排序</value>
+  </data>
+  <data name="001_DateiOrdnerBereitsVorhanden" xml:space="preserve">
+    <value>已存在的文件或文件夹与目标中的名称</value>
+  </data>
+  <data name="001_DateiOrdnerNichtVorhanden" xml:space="preserve">
+    <value>文件或文件夹将不再可用</value>
+  </data>
+  <data name="001_FreigabeLink" xml:space="preserve">
+    <value>共享链接</value>
+  </data>
+  <data name="001_Lesen" xml:space="preserve">
+    <value>读</value>
+  </data>
+  <data name="001_LesenSchreiben" xml:space="preserve">
+    <value>读和写</value>
+  </data>
+  <data name="001_OneDriveÄndern" xml:space="preserve">
+    <value>帐户更改一个驱动器
+-当前连接
+-连接注销
+-新的连接</value>
+  </data>
+  <data name="001_AnStart" xml:space="preserve">
+    <value>针开始</value>
+  </data>
+  <data name="001_DateiGrößerLimit" xml:space="preserve">
+    <value>该文件是大于限制</value>
+  </data>
+  <data name="001_DDBestätigen" xml:space="preserve">
+    <value>确认拖-和-放操作</value>
+  </data>
+  <data name="001_DDUmgang" xml:space="preserve">
+    <value>拖动和放置的行动</value>
+  </data>
+  <data name="001_DownloadLimit" xml:space="preserve">
+    <value>下载限制打开文件</value>
+  </data>
+  <data name="001_DragAndDrop" xml:space="preserve">
+    <value>拖动和放置</value>
+  </data>
+  <data name="001_Einmal" xml:space="preserve">
+    <value>一旦应用程序关闭</value>
+  </data>
+  <data name="001_Einstellungen" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="001_Fragen" xml:space="preserve">
+    <value>问题</value>
+  </data>
+  <data name="001_Ignorieren" xml:space="preserve">
+    <value>忽略</value>
+  </data>
+  <data name="001_Immer" xml:space="preserve">
+    <value>总是</value>
+  </data>
+  <data name="001_Ja" xml:space="preserve">
+    <value>是的</value>
+  </data>
+  <data name="001_Mehreren" xml:space="preserve">
+    <value>几个</value>
+  </data>
+  <data name="001_Nein" xml:space="preserve">
+    <value>没有</value>
+  </data>
+  <data name="001_Nie" xml:space="preserve">
+    <value>永远不会</value>
+  </data>
+  <data name="001_OnlineVerhalten" xml:space="preserve">
+    <value>在线行为来打开文件</value>
+  </data>
+  <data name="001_OnlineÖffnen" xml:space="preserve">
+    <value>开网店</value>
+  </data>
+  <data name="001_PasswortAbfrage" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="001_PasswortZurück" xml:space="preserve">
+    <value>重置密码</value>
+  </data>
+  <data name="001_PrivaterOrdner" xml:space="preserve">
+    <value>私人文件夹</value>
+  </data>
+  <data name="001_Sortierung" xml:space="preserve">
+    <value>排序</value>
+  </data>
+  <data name="001_SortierungSpeichern" xml:space="preserve">
+    <value>保存命令</value>
+  </data>
+  <data name="001_Standard" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="001_Unendlich" xml:space="preserve">
+    <value>无限</value>
+  </data>
+  <data name="001_Zurück" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="001_ÖffnenVomOrdner" xml:space="preserve">
+    <value>每次你打开的文件夹</value>
+  </data>
+  <data name="001_Benutzername" xml:space="preserve">
+    <value>用户名称</value>
+  </data>
+  <data name="001_PasswortSpeichern" xml:space="preserve">
+    <value>保存密码</value>
+  </data>
+  <data name="001_Server" xml:space="preserve">
+    <value>服务器</value>
+  </data>
+  <data name="001_Übernehmen" xml:space="preserve">
+    <value>接管</value>
+  </data>
+  <data name="001_TemporäreDateien" xml:space="preserve">
+    <value>临时文件</value>
+  </data>
+  <data name="001_TemporäreDateienAnzeigen" xml:space="preserve">
+    <value>查看临时文件</value>
+  </data>
+  <data name="001_TemporäreDateienLöschen" xml:space="preserve">
+    <value>删除临时文件在启动时</value>
+  </data>
+  <data name="001_TemporäreDateienLöschenTask" xml:space="preserve">
+    <value>删除临时文件</value>
+  </data>
+  <data name="001_KopierenVerschiebenOnlineOnline" xml:space="preserve">
+    <value>从复制或移动到在线在线不支持。
+将文件复制到手机，然后到网上。</value>
+  </data>
+  <data name="002_BegrüßungTitel" xml:space="preserve">
+    <value>请仔细阅读这些说明</value>
+  </data>
+  <data name="002_Bergrüßung" xml:space="preserve">
+    <value>感谢您使用此应用程序。
+这个应用程序使用拖动和下降的系统。
+使用灰色栏右边的窗口滚动。</value>
+  </data>
+  <data name="002_NichtAnzeigen" xml:space="preserve">
+    <value>在启动时不显示</value>
+  </data>
+  <data name="002_Dateiauswahl" xml:space="preserve">
+    <value>选择文件</value>
+  </data>
+  <data name="002_DateiauswahlInfo" xml:space="preserve">
+    <value>文件选择器允许您不能打开的文件夹中复制文件。
+-文件
+-下载
+-铃声</value>
+  </data>
+  <data name="002_DateiauswahlKopiert" xml:space="preserve">
+    <value>已复制的文件。
+你现在可以在任何地方将粘贴。</value>
+  </data>
+  <data name="000_Beschreibung" xml:space="preserve">
+    <value>新一代的文件管理器以便 Windows 10 移动。有两个窗户，拖放。为绝对的易用性而设计。支持存储卡、 一个驱动器和 dropbox。
+现在免费试用的。</value>
+  </data>
+  <data name="000_Funktionen_1" xml:space="preserve">
+    <value>两个可调整大小的窗口</value>
+  </data>
+  <data name="000_Funktionen_10" xml:space="preserve">
+    <value>支持所有的屏幕格式</value>
+  </data>
+  <data name="000_Funktionen_2" xml:space="preserve">
+    <value>拖放的快速复制或移动</value>
+  </data>
+  <data name="000_Funktionen_3" xml:space="preserve">
+    <value>支持多个内存卡</value>
+  </data>
+  <data name="000_Funktionen_4" xml:space="preserve">
+    <value>完全集成的一个驱动器</value>
+  </data>
+  <data name="000_Funktionen_5" xml:space="preserve">
+    <value>完整的 dropbox 集成</value>
+  </data>
+  <data name="000_Funktionen_6" xml:space="preserve">
+    <value>受密码保护的私人领域</value>
+  </data>
+  <data name="000_Funktionen_7" xml:space="preserve">
+    <value>多个重命名</value>
+  </data>
+  <data name="000_Funktionen_8" xml:space="preserve">
+    <value>高级排序选项</value>
+  </data>
+  <data name="000_Funktionen_9" xml:space="preserve">
+    <value>文件选择安全的地方</value>
+  </data>
+  <data name="000_Schlagwort_1" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="000_Schlagwort_2" xml:space="preserve">
+    <value>经理</value>
+  </data>
+  <data name="000_Schlagwort_3" xml:space="preserve">
+    <value>资源管理器</value>
+  </data>
+  <data name="000_Schlagwort_4" xml:space="preserve">
+    <value>一个驱动器</value>
+  </data>
+  <data name="000_Schlagwort_5" xml:space="preserve">
+    <value>dropbox</value>
+  </data>
+  <data name="000_Schlagwort_6" xml:space="preserve">
+    <value>云计算</value>
+  </data>
+  <data name="000_Schlagwort_7" xml:space="preserve">
+    <value>网络文件夹</value>
+  </data>
+  <data name="002_Bewerten" xml:space="preserve">
+    <value>率这款应用程序</value>
+  </data>
+  <data name="002_BewertenText" xml:space="preserve">
+    <value>帮助我们传播这个应用程序。
+打分和评论此 app 5 星。
+你免费得到这顶尖的 app。</value>
+  </data>
+  <data name="002_BewertungNachricht" xml:space="preserve">
+    <value>我们发送电子邮件。
+输入你的名字。
+一种使用与您的 Microsoft 帐户。
+然后我们向您发送了一个链接。</value>
+  </data>
+  <data name="002_Danke_1" xml:space="preserve">
+    <value>感谢您使用我们的应用程序。</value>
+  </data>
+  <data name="002_Danke_2" xml:space="preserve">
+    <value>特别感谢</value>
+  </data>
+  <data name="002_Hilfe" xml:space="preserve">
+    <value>手动</value>
+  </data>
+  <data name="002_JetztBewerten" xml:space="preserve">
+    <value>现在率</value>
+  </data>
+  <data name="002_Kaufen" xml:space="preserve">
+    <value>买这款应用程序</value>
+  </data>
+  <data name="002_Kontakt" xml:space="preserve">
+    <value>如何联系</value>
+  </data>
+  <data name="002_Kostenlos" xml:space="preserve">
+    <value>免费为五星</value>
+  </data>
+  <data name="002_MicrosoftBenutzerName" xml:space="preserve">
+    <value>您在您的 Microsoft 帐户使用的名称</value>
+  </data>
+  <data name="002_Postanschrift" xml:space="preserve">
+    <value>邮政地址</value>
+  </data>
+  <data name="002_PromoApp" xml:space="preserve">
+    <value>8.1 锁定屏幕</value>
+  </data>
+  <data name="002_Sprache" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="002_SpracheÄndern" xml:space="preserve">
+    <value>更改语言</value>
+  </data>
+  <data name="002_VielenDank" xml:space="preserve">
+    <value>谢谢</value>
+  </data>
+  <data name="002_Webseite" xml:space="preserve">
+    <value>Web 页</value>
+  </data>
+  <data name="002_Über" xml:space="preserve">
+    <value>关于</value>
+  </data>
+</root>

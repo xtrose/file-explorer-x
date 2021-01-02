@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="001_Abbrechen" xml:space="preserve">
+    <value>ยกเลิก</value>
+  </data>
+  <data name="001_Ausschneiden" xml:space="preserve">
+    <value>ตัดออก</value>
+  </data>
+  <data name="001_Bilder" xml:space="preserve">
+    <value>รูปภาพ</value>
+  </data>
+  <data name="001_Datei" xml:space="preserve">
+    <value>แฟ้ม</value>
+  </data>
+  <data name="001_DateiBereitsVorhanden" xml:space="preserve">
+    <value>เมื่อสิ้นสุด มีอยู่แล้วแฟ้ม มีชื่อ</value>
+  </data>
+  <data name="001_DateienNichtKopiert" xml:space="preserve">
+    <value>ไม่สามารถคัดลอกแฟ้ม</value>
+  </data>
+  <data name="001_DateienNichtVerschoben" xml:space="preserve">
+    <value>ไม่สามารถย้ายแฟ้ม</value>
+  </data>
+  <data name="001_DateiMehrzahl" xml:space="preserve">
+    <value>แฟ้ม</value>
+  </data>
+  <data name="001_DiesesGerät" xml:space="preserve">
+    <value>อุปกรณ์นี้</value>
+  </data>
+  <data name="001_Dokumente" xml:space="preserve">
+    <value>เอกสาร</value>
+  </data>
+  <data name="001_Downloads" xml:space="preserve">
+    <value>ดาวน์โหลด</value>
+  </data>
+  <data name="001_Einfügen" xml:space="preserve">
+    <value>แทรก</value>
+  </data>
+  <data name="001_Ersetzen" xml:space="preserve">
+    <value>แทน</value>
+  </data>
+  <data name="001_FürAlle" xml:space="preserve">
+    <value>ใช้ทั้งหมด</value>
+  </data>
+  <data name="001_Integrieren" xml:space="preserve">
+    <value>รวม</value>
+  </data>
+  <data name="001_Klingeltöne" xml:space="preserve">
+    <value>เสียงเรียกเข้า</value>
+  </data>
+  <data name="001_Kopieren" xml:space="preserve">
+    <value>คัดลอก</value>
+  </data>
+  <data name="001_Löschen" xml:space="preserve">
+    <value>ลบ</value>
+  </data>
+  <data name="001_LöschenBestätigung" xml:space="preserve">
+    <value>การลบอย่างถาวร</value>
+  </data>
+  <data name="001_Musik" xml:space="preserve">
+    <value>เพลง</value>
+  </data>
+  <data name="001_NichtMöglich" xml:space="preserve">
+    <value>ไม่สามารถทำได้</value>
+  </data>
+  <data name="001_OneDrive" xml:space="preserve">
+    <value>หนึ่งไดรฟ์</value>
+  </data>
+  <data name="001_Ordner" xml:space="preserve">
+    <value>โฟลเดอร์</value>
+  </data>
+  <data name="001_OrdnerBereitsVorhanden" xml:space="preserve">
+    <value>โฟลเดอร์ที่ มีชื่อนี้อยู่แล้วในเป้าหมาย</value>
+  </data>
+  <data name="001_OrdnerMehrzahl" xml:space="preserve">
+    <value>โฟลเดอร์</value>
+  </data>
+  <data name="001_OrdnerNichtErstellt" xml:space="preserve">
+    <value>ไม่สามารถสร้างโฟลเดอร์</value>
+  </data>
+  <data name="001_OrdnerNichÖffnen" xml:space="preserve">
+    <value>ไม่สามารถเปิดโฟลเดอร์</value>
+  </data>
+  <data name="001_Privat" xml:space="preserve">
+    <value>ส่วนตัว</value>
+  </data>
+  <data name="001_SDKarte" xml:space="preserve">
+    <value>การ์ด SD</value>
+  </data>
+  <data name="001_Teilen" xml:space="preserve">
+    <value>ใช้ร่วมกัน</value>
+  </data>
+  <data name="001_Umbenennen" xml:space="preserve">
+    <value>เปลี่ยนชื่อ</value>
+  </data>
+  <data name="001_Verschieben" xml:space="preserve">
+    <value>ย้าย</value>
+  </data>
+  <data name="001_Videos" xml:space="preserve">
+    <value>วิดีโอ</value>
+  </data>
+  <data name="001_ZugriffVerweigert" xml:space="preserve">
+    <value>เข้าถึงถูกปฏิเสธ</value>
+  </data>
+  <data name="001_Überspringen" xml:space="preserve">
+    <value>ข้าม</value>
+  </data>
+  <data name="001_Hinzufügen" xml:space="preserve">
+    <value>เพิ่ม</value>
+  </data>
+  <data name="001_KeinName" xml:space="preserve">
+    <value>ไม่มีชื่อที่ป้อน</value>
+  </data>
+  <data name="001_Name" xml:space="preserve">
+    <value>ชื่อ</value>
+  </data>
+  <data name="001_NeuerOrdner" xml:space="preserve">
+    <value>เพิ่มโฟลเดอร์</value>
+  </data>
+  <data name="001_Schließen" xml:space="preserve">
+    <value>ปิด</value>
+  </data>
+  <data name="001_NameFalsch" xml:space="preserve">
+    <value>ไม่สามารถใช้ชื่อ</value>
+  </data>
+  <data name="001_EinenMoment" xml:space="preserve">
+    <value>สักครู่</value>
+  </data>
+  <data name="001_DateiNichtGelöscht" xml:space="preserve">
+    <value>ไม่สามารถลบแฟ้ม</value>
+  </data>
+  <data name="001_OrdnerNichtLöschen" xml:space="preserve">
+    <value>ไม่สามารถลบโฟลเดอร์</value>
+  </data>
+  <data name="001_DateienNichtEingefügt" xml:space="preserve">
+    <value>ไม่สามารถเพิ่มแฟ้ม</value>
+  </data>
+  <data name="001_DateienNichtVorhanden" xml:space="preserve">
+    <value>แฟ้มซึ่งไม่มีอยู่</value>
+  </data>
+  <data name="001_DateiNichtVorhanden" xml:space="preserve">
+    <value>แฟ้มไม่มีอยู่</value>
+  </data>
+  <data name="001_KopierenVerschieben" xml:space="preserve">
+    <value>คัดลอก หรือย้าย</value>
+  </data>
+  <data name="000_AppName" xml:space="preserve">
+    <value>File Explorer X</value>
+  </data>
+  <data name="001_AllesAbwählen" xml:space="preserve">
+    <value>ปฏิเสธทั้งหมด</value>
+  </data>
+  <data name="001_AllesAuswählen" xml:space="preserve">
+    <value>เลือกทั้งหมด</value>
+  </data>
+  <data name="001_DateiNichtUmbenannt" xml:space="preserve">
+    <value>ไม่สามารถเปลี่ยนชื่อแฟ้ม</value>
+  </data>
+  <data name="001_OrdnerNichtUmbenannt" xml:space="preserve">
+    <value>ไม่สามารถเปลี่ยนชื่อโฟลเดอร์</value>
+  </data>
+  <data name="001_Heimnetzgruppe" xml:space="preserve">
+    <value>โฮมกรุ๊ป</value>
+  </data>
+  <data name="001_NurVollversion" xml:space="preserve">
+    <value>มีเฉพาะในเวอร์ชันเต็ม</value>
+  </data>
+  <data name="001_Warnung" xml:space="preserve">
+    <value>คำเตือน</value>
+  </data>
+  <data name="001_WarnungPrivate" xml:space="preserve">
+    <value>ภาคเอกชนอยู่ในไดเรกทอรีของโปรแกรมประยุกต์ และได้รับการป้องกัน ด้วยรหัสผ่าน กรุณาจดรหัสผ่านของคุณ และเก็บไว้ในปลอดภัย
+สำคัญ
+คุณสูญเสียรหัสผ่านของคุณหรือคุณสามารถถอนการติดตั้ง app นี้ ดังนั้นข้อมูลจะสูญหายไปตลอดกาล</value>
+  </data>
+  <data name="001_Weiter" xml:space="preserve">
+    <value>ถัดไป</value>
+  </data>
+  <data name="001_Fehler" xml:space="preserve">
+    <value>ข้อผิดพลาด</value>
+  </data>
+  <data name="001_KeinPasswort" xml:space="preserve">
+    <value>ไม่มีรหัสผ่านที่ป้อน</value>
+  </data>
+  <data name="001_Passwort" xml:space="preserve">
+    <value>รหัสผ่าน</value>
+  </data>
+  <data name="001_PasswortErstellen" xml:space="preserve">
+    <value>สร้างรหัสผ่าน</value>
+  </data>
+  <data name="001_PasswortNicht" xml:space="preserve">
+    <value>ไม่สามารถใช้รหัสผ่าน</value>
+  </data>
+  <data name="001_PasswortUnterschied" xml:space="preserve">
+    <value>รหัสผ่านแตกต่าง</value>
+  </data>
+  <data name="001_PasswortWiederholen" xml:space="preserve">
+    <value>รหัสผ่านใหม่</value>
+  </data>
+  <data name="001_Datum" xml:space="preserve">
+    <value>วัน</value>
+  </data>
+  <data name="001_FileType" xml:space="preserve">
+    <value>ชนิด</value>
+  </data>
+  <data name="001_OrdnerSortieren" xml:space="preserve">
+    <value>เรียงลำดับโฟลเดอร์</value>
+  </data>
+  <data name="001_Entfernen" xml:space="preserve">
+    <value>เอา</value>
+  </data>
+  <data name="001_VerbindungNicht" xml:space="preserve">
+    <value>เชื่อมต่อล้มเหลว</value>
+  </data>
+  <data name="001_DateiNichtGeöffnet" xml:space="preserve">
+    <value>ไม่สามารถเปิดแฟ้ม</value>
+  </data>
+  <data name="001_DateiHeruntergeladen" xml:space="preserve">
+    <value>มีไฟล์ให้ดาวน์โหลด</value>
+  </data>
+  <data name="001_ArtDerVerbindung" xml:space="preserve">
+    <value>ชนิดของการเชื่อมต่อ</value>
+  </data>
+  <data name="001_VerknüpftesKonto" xml:space="preserve">
+    <value>เชื่อมโยงบัญชี</value>
+  </data>
+  <data name="001_AnderesKonto" xml:space="preserve">
+    <value>บัญชีผู้ใช้อื่น</value>
+  </data>
+  <data name="001_DateiOrdnerNichtGelöscht" xml:space="preserve">
+    <value>ไม่สามารถลบแฟ้มหรือโฟลเดอร์</value>
+  </data>
+  <data name="001_Abmelden" xml:space="preserve">
+    <value>ออกจากระบบ</value>
+  </data>
+  <data name="001_Berechtigung" xml:space="preserve">
+    <value>สิทธิ์การเข้าถึง</value>
+  </data>
+  <data name="001_DateienOrdnerNichtEingefügt" xml:space="preserve">
+    <value>ไม่สามารถเพิ่มแฟ้มหรือโฟลเดอร์</value>
+  </data>
+  <data name="001_DateienSortieren" xml:space="preserve">
+    <value>เรียงลำดับแฟ้ม</value>
+  </data>
+  <data name="001_DateiOrdnerBereitsVorhanden" xml:space="preserve">
+    <value>มีไฟล์หรือโฟลเดอร์ที่ มีชื่อในเป้าหมายอยู่แล้ว</value>
+  </data>
+  <data name="001_DateiOrdnerNichtVorhanden" xml:space="preserve">
+    <value>ไม่มีแฟ้มหรือโฟลเดอร์</value>
+  </data>
+  <data name="001_FreigabeLink" xml:space="preserve">
+    <value>แบ่งปันลิงค์</value>
+  </data>
+  <data name="001_Lesen" xml:space="preserve">
+    <value>อ่าน</value>
+  </data>
+  <data name="001_LesenSchreiben" xml:space="preserve">
+    <value>อ่านและเขียน</value>
+  </data>
+  <data name="001_OneDriveÄndern" xml:space="preserve">
+    <value>เปลี่ยนแปลงบัญชีหนึ่งไดรฟ์
+-การเชื่อมต่อปัจจุบัน
+-เชื่อมต่อออกจากระบบ
+-การเชื่อมต่อใหม่</value>
+  </data>
+  <data name="001_AnStart" xml:space="preserve">
+    <value>ปักหมุดเริ่มต้น</value>
+  </data>
+  <data name="001_DateiGrößerLimit" xml:space="preserve">
+    <value>แฟ้มมีขนาดใหญ่กว่าขีดจำกัด</value>
+  </data>
+  <data name="001_DDBestätigen" xml:space="preserve">
+    <value>ยืนยันลาก - และ - วางการดำเนินการ</value>
+  </data>
+  <data name="001_DDUmgang" xml:space="preserve">
+    <value>ลาก - แล้ว - ปล่อย</value>
+  </data>
+  <data name="001_DownloadLimit" xml:space="preserve">
+    <value>ขีดจำกัดในการเปิดไฟล์ที่ดาวน์โหลด</value>
+  </data>
+  <data name="001_DragAndDrop" xml:space="preserve">
+    <value>ลาก - และ - หล่น</value>
+  </data>
+  <data name="001_Einmal" xml:space="preserve">
+    <value>เมื่อปิดแอป</value>
+  </data>
+  <data name="001_Einstellungen" xml:space="preserve">
+    <value>การตั้งค่า</value>
+  </data>
+  <data name="001_Fragen" xml:space="preserve">
+    <value>คำถาม</value>
+  </data>
+  <data name="001_Ignorieren" xml:space="preserve">
+    <value>ละเว้น</value>
+  </data>
+  <data name="001_Immer" xml:space="preserve">
+    <value>เสมอ</value>
+  </data>
+  <data name="001_Ja" xml:space="preserve">
+    <value>ใช่</value>
+  </data>
+  <data name="001_Mehreren" xml:space="preserve">
+    <value>หลาย</value>
+  </data>
+  <data name="001_Nein" xml:space="preserve">
+    <value>ไม่ใช่</value>
+  </data>
+  <data name="001_Nie" xml:space="preserve">
+    <value>ไม่เคย</value>
+  </data>
+  <data name="001_OnlineVerhalten" xml:space="preserve">
+    <value>ลักษณะการทำงานออนไลน์เพื่อเปิดแฟ้ม</value>
+  </data>
+  <data name="001_OnlineÖffnen" xml:space="preserve">
+    <value>เปิดออนไลน์</value>
+  </data>
+  <data name="001_PasswortAbfrage" xml:space="preserve">
+    <value>รหัสผ่าน</value>
+  </data>
+  <data name="001_PasswortZurück" xml:space="preserve">
+    <value>รีเซ็ตรหัสผ่าน</value>
+  </data>
+  <data name="001_PrivaterOrdner" xml:space="preserve">
+    <value>โฟลเดอร์ส่วนตัว</value>
+  </data>
+  <data name="001_Sortierung" xml:space="preserve">
+    <value>การเรียงลำดับ</value>
+  </data>
+  <data name="001_SortierungSpeichern" xml:space="preserve">
+    <value>บันทึกการสั่งซื้อ</value>
+  </data>
+  <data name="001_Standard" xml:space="preserve">
+    <value>มาตรฐาน</value>
+  </data>
+  <data name="001_Unendlich" xml:space="preserve">
+    <value>อินฟินิตี้</value>
+  </data>
+  <data name="001_Zurück" xml:space="preserve">
+    <value>ย้อนกลับ</value>
+  </data>
+  <data name="001_ÖffnenVomOrdner" xml:space="preserve">
+    <value>แต่ละครั้งที่คุณเปิดโฟลเดอร์</value>
+  </data>
+  <data name="001_Benutzername" xml:space="preserve">
+    <value>ชื่อผู้ใช้</value>
+  </data>
+  <data name="001_PasswortSpeichern" xml:space="preserve">
+    <value>บันทึกรหัสผ่าน</value>
+  </data>
+  <data name="001_Server" xml:space="preserve">
+    <value>เซิร์ฟเวอร์</value>
+  </data>
+  <data name="001_Übernehmen" xml:space="preserve">
+    <value>ใช้เวลามากกว่า</value>
+  </data>
+  <data name="001_TemporäreDateien" xml:space="preserve">
+    <value>แฟ้มชั่วคราว</value>
+  </data>
+  <data name="001_TemporäreDateienAnzeigen" xml:space="preserve">
+    <value>ดูแฟ้มชั่วคราว</value>
+  </data>
+  <data name="001_TemporäreDateienLöschen" xml:space="preserve">
+    <value>ลบแฟ้มชั่วคราวเมื่อเริ่มต้น</value>
+  </data>
+  <data name="001_TemporäreDateienLöschenTask" xml:space="preserve">
+    <value>ลบแฟ้มชั่วคราว</value>
+  </data>
+  <data name="001_KopierenVerschiebenOnlineOnline" xml:space="preserve">
+    <value>คัดลอก หรือย้ายจากออนไลน์ออนไลน์ไม่สนับสนุน
+คัดลอกแฟ้ม ไปยังโทรศัพท์ และออนไลน์</value>
+  </data>
+  <data name="002_BegrüßungTitel" xml:space="preserve">
+    <value>โปรดอ่านคำแนะนำเหล่านี้</value>
+  </data>
+  <data name="002_Bergrüßung" xml:space="preserve">
+    <value>ขอบคุณสำหรับการใช้ app นี้
+แอพนี้ใช้ลาก - และ - วางระบบ
+ใช้แถบสีเทาด้านขวาของหน้าต่างเพื่อเลื่อน</value>
+  </data>
+  <data name="002_NichtAnzeigen" xml:space="preserve">
+    <value>ไม่ต้องแสดงเมื่อเริ่มต้น</value>
+  </data>
+  <data name="002_Dateiauswahl" xml:space="preserve">
+    <value>เลือกไฟล์</value>
+  </data>
+  <data name="002_DateiauswahlInfo" xml:space="preserve">
+    <value>ตัวเลือกแฟ้มช่วยให้คุณคัดลอกแฟ้มจากโฟลเดอร์ที่ไม่สามารถเปิด
+-เอกสาร
+-ดาวน์โหลด
+-เสียงเรียกเข้า</value>
+  </data>
+  <data name="002_DateiauswahlKopiert" xml:space="preserve">
+    <value>มีการคัดลอกแฟ้ม
+คุณสามารถเดี๋ยวนี้วางที่ใดก็ได้</value>
+  </data>
+  <data name="000_Beschreibung" xml:space="preserve">
+    <value>รุ่นใหม่ตัวจัดการไฟล์สำหรับ Windows 10 มือถือ มีหน้าต่างสองและลาก และวาง ออกแบบมาสำหรับใช้งานง่ายแน่นอน รองรับการ์ดหน่วยความจำ ไดรฟ์หนึ่ง และ dropbox
+ลองฟรี</value>
+  </data>
+  <data name="000_Funktionen_1" xml:space="preserve">
+    <value>หน้าต่างปรับขนาดได้</value>
+  </data>
+  <data name="000_Funktionen_10" xml:space="preserve">
+    <value>สนับสนุนทุกรูปแบบหน้าจอ</value>
+  </data>
+  <data name="000_Funktionen_2" xml:space="preserve">
+    <value>ลาก และปล่อยสำหรับรวดเร็วคัดลอกหรือย้าย</value>
+  </data>
+  <data name="000_Funktionen_3" xml:space="preserve">
+    <value>รองรับการ์ดหน่วยความจำหลาย</value>
+  </data>
+  <data name="000_Funktionen_4" xml:space="preserve">
+    <value>บูรณาการของไดรฟ์หนึ่ง</value>
+  </data>
+  <data name="000_Funktionen_5" xml:space="preserve">
+    <value>รวม dropbox เต็ม</value>
+  </data>
+  <data name="000_Funktionen_6" xml:space="preserve">
+    <value>รหัสผ่านป้องกันพื้นที่ส่วนตัว</value>
+  </data>
+  <data name="000_Funktionen_7" xml:space="preserve">
+    <value>เปลี่ยนชื่อหลาย</value>
+  </data>
+  <data name="000_Funktionen_8" xml:space="preserve">
+    <value>ขั้นสูงตัวเลือกการเรียงลำดับ</value>
+  </data>
+  <data name="000_Funktionen_9" xml:space="preserve">
+    <value>เลือกไฟล์สำหรับพื้นที่ที่มีความปลอดภัย</value>
+  </data>
+  <data name="000_Schlagwort_1" xml:space="preserve">
+    <value>แฟ้ม</value>
+  </data>
+  <data name="000_Schlagwort_2" xml:space="preserve">
+    <value>ผู้จัดการ</value>
+  </data>
+  <data name="000_Schlagwort_3" xml:space="preserve">
+    <value>Explorer</value>
+  </data>
+  <data name="000_Schlagwort_4" xml:space="preserve">
+    <value>หนึ่งไดรฟ์</value>
+  </data>
+  <data name="000_Schlagwort_5" xml:space="preserve">
+    <value>dropbox</value>
+  </data>
+  <data name="000_Schlagwort_6" xml:space="preserve">
+    <value>ระบบคลาวด์</value>
+  </data>
+  <data name="000_Schlagwort_7" xml:space="preserve">
+    <value>โฟลเดอร์เครือข่าย</value>
+  </data>
+  <data name="002_Bewerten" xml:space="preserve">
+    <value>ราคา app นี้</value>
+  </data>
+  <data name="002_BewertenText" xml:space="preserve">
+    <value>ช่วยเราอย่างนี้
+คะแนน และรีวิวนี้ดาวป 5
+และคุณได้รับ app นี้บนฟรี</value>
+  </data>
+  <data name="002_BewertungNachricht" xml:space="preserve">
+    <value>ส่งอีเมล์
+ป้อนชื่อของคุณ
+หนึ่งที่คุณใช้กับบัญชี Microsoft ของคุณ
+เราส่งลิงค์แล้ว</value>
+  </data>
+  <data name="002_Danke_1" xml:space="preserve">
+    <value>ขอบคุณสำหรับการใช้แอปของเรา</value>
+  </data>
+  <data name="002_Danke_2" xml:space="preserve">
+    <value>ขอบคุณ</value>
+  </data>
+  <data name="002_Hilfe" xml:space="preserve">
+    <value>ด้วยตนเอง</value>
+  </data>
+  <data name="002_JetztBewerten" xml:space="preserve">
+    <value>ราคาตอนนี้</value>
+  </data>
+  <data name="002_Kaufen" xml:space="preserve">
+    <value>ซื้อ app นี้</value>
+  </data>
+  <data name="002_Kontakt" xml:space="preserve">
+    <value>วิธีการติดต่อกับ</value>
+  </data>
+  <data name="002_Kostenlos" xml:space="preserve">
+    <value>ฟรีสำหรับห้าดาว</value>
+  </data>
+  <data name="002_MicrosoftBenutzerName" xml:space="preserve">
+    <value>ชื่อที่คุณใช้ในบัญชี Microsoft ของคุณ</value>
+  </data>
+  <data name="002_Postanschrift" xml:space="preserve">
+    <value>ที่อยู่ไปรษณีย์</value>
+  </data>
+  <data name="002_PromoApp" xml:space="preserve">
+    <value>8.1 ล็อคหน้าจอ</value>
+  </data>
+  <data name="002_Sprache" xml:space="preserve">
+    <value>ภาษา</value>
+  </data>
+  <data name="002_SpracheÄndern" xml:space="preserve">
+    <value>เปลี่ยนภาษา</value>
+  </data>
+  <data name="002_VielenDank" xml:space="preserve">
+    <value>ขอบคุณมาก</value>
+  </data>
+  <data name="002_Webseite" xml:space="preserve">
+    <value>เว็บเพจ</value>
+  </data>
+  <data name="002_Über" xml:space="preserve">
+    <value>เกี่ยวกับ</value>
+  </data>
+</root>

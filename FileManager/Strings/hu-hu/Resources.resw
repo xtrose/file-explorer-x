@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="001_Abbrechen" xml:space="preserve">
+    <value>Mégse</value>
+  </data>
+  <data name="001_Ausschneiden" xml:space="preserve">
+    <value>Vágja ki</value>
+  </data>
+  <data name="001_Bilder" xml:space="preserve">
+    <value>Képek</value>
+  </data>
+  <data name="001_Datei" xml:space="preserve">
+    <value>Fájl</value>
+  </data>
+  <data name="001_DateiBereitsVorhanden" xml:space="preserve">
+    <value>A végén már létezik ilyen nevű fájl</value>
+  </data>
+  <data name="001_DateienNichtKopiert" xml:space="preserve">
+    <value>Fájlokat nem lehet másolni</value>
+  </data>
+  <data name="001_DateienNichtVerschoben" xml:space="preserve">
+    <value>Fájlokat nem lehet mozgatni</value>
+  </data>
+  <data name="001_DateiMehrzahl" xml:space="preserve">
+    <value>Fájlok</value>
+  </data>
+  <data name="001_DiesesGerät" xml:space="preserve">
+    <value>Ez a készülék</value>
+  </data>
+  <data name="001_Dokumente" xml:space="preserve">
+    <value>Dokumentumok</value>
+  </data>
+  <data name="001_Downloads" xml:space="preserve">
+    <value>Letöltések</value>
+  </data>
+  <data name="001_Einfügen" xml:space="preserve">
+    <value>Beszúrása</value>
+  </data>
+  <data name="001_Ersetzen" xml:space="preserve">
+    <value>Csere</value>
+  </data>
+  <data name="001_FürAlle" xml:space="preserve">
+    <value>Alkalmazás mindre</value>
+  </data>
+  <data name="001_Integrieren" xml:space="preserve">
+    <value>Kiegészít</value>
+  </data>
+  <data name="001_Klingeltöne" xml:space="preserve">
+    <value>Csengőhangok</value>
+  </data>
+  <data name="001_Kopieren" xml:space="preserve">
+    <value>Másolás</value>
+  </data>
+  <data name="001_Löschen" xml:space="preserve">
+    <value>Törlése</value>
+  </data>
+  <data name="001_LöschenBestätigung" xml:space="preserve">
+    <value>Végleges törlés</value>
+  </data>
+  <data name="001_Musik" xml:space="preserve">
+    <value>Zene</value>
+  </data>
+  <data name="001_NichtMöglich" xml:space="preserve">
+    <value>Nem lehetséges</value>
+  </data>
+  <data name="001_OneDrive" xml:space="preserve">
+    <value>Egy meghajtó</value>
+  </data>
+  <data name="001_Ordner" xml:space="preserve">
+    <value>Mappa</value>
+  </data>
+  <data name="001_OrdnerBereitsVorhanden" xml:space="preserve">
+    <value>A cél már létezik ilyen nevű mappa</value>
+  </data>
+  <data name="001_OrdnerMehrzahl" xml:space="preserve">
+    <value>Mappa</value>
+  </data>
+  <data name="001_OrdnerNichtErstellt" xml:space="preserve">
+    <value>Mappa nem hozható létre</value>
+  </data>
+  <data name="001_OrdnerNichÖffnen" xml:space="preserve">
+    <value>Képtelen-hoz nyit a dosszié</value>
+  </data>
+  <data name="001_Privat" xml:space="preserve">
+    <value>Privát</value>
+  </data>
+  <data name="001_SDKarte" xml:space="preserve">
+    <value>SD-kártya</value>
+  </data>
+  <data name="001_Teilen" xml:space="preserve">
+    <value>Részvény</value>
+  </data>
+  <data name="001_Umbenennen" xml:space="preserve">
+    <value>Átnevezése</value>
+  </data>
+  <data name="001_Verschieben" xml:space="preserve">
+    <value>Mozog</value>
+  </data>
+  <data name="001_Videos" xml:space="preserve">
+    <value>Videók</value>
+  </data>
+  <data name="001_ZugriffVerweigert" xml:space="preserve">
+    <value>Hozzáférés megtagadva</value>
+  </data>
+  <data name="001_Überspringen" xml:space="preserve">
+    <value>Ugrás</value>
+  </data>
+  <data name="001_Hinzufügen" xml:space="preserve">
+    <value>Add hozzá</value>
+  </data>
+  <data name="001_KeinName" xml:space="preserve">
+    <value>Nincs megadott név</value>
+  </data>
+  <data name="001_Name" xml:space="preserve">
+    <value>név</value>
+  </data>
+  <data name="001_NeuerOrdner" xml:space="preserve">
+    <value>Mappa hozzáadása</value>
+  </data>
+  <data name="001_Schließen" xml:space="preserve">
+    <value>Zár</value>
+  </data>
+  <data name="001_NameFalsch" xml:space="preserve">
+    <value>A név nem használható</value>
+  </data>
+  <data name="001_EinenMoment" xml:space="preserve">
+    <value>Egy pillanatnyi türelmet kérünk</value>
+  </data>
+  <data name="001_DateiNichtGelöscht" xml:space="preserve">
+    <value>Fájl nem törölhető</value>
+  </data>
+  <data name="001_OrdnerNichtLöschen" xml:space="preserve">
+    <value>Mappa nem törölhető</value>
+  </data>
+  <data name="001_DateienNichtEingefügt" xml:space="preserve">
+    <value>Fájl nem adható hozzá</value>
+  </data>
+  <data name="001_DateienNichtVorhanden" xml:space="preserve">
+    <value>Fájlok már nem érhetők el</value>
+  </data>
+  <data name="001_DateiNichtVorhanden" xml:space="preserve">
+    <value>Reszelő nem hosszabb elérhető</value>
+  </data>
+  <data name="001_KopierenVerschieben" xml:space="preserve">
+    <value>Másolása vagy áthelyezése</value>
+  </data>
+  <data name="000_AppName" xml:space="preserve">
+    <value>Fájlkezelő X</value>
+  </data>
+  <data name="001_AllesAbwählen" xml:space="preserve">
+    <value>Választhatja az összes</value>
+  </data>
+  <data name="001_AllesAuswählen" xml:space="preserve">
+    <value>Jelölje ki az összes</value>
+  </data>
+  <data name="001_DateiNichtUmbenannt" xml:space="preserve">
+    <value>Fájlt nem lehet átnevezni</value>
+  </data>
+  <data name="001_OrdnerNichtUmbenannt" xml:space="preserve">
+    <value>Mappát nem lehet átnevezni</value>
+  </data>
+  <data name="001_Heimnetzgruppe" xml:space="preserve">
+    <value>Az otthoni csoport</value>
+  </data>
+  <data name="001_NurVollversion" xml:space="preserve">
+    <value>Csak rendelkezésre, a teljes verzió</value>
+  </data>
+  <data name="001_Warnung" xml:space="preserve">
+    <value>Figyelmeztetés</value>
+  </data>
+  <data name="001_WarnungPrivate" xml:space="preserve">
+    <value>A magánszektor az app könyvtárban található, és van megvéd mellett egy jelszó. Kérjük, írja le a jelszavát, és tartsa biztonságos helyen.
+Fontos!
+Akkor elveszíti a jelszavát, vagy uninstalling ez app, hogy az adatok elveszett örökre.</value>
+  </data>
+  <data name="001_Weiter" xml:space="preserve">
+    <value>Következő</value>
+  </data>
+  <data name="001_Fehler" xml:space="preserve">
+    <value>Hiba</value>
+  </data>
+  <data name="001_KeinPasswort" xml:space="preserve">
+    <value>Nincs jelszó</value>
+  </data>
+  <data name="001_Passwort" xml:space="preserve">
+    <value>Jelszó</value>
+  </data>
+  <data name="001_PasswortErstellen" xml:space="preserve">
+    <value>Jelszó létrehozása</value>
+  </data>
+  <data name="001_PasswortNicht" xml:space="preserve">
+    <value>Jelszó nem használható</value>
+  </data>
+  <data name="001_PasswortUnterschied" xml:space="preserve">
+    <value>A jelszavakban a különböző</value>
+  </data>
+  <data name="001_PasswortWiederholen" xml:space="preserve">
+    <value>Ismételd meg a jelszót</value>
+  </data>
+  <data name="001_Datum" xml:space="preserve">
+    <value>Dátum</value>
+  </data>
+  <data name="001_FileType" xml:space="preserve">
+    <value>Típus</value>
+  </data>
+  <data name="001_OrdnerSortieren" xml:space="preserve">
+    <value>Mappák rendezési</value>
+  </data>
+  <data name="001_Entfernen" xml:space="preserve">
+    <value>Eltávolítása</value>
+  </data>
+  <data name="001_VerbindungNicht" xml:space="preserve">
+    <value>Sikertelen kapcsolódás</value>
+  </data>
+  <data name="001_DateiNichtGeöffnet" xml:space="preserve">
+    <value>Fájl nem nyitható meg</value>
+  </data>
+  <data name="001_DateiHeruntergeladen" xml:space="preserve">
+    <value>Reszelő elérhető részére letölt</value>
+  </data>
+  <data name="001_ArtDerVerbindung" xml:space="preserve">
+    <value>Kapcsolat típusa</value>
+  </data>
+  <data name="001_VerknüpftesKonto" xml:space="preserve">
+    <value>Az összekapcsolt fiókokkal</value>
+  </data>
+  <data name="001_AnderesKonto" xml:space="preserve">
+    <value>Egy másik fiók</value>
+  </data>
+  <data name="001_DateiOrdnerNichtGelöscht" xml:space="preserve">
+    <value>Fájl vagy mappa nem törölhető</value>
+  </data>
+  <data name="001_Abmelden" xml:space="preserve">
+    <value>Jelentkezzen ki</value>
+  </data>
+  <data name="001_Berechtigung" xml:space="preserve">
+    <value>A hozzáférési engedély</value>
+  </data>
+  <data name="001_DateienOrdnerNichtEingefügt" xml:space="preserve">
+    <value>Fájl vagy mappa nem adható hozzá</value>
+  </data>
+  <data name="001_DateienSortieren" xml:space="preserve">
+    <value>Rendezés fájlok</value>
+  </data>
+  <data name="001_DateiOrdnerBereitsVorhanden" xml:space="preserve">
+    <value>Már van egy reszelő vagy dosszié-val a név, a cél</value>
+  </data>
+  <data name="001_DateiOrdnerNichtVorhanden" xml:space="preserve">
+    <value>Fájl vagy mappa már nem érhető el</value>
+  </data>
+  <data name="001_FreigabeLink" xml:space="preserve">
+    <value>Osztozik láncszem</value>
+  </data>
+  <data name="001_Lesen" xml:space="preserve">
+    <value>Olvassa el</value>
+  </data>
+  <data name="001_LesenSchreiben" xml:space="preserve">
+    <value>Olvasási és írási</value>
+  </data>
+  <data name="001_OneDriveÄndern" xml:space="preserve">
+    <value>Fiók megváltoztat egy meghajtó
+-Az aktuális kapcsolat
+-Kapcsolat fakitermelés távoli
+-Új kapcsolat</value>
+  </data>
+  <data name="001_AnStart" xml:space="preserve">
+    <value>KITŰZŐ-hoz elkezd</value>
+  </data>
+  <data name="001_DateiGrößerLimit" xml:space="preserve">
+    <value>A fájl mérete nagyobb, mint a határérték</value>
+  </data>
+  <data name="001_DDBestätigen" xml:space="preserve">
+    <value>Erősítse meg húz - és - csepp akció</value>
+  </data>
+  <data name="001_DDUmgang" xml:space="preserve">
+    <value>Húz - és - csepp akció</value>
+  </data>
+  <data name="001_DownloadLimit" xml:space="preserve">
+    <value>Letölt korlátoz-hoz nyit fájlokat</value>
+  </data>
+  <data name="001_DragAndDrop" xml:space="preserve">
+    <value>Húz - és - csepp</value>
+  </data>
+  <data name="001_Einmal" xml:space="preserve">
+    <value>Ha az alkalmazás le van zárva</value>
+  </data>
+  <data name="001_Einstellungen" xml:space="preserve">
+    <value>Beállítások</value>
+  </data>
+  <data name="001_Fragen" xml:space="preserve">
+    <value>Kérdések</value>
+  </data>
+  <data name="001_Ignorieren" xml:space="preserve">
+    <value>Figyelmen kívül hagyása</value>
+  </data>
+  <data name="001_Immer" xml:space="preserve">
+    <value>Mindig</value>
+  </data>
+  <data name="001_Ja" xml:space="preserve">
+    <value>igen</value>
+  </data>
+  <data name="001_Mehreren" xml:space="preserve">
+    <value>Több</value>
+  </data>
+  <data name="001_Nein" xml:space="preserve">
+    <value>nem</value>
+  </data>
+  <data name="001_Nie" xml:space="preserve">
+    <value>Soha nem</value>
+  </data>
+  <data name="001_OnlineVerhalten" xml:space="preserve">
+    <value>Nyissa meg a fájlokat online viselkedés</value>
+  </data>
+  <data name="001_OnlineÖffnen" xml:space="preserve">
+    <value>Nyílt online</value>
+  </data>
+  <data name="001_PasswortAbfrage" xml:space="preserve">
+    <value>Jelszó</value>
+  </data>
+  <data name="001_PasswortZurück" xml:space="preserve">
+    <value>-Jelszó alaphelyzetbe állítása</value>
+  </data>
+  <data name="001_PrivaterOrdner" xml:space="preserve">
+    <value>Közlegény Dosszié</value>
+  </data>
+  <data name="001_Sortierung" xml:space="preserve">
+    <value>Válogatás</value>
+  </data>
+  <data name="001_SortierungSpeichern" xml:space="preserve">
+    <value>Menteni a megrendelés</value>
+  </data>
+  <data name="001_Standard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="001_Unendlich" xml:space="preserve">
+    <value>Infinity</value>
+  </data>
+  <data name="001_Zurück" xml:space="preserve">
+    <value>Vissza</value>
+  </data>
+  <data name="001_ÖffnenVomOrdner" xml:space="preserve">
+    <value>Minden alkalommal, amikor megnyitja a mappát</value>
+  </data>
+  <data name="001_Benutzername" xml:space="preserve">
+    <value>Felhasználói név</value>
+  </data>
+  <data name="001_PasswortSpeichern" xml:space="preserve">
+    <value>Jelszó mentése</value>
+  </data>
+  <data name="001_Server" xml:space="preserve">
+    <value>Szerver</value>
+  </data>
+  <data name="001_Übernehmen" xml:space="preserve">
+    <value>Átveszi</value>
+  </data>
+  <data name="001_TemporäreDateien" xml:space="preserve">
+    <value>Ideiglenes fájlok</value>
+  </data>
+  <data name="001_TemporäreDateienAnzeigen" xml:space="preserve">
+    <value>Ideiglenes fájlok megtekintése</value>
+  </data>
+  <data name="001_TemporäreDateienLöschen" xml:space="preserve">
+    <value>Törölni az ideiglenes fájlokat indításkor</value>
+  </data>
+  <data name="001_TemporäreDateienLöschenTask" xml:space="preserve">
+    <value>Ideiglenes fájlok törlése</value>
+  </data>
+  <data name="001_KopierenVerschiebenOnlineOnline" xml:space="preserve">
+    <value>Másolni vagy áthelyezni az online, online nem támogatott.
+Másolja a fájlokat a telefonra, majd online.</value>
+  </data>
+  <data name="002_BegrüßungTitel" xml:space="preserve">
+    <value>Kérjük, olvassa el ezeket az utasításokat gondosan</value>
+  </data>
+  <data name="002_Bergrüßung" xml:space="preserve">
+    <value>Köszönet részére ez app használ.
+Ez app használ húz - és - csepp.
+A szürke sáv jobb oldalán az ablak segítségével böngészhet.</value>
+  </data>
+  <data name="002_NichtAnzeigen" xml:space="preserve">
+    <value>Ne jelenjen meg induláskor</value>
+  </data>
+  <data name="002_Dateiauswahl" xml:space="preserve">
+    <value>Fájl kiválasztása</value>
+  </data>
+  <data name="002_DateiauswahlInfo" xml:space="preserve">
+    <value>A fájl választóval lehetővé teszi, hogy másol fájlokat-ból tartók amit nem lehet megnyitni.
+-Dokumentumok
+-Letöltések
+-Csengőhangok</value>
+  </data>
+  <data name="002_DateiauswahlKopiert" xml:space="preserve">
+    <value>A fájlok lemásolták.
+Most már beillesztheti azt bárhol.</value>
+  </data>
+  <data name="000_Beschreibung" xml:space="preserve">
+    <value>Fájlkezelő a Windows 10 mobil új generációja. A két Windows és drag-and-drop. Tervezett abszolút nyugalom-ból használ. Támogatja a memóriakártyák, egy meghajtó és a dropbox.
+Próbáld ki most ingyen.</value>
+  </data>
+  <data name="000_Funktionen_1" xml:space="preserve">
+    <value>Két átméretezhető ablak</value>
+  </data>
+  <data name="000_Funktionen_10" xml:space="preserve">
+    <value>Támogatja az összes képernyő formátum</value>
+  </data>
+  <data name="000_Funktionen_2" xml:space="preserve">
+    <value>Drag-and-drop-gyors másolás vagy áthelyezés</value>
+  </data>
+  <data name="000_Funktionen_3" xml:space="preserve">
+    <value>Támogatja a több memória kartotékok</value>
+  </data>
+  <data name="000_Funktionen_4" xml:space="preserve">
+    <value>Egy meghajtó teljes integráció</value>
+  </data>
+  <data name="000_Funktionen_5" xml:space="preserve">
+    <value>Teljes dropbox integráció</value>
+  </data>
+  <data name="000_Funktionen_6" xml:space="preserve">
+    <value>Jelszóval védett privát terület</value>
+  </data>
+  <data name="000_Funktionen_7" xml:space="preserve">
+    <value>Több átnevezése</value>
+  </data>
+  <data name="000_Funktionen_8" xml:space="preserve">
+    <value>Speciális rendezési beállításai</value>
+  </data>
+  <data name="000_Funktionen_9" xml:space="preserve">
+    <value>Védett területek fájl kiválasztása</value>
+  </data>
+  <data name="000_Schlagwort_1" xml:space="preserve">
+    <value>fájl</value>
+  </data>
+  <data name="000_Schlagwort_2" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="000_Schlagwort_3" xml:space="preserve">
+    <value>Explorer</value>
+  </data>
+  <data name="000_Schlagwort_4" xml:space="preserve">
+    <value>egy meghajtó</value>
+  </data>
+  <data name="000_Schlagwort_5" xml:space="preserve">
+    <value>Dropbox</value>
+  </data>
+  <data name="000_Schlagwort_6" xml:space="preserve">
+    <value>felhő</value>
+  </data>
+  <data name="000_Schlagwort_7" xml:space="preserve">
+    <value>hálózati mappa</value>
+  </data>
+  <data name="002_Bewerten" xml:space="preserve">
+    <value>Arány ez app</value>
+  </data>
+  <data name="002_BewertenText" xml:space="preserve">
+    <value>Segítsen nekünk, hogy ez app.
+Értékelése és ez app 5 csillag.
+És ez a legjobb app részére szabad.</value>
+  </data>
+  <data name="002_BewertungNachricht" xml:space="preserve">
+    <value>Küldjön egy e-mailt.
+Adja meg a nevét.
+Az egyetlen, amely a Microsoft-fiókjához használ.
+Küldünk Önnek egy linket majd.</value>
+  </data>
+  <data name="002_Danke_1" xml:space="preserve">
+    <value>Köszönjük, hogy alkalmazásaink segítségével.</value>
+  </data>
+  <data name="002_Danke_2" xml:space="preserve">
+    <value>Külön köszönet</value>
+  </data>
+  <data name="002_Hilfe" xml:space="preserve">
+    <value>Kézikönyv</value>
+  </data>
+  <data name="002_JetztBewerten" xml:space="preserve">
+    <value>Minősítés most</value>
+  </data>
+  <data name="002_Kaufen" xml:space="preserve">
+    <value>Vásárolni Ez app</value>
+  </data>
+  <data name="002_Kontakt" xml:space="preserve">
+    <value>Hogyan léphet kapcsolatba a</value>
+  </data>
+  <data name="002_Kostenlos" xml:space="preserve">
+    <value>Öt csillagos ingyen</value>
+  </data>
+  <data name="002_MicrosoftBenutzerName" xml:space="preserve">
+    <value>Használja a Microsoft-fiók neve</value>
+  </data>
+  <data name="002_Postanschrift" xml:space="preserve">
+    <value>Postázási cím</value>
+  </data>
+  <data name="002_PromoApp" xml:space="preserve">
+    <value>8.1 zár képernyőn</value>
+  </data>
+  <data name="002_Sprache" xml:space="preserve">
+    <value>Nyelv</value>
+  </data>
+  <data name="002_SpracheÄndern" xml:space="preserve">
+    <value>Nyelv módosítása</value>
+  </data>
+  <data name="002_VielenDank" xml:space="preserve">
+    <value>nagyon köszönöm</value>
+  </data>
+  <data name="002_Webseite" xml:space="preserve">
+    <value>Web-oldal</value>
+  </data>
+  <data name="002_Über" xml:space="preserve">
+    <value>Körülbelül</value>
+  </data>
+</root>

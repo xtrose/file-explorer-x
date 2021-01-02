@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:mobile="http://schemas.microsoft.com/appx/manifest/mobile/windows10" IgnorableNamespaces="uap mp mobile">
+  <Identity Name="6490xtrose.Datei-ExplorerX" Publisher="CN=A59B8BBA-C7F1-4116-AECF-50F8BF4CB0E5" Version="1.5.2.0" />
+  <mp:PhoneIdentity PhoneProductId="5d864480-29e1-430f-9a31-5a64c8255650" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>Datei-Explorer X</DisplayName>
+    <PublisherDisplayName>xtrose</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="FileManager.App">
+      <uap:VisualElements DisplayName="ms-resource:000_AppName" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="File Explorer X" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\Square310x310Logo.png" Square71x71Logo="Assets\Square71x71Logo.png">
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#292929" />
+      </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.fileTypeAssociation">
+          <uap:FileTypeAssociation Name="files">
+            <uap:SupportedFileTypes>
+              <uap:FileType>.264</uap:FileType>
+              <uap:FileType>.3g2</uap:FileType>
+              <uap:FileType>.3gp</uap:FileType>
+              <uap:FileType>.7z</uap:FileType>
+              <uap:FileType>.7zip</uap:FileType>
+              <uap:FileType>.aac</uap:FileType>
+              <uap:FileType>.abm</uap:FileType>
+              <uap:FileType>.accdb</uap:FileType>
+              <uap:FileType>.accdt</uap:FileType>
+              <uap:FileType>.ace</uap:FileType>
+              <uap:FileType>.ai</uap:FileType>
+              <uap:FileType>.amr</uap:FileType>
+              <uap:FileType>.ajr</uap:FileType>
+              <uap:FileType>.asp</uap:FileType>
+              <uap:FileType>.aspx</uap:FileType>
+              <uap:FileType>.asx</uap:FileType>
+              <uap:FileType>.avi</uap:FileType>
+              <uap:FileType>.bak</uap:FileType>
+              <uap:FileType>.bik</uap:FileType>
+              <uap:FileType>.bin</uap:FileType>
+              <uap:FileType>.cab</uap:FileType>
+              <uap:FileType>.ccd</uap:FileType>
+              <uap:FileType>.cda</uap:FileType>
+              <uap:FileType>.cdr</uap:FileType>
+              <uap:FileType>.cfg</uap:FileType>
+              <uap:FileType>.cnf</uap:FileType>
+              <uap:FileType>.cr2</uap:FileType>
+              <uap:FileType>.crw</uap:FileType>
+              <uap:FileType>.css</uap:FileType>
+              <uap:FileType>.daa</uap:FileType>
+              <uap:FileType>.dao</uap:FileType>
+              <uap:FileType>.dcr</uap:FileType>
+              <uap:FileType>.djvu</uap:FileType>
+              <uap:FileType>.dmg</uap:FileType>
+              <uap:FileType>.doc</uap:FileType>
+              <uap:FileType>.docm</uap:FileType>
+              <uap:FileType>.docx</uap:FileType>
+              <uap:FileType>.dot</uap:FileType>
+              <uap:FileType>.dotm</uap:FileType>
+              <uap:FileType>.dotx</uap:FileType>
+              <uap:FileType>.drw</uap:FileType>
+              <uap:FileType>.dwg</uap:FileType>
+              <uap:FileType>.dxf</uap:FileType>
+              <uap:FileType>.eml</uap:FileType>
+              <uap:FileType>.eps</uap:FileType>
+              <uap:FileType>.fax</uap:FileType>
+              <uap:FileType>.fla</uap:FileType>
+              <uap:FileType>.flac</uap:FileType>
+              <uap:FileType>.flv</uap:FileType>
+              <uap:FileType>.fpx</uap:FileType>
+              <uap:FileType>.gif</uap:FileType>
+              <uap:FileType>.gz</uap:FileType>
+              <uap:FileType>.htm</uap:FileType>
+              <uap:FileType>.html</uap:FileType>
+              <uap:FileType>.ico</uap:FileType>
+              <uap:FileType>.icon</uap:FileType>
+              <uap:FileType>.iff</uap:FileType>
+              <uap:FileType>.ifo</uap:FileType>
+              <uap:FileType>.img</uap:FileType>
+              <uap:FileType>.ind</uap:FileType>
+              <uap:FileType>.indd</uap:FileType>
+              <uap:FileType>.ini</uap:FileType>
+              <uap:FileType>.iso</uap:FileType>
+              <uap:FileType>.jar</uap:FileType>
+              <uap:FileType>.jpg</uap:FileType>
+              <uap:FileType>.jpeg</uap:FileType>
+              <uap:FileType>.js</uap:FileType>
+              <uap:FileType>.json</uap:FileType>
+              <uap:FileType>.jsp</uap:FileType>
+              <uap:FileType>.log</uap:FileType>
+              <uap:FileType>.m3u</uap:FileType>
+              <uap:FileType>.m4a</uap:FileType>
+              <uap:FileType>.m4p</uap:FileType>
+              <uap:FileType>.m4v</uap:FileType>
+              <uap:FileType>.mdb</uap:FileType>
+              <uap:FileType>.mdf</uap:FileType>
+              <uap:FileType>.mht</uap:FileType>
+              <uap:FileType>.midi</uap:FileType>
+              <uap:FileType>.mkv</uap:FileType>
+              <uap:FileType>.mobi</uap:FileType>
+              <uap:FileType>.mov</uap:FileType>
+              <uap:FileType>.mp3</uap:FileType>
+              <uap:FileType>.mp4</uap:FileType>
+              <uap:FileType>.mpc</uap:FileType>
+              <uap:FileType>.mpg</uap:FileType>
+              <uap:FileType>.mpeg</uap:FileType>
+              <uap:FileType>.mrw</uap:FileType>
+              <uap:FileType>.nfo</uap:FileType>
+              <uap:FileType>.nrg</uap:FileType>
+              <uap:FileType>.obj</uap:FileType>
+              <uap:FileType>.odg</uap:FileType>
+              <uap:FileType>.ods</uap:FileType>
+              <uap:FileType>.odt</uap:FileType>
+              <uap:FileType>.ogg</uap:FileType>
+              <uap:FileType>.one</uap:FileType>
+              <uap:FileType>.onepkg</uap:FileType>
+              <uap:FileType>.pcd</uap:FileType>
+              <uap:FileType>.pcm</uap:FileType>
+              <uap:FileType>.pcx</uap:FileType>
+              <uap:FileType>.pdf</uap:FileType>
+              <uap:FileType>.php</uap:FileType>
+              <uap:FileType>.php3</uap:FileType>
+              <uap:FileType>.ply</uap:FileType>
+              <uap:FileType>.png</uap:FileType>
+              <uap:FileType>.potx</uap:FileType>
+              <uap:FileType>.pps</uap:FileType>
+              <uap:FileType>.ppsm</uap:FileType>
+              <uap:FileType>.ppsx</uap:FileType>
+              <uap:FileType>.ptt</uap:FileType>
+              <uap:FileType>.pptm</uap:FileType>
+              <uap:FileType>.pptx</uap:FileType>
+              <uap:FileType>.ps</uap:FileType>
+              <uap:FileType>.psb</uap:FileType>
+              <uap:FileType>.pub</uap:FileType>
+              <uap:FileType>.raw</uap:FileType>
+              <uap:FileType>.rc</uap:FileType>
+              <uap:FileType>.rss</uap:FileType>
+              <uap:FileType>.rtf</uap:FileType>
+              <uap:FileType>.set</uap:FileType>
+              <uap:FileType>.shp</uap:FileType>
+              <uap:FileType>.snd</uap:FileType>
+              <uap:FileType>.srt</uap:FileType>
+              <uap:FileType>.stf</uap:FileType>
+              <uap:FileType>.sub</uap:FileType>
+              <uap:FileType>.svg</uap:FileType>
+              <uap:FileType>.swf</uap:FileType>
+              <uap:FileType>.sxc</uap:FileType>
+              <uap:FileType>.sxw</uap:FileType>
+              <uap:FileType>.tao</uap:FileType>
+              <uap:FileType>.tar</uap:FileType>
+              <uap:FileType>.rar</uap:FileType>
+              <uap:FileType>.tgz</uap:FileType>
+              <uap:FileType>.thm</uap:FileType>
+              <uap:FileType>.thmx</uap:FileType>
+              <uap:FileType>.tif</uap:FileType>
+              <uap:FileType>.tmp</uap:FileType>
+              <uap:FileType>.torrent</uap:FileType>
+              <uap:FileType>.txt</uap:FileType>
+              <uap:FileType>.vcd</uap:FileType>
+              <uap:FileType>.vob</uap:FileType>
+              <uap:FileType>.vol</uap:FileType>
+              <uap:FileType>.wav</uap:FileType>
+              <uap:FileType>.wdb</uap:FileType>
+              <uap:FileType>.wma</uap:FileType>
+              <uap:FileType>.wmv</uap:FileType>
+              <uap:FileType>.wpd</uap:FileType>
+              <uap:FileType>.wpl</uap:FileType>
+              <uap:FileType>.wps</uap:FileType>
+              <uap:FileType>.wri</uap:FileType>
+              <uap:FileType>.xls</uap:FileType>
+              <uap:FileType>.xlsm</uap:FileType>
+              <uap:FileType>.xlsx</uap:FileType>
+              <uap:FileType>.xml</uap:FileType>
+              <uap:FileType>.zip</uap:FileType>
+              <uap:FileType>.zix</uap:FileType>
+              <uap:FileType>.wmf</uap:FileType>
+              <uap:FileType>.bmp</uap:FileType>
+              <uap:FileType>.rm</uap:FileType>
+            </uap:SupportedFileTypes>
+          </uap:FileTypeAssociation>
+        </uap:Extension>
+        <mobile:Extension Category="windows.mobileMultiScreenProperties">
+          <mobile:MobileMultiScreenProperties RestrictToInternalScreen="false" />
+        </mobile:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="privateNetworkClientServer" />
+    <Capability Name="internetClient" />
+    <Capability Name="internetClientServer" />
+    <uap:Capability Name="musicLibrary" />
+    <uap:Capability Name="picturesLibrary" />
+    <uap:Capability Name="removableStorage" />
+    <uap:Capability Name="videosLibrary" />
+	<uap:Capability Name="documentsLibrary" />
+    <uap:Capability Name="enterpriseAuthentication" />
+  </Capabilities>
+</Package>

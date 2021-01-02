@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="001_Abbrechen" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="001_Ausschneiden" xml:space="preserve">
+    <value>잘라</value>
+  </data>
+  <data name="001_Bilder" xml:space="preserve">
+    <value>사진</value>
+  </data>
+  <data name="001_Datei" xml:space="preserve">
+    <value>파일</value>
+  </data>
+  <data name="001_DateiBereitsVorhanden" xml:space="preserve">
+    <value>마침에 이미 이름이 파일</value>
+  </data>
+  <data name="001_DateienNichtKopiert" xml:space="preserve">
+    <value>파일을 복사할 수 없습니다.</value>
+  </data>
+  <data name="001_DateienNichtVerschoben" xml:space="preserve">
+    <value>파일을 이동할 수 없습니다.</value>
+  </data>
+  <data name="001_DateiMehrzahl" xml:space="preserve">
+    <value>파일</value>
+  </data>
+  <data name="001_DiesesGerät" xml:space="preserve">
+    <value>이 장치</value>
+  </data>
+  <data name="001_Dokumente" xml:space="preserve">
+    <value>문서</value>
+  </data>
+  <data name="001_Downloads" xml:space="preserve">
+    <value>다운로드</value>
+  </data>
+  <data name="001_Einfügen" xml:space="preserve">
+    <value>삽입</value>
+  </data>
+  <data name="001_Ersetzen" xml:space="preserve">
+    <value>바꾸기</value>
+  </data>
+  <data name="001_FürAlle" xml:space="preserve">
+    <value>모두에 게 적용</value>
+  </data>
+  <data name="001_Integrieren" xml:space="preserve">
+    <value>통합</value>
+  </data>
+  <data name="001_Klingeltöne" xml:space="preserve">
+    <value>벨소리</value>
+  </data>
+  <data name="001_Kopieren" xml:space="preserve">
+    <value>복사</value>
+  </data>
+  <data name="001_Löschen" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="001_LöschenBestätigung" xml:space="preserve">
+    <value>영구적으로 삭제</value>
+  </data>
+  <data name="001_Musik" xml:space="preserve">
+    <value>음악</value>
+  </data>
+  <data name="001_NichtMöglich" xml:space="preserve">
+    <value>가능 하지 않음</value>
+  </data>
+  <data name="001_OneDrive" xml:space="preserve">
+    <value>드라이브 1 개</value>
+  </data>
+  <data name="001_Ordner" xml:space="preserve">
+    <value>폴더</value>
+  </data>
+  <data name="001_OrdnerBereitsVorhanden" xml:space="preserve">
+    <value>이 이름 가진 폴더가 이미 대상에 있습니다</value>
+  </data>
+  <data name="001_OrdnerMehrzahl" xml:space="preserve">
+    <value>폴더</value>
+  </data>
+  <data name="001_OrdnerNichtErstellt" xml:space="preserve">
+    <value>폴더를 만들 수 없습니다.</value>
+  </data>
+  <data name="001_OrdnerNichÖffnen" xml:space="preserve">
+    <value>폴더를 열 수 없습니다</value>
+  </data>
+  <data name="001_Privat" xml:space="preserve">
+    <value>개인</value>
+  </data>
+  <data name="001_SDKarte" xml:space="preserve">
+    <value>SD 카드</value>
+  </data>
+  <data name="001_Teilen" xml:space="preserve">
+    <value>공유</value>
+  </data>
+  <data name="001_Umbenennen" xml:space="preserve">
+    <value>이름 바꾸기</value>
+  </data>
+  <data name="001_Verschieben" xml:space="preserve">
+    <value>이동</value>
+  </data>
+  <data name="001_Videos" xml:space="preserve">
+    <value>동영상</value>
+  </data>
+  <data name="001_ZugriffVerweigert" xml:space="preserve">
+    <value>액세스 거부</value>
+  </data>
+  <data name="001_Überspringen" xml:space="preserve">
+    <value>건너뛰기</value>
+  </data>
+  <data name="001_Hinzufügen" xml:space="preserve">
+    <value>추가</value>
+  </data>
+  <data name="001_KeinName" xml:space="preserve">
+    <value>입력 한 이름이 없습니다</value>
+  </data>
+  <data name="001_Name" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="001_NeuerOrdner" xml:space="preserve">
+    <value>폴더 추가</value>
+  </data>
+  <data name="001_Schließen" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="001_NameFalsch" xml:space="preserve">
+    <value>이름은 사용할 수 없습니다.</value>
+  </data>
+  <data name="001_EinenMoment" xml:space="preserve">
+    <value>한 순간 하시기 바랍니다</value>
+  </data>
+  <data name="001_DateiNichtGelöscht" xml:space="preserve">
+    <value>파일을 삭제할 수 없습니다.</value>
+  </data>
+  <data name="001_OrdnerNichtLöschen" xml:space="preserve">
+    <value>폴더를 삭제할 수 없습니다.</value>
+  </data>
+  <data name="001_DateienNichtEingefügt" xml:space="preserve">
+    <value>파일을 추가할 수 없습니다.</value>
+  </data>
+  <data name="001_DateienNichtVorhanden" xml:space="preserve">
+    <value>파일을 더 이상 사용할 수</value>
+  </data>
+  <data name="001_DateiNichtVorhanden" xml:space="preserve">
+    <value>파일을 더 이상 사용할 수</value>
+  </data>
+  <data name="001_KopierenVerschieben" xml:space="preserve">
+    <value>복사 또는 이동</value>
+  </data>
+  <data name="000_AppName" xml:space="preserve">
+    <value>파일 탐색기 X</value>
+  </data>
+  <data name="001_AllesAbwählen" xml:space="preserve">
+    <value>모든 선택</value>
+  </data>
+  <data name="001_AllesAuswählen" xml:space="preserve">
+    <value>모두 선택</value>
+  </data>
+  <data name="001_DateiNichtUmbenannt" xml:space="preserve">
+    <value>파일을 이름을 변경</value>
+  </data>
+  <data name="001_OrdnerNichtUmbenannt" xml:space="preserve">
+    <value>폴더 이름을 바꿀 수 없습니다 수 없습니다.</value>
+  </data>
+  <data name="001_Heimnetzgruppe" xml:space="preserve">
+    <value>홈 그룹</value>
+  </data>
+  <data name="001_NurVollversion" xml:space="preserve">
+    <value>정식 버전에서 사용할 수</value>
+  </data>
+  <data name="001_Warnung" xml:space="preserve">
+    <value>경고</value>
+  </data>
+  <data name="001_WarnungPrivate" xml:space="preserve">
+    <value>민간 응용 프로그램의 디렉터리에 있으며, 비밀 번호에 의해 보호 됩니다. 암호를 적어 하 고 안전한 곳에 보관 하십시오.
+중요!
+당신은 귀하의 비밀 번호 또는 데이터가 영원히 손실 됩니다 그래서이 애플 리 케이이 션을 제거 하면 잃게됩니다.</value>
+  </data>
+  <data name="001_Weiter" xml:space="preserve">
+    <value>다음</value>
+  </data>
+  <data name="001_Fehler" xml:space="preserve">
+    <value>오류</value>
+  </data>
+  <data name="001_KeinPasswort" xml:space="preserve">
+    <value>입력 한 비밀 번호</value>
+  </data>
+  <data name="001_Passwort" xml:space="preserve">
+    <value>암호</value>
+  </data>
+  <data name="001_PasswortErstellen" xml:space="preserve">
+    <value>암호 만들기</value>
+  </data>
+  <data name="001_PasswortNicht" xml:space="preserve">
+    <value>암호를 사용할 수 없습니다.</value>
+  </data>
+  <data name="001_PasswortUnterschied" xml:space="preserve">
+    <value>암호는 다른</value>
+  </data>
+  <data name="001_PasswortWiederholen" xml:space="preserve">
+    <value>비밀 번호를 반복</value>
+  </data>
+  <data name="001_Datum" xml:space="preserve">
+    <value>날짜</value>
+  </data>
+  <data name="001_FileType" xml:space="preserve">
+    <value>유형</value>
+  </data>
+  <data name="001_OrdnerSortieren" xml:space="preserve">
+    <value>폴더 정렬</value>
+  </data>
+  <data name="001_Entfernen" xml:space="preserve">
+    <value>제거</value>
+  </data>
+  <data name="001_VerbindungNicht" xml:space="preserve">
+    <value>연결 실패</value>
+  </data>
+  <data name="001_DateiNichtGeöffnet" xml:space="preserve">
+    <value>파일을 열 수 없습니다.</value>
+  </data>
+  <data name="001_DateiHeruntergeladen" xml:space="preserve">
+    <value>파일을 다운로드를 위해 사용할 수</value>
+  </data>
+  <data name="001_ArtDerVerbindung" xml:space="preserve">
+    <value>연결의 유형</value>
+  </data>
+  <data name="001_VerknüpftesKonto" xml:space="preserve">
+    <value>연결 된 계정</value>
+  </data>
+  <data name="001_AnderesKonto" xml:space="preserve">
+    <value>다른 계정</value>
+  </data>
+  <data name="001_DateiOrdnerNichtGelöscht" xml:space="preserve">
+    <value>파일 또는 폴더를 삭제할 수 없습니다.</value>
+  </data>
+  <data name="001_Abmelden" xml:space="preserve">
+    <value>로그 오프</value>
+  </data>
+  <data name="001_Berechtigung" xml:space="preserve">
+    <value>액세스 권한</value>
+  </data>
+  <data name="001_DateienOrdnerNichtEingefügt" xml:space="preserve">
+    <value>파일 또는 폴더를 추가할 수 없습니다.</value>
+  </data>
+  <data name="001_DateienSortieren" xml:space="preserve">
+    <value>정렬 파일</value>
+  </data>
+  <data name="001_DateiOrdnerBereitsVorhanden" xml:space="preserve">
+    <value>파일 또는 폴더 대상에 이름으로 이미 있다</value>
+  </data>
+  <data name="001_DateiOrdnerNichtVorhanden" xml:space="preserve">
+    <value>파일 또는 폴더를 더 이상 사용할 수</value>
+  </data>
+  <data name="001_FreigabeLink" xml:space="preserve">
+    <value>공유 링크</value>
+  </data>
+  <data name="001_Lesen" xml:space="preserve">
+    <value>읽기</value>
+  </data>
+  <data name="001_LesenSchreiben" xml:space="preserve">
+    <value>읽기 및 쓰기</value>
+  </data>
+  <data name="001_OneDriveÄndern" xml:space="preserve">
+    <value>계정 변경 한 드라이브
+-현재 연결
+-연결 로그 오프
+-새로운 연결</value>
+  </data>
+  <data name="001_AnStart" xml:space="preserve">
+    <value>시작 하는 핀</value>
+  </data>
+  <data name="001_DateiGrößerLimit" xml:space="preserve">
+    <value>파일 제한 보다 크면</value>
+  </data>
+  <data name="001_DDBestätigen" xml:space="preserve">
+    <value>확인 드래그-와-드롭 동작</value>
+  </data>
+  <data name="001_DDUmgang" xml:space="preserve">
+    <value>드래그-앤-드롭 작업</value>
+  </data>
+  <data name="001_DownloadLimit" xml:space="preserve">
+    <value>다운로드 파일을 열 제한</value>
+  </data>
+  <data name="001_DragAndDrop" xml:space="preserve">
+    <value>드래그-앤-드롭</value>
+  </data>
+  <data name="001_Einmal" xml:space="preserve">
+    <value>응용 프로그램을 닫으면</value>
+  </data>
+  <data name="001_Einstellungen" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="001_Fragen" xml:space="preserve">
+    <value>질문</value>
+  </data>
+  <data name="001_Ignorieren" xml:space="preserve">
+    <value>무시</value>
+  </data>
+  <data name="001_Immer" xml:space="preserve">
+    <value>항상</value>
+  </data>
+  <data name="001_Ja" xml:space="preserve">
+    <value>예</value>
+  </data>
+  <data name="001_Mehreren" xml:space="preserve">
+    <value>몇 가지</value>
+  </data>
+  <data name="001_Nein" xml:space="preserve">
+    <value>없음</value>
+  </data>
+  <data name="001_Nie" xml:space="preserve">
+    <value>결코</value>
+  </data>
+  <data name="001_OnlineVerhalten" xml:space="preserve">
+    <value>파일을 열려면 온라인 행동</value>
+  </data>
+  <data name="001_OnlineÖffnen" xml:space="preserve">
+    <value>온라인 오픈</value>
+  </data>
+  <data name="001_PasswortAbfrage" xml:space="preserve">
+    <value>암호</value>
+  </data>
+  <data name="001_PasswortZurück" xml:space="preserve">
+    <value>암호 다시 설정</value>
+  </data>
+  <data name="001_PrivaterOrdner" xml:space="preserve">
+    <value>개인 폴더</value>
+  </data>
+  <data name="001_Sortierung" xml:space="preserve">
+    <value>정렬</value>
+  </data>
+  <data name="001_SortierungSpeichern" xml:space="preserve">
+    <value>주문 저장</value>
+  </data>
+  <data name="001_Standard" xml:space="preserve">
+    <value>표준</value>
+  </data>
+  <data name="001_Unendlich" xml:space="preserve">
+    <value>무한대</value>
+  </data>
+  <data name="001_Zurück" xml:space="preserve">
+    <value>뒤로</value>
+  </data>
+  <data name="001_ÖffnenVomOrdner" xml:space="preserve">
+    <value>폴더를 열 때마다</value>
+  </data>
+  <data name="001_Benutzername" xml:space="preserve">
+    <value>사용자 이름</value>
+  </data>
+  <data name="001_PasswortSpeichern" xml:space="preserve">
+    <value>비밀 번호 저장</value>
+  </data>
+  <data name="001_Server" xml:space="preserve">
+    <value>서버</value>
+  </data>
+  <data name="001_Übernehmen" xml:space="preserve">
+    <value>인계</value>
+  </data>
+  <data name="001_TemporäreDateien" xml:space="preserve">
+    <value>임시 파일</value>
+  </data>
+  <data name="001_TemporäreDateienAnzeigen" xml:space="preserve">
+    <value>임시 파일 보기</value>
+  </data>
+  <data name="001_TemporäreDateienLöschen" xml:space="preserve">
+    <value>시작할 때 임시 파일 삭제</value>
+  </data>
+  <data name="001_TemporäreDateienLöschenTask" xml:space="preserve">
+    <value>임시 파일 삭제</value>
+  </data>
+  <data name="001_KopierenVerschiebenOnlineOnline" xml:space="preserve">
+    <value>복사 또는 이동에서 온라인 온라인으로 지원 되지 않습니다.
+전화, 그리고 온라인에서 파일을 복사 합니다.</value>
+  </data>
+  <data name="002_BegrüßungTitel" xml:space="preserve">
+    <value>이러한 지침을 신중 하 게 읽어 보시기 바랍니다</value>
+  </data>
+  <data name="002_Bergrüßung" xml:space="preserve">
+    <value>이 애플 리 케이이 션을 사용 하 여 주셔서 감사.
+이 애플 리 케이이 션을 드래그-앤-드롭 시스템을 사용합니다.
+윈도우의 오른쪽에 있는 회색 막대를 사용 하 여 스크롤할.</value>
+  </data>
+  <data name="002_NichtAnzeigen" xml:space="preserve">
+    <value>시작 시 표시 하지 않음</value>
+  </data>
+  <data name="002_Dateiauswahl" xml:space="preserve">
+    <value>파일 선택</value>
+  </data>
+  <data name="002_DateiauswahlInfo" xml:space="preserve">
+    <value>파일 선택기를 사용 하면 열 수 없습니다 폴더에서 파일을 복사할 수 있습니다.
+-문서
+-다운로드
+-벨소리</value>
+  </data>
+  <data name="002_DateiauswahlKopiert" xml:space="preserve">
+    <value>파일 복사 되었습니다.
+당신은 지금 붙여넣을 수 어디에서 든 지.</value>
+  </data>
+  <data name="000_Beschreibung" xml:space="preserve">
+    <value>윈도우 10 모바일에 대 한 파일 관리자의 새로운 세대. 두 개의 Windows 및 드래그 앤 드롭. 사용의 절대 용이성을 위해 설계 되었습니다. 메모리 카드, 드라이브 1 개, dropbox를 지원합니다.
+무료로 지금 보십시오.</value>
+  </data>
+  <data name="000_Funktionen_1" xml:space="preserve">
+    <value>두 개의 크기 조정 가능한 창</value>
+  </data>
+  <data name="000_Funktionen_10" xml:space="preserve">
+    <value>모든 화면 포맷을 지원</value>
+  </data>
+  <data name="000_Funktionen_2" xml:space="preserve">
+    <value>드래그-앤-드롭 빠른 복사 또는 이동에 대 한</value>
+  </data>
+  <data name="000_Funktionen_3" xml:space="preserve">
+    <value>여러 개의 메모리 카드 지원</value>
+  </data>
+  <data name="000_Funktionen_4" xml:space="preserve">
+    <value>하나의 드라이브의 완전 한 통합</value>
+  </data>
+  <data name="000_Funktionen_5" xml:space="preserve">
+    <value>전체 dropbox 통합</value>
+  </data>
+  <data name="000_Funktionen_6" xml:space="preserve">
+    <value>암호로 보호 된 개인 영역</value>
+  </data>
+  <data name="000_Funktionen_7" xml:space="preserve">
+    <value>여러 이름 바꾸기</value>
+  </data>
+  <data name="000_Funktionen_8" xml:space="preserve">
+    <value>고급 정렬 옵션</value>
+  </data>
+  <data name="000_Funktionen_9" xml:space="preserve">
+    <value>보안된 영역에 대 한 파일 선택</value>
+  </data>
+  <data name="000_Schlagwort_1" xml:space="preserve">
+    <value>파일</value>
+  </data>
+  <data name="000_Schlagwort_2" xml:space="preserve">
+    <value>관리자</value>
+  </data>
+  <data name="000_Schlagwort_3" xml:space="preserve">
+    <value>탐색기</value>
+  </data>
+  <data name="000_Schlagwort_4" xml:space="preserve">
+    <value>드라이브 1 개</value>
+  </data>
+  <data name="000_Schlagwort_5" xml:space="preserve">
+    <value>보관용</value>
+  </data>
+  <data name="000_Schlagwort_6" xml:space="preserve">
+    <value>클라우드</value>
+  </data>
+  <data name="000_Schlagwort_7" xml:space="preserve">
+    <value>폴더 네트워크</value>
+  </data>
+  <data name="002_Bewerten" xml:space="preserve">
+    <value>이 응용 프로그램을 평가</value>
+  </data>
+  <data name="002_BewertenText" xml:space="preserve">
+    <value>이 애플 리 케이이 션을 확산 하는 데 도움이.
+평가 하 고이 애플 리 케이 션 5 별 검토.
+그리고 당신은 무료로이 최고의 애플 리 케이 션을 얻을.</value>
+  </data>
+  <data name="002_BewertungNachricht" xml:space="preserve">
+    <value>우리에 게 이메일을 보내십시오.
+이름을 입력 합니다.
+하나는 마이크로소프트 계정으로 사용 하는.
+우리 링크를 보내 당신을 다음.</value>
+  </data>
+  <data name="002_Danke_1" xml:space="preserve">
+    <value>우리의 애플 리 케이 션을 사용 하 여 주셔서 감사 합니다.</value>
+  </data>
+  <data name="002_Danke_2" xml:space="preserve">
+    <value>특별 한 감사</value>
+  </data>
+  <data name="002_Hilfe" xml:space="preserve">
+    <value>수동</value>
+  </data>
+  <data name="002_JetztBewerten" xml:space="preserve">
+    <value>지금 평가</value>
+  </data>
+  <data name="002_Kaufen" xml:space="preserve">
+    <value>이 애플 리 케이이 션을 구입</value>
+  </data>
+  <data name="002_Kontakt" xml:space="preserve">
+    <value>으로 연락 하는 방법</value>
+  </data>
+  <data name="002_Kostenlos" xml:space="preserve">
+    <value>5 스타에 대 한 무료</value>
+  </data>
+  <data name="002_MicrosoftBenutzerName" xml:space="preserve">
+    <value>Microsoft 계정에서 사용 하는 이름</value>
+  </data>
+  <data name="002_Postanschrift" xml:space="preserve">
+    <value>우편 주소</value>
+  </data>
+  <data name="002_PromoApp" xml:space="preserve">
+    <value>8.1 자물쇠 스크린</value>
+  </data>
+  <data name="002_Sprache" xml:space="preserve">
+    <value>언어</value>
+  </data>
+  <data name="002_SpracheÄndern" xml:space="preserve">
+    <value>언어 선택</value>
+  </data>
+  <data name="002_VielenDank" xml:space="preserve">
+    <value>정말 고마워요</value>
+  </data>
+  <data name="002_Webseite" xml:space="preserve">
+    <value>웹 페이지</value>
+  </data>
+  <data name="002_Über" xml:space="preserve">
+    <value>에 대 한</value>
+  </data>
+</root>

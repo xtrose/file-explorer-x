@@ -1,0 +1,116 @@
+﻿<Page
+    x:Class="FileManager.About"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FileManager"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+
+
+    <!-- Hauptgrid -->
+    <Grid x:Name="grMain">
+        <Grid RequestedTheme="Light">
+            <Grid.Background>
+                <ImageBrush ImageSource="Images/background_2.png" />
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+
+
+            <!-- Überschrift -->
+            <Grid Grid.Row="0" Name="grHeader" Height="40">
+                <Grid.Background>
+                    <ImageBrush ImageSource="Images/background_1.png" />
+                </Grid.Background>
+
+                <!-- StackPanal Logo und Überschrift-->
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
+                    <Image Source="Images/Back.png" PointerReleased="btnBack_Released" Margin="10,8,10,11"/>
+                    <TextBlock x:Name="tbHeader" Foreground="White" VerticalAlignment="Center" Margin="0,0,0,3"/>
+                </StackPanel>
+
+                <!-- StackPanal Linien Design-->
+                <StackPanel Orientation="Vertical" VerticalAlignment="Bottom">
+                    <Rectangle Height="1" Fill="#ffcf2828" />
+                    <Rectangle Height="2" Fill="#ff888888"/>
+                </StackPanel>
+            </Grid>
+
+
+
+            <!-- Grid Über-->
+            <Grid Grid.Row="1">
+
+                <!-- SrollViewer Einstellungen-->
+                <ScrollViewer>
+                    <StackPanel>
+
+                        <!-- Logo xtrose-->
+                        <Image Source="Images/Logo_800X314_Light.png" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" PointerReleased="BtnWeb" />
+
+                        <!-- Buttons-->
+                        <StackPanel x:Name="spBuy" Orientation="Horizontal" Margin="10,10,0,0" >
+                            <Image Source="Images/Icon_Buy_100X100.png" Width="50" PointerReleased="BtnBuy" />
+                            <TextBlock x:Name="tbBuy" Margin="10,0,0,0" VerticalAlignment="Center" FontFamily="Segoe UI Semibold" FontWeight="Bold" PointerReleased="BtnBuy" />
+                        </StackPanel>
+                        <StackPanel x:Name="spRate" Orientation="Horizontal" Margin="10,10,0,0" >
+                            <Image Source="Images/Icon_Rate_100X100.png" Width="50" PointerReleased="BtnRate" />
+                            <TextBlock x:Name="tbRate" Margin="10,0,0,0" VerticalAlignment="Center" FontFamily="Segoe UI Semibold" FontWeight="Bold" PointerReleased="BtnRate" />
+                        </StackPanel>
+
+                        <!-- Adresse-->
+                        <TextBlock x:Name="tbAddressHeader" Margin="10,20,0,0" FontWeight="Bold"/>
+                        <TextBlock x:Name="tbAddress" TextWrapping="Wrap" Margin="10,0,0,0" />
+
+                        <!-- Button Webseite, Kontakt-->
+                        <StackPanel Orientation="Horizontal" Margin="10,10,0,0" >
+                            <Image Source="Images/logoXtrose.png" Width="50" PointerReleased="BtnWeb" />
+                            <TextBlock x:Name="tbWebsite" Margin="10,0,0,0" VerticalAlignment="Center" FontFamily="Segoe UI Semibold" FontWeight="Bold" PointerReleased="BtnWeb" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="10,10,0,0" >
+                            <Image Source="Images/Icon_Contact_100X100.png" Width="50" PointerReleased="BtnContact" />
+                            <TextBlock x:Name="tbKontakt" Margin="10,0,0,0" VerticalAlignment="Center" FontFamily="Segoe UI Semibold" FontWeight="Bold" PointerReleased="BtnContact" />
+                        </StackPanel>
+                        
+                        <!-- Button Links-->
+                        <StackPanel Orientation="Horizontal" Margin="10,20,0,0" >
+                            <Image Source="Images/Icon_Facebook_100X100.png" Width="50" PointerReleased="BtnFacebook" />
+                            <TextBlock Text="Facebook" Margin="10,0,0,0" VerticalAlignment="Center" FontFamily="Segoe UI Semibold" FontWeight="Bold" PointerReleased="BtnFacebook" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="10,10,0,0" >
+                            <Image Source="Images/Icon_Twitter_100X100.png" Width="50" PointerReleased="BtnTwitter" />
+                            <TextBlock Text="Twitter" Margin="10,0,0,0" VerticalAlignment="Center" FontFamily="Segoe UI Semibold" FontWeight="Bold" PointerReleased="BtnTwitter" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="10,10,0,0" >
+                            <Image Source="Images/Icon_YouTube_100X100.png" Width="50" PointerReleased="BtnYT" />
+                            <TextBlock Text="YouTube" Margin="10,0,0,0" VerticalAlignment="Center" FontFamily="Segoe UI Semibold" FontWeight="Bold" PointerReleased="BtnYT" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="10,10,0,0" >
+                            <Image Source="Images/Icon_VK_100X100.png" Width="50" PointerReleased="BtnVK" />
+                            <TextBlock Text="VK" Margin="10,0,0,0" VerticalAlignment="Center" FontFamily="Segoe UI Semibold" FontWeight="Bold" PointerReleased="BtnVK" />
+                        </StackPanel>
+                        
+                        <!-- Fußzeile-->
+                        <TextBlock x:Name="tbDanke1" TextWrapping="Wrap" Margin="10,20,0,0" />
+                        <TextBlock x:Name="tbDanke2" TextWrapping="Wrap" Margin="10,10,0,0" FontWeight="Bold" />
+                        <TextBlock Text="www.pocketpc.ch" PointerReleased="BtnPocketPC" Foreground="#ffcf2828" Margin="10,0,0,0"/>
+                        <TextBlock Text="www.drwindows.de" PointerReleased="BtnDrWindows" Foreground="#ffcf2828" Margin="10,0,0,0"/>
+                        <TextBlock Text="www.windowscentral.com" PointerReleased="BtnWindowsPhoneCentral" Foreground="#ffcf2828" Margin="10,0,0,0"/>
+                        <TextBlock Text="www.mycsharp.de" PointerReleased="BtnCSharp" Foreground="#ffcf2828" Margin="10,0,0,50"/>
+
+
+                    </StackPanel>
+                </ScrollViewer>
+                
+            </Grid>
+
+            
+
+        </Grid>
+    </Grid>
+</Page>

@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="001_Abbrechen" xml:space="preserve">
+    <value>Batal</value>
+  </data>
+  <data name="001_Ausschneiden" xml:space="preserve">
+    <value>Memotong</value>
+  </data>
+  <data name="001_Bilder" xml:space="preserve">
+    <value>Gambar-gambar</value>
+  </data>
+  <data name="001_Datei" xml:space="preserve">
+    <value>Fail</value>
+  </data>
+  <data name="001_DateiBereitsVorhanden" xml:space="preserve">
+    <value>Di garisan penamat, ia sudah pun wujud satu fail dengan nama yang</value>
+  </data>
+  <data name="001_DateienNichtKopiert" xml:space="preserve">
+    <value>Fail tidak boleh disalin</value>
+  </data>
+  <data name="001_DateienNichtVerschoben" xml:space="preserve">
+    <value>Fail tidak dapat dialihkan</value>
+  </data>
+  <data name="001_DateiMehrzahl" xml:space="preserve">
+    <value>Fail-fail</value>
+  </data>
+  <data name="001_DiesesGerät" xml:space="preserve">
+    <value>Peranti ini</value>
+  </data>
+  <data name="001_Dokumente" xml:space="preserve">
+    <value>Dokumen-dokumen</value>
+  </data>
+  <data name="001_Downloads" xml:space="preserve">
+    <value>Muat turun</value>
+  </data>
+  <data name="001_Einfügen" xml:space="preserve">
+    <value>Masukkan</value>
+  </data>
+  <data name="001_Ersetzen" xml:space="preserve">
+    <value>Menggantikan</value>
+  </data>
+  <data name="001_FürAlle" xml:space="preserve">
+    <value>Digunakan untuk semua</value>
+  </data>
+  <data name="001_Integrieren" xml:space="preserve">
+    <value>Mengintegrasikan</value>
+  </data>
+  <data name="001_Klingeltöne" xml:space="preserve">
+    <value>Ringtones</value>
+  </data>
+  <data name="001_Kopieren" xml:space="preserve">
+    <value>Salinan</value>
+  </data>
+  <data name="001_Löschen" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="001_LöschenBestätigung" xml:space="preserve">
+    <value>Menghapuskan secara kekal</value>
+  </data>
+  <data name="001_Musik" xml:space="preserve">
+    <value>Muzik</value>
+  </data>
+  <data name="001_NichtMöglich" xml:space="preserve">
+    <value>Tidak mungkin</value>
+  </data>
+  <data name="001_OneDrive" xml:space="preserve">
+    <value>Satu pemanduan</value>
+  </data>
+  <data name="001_Ordner" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="001_OrdnerBereitsVorhanden" xml:space="preserve">
+    <value>Satu folder dengan nama ini sudah wujud dalam sasaran</value>
+  </data>
+  <data name="001_OrdnerMehrzahl" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="001_OrdnerNichtErstellt" xml:space="preserve">
+    <value>Folder tidak dapat dicipta</value>
+  </data>
+  <data name="001_OrdnerNichÖffnen" xml:space="preserve">
+    <value>Tidak dapat membuka folder</value>
+  </data>
+  <data name="001_Privat" xml:space="preserve">
+    <value>Peribadi</value>
+  </data>
+  <data name="001_SDKarte" xml:space="preserve">
+    <value>Kad SD</value>
+  </data>
+  <data name="001_Teilen" xml:space="preserve">
+    <value>Saham</value>
+  </data>
+  <data name="001_Umbenennen" xml:space="preserve">
+    <value>Namakan semula</value>
+  </data>
+  <data name="001_Verschieben" xml:space="preserve">
+    <value>Langkah</value>
+  </data>
+  <data name="001_Videos" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="001_ZugriffVerweigert" xml:space="preserve">
+    <value>Capaian ditolak</value>
+  </data>
+  <data name="001_Überspringen" xml:space="preserve">
+    <value>Langkau</value>
+  </data>
+  <data name="001_Hinzufügen" xml:space="preserve">
+    <value>Tambah</value>
+  </data>
+  <data name="001_KeinName" xml:space="preserve">
+    <value>Tiada nama dimasukkan</value>
+  </data>
+  <data name="001_Name" xml:space="preserve">
+    <value>Nama</value>
+  </data>
+  <data name="001_NeuerOrdner" xml:space="preserve">
+    <value>Tambah folder</value>
+  </data>
+  <data name="001_Schließen" xml:space="preserve">
+    <value>Tutup</value>
+  </data>
+  <data name="001_NameFalsch" xml:space="preserve">
+    <value>Nama tidak boleh digunakan</value>
+  </data>
+  <data name="001_EinenMoment" xml:space="preserve">
+    <value>Satu ketika, sila</value>
+  </data>
+  <data name="001_DateiNichtGelöscht" xml:space="preserve">
+    <value>Fail tidak dapat dihapuskan</value>
+  </data>
+  <data name="001_OrdnerNichtLöschen" xml:space="preserve">
+    <value>Folder tidak dapat dihapuskan</value>
+  </data>
+  <data name="001_DateienNichtEingefügt" xml:space="preserve">
+    <value>Fail tidak boleh ditambah</value>
+  </data>
+  <data name="001_DateienNichtVorhanden" xml:space="preserve">
+    <value>Fail-fail tidak lagi disediakan</value>
+  </data>
+  <data name="001_DateiNichtVorhanden" xml:space="preserve">
+    <value>Fail tidak terdapat</value>
+  </data>
+  <data name="001_KopierenVerschieben" xml:space="preserve">
+    <value>Menyalin atau memindahkan</value>
+  </data>
+  <data name="000_AppName" xml:space="preserve">
+    <value>Penjelajah Fail X</value>
+  </data>
+  <data name="001_AllesAbwählen" xml:space="preserve">
+    <value>Memilih untuk keluar daripada semua</value>
+  </data>
+  <data name="001_AllesAuswählen" xml:space="preserve">
+    <value>Pilih semua</value>
+  </data>
+  <data name="001_DateiNichtUmbenannt" xml:space="preserve">
+    <value>Fail tidak boleh dinamakan semula</value>
+  </data>
+  <data name="001_OrdnerNichtUmbenannt" xml:space="preserve">
+    <value>Folder tidak boleh dinamakan semula</value>
+  </data>
+  <data name="001_Heimnetzgruppe" xml:space="preserve">
+    <value>Kumpulan rumah</value>
+  </data>
+  <data name="001_NurVollversion" xml:space="preserve">
+    <value>Hanya terdapat dalam versi penuh</value>
+  </data>
+  <data name="001_Warnung" xml:space="preserve">
+    <value>Amaran</value>
+  </data>
+  <data name="001_WarnungPrivate" xml:space="preserve">
+    <value>Sektor swasta terletak di dalam direktori apl dan dilindungi oleh kata laluan. Sila tuliskan kata laluan anda dan simpannya di tempat yang selamat.
+Penting!
+Adakah anda hilang kata laluan anda atau anda membuang pasang app ini, sehingga data yang hilang selama-lamanya.</value>
+  </data>
+  <data name="001_Weiter" xml:space="preserve">
+    <value>Seterusnya</value>
+  </data>
+  <data name="001_Fehler" xml:space="preserve">
+    <value>Ralat</value>
+  </data>
+  <data name="001_KeinPasswort" xml:space="preserve">
+    <value>Tiada kata laluan yang dimasukkan</value>
+  </data>
+  <data name="001_Passwort" xml:space="preserve">
+    <value>Kata laluan</value>
+  </data>
+  <data name="001_PasswortErstellen" xml:space="preserve">
+    <value>Cipta kata laluan</value>
+  </data>
+  <data name="001_PasswortNicht" xml:space="preserve">
+    <value>Kata laluan tidak boleh digunakan</value>
+  </data>
+  <data name="001_PasswortUnterschied" xml:space="preserve">
+    <value>Kata laluan adalah berbeza</value>
+  </data>
+  <data name="001_PasswortWiederholen" xml:space="preserve">
+    <value>Ulang kata laluan</value>
+  </data>
+  <data name="001_Datum" xml:space="preserve">
+    <value>Tarikh</value>
+  </data>
+  <data name="001_FileType" xml:space="preserve">
+    <value>Jenis</value>
+  </data>
+  <data name="001_OrdnerSortieren" xml:space="preserve">
+    <value>Jenis folder</value>
+  </data>
+  <data name="001_Entfernen" xml:space="preserve">
+    <value>Alih Keluar</value>
+  </data>
+  <data name="001_VerbindungNicht" xml:space="preserve">
+    <value>Sambungan yang gagal</value>
+  </data>
+  <data name="001_DateiNichtGeöffnet" xml:space="preserve">
+    <value>Fail tidak dapat dibuka</value>
+  </data>
+  <data name="001_DateiHeruntergeladen" xml:space="preserve">
+    <value>Fail didapati untuk muat turun</value>
+  </data>
+  <data name="001_ArtDerVerbindung" xml:space="preserve">
+    <value>Jenis sambungan yang</value>
+  </data>
+  <data name="001_VerknüpftesKonto" xml:space="preserve">
+    <value>Akaun berkaitan</value>
+  </data>
+  <data name="001_AnderesKonto" xml:space="preserve">
+    <value>Akaun lain</value>
+  </data>
+  <data name="001_DateiOrdnerNichtGelöscht" xml:space="preserve">
+    <value>Fail atau folder tidak dapat dihapuskan</value>
+  </data>
+  <data name="001_Abmelden" xml:space="preserve">
+    <value>Log keluar</value>
+  </data>
+  <data name="001_Berechtigung" xml:space="preserve">
+    <value>Kebenaran capaian</value>
+  </data>
+  <data name="001_DateienOrdnerNichtEingefügt" xml:space="preserve">
+    <value>Fail atau folder tidak boleh ditambah</value>
+  </data>
+  <data name="001_DateienSortieren" xml:space="preserve">
+    <value>Susun fail</value>
+  </data>
+  <data name="001_DateiOrdnerBereitsVorhanden" xml:space="preserve">
+    <value>Sudah ada fail atau folder dengan nama di sasaran</value>
+  </data>
+  <data name="001_DateiOrdnerNichtVorhanden" xml:space="preserve">
+    <value>Fail atau folder yang didapati tidak lagi</value>
+  </data>
+  <data name="001_FreigabeLink" xml:space="preserve">
+    <value>Berkongsi link</value>
+  </data>
+  <data name="001_Lesen" xml:space="preserve">
+    <value>Baca</value>
+  </data>
+  <data name="001_LesenSchreiben" xml:space="preserve">
+    <value>Baca dan tulis</value>
+  </data>
+  <data name="001_OneDriveÄndern" xml:space="preserve">
+    <value>Akaun menukar satu pemacu
+-Sambungan semasa
+-Sambungan log keluar
+-Sambungan baru</value>
+  </data>
+  <data name="001_AnStart" xml:space="preserve">
+    <value>PIN ke mula</value>
+  </data>
+  <data name="001_DateiGrößerLimit" xml:space="preserve">
+    <value>Fail lebih besar daripada had</value>
+  </data>
+  <data name="001_DDBestätigen" xml:space="preserve">
+    <value>Mengesahkan seret - dan - jatuh tindakan</value>
+  </data>
+  <data name="001_DDUmgang" xml:space="preserve">
+    <value>Tindakan seret - dan - jatuh</value>
+  </data>
+  <data name="001_DownloadLimit" xml:space="preserve">
+    <value>Had untuk membuka fail muat turun</value>
+  </data>
+  <data name="001_DragAndDrop" xml:space="preserve">
+    <value>Seret - dan - jatuh</value>
+  </data>
+  <data name="001_Einmal" xml:space="preserve">
+    <value>Apabila aplikasi ini ditutup</value>
+  </data>
+  <data name="001_Einstellungen" xml:space="preserve">
+    <value>Seting</value>
+  </data>
+  <data name="001_Fragen" xml:space="preserve">
+    <value>Soalan-soalan</value>
+  </data>
+  <data name="001_Ignorieren" xml:space="preserve">
+    <value>Abaikan</value>
+  </data>
+  <data name="001_Immer" xml:space="preserve">
+    <value>Sentiasa</value>
+  </data>
+  <data name="001_Ja" xml:space="preserve">
+    <value>Ya</value>
+  </data>
+  <data name="001_Mehreren" xml:space="preserve">
+    <value>Beberapa</value>
+  </data>
+  <data name="001_Nein" xml:space="preserve">
+    <value>tidak</value>
+  </data>
+  <data name="001_Nie" xml:space="preserve">
+    <value>Jangan sekali-kali</value>
+  </data>
+  <data name="001_OnlineVerhalten" xml:space="preserve">
+    <value>Tingkah-laku dalam talian untuk membuka fail</value>
+  </data>
+  <data name="001_OnlineÖffnen" xml:space="preserve">
+    <value>Terbuka dalam talian</value>
+  </data>
+  <data name="001_PasswortAbfrage" xml:space="preserve">
+    <value>Kata laluan</value>
+  </data>
+  <data name="001_PasswortZurück" xml:space="preserve">
+    <value>Set semula kata laluan</value>
+  </data>
+  <data name="001_PrivaterOrdner" xml:space="preserve">
+    <value>Folder peribadi</value>
+  </data>
+  <data name="001_Sortierung" xml:space="preserve">
+    <value>Menyusun</value>
+  </data>
+  <data name="001_SortierungSpeichern" xml:space="preserve">
+    <value>Simpan pesanan</value>
+  </data>
+  <data name="001_Standard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="001_Unendlich" xml:space="preserve">
+    <value>Infiniti</value>
+  </data>
+  <data name="001_Zurück" xml:space="preserve">
+    <value>Belakang</value>
+  </data>
+  <data name="001_ÖffnenVomOrdner" xml:space="preserve">
+    <value>Setiap kali anda membuka folder</value>
+  </data>
+  <data name="001_Benutzername" xml:space="preserve">
+    <value>Nama pengguna</value>
+  </data>
+  <data name="001_PasswortSpeichern" xml:space="preserve">
+    <value>Simpan kata laluan</value>
+  </data>
+  <data name="001_Server" xml:space="preserve">
+    <value>Pelayan</value>
+  </data>
+  <data name="001_Übernehmen" xml:space="preserve">
+    <value>Mengambil alih</value>
+  </data>
+  <data name="001_TemporäreDateien" xml:space="preserve">
+    <value>Fail sementara</value>
+  </data>
+  <data name="001_TemporäreDateienAnzeigen" xml:space="preserve">
+    <value>Melihat fail sementara</value>
+  </data>
+  <data name="001_TemporäreDateienLöschen" xml:space="preserve">
+    <value>Hapus fail sementara semasa permulaan</value>
+  </data>
+  <data name="001_TemporäreDateienLöschenTask" xml:space="preserve">
+    <value>Hapus fail sementara</value>
+  </data>
+  <data name="001_KopierenVerschiebenOnlineOnline" xml:space="preserve">
+    <value>Menyalin atau memindahkan dari dalam talian untuk dalam talian tidak disokong.
+Menyalin fail ini ke telefon, dan kemudian ke online.</value>
+  </data>
+  <data name="002_BegrüßungTitel" xml:space="preserve">
+    <value>Sila baca arahan dengan teliti</value>
+  </data>
+  <data name="002_Bergrüßung" xml:space="preserve">
+    <value>Terima kasih kerana menggunakan aplikasi ini.
+Aplikasi ini menggunakan sistem seret - dan - drop.
+Gunakan bar kelabu di sebelah kanan tetingkap untuk skrol.</value>
+  </data>
+  <data name="002_NichtAnzeigen" xml:space="preserve">
+    <value>Jangan tunjuk pada permulaan</value>
+  </data>
+  <data name="002_Dateiauswahl" xml:space="preserve">
+    <value>Pemilihan fail</value>
+  </data>
+  <data name="002_DateiauswahlInfo" xml:space="preserve">
+    <value>PEMILIH fail membolehkan anda menyalin fail dari folder yang tidak boleh dibuka.
+-Dokumen-dokumen
+-Muat turun
+-Ringtones</value>
+  </data>
+  <data name="002_DateiauswahlKopiert" xml:space="preserve">
+    <value>Fail-fail itu disalin.
+Anda boleh kini menampalnya di mana sahaja.</value>
+  </data>
+  <data name="000_Beschreibung" xml:space="preserve">
+    <value>Generasi baru pengurus fail untuk 10 Windows mudah alih. Dengan dua tingkap dan drag-and-drop. Direka untuk memudahkan mutlak penggunaan. Menyokong kad memori, pemacu satu dan dropbox.
+Cuba sekarang secara percuma.</value>
+  </data>
+  <data name="000_Funktionen_1" xml:space="preserve">
+    <value>Dua tingkap resizable</value>
+  </data>
+  <data name="000_Funktionen_10" xml:space="preserve">
+    <value>Menyokong semua format skrin</value>
+  </data>
+  <data name="000_Funktionen_2" xml:space="preserve">
+    <value>Drag-and-drop cepat Salin atau langkah</value>
+  </data>
+  <data name="000_Funktionen_3" xml:space="preserve">
+    <value>Menyokong berbilang kad memori</value>
+  </data>
+  <data name="000_Funktionen_4" xml:space="preserve">
+    <value>Integrasi penuh satu pemacu</value>
+  </data>
+  <data name="000_Funktionen_5" xml:space="preserve">
+    <value>Dropbox penuh integrasi</value>
+  </data>
+  <data name="000_Funktionen_6" xml:space="preserve">
+    <value>Kawasan peribadi yang dilindungi kata laluan</value>
+  </data>
+  <data name="000_Funktionen_7" xml:space="preserve">
+    <value>Namakan semula pelbagai</value>
+  </data>
+  <data name="000_Funktionen_8" xml:space="preserve">
+    <value>Pemilihan opsyen lebih maju</value>
+  </data>
+  <data name="000_Funktionen_9" xml:space="preserve">
+    <value>Pemilihan fail untuk selamat</value>
+  </data>
+  <data name="000_Schlagwort_1" xml:space="preserve">
+    <value>fail</value>
+  </data>
+  <data name="000_Schlagwort_2" xml:space="preserve">
+    <value>Pengurus</value>
+  </data>
+  <data name="000_Schlagwort_3" xml:space="preserve">
+    <value>Explorer</value>
+  </data>
+  <data name="000_Schlagwort_4" xml:space="preserve">
+    <value>satu pemanduan</value>
+  </data>
+  <data name="000_Schlagwort_5" xml:space="preserve">
+    <value>DropBox</value>
+  </data>
+  <data name="000_Schlagwort_6" xml:space="preserve">
+    <value>awan</value>
+  </data>
+  <data name="000_Schlagwort_7" xml:space="preserve">
+    <value>folder rangkaian</value>
+  </data>
+  <data name="002_Bewerten" xml:space="preserve">
+    <value>Kadar aplikasi ini</value>
+  </data>
+  <data name="002_BewertenText" xml:space="preserve">
+    <value>Membantu kami untuk menyebarkan aplikasi ini.
+Nilaikan dan mengkaji bintang aplikasi 5 ini.
+Dan anda mendapat atas aplikasi ini secara percuma.</value>
+  </data>
+  <data name="002_BewertungNachricht" xml:space="preserve">
+    <value>Hantarkan e-mel.
+Masukkan nama anda.
+Salah satu yang anda gunakan dengan akaun Microsoft.
+Kami menghantar link kemudian.</value>
+  </data>
+  <data name="002_Danke_1" xml:space="preserve">
+    <value>Terima kasih kerana menggunakan aplikasi kami.</value>
+  </data>
+  <data name="002_Danke_2" xml:space="preserve">
+    <value>Khas ucapan terima kasih kepada</value>
+  </data>
+  <data name="002_Hilfe" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="002_JetztBewerten" xml:space="preserve">
+    <value>Kadar sekarang</value>
+  </data>
+  <data name="002_Kaufen" xml:space="preserve">
+    <value>Membeli aplikasi ini</value>
+  </data>
+  <data name="002_Kontakt" xml:space="preserve">
+    <value>Bagaimana untuk menghubungi</value>
+  </data>
+  <data name="002_Kostenlos" xml:space="preserve">
+    <value>Percuma untuk lima bintang</value>
+  </data>
+  <data name="002_MicrosoftBenutzerName" xml:space="preserve">
+    <value>Nama yang digunakan dalam akaun Microsoft</value>
+  </data>
+  <data name="002_Postanschrift" xml:space="preserve">
+    <value>Alamat pos</value>
+  </data>
+  <data name="002_PromoApp" xml:space="preserve">
+    <value>skrin kunci 8.1</value>
+  </data>
+  <data name="002_Sprache" xml:space="preserve">
+    <value>Bahasa</value>
+  </data>
+  <data name="002_SpracheÄndern" xml:space="preserve">
+    <value>Tukar Bahasa</value>
+  </data>
+  <data name="002_VielenDank" xml:space="preserve">
+    <value>terima kasih banyak-banyak</value>
+  </data>
+  <data name="002_Webseite" xml:space="preserve">
+    <value>Laman web</value>
+  </data>
+  <data name="002_Über" xml:space="preserve">
+    <value>Kira-kira</value>
+  </data>
+</root>

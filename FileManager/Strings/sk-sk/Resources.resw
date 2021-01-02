@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="001_Abbrechen" xml:space="preserve">
+    <value>Zrušiť</value>
+  </data>
+  <data name="001_Ausschneiden" xml:space="preserve">
+    <value>Vystrihnúť</value>
+  </data>
+  <data name="001_Bilder" xml:space="preserve">
+    <value>Obrázky</value>
+  </data>
+  <data name="001_Datei" xml:space="preserve">
+    <value>Súbor</value>
+  </data>
+  <data name="001_DateiBereitsVorhanden" xml:space="preserve">
+    <value>V cieli, už existuje súbor s názvom</value>
+  </data>
+  <data name="001_DateienNichtKopiert" xml:space="preserve">
+    <value>Súbory sa nepodarilo skopírovať.</value>
+  </data>
+  <data name="001_DateienNichtVerschoben" xml:space="preserve">
+    <value>Súbory nemožno presunúť</value>
+  </data>
+  <data name="001_DateiMehrzahl" xml:space="preserve">
+    <value>Súbory</value>
+  </data>
+  <data name="001_DiesesGerät" xml:space="preserve">
+    <value>Toto zariadenie</value>
+  </data>
+  <data name="001_Dokumente" xml:space="preserve">
+    <value>Dokumenty</value>
+  </data>
+  <data name="001_Downloads" xml:space="preserve">
+    <value>Týždeň</value>
+  </data>
+  <data name="001_Einfügen" xml:space="preserve">
+    <value>Vložiť</value>
+  </data>
+  <data name="001_Ersetzen" xml:space="preserve">
+    <value>Nahradiť</value>
+  </data>
+  <data name="001_FürAlle" xml:space="preserve">
+    <value>Vzťahujú na všetky</value>
+  </data>
+  <data name="001_Integrieren" xml:space="preserve">
+    <value>Integrovať</value>
+  </data>
+  <data name="001_Klingeltöne" xml:space="preserve">
+    <value>Zvonenie</value>
+  </data>
+  <data name="001_Kopieren" xml:space="preserve">
+    <value>Kópia</value>
+  </data>
+  <data name="001_Löschen" xml:space="preserve">
+    <value>Vymazať lokalitu</value>
+  </data>
+  <data name="001_LöschenBestätigung" xml:space="preserve">
+    <value>Odstránením sa natrvalo</value>
+  </data>
+  <data name="001_Musik" xml:space="preserve">
+    <value>Hudba</value>
+  </data>
+  <data name="001_NichtMöglich" xml:space="preserve">
+    <value>Nie je možné</value>
+  </data>
+  <data name="001_OneDrive" xml:space="preserve">
+    <value>Jeden disk</value>
+  </data>
+  <data name="001_Ordner" xml:space="preserve">
+    <value>Priečinok</value>
+  </data>
+  <data name="001_OrdnerBereitsVorhanden" xml:space="preserve">
+    <value>Priečinok s týmto názvom už existuje v cieľovej</value>
+  </data>
+  <data name="001_OrdnerMehrzahl" xml:space="preserve">
+    <value>Priečinok</value>
+  </data>
+  <data name="001_OrdnerNichtErstellt" xml:space="preserve">
+    <value>Priečinok sa nepodarilo vytvoriť</value>
+  </data>
+  <data name="001_OrdnerNichÖffnen" xml:space="preserve">
+    <value>Nepodarilo sa otvoriť priečinok</value>
+  </data>
+  <data name="001_Privat" xml:space="preserve">
+    <value>Súkromné</value>
+  </data>
+  <data name="001_SDKarte" xml:space="preserve">
+    <value>SD karty</value>
+  </data>
+  <data name="001_Teilen" xml:space="preserve">
+    <value>Delež</value>
+  </data>
+  <data name="001_Umbenennen" xml:space="preserve">
+    <value>Premenovať</value>
+  </data>
+  <data name="001_Verschieben" xml:space="preserve">
+    <value>Presunúť</value>
+  </data>
+  <data name="001_Videos" xml:space="preserve">
+    <value>Videá</value>
+  </data>
+  <data name="001_ZugriffVerweigert" xml:space="preserve">
+    <value>Prístup bol odmietnutý</value>
+  </data>
+  <data name="001_Überspringen" xml:space="preserve">
+    <value>Preskočiť</value>
+  </data>
+  <data name="001_Hinzufügen" xml:space="preserve">
+    <value>Pridať</value>
+  </data>
+  <data name="001_KeinName" xml:space="preserve">
+    <value>Zadaný žiadny názov</value>
+  </data>
+  <data name="001_Name" xml:space="preserve">
+    <value>meno</value>
+  </data>
+  <data name="001_NeuerOrdner" xml:space="preserve">
+    <value>Pridať priečinok</value>
+  </data>
+  <data name="001_Schließen" xml:space="preserve">
+    <value>Zavrieť</value>
+  </data>
+  <data name="001_NameFalsch" xml:space="preserve">
+    <value>Názov nemôže byť použitý</value>
+  </data>
+  <data name="001_EinenMoment" xml:space="preserve">
+    <value>Čakajte prosím</value>
+  </data>
+  <data name="001_DateiNichtGelöscht" xml:space="preserve">
+    <value>Súbor sa nedá odstrániť</value>
+  </data>
+  <data name="001_OrdnerNichtLöschen" xml:space="preserve">
+    <value>Priečinok sa nedá odstrániť</value>
+  </data>
+  <data name="001_DateienNichtEingefügt" xml:space="preserve">
+    <value>Nemožno pridať súbor</value>
+  </data>
+  <data name="001_DateienNichtVorhanden" xml:space="preserve">
+    <value>Súbory už nie sú k dispozícii</value>
+  </data>
+  <data name="001_DateiNichtVorhanden" xml:space="preserve">
+    <value>Súbor už nie je k dispozícii</value>
+  </data>
+  <data name="001_KopierenVerschieben" xml:space="preserve">
+    <value>Kopírovanie alebo premiestnenie</value>
+  </data>
+  <data name="000_AppName" xml:space="preserve">
+    <value>File Explorer X</value>
+  </data>
+  <data name="001_AllesAbwählen" xml:space="preserve">
+    <value>Zrušiť všetky</value>
+  </data>
+  <data name="001_AllesAuswählen" xml:space="preserve">
+    <value>Vybrať všetko</value>
+  </data>
+  <data name="001_DateiNichtUmbenannt" xml:space="preserve">
+    <value>Nemožno premenovať súbor</value>
+  </data>
+  <data name="001_OrdnerNichtUmbenannt" xml:space="preserve">
+    <value>Priečinok nemožno premenovať</value>
+  </data>
+  <data name="001_Heimnetzgruppe" xml:space="preserve">
+    <value>Domáca skupina</value>
+  </data>
+  <data name="001_NurVollversion" xml:space="preserve">
+    <value>K dispozícii len v plnej verzii</value>
+  </data>
+  <data name="001_Warnung" xml:space="preserve">
+    <value>Upozornenie</value>
+  </data>
+  <data name="001_WarnungPrivate" xml:space="preserve">
+    <value>Súkromný sektor sa nachádza v adresári aplikácie a je chránený heslom. Heslo si zapíšte a uschovajte na bezpečnom mieste.
+Dôležité!
+Urobiť stratíte heslo alebo ste odinštalovať túto aplikáciu, takže údaje, je navždy stratený.</value>
+  </data>
+  <data name="001_Weiter" xml:space="preserve">
+    <value>Ďalší</value>
+  </data>
+  <data name="001_Fehler" xml:space="preserve">
+    <value>Chyba</value>
+  </data>
+  <data name="001_KeinPasswort" xml:space="preserve">
+    <value>Žiadne heslo</value>
+  </data>
+  <data name="001_Passwort" xml:space="preserve">
+    <value>Heslo</value>
+  </data>
+  <data name="001_PasswortErstellen" xml:space="preserve">
+    <value>Vytvoriť heslo</value>
+  </data>
+  <data name="001_PasswortNicht" xml:space="preserve">
+    <value>Heslo nemôže byť použitý</value>
+  </data>
+  <data name="001_PasswortUnterschied" xml:space="preserve">
+    <value>Heslá sú rôzne</value>
+  </data>
+  <data name="001_PasswortWiederholen" xml:space="preserve">
+    <value>Opakovať heslo</value>
+  </data>
+  <data name="001_Datum" xml:space="preserve">
+    <value>Dátum</value>
+  </data>
+  <data name="001_FileType" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="001_OrdnerSortieren" xml:space="preserve">
+    <value>Zoradiť priečinky</value>
+  </data>
+  <data name="001_Entfernen" xml:space="preserve">
+    <value>Odstrániť</value>
+  </data>
+  <data name="001_VerbindungNicht" xml:space="preserve">
+    <value>Pripojenie zlyhalo</value>
+  </data>
+  <data name="001_DateiNichtGeöffnet" xml:space="preserve">
+    <value>Súbor sa nepodarilo otvoriť</value>
+  </data>
+  <data name="001_DateiHeruntergeladen" xml:space="preserve">
+    <value>Súbor je k dispozícii na stiahnutie</value>
+  </data>
+  <data name="001_ArtDerVerbindung" xml:space="preserve">
+    <value>Typ pripojenia</value>
+  </data>
+  <data name="001_VerknüpftesKonto" xml:space="preserve">
+    <value>Prepojeného účtu</value>
+  </data>
+  <data name="001_AnderesKonto" xml:space="preserve">
+    <value>Iný účet</value>
+  </data>
+  <data name="001_DateiOrdnerNichtGelöscht" xml:space="preserve">
+    <value>Súbor alebo priečinok sa nepodarilo odstrániť</value>
+  </data>
+  <data name="001_Abmelden" xml:space="preserve">
+    <value>Odhlásiť</value>
+  </data>
+  <data name="001_Berechtigung" xml:space="preserve">
+    <value>Povolenie prístupu</value>
+  </data>
+  <data name="001_DateienOrdnerNichtEingefügt" xml:space="preserve">
+    <value>Nemožno pridať súbor alebo priečinok</value>
+  </data>
+  <data name="001_DateienSortieren" xml:space="preserve">
+    <value>Triedenie súborov</value>
+  </data>
+  <data name="001_DateiOrdnerBereitsVorhanden" xml:space="preserve">
+    <value>Už existuje súbor alebo priečinok s názvom v cieľovom</value>
+  </data>
+  <data name="001_DateiOrdnerNichtVorhanden" xml:space="preserve">
+    <value>Súbor alebo priečinok nie je k dispozícii</value>
+  </data>
+  <data name="001_FreigabeLink" xml:space="preserve">
+    <value>Zdieľať odkaz</value>
+  </data>
+  <data name="001_Lesen" xml:space="preserve">
+    <value>Čítanie</value>
+  </data>
+  <data name="001_LesenSchreiben" xml:space="preserve">
+    <value>Čítanie a zápis</value>
+  </data>
+  <data name="001_OneDriveÄndern" xml:space="preserve">
+    <value>Účet zmeniť jednu jednotku
+-Aktuálne pripojenie
+-Pripojenie odhlásenia
+-Nové pripojenie</value>
+  </data>
+  <data name="001_AnStart" xml:space="preserve">
+    <value>Pripnúť na domovskú OBRAZOVKU</value>
+  </data>
+  <data name="001_DateiGrößerLimit" xml:space="preserve">
+    <value>Súbor je väčšia než limit</value>
+  </data>
+  <data name="001_DDBestätigen" xml:space="preserve">
+    <value>Potvrdiť povleci-in-spusti akcie</value>
+  </data>
+  <data name="001_DDUmgang" xml:space="preserve">
+    <value>Povleci-in-spusti akcie</value>
+  </data>
+  <data name="001_DownloadLimit" xml:space="preserve">
+    <value>Stiahnuť limit otvoriť súbory</value>
+  </data>
+  <data name="001_DragAndDrop" xml:space="preserve">
+    <value>Povleci-in-spusti</value>
+  </data>
+  <data name="001_Einmal" xml:space="preserve">
+    <value>Akonáhle je aplikácia zatvorená</value>
+  </data>
+  <data name="001_Einstellungen" xml:space="preserve">
+    <value>Nastavenia</value>
+  </data>
+  <data name="001_Fragen" xml:space="preserve">
+    <value>Otázky</value>
+  </data>
+  <data name="001_Ignorieren" xml:space="preserve">
+    <value>Ignorovať</value>
+  </data>
+  <data name="001_Immer" xml:space="preserve">
+    <value>Vždy</value>
+  </data>
+  <data name="001_Ja" xml:space="preserve">
+    <value>áno</value>
+  </data>
+  <data name="001_Mehreren" xml:space="preserve">
+    <value>Niekoľko</value>
+  </data>
+  <data name="001_Nein" xml:space="preserve">
+    <value>nie</value>
+  </data>
+  <data name="001_Nie" xml:space="preserve">
+    <value>Nikdy</value>
+  </data>
+  <data name="001_OnlineVerhalten" xml:space="preserve">
+    <value>Správanie v režime online otvoriť súbory</value>
+  </data>
+  <data name="001_OnlineÖffnen" xml:space="preserve">
+    <value>Otvoriť online</value>
+  </data>
+  <data name="001_PasswortAbfrage" xml:space="preserve">
+    <value>Heslo</value>
+  </data>
+  <data name="001_PasswortZurück" xml:space="preserve">
+    <value>Obnoviť heslo</value>
+  </data>
+  <data name="001_PrivaterOrdner" xml:space="preserve">
+    <value>Súkromný priečinok</value>
+  </data>
+  <data name="001_Sortierung" xml:space="preserve">
+    <value>Triedenie</value>
+  </data>
+  <data name="001_SortierungSpeichern" xml:space="preserve">
+    <value>Uložiť, objednávanie</value>
+  </data>
+  <data name="001_Standard" xml:space="preserve">
+    <value>Štandard</value>
+  </data>
+  <data name="001_Unendlich" xml:space="preserve">
+    <value>Infinity</value>
+  </data>
+  <data name="001_Zurück" xml:space="preserve">
+    <value>Späť</value>
+  </data>
+  <data name="001_ÖffnenVomOrdner" xml:space="preserve">
+    <value>Pri každom otvorení priečinka</value>
+  </data>
+  <data name="001_Benutzername" xml:space="preserve">
+    <value>Meno používateľa</value>
+  </data>
+  <data name="001_PasswortSpeichern" xml:space="preserve">
+    <value>Uložiť heslo</value>
+  </data>
+  <data name="001_Server" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="001_Übernehmen" xml:space="preserve">
+    <value>Prevziať</value>
+  </data>
+  <data name="001_TemporäreDateien" xml:space="preserve">
+    <value>Dočasné súbory</value>
+  </data>
+  <data name="001_TemporäreDateienAnzeigen" xml:space="preserve">
+    <value>Zobrazenie dočasných súborov</value>
+  </data>
+  <data name="001_TemporäreDateienLöschen" xml:space="preserve">
+    <value>Odstrániť dočasné súbory pri štarte</value>
+  </data>
+  <data name="001_TemporäreDateienLöschenTask" xml:space="preserve">
+    <value>Odstránenie dočasných súborov</value>
+  </data>
+  <data name="001_KopierenVerschiebenOnlineOnline" xml:space="preserve">
+    <value>Kopírovanie alebo presun z online online, nie je podporovaný.
+Skopírujte súbory do telefónu a potom online.</value>
+  </data>
+  <data name="002_BegrüßungTitel" xml:space="preserve">
+    <value>Prečítajte si prosím pozorne nasledujúce pokyny</value>
+  </data>
+  <data name="002_Bergrüßung" xml:space="preserve">
+    <value>Vďaka za pomocou tejto aplikácie.
+Táto aplikácia používa drag - a - pokles systém.
+Pomocou šedej lište napravo od okna prejdite.</value>
+  </data>
+  <data name="002_NichtAnzeigen" xml:space="preserve">
+    <value>Nezobrazovať pri štarte</value>
+  </data>
+  <data name="002_Dateiauswahl" xml:space="preserve">
+    <value>Výber súboru</value>
+  </data>
+  <data name="002_DateiauswahlInfo" xml:space="preserve">
+    <value>Volič súboru môžete kopírovať súbory z priečinkov, ktoré nemožno otvoriť.
+-Dokumenty
+-Na stiahnutie
+-Zvonenie</value>
+  </data>
+  <data name="002_DateiauswahlKopiert" xml:space="preserve">
+    <value>Súbory boli skopírované.
+Teraz môžete prilepiť ju kdekoľvek.</value>
+  </data>
+  <data name="000_Beschreibung" xml:space="preserve">
+    <value>Nová generácia súborový manažér pre Windows 10 mobile. S dvoma oknami a techniky "presunúť a pustiť" ("drag-and-drop. Určená pre absolútny jednoduchosť použitia. Podporuje pamäťové karty, jeden disk a dropbox.
+Vyskúšajte teraz zadarmo.</value>
+  </data>
+  <data name="000_Funktionen_1" xml:space="preserve">
+    <value>Dve meniť veľkosť okna</value>
+  </data>
+  <data name="000_Funktionen_10" xml:space="preserve">
+    <value>Podporuje všetky formáty obrazovky</value>
+  </data>
+  <data name="000_Funktionen_2" xml:space="preserve">
+    <value>Povleci-in-spusti pre rýchle kopírovanie alebo premiestnenie</value>
+  </data>
+  <data name="000_Funktionen_3" xml:space="preserve">
+    <value>Podporuje viaceré pamäťové karty</value>
+  </data>
+  <data name="000_Funktionen_4" xml:space="preserve">
+    <value>Plná integrácia jednej jednotky</value>
+  </data>
+  <data name="000_Funktionen_5" xml:space="preserve">
+    <value>Plný dropbox integrácie</value>
+  </data>
+  <data name="000_Funktionen_6" xml:space="preserve">
+    <value>Heslo chrániť súkromný priestor</value>
+  </data>
+  <data name="000_Funktionen_7" xml:space="preserve">
+    <value>Viacnásobné premenovanie</value>
+  </data>
+  <data name="000_Funktionen_8" xml:space="preserve">
+    <value>Rozšírené možnosti triedenia</value>
+  </data>
+  <data name="000_Funktionen_9" xml:space="preserve">
+    <value>Výber súborov v zabezpečených priestoroch</value>
+  </data>
+  <data name="000_Schlagwort_1" xml:space="preserve">
+    <value>súbor</value>
+  </data>
+  <data name="000_Schlagwort_2" xml:space="preserve">
+    <value>Manažér</value>
+  </data>
+  <data name="000_Schlagwort_3" xml:space="preserve">
+    <value>Explorer</value>
+  </data>
+  <data name="000_Schlagwort_4" xml:space="preserve">
+    <value>jeden disk</value>
+  </data>
+  <data name="000_Schlagwort_5" xml:space="preserve">
+    <value>Dropbox</value>
+  </data>
+  <data name="000_Schlagwort_6" xml:space="preserve">
+    <value>Cloud</value>
+  </data>
+  <data name="000_Schlagwort_7" xml:space="preserve">
+    <value>priečinok Sieť</value>
+  </data>
+  <data name="002_Bewerten" xml:space="preserve">
+    <value>Hodnotiť túto aplikáciu</value>
+  </data>
+  <data name="002_BewertenText" xml:space="preserve">
+    <value>Pomôžte nám šíriť túto aplikáciu.
+Hodnotiť a recenzovať tejto app 5 hviezdičiek.
+A dostanete tento top aplikácie zdarma.</value>
+  </data>
+  <data name="002_BewertungNachricht" xml:space="preserve">
+    <value>Pošlite nám e-mail.
+Zadajte svoje meno.
+Ten, ktorý používate s kontom Microsoft.
+Pošleme vám odkaz potom.</value>
+  </data>
+  <data name="002_Danke_1" xml:space="preserve">
+    <value>Ďakujeme vám za používanie našich aplikácií.</value>
+  </data>
+  <data name="002_Danke_2" xml:space="preserve">
+    <value>Zvláštne poďakovanie</value>
+  </data>
+  <data name="002_Hilfe" xml:space="preserve">
+    <value>Manuál</value>
+  </data>
+  <data name="002_JetztBewerten" xml:space="preserve">
+    <value>Ohodnotiť teraz</value>
+  </data>
+  <data name="002_Kaufen" xml:space="preserve">
+    <value>Predám túto aplikáciu</value>
+  </data>
+  <data name="002_Kontakt" xml:space="preserve">
+    <value>Ako kontaktovať s</value>
+  </data>
+  <data name="002_Kostenlos" xml:space="preserve">
+    <value>Zadarmo pre päť star</value>
+  </data>
+  <data name="002_MicrosoftBenutzerName" xml:space="preserve">
+    <value>Meno, ktoré používate vo vašom konte Microsoft</value>
+  </data>
+  <data name="002_Postanschrift" xml:space="preserve">
+    <value>Poštová adresa</value>
+  </data>
+  <data name="002_PromoApp" xml:space="preserve">
+    <value>8.1 Zamknúť obrazovku</value>
+  </data>
+  <data name="002_Sprache" xml:space="preserve">
+    <value>Jazyk</value>
+  </data>
+  <data name="002_SpracheÄndern" xml:space="preserve">
+    <value>Zmena jazyka</value>
+  </data>
+  <data name="002_VielenDank" xml:space="preserve">
+    <value>veľmi pekne ďakujem</value>
+  </data>
+  <data name="002_Webseite" xml:space="preserve">
+    <value>Webová stránka</value>
+  </data>
+  <data name="002_Über" xml:space="preserve">
+    <value>O</value>
+  </data>
+</root>

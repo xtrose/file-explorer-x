@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="001_Abbrechen" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="001_Ausschneiden" xml:space="preserve">
+    <value>Klipp ut</value>
+  </data>
+  <data name="001_Bilder" xml:space="preserve">
+    <value>Bilder</value>
+  </data>
+  <data name="001_Datei" xml:space="preserve">
+    <value>Fil</value>
+  </data>
+  <data name="001_DateiBereitsVorhanden" xml:space="preserve">
+    <value>Vid målgång finns det redan en fil med namnet</value>
+  </data>
+  <data name="001_DateienNichtKopiert" xml:space="preserve">
+    <value>Filer kan inte kopieras</value>
+  </data>
+  <data name="001_DateienNichtVerschoben" xml:space="preserve">
+    <value>Filer kunde inte flyttas</value>
+  </data>
+  <data name="001_DateiMehrzahl" xml:space="preserve">
+    <value>Filer</value>
+  </data>
+  <data name="001_DiesesGerät" xml:space="preserve">
+    <value>Denna enhet</value>
+  </data>
+  <data name="001_Dokumente" xml:space="preserve">
+    <value>Dokument</value>
+  </data>
+  <data name="001_Downloads" xml:space="preserve">
+    <value>Nedladdningar</value>
+  </data>
+  <data name="001_Einfügen" xml:space="preserve">
+    <value>Infoga</value>
+  </data>
+  <data name="001_Ersetzen" xml:space="preserve">
+    <value>Ersätt</value>
+  </data>
+  <data name="001_FürAlle" xml:space="preserve">
+    <value>Gälla alla</value>
+  </data>
+  <data name="001_Integrieren" xml:space="preserve">
+    <value>Integrera</value>
+  </data>
+  <data name="001_Klingeltöne" xml:space="preserve">
+    <value>Ringsignaler</value>
+  </data>
+  <data name="001_Kopieren" xml:space="preserve">
+    <value>Kopia</value>
+  </data>
+  <data name="001_Löschen" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="001_LöschenBestätigung" xml:space="preserve">
+    <value>Ta bort permanent</value>
+  </data>
+  <data name="001_Musik" xml:space="preserve">
+    <value>Musik</value>
+  </data>
+  <data name="001_NichtMöglich" xml:space="preserve">
+    <value>Inte möjligt</value>
+  </data>
+  <data name="001_OneDrive" xml:space="preserve">
+    <value>En enhet</value>
+  </data>
+  <data name="001_Ordner" xml:space="preserve">
+    <value>Mappen</value>
+  </data>
+  <data name="001_OrdnerBereitsVorhanden" xml:space="preserve">
+    <value>Det finns redan en mapp med detta namn i målet</value>
+  </data>
+  <data name="001_OrdnerMehrzahl" xml:space="preserve">
+    <value>Mappen</value>
+  </data>
+  <data name="001_OrdnerNichtErstellt" xml:space="preserve">
+    <value>Mappen kunde inte skapas</value>
+  </data>
+  <data name="001_OrdnerNichÖffnen" xml:space="preserve">
+    <value>Det går inte att öppna mapp</value>
+  </data>
+  <data name="001_Privat" xml:space="preserve">
+    <value>Privat</value>
+  </data>
+  <data name="001_SDKarte" xml:space="preserve">
+    <value>SD-kort</value>
+  </data>
+  <data name="001_Teilen" xml:space="preserve">
+    <value>Andel</value>
+  </data>
+  <data name="001_Umbenennen" xml:space="preserve">
+    <value>Byt namn</value>
+  </data>
+  <data name="001_Verschieben" xml:space="preserve">
+    <value>Flytta</value>
+  </data>
+  <data name="001_Videos" xml:space="preserve">
+    <value>Videor</value>
+  </data>
+  <data name="001_ZugriffVerweigert" xml:space="preserve">
+    <value>Åtkomst nekad</value>
+  </data>
+  <data name="001_Überspringen" xml:space="preserve">
+    <value>Hoppa över</value>
+  </data>
+  <data name="001_Hinzufügen" xml:space="preserve">
+    <value>Lägg till</value>
+  </data>
+  <data name="001_KeinName" xml:space="preserve">
+    <value>Inget namn anges</value>
+  </data>
+  <data name="001_Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="001_NeuerOrdner" xml:space="preserve">
+    <value>Lägg till mapp</value>
+  </data>
+  <data name="001_Schließen" xml:space="preserve">
+    <value>Stäng</value>
+  </data>
+  <data name="001_NameFalsch" xml:space="preserve">
+    <value>Namnet kan inte användas</value>
+  </data>
+  <data name="001_EinenMoment" xml:space="preserve">
+    <value>Ett ögonblick</value>
+  </data>
+  <data name="001_DateiNichtGelöscht" xml:space="preserve">
+    <value>Filen kunde inte raderas</value>
+  </data>
+  <data name="001_OrdnerNichtLöschen" xml:space="preserve">
+    <value>Mappen kunde inte raderas</value>
+  </data>
+  <data name="001_DateienNichtEingefügt" xml:space="preserve">
+    <value>Filen kunde inte läggas</value>
+  </data>
+  <data name="001_DateienNichtVorhanden" xml:space="preserve">
+    <value>Filer är inte längre tillgängliga</value>
+  </data>
+  <data name="001_DateiNichtVorhanden" xml:space="preserve">
+    <value>Filen är inte längre tillgänglig</value>
+  </data>
+  <data name="001_KopierenVerschieben" xml:space="preserve">
+    <value>Kopiera eller flytta</value>
+  </data>
+  <data name="000_AppName" xml:space="preserve">
+    <value>Utforskaren X</value>
+  </data>
+  <data name="001_AllesAbwählen" xml:space="preserve">
+    <value>Välja bort alla</value>
+  </data>
+  <data name="001_AllesAuswählen" xml:space="preserve">
+    <value>Markera alla</value>
+  </data>
+  <data name="001_DateiNichtUmbenannt" xml:space="preserve">
+    <value>Filen kunde inte döpas</value>
+  </data>
+  <data name="001_OrdnerNichtUmbenannt" xml:space="preserve">
+    <value>Mappen kunde inte döpas</value>
+  </data>
+  <data name="001_Heimnetzgruppe" xml:space="preserve">
+    <value>Hemgrupp</value>
+  </data>
+  <data name="001_NurVollversion" xml:space="preserve">
+    <value>Endast tillgängligt i den fullständiga versionen</value>
+  </data>
+  <data name="001_Warnung" xml:space="preserve">
+    <value>Varning</value>
+  </data>
+  <data name="001_WarnungPrivate" xml:space="preserve">
+    <value>Den privata sektorn ligger i katalogen av appen och skyddas av ett lösenord. Skriv ned lösenordet och förvara det på en säker plats.
+Viktigt!
+Förlorar du ditt lösenord eller om du avinstallerar denna app, så data är förlorade för alltid.</value>
+  </data>
+  <data name="001_Weiter" xml:space="preserve">
+    <value>Nästa</value>
+  </data>
+  <data name="001_Fehler" xml:space="preserve">
+    <value>Fel</value>
+  </data>
+  <data name="001_KeinPasswort" xml:space="preserve">
+    <value>Inget lösenord angett</value>
+  </data>
+  <data name="001_Passwort" xml:space="preserve">
+    <value>Lösenord</value>
+  </data>
+  <data name="001_PasswortErstellen" xml:space="preserve">
+    <value>Skapa lösenord</value>
+  </data>
+  <data name="001_PasswortNicht" xml:space="preserve">
+    <value>Lösenord kan inte användas</value>
+  </data>
+  <data name="001_PasswortUnterschied" xml:space="preserve">
+    <value>Lösenorden är olika</value>
+  </data>
+  <data name="001_PasswortWiederholen" xml:space="preserve">
+    <value>Upprepa lösenord</value>
+  </data>
+  <data name="001_Datum" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="001_FileType" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="001_OrdnerSortieren" xml:space="preserve">
+    <value>Sortera mappar</value>
+  </data>
+  <data name="001_Entfernen" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="001_VerbindungNicht" xml:space="preserve">
+    <value>Anslutning misslyckades</value>
+  </data>
+  <data name="001_DateiNichtGeöffnet" xml:space="preserve">
+    <value>Filen kunde inte öppnas</value>
+  </data>
+  <data name="001_DateiHeruntergeladen" xml:space="preserve">
+    <value>Filen är tillgänglig för nedladdning</value>
+  </data>
+  <data name="001_ArtDerVerbindung" xml:space="preserve">
+    <value>Typ av anslutning</value>
+  </data>
+  <data name="001_VerknüpftesKonto" xml:space="preserve">
+    <value>Länkade kontot</value>
+  </data>
+  <data name="001_AnderesKonto" xml:space="preserve">
+    <value>Ett annat konto</value>
+  </data>
+  <data name="001_DateiOrdnerNichtGelöscht" xml:space="preserve">
+    <value>Filen eller mappen kunde inte raderas</value>
+  </data>
+  <data name="001_Abmelden" xml:space="preserve">
+    <value>Logga ut</value>
+  </data>
+  <data name="001_Berechtigung" xml:space="preserve">
+    <value>Åtkomstbehörighet</value>
+  </data>
+  <data name="001_DateienOrdnerNichtEingefügt" xml:space="preserve">
+    <value>Filen eller mappen kunde inte läggas</value>
+  </data>
+  <data name="001_DateienSortieren" xml:space="preserve">
+    <value>Sortera filer</value>
+  </data>
+  <data name="001_DateiOrdnerBereitsVorhanden" xml:space="preserve">
+    <value>Det finns redan en fil eller mapp med namn i målet</value>
+  </data>
+  <data name="001_DateiOrdnerNichtVorhanden" xml:space="preserve">
+    <value>Filen eller mappen inte längre tillgänglig</value>
+  </data>
+  <data name="001_FreigabeLink" xml:space="preserve">
+    <value>Dela länk</value>
+  </data>
+  <data name="001_Lesen" xml:space="preserve">
+    <value>Läs</value>
+  </data>
+  <data name="001_LesenSchreiben" xml:space="preserve">
+    <value>Läsa och skriva</value>
+  </data>
+  <data name="001_OneDriveÄndern" xml:space="preserve">
+    <value>Konto ändra en enhet
+-Aktuella anslutningen
+-Anslutning logga ut
+-Ny anslutning</value>
+  </data>
+  <data name="001_AnStart" xml:space="preserve">
+    <value>FÄST på startskärmen</value>
+  </data>
+  <data name="001_DateiGrößerLimit" xml:space="preserve">
+    <value>Filen är större än gränsen</value>
+  </data>
+  <data name="001_DDBestätigen" xml:space="preserve">
+    <value>Bekräfta drar - och - släpp-åtgärd</value>
+  </data>
+  <data name="001_DDUmgang" xml:space="preserve">
+    <value>Dra - och - släpp-åtgärd</value>
+  </data>
+  <data name="001_DownloadLimit" xml:space="preserve">
+    <value>Data överför gräns för att öppna filer</value>
+  </data>
+  <data name="001_DragAndDrop" xml:space="preserve">
+    <value>Dra - och - släpp</value>
+  </data>
+  <data name="001_Einmal" xml:space="preserve">
+    <value>När appen är stängd</value>
+  </data>
+  <data name="001_Einstellungen" xml:space="preserve">
+    <value>Inställningar</value>
+  </data>
+  <data name="001_Fragen" xml:space="preserve">
+    <value>Frågor</value>
+  </data>
+  <data name="001_Ignorieren" xml:space="preserve">
+    <value>Ignorera</value>
+  </data>
+  <data name="001_Immer" xml:space="preserve">
+    <value>Alltid</value>
+  </data>
+  <data name="001_Ja" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="001_Mehreren" xml:space="preserve">
+    <value>Flera</value>
+  </data>
+  <data name="001_Nein" xml:space="preserve">
+    <value>Nej</value>
+  </data>
+  <data name="001_Nie" xml:space="preserve">
+    <value>Aldrig</value>
+  </data>
+  <data name="001_OnlineVerhalten" xml:space="preserve">
+    <value>Online-beteende att öppna filer</value>
+  </data>
+  <data name="001_OnlineÖffnen" xml:space="preserve">
+    <value>Öppna online</value>
+  </data>
+  <data name="001_PasswortAbfrage" xml:space="preserve">
+    <value>Lösenord</value>
+  </data>
+  <data name="001_PasswortZurück" xml:space="preserve">
+    <value>Återställ lösenord</value>
+  </data>
+  <data name="001_PrivaterOrdner" xml:space="preserve">
+    <value>Privat mapp</value>
+  </data>
+  <data name="001_Sortierung" xml:space="preserve">
+    <value>Sortering</value>
+  </data>
+  <data name="001_SortierungSpeichern" xml:space="preserve">
+    <value>Spara beställning</value>
+  </data>
+  <data name="001_Standard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="001_Unendlich" xml:space="preserve">
+    <value>Infinity</value>
+  </data>
+  <data name="001_Zurück" xml:space="preserve">
+    <value>Tillbaka</value>
+  </data>
+  <data name="001_ÖffnenVomOrdner" xml:space="preserve">
+    <value>Varje gång du öppnar mappen</value>
+  </data>
+  <data name="001_Benutzername" xml:space="preserve">
+    <value>Användarnamn</value>
+  </data>
+  <data name="001_PasswortSpeichern" xml:space="preserve">
+    <value>Spara lösenord</value>
+  </data>
+  <data name="001_Server" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="001_Übernehmen" xml:space="preserve">
+    <value>Ta över</value>
+  </data>
+  <data name="001_TemporäreDateien" xml:space="preserve">
+    <value>Tillfälliga filer</value>
+  </data>
+  <data name="001_TemporäreDateienAnzeigen" xml:space="preserve">
+    <value>Visa tillfälliga filer</value>
+  </data>
+  <data name="001_TemporäreDateienLöschen" xml:space="preserve">
+    <value>Ta bort temporära filer vid start</value>
+  </data>
+  <data name="001_TemporäreDateienLöschenTask" xml:space="preserve">
+    <value>Ta bort tillfälliga filer</value>
+  </data>
+  <data name="001_KopierenVerschiebenOnlineOnline" xml:space="preserve">
+    <value>Kopiera eller flytta från online till online inte stöds.
+Kopiera filer till telefonen, och sedan till online.</value>
+  </data>
+  <data name="002_BegrüßungTitel" xml:space="preserve">
+    <value>Vänligen läs dessa instruktioner noggrant</value>
+  </data>
+  <data name="002_Bergrüßung" xml:space="preserve">
+    <value>Tack för att använda denna app.
+Denna app använder ett dra - och - släpp-system.
+Använd det grå fältet till höger om fönstret för att bläddra.</value>
+  </data>
+  <data name="002_NichtAnzeigen" xml:space="preserve">
+    <value>Visa inte vid start</value>
+  </data>
+  <data name="002_Dateiauswahl" xml:space="preserve">
+    <value>Val av filer</value>
+  </data>
+  <data name="002_DateiauswahlInfo" xml:space="preserve">
+    <value>Filen Väljaren kan du kopiera filer från mappar som inte kan öppnas.
+-Dokument
+-Nedladdningar
+-Ringsignaler</value>
+  </data>
+  <data name="002_DateiauswahlKopiert" xml:space="preserve">
+    <value>Filerna har kopierats.
+Du kan nu klistra in den någonstans.</value>
+  </data>
+  <data name="000_Beschreibung" xml:space="preserve">
+    <value>En ny generation av file manager för Windows 10 mobile. Med två fönster och dra-och-släpp. Utformad för absolut användarvänlighet. Stöder minneskort, en enhet och dropbox.
+Prova nu gratis.</value>
+  </data>
+  <data name="000_Funktionen_1" xml:space="preserve">
+    <value>Två resizable fönster</value>
+  </data>
+  <data name="000_Funktionen_10" xml:space="preserve">
+    <value>Stöder alla skärmformat</value>
+  </data>
+  <data name="000_Funktionen_2" xml:space="preserve">
+    <value>Dra-och-släpp för snabb kopia eller flytta</value>
+  </data>
+  <data name="000_Funktionen_3" xml:space="preserve">
+    <value>Stöder flera minneskort</value>
+  </data>
+  <data name="000_Funktionen_4" xml:space="preserve">
+    <value>Fullständig integration av en driva</value>
+  </data>
+  <data name="000_Funktionen_5" xml:space="preserve">
+    <value>Full dropbox-integrering</value>
+  </data>
+  <data name="000_Funktionen_6" xml:space="preserve">
+    <value>Lösenordsskyddade privat område</value>
+  </data>
+  <data name="000_Funktionen_7" xml:space="preserve">
+    <value>Flera Byt namn</value>
+  </data>
+  <data name="000_Funktionen_8" xml:space="preserve">
+    <value>Avancerade sorteringsalternativ</value>
+  </data>
+  <data name="000_Funktionen_9" xml:space="preserve">
+    <value>Filval för skyddade områden</value>
+  </data>
+  <data name="000_Schlagwort_1" xml:space="preserve">
+    <value>fil</value>
+  </data>
+  <data name="000_Schlagwort_2" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="000_Schlagwort_3" xml:space="preserve">
+    <value>Explorer</value>
+  </data>
+  <data name="000_Schlagwort_4" xml:space="preserve">
+    <value>en enhet</value>
+  </data>
+  <data name="000_Schlagwort_5" xml:space="preserve">
+    <value>Dropbox</value>
+  </data>
+  <data name="000_Schlagwort_6" xml:space="preserve">
+    <value>molnet</value>
+  </data>
+  <data name="000_Schlagwort_7" xml:space="preserve">
+    <value>mappen nätverk</value>
+  </data>
+  <data name="002_Bewerten" xml:space="preserve">
+    <value>Betygsätt denna app</value>
+  </data>
+  <data name="002_BewertenText" xml:space="preserve">
+    <value>Hjälp oss sprida denna app.
+Betygsätt och denna app 5 stjärnor.
+Och du får denna top app gratis.</value>
+  </data>
+  <data name="002_BewertungNachricht" xml:space="preserve">
+    <value>Skicka oss ett mail.
+Ange ditt namn.
+En som du använder med ditt Microsoft-konto.
+Vi skickar dig en länk då.</value>
+  </data>
+  <data name="002_Danke_1" xml:space="preserve">
+    <value>Tack för att du använder våra appar.</value>
+  </data>
+  <data name="002_Danke_2" xml:space="preserve">
+    <value>Speciellt tack till</value>
+  </data>
+  <data name="002_Hilfe" xml:space="preserve">
+    <value>Handbok</value>
+  </data>
+  <data name="002_JetztBewerten" xml:space="preserve">
+    <value>Betygsätt nu</value>
+  </data>
+  <data name="002_Kaufen" xml:space="preserve">
+    <value>Köpa denna app</value>
+  </data>
+  <data name="002_Kontakt" xml:space="preserve">
+    <value>Hur man kontakt med</value>
+  </data>
+  <data name="002_Kostenlos" xml:space="preserve">
+    <value>Gratis för fem stjärna</value>
+  </data>
+  <data name="002_MicrosoftBenutzerName" xml:space="preserve">
+    <value>Namnet som du använder i ditt Microsoft-konto</value>
+  </data>
+  <data name="002_Postanschrift" xml:space="preserve">
+    <value>Postadress</value>
+  </data>
+  <data name="002_PromoApp" xml:space="preserve">
+    <value>8,1 låsskärmen</value>
+  </data>
+  <data name="002_Sprache" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="002_SpracheÄndern" xml:space="preserve">
+    <value>Ändra språk</value>
+  </data>
+  <data name="002_VielenDank" xml:space="preserve">
+    <value>Tack så mycket</value>
+  </data>
+  <data name="002_Webseite" xml:space="preserve">
+    <value>Webbsida</value>
+  </data>
+  <data name="002_Über" xml:space="preserve">
+    <value>Om</value>
+  </data>
+</root>

@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="001_Abbrechen" xml:space="preserve">
+    <value>Odustani</value>
+  </data>
+  <data name="001_Ausschneiden" xml:space="preserve">
+    <value>Izrezati</value>
+  </data>
+  <data name="001_Bilder" xml:space="preserve">
+    <value>Slike</value>
+  </data>
+  <data name="001_Datei" xml:space="preserve">
+    <value>Datoteka</value>
+  </data>
+  <data name="001_DateiBereitsVorhanden" xml:space="preserve">
+    <value>Na cilju, već postoji datoteka s nazivom</value>
+  </data>
+  <data name="001_DateienNichtKopiert" xml:space="preserve">
+    <value>Datoteke nije moguće kopirati</value>
+  </data>
+  <data name="001_DateienNichtVerschoben" xml:space="preserve">
+    <value>Datoteka nije mogla biti premještena</value>
+  </data>
+  <data name="001_DateiMehrzahl" xml:space="preserve">
+    <value>Datoteka</value>
+  </data>
+  <data name="001_DiesesGerät" xml:space="preserve">
+    <value>Ovaj uređaj</value>
+  </data>
+  <data name="001_Dokumente" xml:space="preserve">
+    <value>Dokumenti</value>
+  </data>
+  <data name="001_Downloads" xml:space="preserve">
+    <value>Preuzimanja</value>
+  </data>
+  <data name="001_Einfügen" xml:space="preserve">
+    <value>Umetanje</value>
+  </data>
+  <data name="001_Ersetzen" xml:space="preserve">
+    <value>Zamijeniti</value>
+  </data>
+  <data name="001_FürAlle" xml:space="preserve">
+    <value>Primijeni na sve</value>
+  </data>
+  <data name="001_Integrieren" xml:space="preserve">
+    <value>Integrirati</value>
+  </data>
+  <data name="001_Klingeltöne" xml:space="preserve">
+    <value>Melodija zvona</value>
+  </data>
+  <data name="001_Kopieren" xml:space="preserve">
+    <value>Kopiraj</value>
+  </data>
+  <data name="001_Löschen" xml:space="preserve">
+    <value>Brisanje</value>
+  </data>
+  <data name="001_LöschenBestätigung" xml:space="preserve">
+    <value>Trajno brisanje</value>
+  </data>
+  <data name="001_Musik" xml:space="preserve">
+    <value>Glazba</value>
+  </data>
+  <data name="001_NichtMöglich" xml:space="preserve">
+    <value>Nije moguće</value>
+  </data>
+  <data name="001_OneDrive" xml:space="preserve">
+    <value>Jedan disk</value>
+  </data>
+  <data name="001_Ordner" xml:space="preserve">
+    <value>Mapa</value>
+  </data>
+  <data name="001_OrdnerBereitsVorhanden" xml:space="preserve">
+    <value>Mapa s tim nazivom već postoji u cilj</value>
+  </data>
+  <data name="001_OrdnerMehrzahl" xml:space="preserve">
+    <value>Mapa</value>
+  </data>
+  <data name="001_OrdnerNichtErstellt" xml:space="preserve">
+    <value>Nije moguće stvoriti mapu</value>
+  </data>
+  <data name="001_OrdnerNichÖffnen" xml:space="preserve">
+    <value>Nije moguće otvoriti mapu</value>
+  </data>
+  <data name="001_Privat" xml:space="preserve">
+    <value>Privatni</value>
+  </data>
+  <data name="001_SDKarte" xml:space="preserve">
+    <value>SD kartica</value>
+  </data>
+  <data name="001_Teilen" xml:space="preserve">
+    <value>Udio</value>
+  </data>
+  <data name="001_Umbenennen" xml:space="preserve">
+    <value>Promjena naziva</value>
+  </data>
+  <data name="001_Verschieben" xml:space="preserve">
+    <value>Premjestiti</value>
+  </data>
+  <data name="001_Videos" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="001_ZugriffVerweigert" xml:space="preserve">
+    <value>Pristup odbijen</value>
+  </data>
+  <data name="001_Überspringen" xml:space="preserve">
+    <value>Preskoči</value>
+  </data>
+  <data name="001_Hinzufügen" xml:space="preserve">
+    <value>Dodati</value>
+  </data>
+  <data name="001_KeinName" xml:space="preserve">
+    <value>Uneseni naziv</value>
+  </data>
+  <data name="001_Name" xml:space="preserve">
+    <value>Ime</value>
+  </data>
+  <data name="001_NeuerOrdner" xml:space="preserve">
+    <value>Dodavanje mape</value>
+  </data>
+  <data name="001_Schließen" xml:space="preserve">
+    <value>Zatvori</value>
+  </data>
+  <data name="001_NameFalsch" xml:space="preserve">
+    <value>Naziv ne može koristiti</value>
+  </data>
+  <data name="001_EinenMoment" xml:space="preserve">
+    <value>Trenutak molim</value>
+  </data>
+  <data name="001_DateiNichtGelöscht" xml:space="preserve">
+    <value>Datoteka se ne može izbrisati</value>
+  </data>
+  <data name="001_OrdnerNichtLöschen" xml:space="preserve">
+    <value>Mapu nije moguće izbrisati</value>
+  </data>
+  <data name="001_DateienNichtEingefügt" xml:space="preserve">
+    <value>Datoteku nije moguće dodati</value>
+  </data>
+  <data name="001_DateienNichtVorhanden" xml:space="preserve">
+    <value>Datoteke nisu više dostupni</value>
+  </data>
+  <data name="001_DateiNichtVorhanden" xml:space="preserve">
+    <value>Datoteka nije dostupna</value>
+  </data>
+  <data name="001_KopierenVerschieben" xml:space="preserve">
+    <value>Kopiranje ili premještanje</value>
+  </data>
+  <data name="000_AppName" xml:space="preserve">
+    <value>Eksplorer za datoteke X</value>
+  </data>
+  <data name="001_AllesAbwählen" xml:space="preserve">
+    <value>Isključiti sve</value>
+  </data>
+  <data name="001_AllesAuswählen" xml:space="preserve">
+    <value>Odaberi sve</value>
+  </data>
+  <data name="001_DateiNichtUmbenannt" xml:space="preserve">
+    <value>Datoteka nije mogla biti preimenovana</value>
+  </data>
+  <data name="001_OrdnerNichtUmbenannt" xml:space="preserve">
+    <value>Mapu nije moguće preimenovati</value>
+  </data>
+  <data name="001_Heimnetzgruppe" xml:space="preserve">
+    <value>Osnovne grupe</value>
+  </data>
+  <data name="001_NurVollversion" xml:space="preserve">
+    <value>Dostupna samo u punoj verziji</value>
+  </data>
+  <data name="001_Warnung" xml:space="preserve">
+    <value>Upozorenje</value>
+  </data>
+  <data name="001_WarnungPrivate" xml:space="preserve">
+    <value>Privatni sektor se nalazi u direktoriju aplikacije i zaštićene lozinkom. Zapišite lozinku i držati ga na sigurnom mjestu.
+Važno!
+Možeš izgubiti svoju lozinku ili de-instalirati ovaj app, tako da se podaci su izgubljeni zauvijek.</value>
+  </data>
+  <data name="001_Weiter" xml:space="preserve">
+    <value>Sljedeći</value>
+  </data>
+  <data name="001_Fehler" xml:space="preserve">
+    <value>Pogreška</value>
+  </data>
+  <data name="001_KeinPasswort" xml:space="preserve">
+    <value>Nema lozinke</value>
+  </data>
+  <data name="001_Passwort" xml:space="preserve">
+    <value>Lozinku</value>
+  </data>
+  <data name="001_PasswortErstellen" xml:space="preserve">
+    <value>Stvaranje lozinke</value>
+  </data>
+  <data name="001_PasswortNicht" xml:space="preserve">
+    <value>Lozinke se ne mogu koristiti</value>
+  </data>
+  <data name="001_PasswortUnterschied" xml:space="preserve">
+    <value>Lozinke razlikuju</value>
+  </data>
+  <data name="001_PasswortWiederholen" xml:space="preserve">
+    <value>Ponovite lozinku</value>
+  </data>
+  <data name="001_Datum" xml:space="preserve">
+    <value>Datuma</value>
+  </data>
+  <data name="001_FileType" xml:space="preserve">
+    <value>Tip</value>
+  </data>
+  <data name="001_OrdnerSortieren" xml:space="preserve">
+    <value>Sortiranje mape</value>
+  </data>
+  <data name="001_Entfernen" xml:space="preserve">
+    <value>Uklonite</value>
+  </data>
+  <data name="001_VerbindungNicht" xml:space="preserve">
+    <value>Povezivanje nije uspjelo</value>
+  </data>
+  <data name="001_DateiNichtGeöffnet" xml:space="preserve">
+    <value>Nije moguće otvoriti datoteku</value>
+  </data>
+  <data name="001_DateiHeruntergeladen" xml:space="preserve">
+    <value>Datoteka je dostupna za preuzimanje</value>
+  </data>
+  <data name="001_ArtDerVerbindung" xml:space="preserve">
+    <value>Vrsta veze</value>
+  </data>
+  <data name="001_VerknüpftesKonto" xml:space="preserve">
+    <value>Povezani poslovni subjekt</value>
+  </data>
+  <data name="001_AnderesKonto" xml:space="preserve">
+    <value>Drugi račun</value>
+  </data>
+  <data name="001_DateiOrdnerNichtGelöscht" xml:space="preserve">
+    <value>Datoteku ili mapu nije moguće izbrisati</value>
+  </data>
+  <data name="001_Abmelden" xml:space="preserve">
+    <value>Odjavi se</value>
+  </data>
+  <data name="001_Berechtigung" xml:space="preserve">
+    <value>Pristup dopuštenje</value>
+  </data>
+  <data name="001_DateienOrdnerNichtEingefügt" xml:space="preserve">
+    <value>Datoteku ili mapu nije moguće dodati</value>
+  </data>
+  <data name="001_DateienSortieren" xml:space="preserve">
+    <value>Vrsta datoteke</value>
+  </data>
+  <data name="001_DateiOrdnerBereitsVorhanden" xml:space="preserve">
+    <value>Već postoji datoteka ili mapa s nazivom u cilj</value>
+  </data>
+  <data name="001_DateiOrdnerNichtVorhanden" xml:space="preserve">
+    <value>Datoteka ili mapa je više nema raspoloživ</value>
+  </data>
+  <data name="001_FreigabeLink" xml:space="preserve">
+    <value>Udio povezati</value>
+  </data>
+  <data name="001_Lesen" xml:space="preserve">
+    <value>Čitanje</value>
+  </data>
+  <data name="001_LesenSchreiben" xml:space="preserve">
+    <value>Čitanje i pisanje</value>
+  </data>
+  <data name="001_OneDriveÄndern" xml:space="preserve">
+    <value>Račun promjena pogona
+-Trenutnu vezu
+-Povezivanje kreiranje datoteke poruka od
+-Nova veza</value>
+  </data>
+  <data name="001_AnStart" xml:space="preserve">
+    <value>PRIKVAČI na početni zaslon</value>
+  </data>
+  <data name="001_DateiGrößerLimit" xml:space="preserve">
+    <value>Datoateka je veći od ograničenja</value>
+  </data>
+  <data name="001_DDBestätigen" xml:space="preserve">
+    <value>Potvrditi povuci i ispusti djelovanje</value>
+  </data>
+  <data name="001_DDUmgang" xml:space="preserve">
+    <value>Povuci i ispusti djelovanje</value>
+  </data>
+  <data name="001_DownloadLimit" xml:space="preserve">
+    <value>Preuzimanje datoteka granica za otvaranje datoteka</value>
+  </data>
+  <data name="001_DragAndDrop" xml:space="preserve">
+    <value>Povuci i ispusti</value>
+  </data>
+  <data name="001_Einmal" xml:space="preserve">
+    <value>Nakon što je završila app</value>
+  </data>
+  <data name="001_Einstellungen" xml:space="preserve">
+    <value>Postavke</value>
+  </data>
+  <data name="001_Fragen" xml:space="preserve">
+    <value>Pitanja</value>
+  </data>
+  <data name="001_Ignorieren" xml:space="preserve">
+    <value>Zanemari</value>
+  </data>
+  <data name="001_Immer" xml:space="preserve">
+    <value>Uvijek</value>
+  </data>
+  <data name="001_Ja" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="001_Mehreren" xml:space="preserve">
+    <value>Nekoliko</value>
+  </data>
+  <data name="001_Nein" xml:space="preserve">
+    <value>ne</value>
+  </data>
+  <data name="001_Nie" xml:space="preserve">
+    <value>Nikad ne</value>
+  </data>
+  <data name="001_OnlineVerhalten" xml:space="preserve">
+    <value>Da biste otvorili datoteke na vezi ponašanje</value>
+  </data>
+  <data name="001_OnlineÖffnen" xml:space="preserve">
+    <value>Otvoriti on-line</value>
+  </data>
+  <data name="001_PasswortAbfrage" xml:space="preserve">
+    <value>Lozinku</value>
+  </data>
+  <data name="001_PasswortZurück" xml:space="preserve">
+    <value>Vraćanje izvorne lozinke</value>
+  </data>
+  <data name="001_PrivaterOrdner" xml:space="preserve">
+    <value>Privatne mape</value>
+  </data>
+  <data name="001_Sortierung" xml:space="preserve">
+    <value>Sortiranje</value>
+  </data>
+  <data name="001_SortierungSpeichern" xml:space="preserve">
+    <value>Spremi redoslijed</value>
+  </data>
+  <data name="001_Standard" xml:space="preserve">
+    <value>Standardna</value>
+  </data>
+  <data name="001_Unendlich" xml:space="preserve">
+    <value>Beskonačnost</value>
+  </data>
+  <data name="001_Zurück" xml:space="preserve">
+    <value>Natrag</value>
+  </data>
+  <data name="001_ÖffnenVomOrdner" xml:space="preserve">
+    <value>Svaki put kad otvorite mapu</value>
+  </data>
+  <data name="001_Benutzername" xml:space="preserve">
+    <value>Korisničko ime</value>
+  </data>
+  <data name="001_PasswortSpeichern" xml:space="preserve">
+    <value>Spremi lozinku</value>
+  </data>
+  <data name="001_Server" xml:space="preserve">
+    <value>Poslužitelj</value>
+  </data>
+  <data name="001_Übernehmen" xml:space="preserve">
+    <value>Preuzeti</value>
+  </data>
+  <data name="001_TemporäreDateien" xml:space="preserve">
+    <value>Privremene datoteke</value>
+  </data>
+  <data name="001_TemporäreDateienAnzeigen" xml:space="preserve">
+    <value>Pregled privremene datoteke</value>
+  </data>
+  <data name="001_TemporäreDateienLöschen" xml:space="preserve">
+    <value>Brisanje privremenih datoteka pri pokretanju</value>
+  </data>
+  <data name="001_TemporäreDateienLöschenTask" xml:space="preserve">
+    <value>Brisanje privremenih datoteka</value>
+  </data>
+  <data name="001_KopierenVerschiebenOnlineOnline" xml:space="preserve">
+    <value>Kopiranje ili premještanje iz online online nije podržana.
+Kopiranje datoteke u telefon, a zatim online.</value>
+  </data>
+  <data name="002_BegrüßungTitel" xml:space="preserve">
+    <value>Molimo pažljivo pročitajte ove upute</value>
+  </data>
+  <data name="002_Bergrüßung" xml:space="preserve">
+    <value>Hvala što koristite ovaj app.
+Ova aplikacija koristi povuci - i - pad sustava.
+Koristiti siva traka na desnoj strani prozora da biste se pomicali.</value>
+  </data>
+  <data name="002_NichtAnzeigen" xml:space="preserve">
+    <value>Ne pokazuju pri pokretanju</value>
+  </data>
+  <data name="002_Dateiauswahl" xml:space="preserve">
+    <value>Odabir datoteka</value>
+  </data>
+  <data name="002_DateiauswahlInfo" xml:space="preserve">
+    <value>Za odabir datoteke možete kopirati datoteke iz mape koje ne može biti otvorena.
+-Dokumenti
+-Preuzimanja
+-Zvona</value>
+  </data>
+  <data name="002_DateiauswahlKopiert" xml:space="preserve">
+    <value>Datoteke kopiran.
+Sada možete zalijepiti bilo gdje.</value>
+  </data>
+  <data name="000_Beschreibung" xml:space="preserve">
+    <value>Nova generacija file manager za Windows koji se kreće 10. S dva Windows i povuci i ispusti. Dizajniran za apsolutna jednostavnost korištenja. Podržava memorijske kartice, jedan disk i dropbox.
+Pokušajte sada besplatno.</value>
+  </data>
+  <data name="000_Funktionen_1" xml:space="preserve">
+    <value>Dvije promjenljive veličine prozora</value>
+  </data>
+  <data name="000_Funktionen_10" xml:space="preserve">
+    <value>Podržava sve zaslon formati</value>
+  </data>
+  <data name="000_Funktionen_2" xml:space="preserve">
+    <value>Povuci i ispusti za brzo kopirati ili premjestiti</value>
+  </data>
+  <data name="000_Funktionen_3" xml:space="preserve">
+    <value>Podržava višestruke memorijske kartice</value>
+  </data>
+  <data name="000_Funktionen_4" xml:space="preserve">
+    <value>Potpunu integraciju jedan disk</value>
+  </data>
+  <data name="000_Funktionen_5" xml:space="preserve">
+    <value>Punu dropbox integracije</value>
+  </data>
+  <data name="000_Funktionen_6" xml:space="preserve">
+    <value>Lozinkom zaštićeni privatni prostor</value>
+  </data>
+  <data name="000_Funktionen_7" xml:space="preserve">
+    <value>Više Preimenuj</value>
+  </data>
+  <data name="000_Funktionen_8" xml:space="preserve">
+    <value>Napredne mogućnosti sortiranja</value>
+  </data>
+  <data name="000_Funktionen_9" xml:space="preserve">
+    <value>Odabir datoteka za osiguran područja</value>
+  </data>
+  <data name="000_Schlagwort_1" xml:space="preserve">
+    <value>datoteka</value>
+  </data>
+  <data name="000_Schlagwort_2" xml:space="preserve">
+    <value>Voditelj</value>
+  </data>
+  <data name="000_Schlagwort_3" xml:space="preserve">
+    <value>Istraživač</value>
+  </data>
+  <data name="000_Schlagwort_4" xml:space="preserve">
+    <value>jedan disk</value>
+  </data>
+  <data name="000_Schlagwort_5" xml:space="preserve">
+    <value>Dropbox</value>
+  </data>
+  <data name="000_Schlagwort_6" xml:space="preserve">
+    <value>oblak</value>
+  </data>
+  <data name="000_Schlagwort_7" xml:space="preserve">
+    <value>mapa mreže</value>
+  </data>
+  <data name="002_Bewerten" xml:space="preserve">
+    <value>Ocijenite ovaj app</value>
+  </data>
+  <data name="002_BewertenText" xml:space="preserve">
+    <value>Pomozite nam širili ovaj app.
+I ocjenjivanje ovaj app 5 zvijezda.
+I dobijete ovaj top aplikacija za besplatno.</value>
+  </data>
+  <data name="002_BewertungNachricht" xml:space="preserve">
+    <value>Pošaljite nam e-mail.
+Unesite svoje ime.
+Onaj koji koristite sa svojim Microsoft računom.
+Onda ćemo vam poslati link.</value>
+  </data>
+  <data name="002_Danke_1" xml:space="preserve">
+    <value>Hvala vam što koristite naše aplikacije.</value>
+  </data>
+  <data name="002_Danke_2" xml:space="preserve">
+    <value>Specijalne zahvale</value>
+  </data>
+  <data name="002_Hilfe" xml:space="preserve">
+    <value>Priručnik</value>
+  </data>
+  <data name="002_JetztBewerten" xml:space="preserve">
+    <value>Ocijenite sada</value>
+  </data>
+  <data name="002_Kaufen" xml:space="preserve">
+    <value>Kupi ovaj app</value>
+  </data>
+  <data name="002_Kontakt" xml:space="preserve">
+    <value>Kako kontaktirati s</value>
+  </data>
+  <data name="002_Kostenlos" xml:space="preserve">
+    <value>Besplatno za pet zvjezdica</value>
+  </data>
+  <data name="002_MicrosoftBenutzerName" xml:space="preserve">
+    <value>Naziv Microsoftova računa</value>
+  </data>
+  <data name="002_Postanschrift" xml:space="preserve">
+    <value>Poštanska adresa</value>
+  </data>
+  <data name="002_PromoApp" xml:space="preserve">
+    <value>8.1 zaključanog zaslona</value>
+  </data>
+  <data name="002_Sprache" xml:space="preserve">
+    <value>Jezik</value>
+  </data>
+  <data name="002_SpracheÄndern" xml:space="preserve">
+    <value>Promjena jezika</value>
+  </data>
+  <data name="002_VielenDank" xml:space="preserve">
+    <value>puno ti hvala</value>
+  </data>
+  <data name="002_Webseite" xml:space="preserve">
+    <value>Web-stranice</value>
+  </data>
+  <data name="002_Über" xml:space="preserve">
+    <value>O</value>
+  </data>
+</root>

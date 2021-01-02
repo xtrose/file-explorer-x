@@ -1,0 +1,2 @@
+MainPackage=D:\Moses\Projekte\App Studio\Windows UWP\Datei-Explorer X\FileManager\bin\x86\Release\FileManager_1.5.2.0_x86.appx
+SymbolPackage=D:\Moses\Projekte\App Studio\Windows UWP\Datei-Explorer X\FileManager\AppPackages\FileManager_1.5.2.0_Test\FileManager_1.5.2.0_x86.appxsym

@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="001_Abbrechen" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="001_Ausschneiden" xml:space="preserve">
+    <value>Kes şunu</value>
+  </data>
+  <data name="001_Bilder" xml:space="preserve">
+    <value>Resimler</value>
+  </data>
+  <data name="001_Datei" xml:space="preserve">
+    <value>Dosya</value>
+  </data>
+  <data name="001_DateiBereitsVorhanden" xml:space="preserve">
+    <value>Bu ada sahip bir dosya zaten bitirmek</value>
+  </data>
+  <data name="001_DateienNichtKopiert" xml:space="preserve">
+    <value>Dosyalar kopyalanamadı</value>
+  </data>
+  <data name="001_DateienNichtVerschoben" xml:space="preserve">
+    <value>Değil taşındı dosyalar</value>
+  </data>
+  <data name="001_DateiMehrzahl" xml:space="preserve">
+    <value>Dosyaları</value>
+  </data>
+  <data name="001_DiesesGerät" xml:space="preserve">
+    <value>Bu cihaz</value>
+  </data>
+  <data name="001_Dokumente" xml:space="preserve">
+    <value>Belgeler</value>
+  </data>
+  <data name="001_Downloads" xml:space="preserve">
+    <value>Kere indirildi</value>
+  </data>
+  <data name="001_Einfügen" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="001_Ersetzen" xml:space="preserve">
+    <value>Değiştir</value>
+  </data>
+  <data name="001_FürAlle" xml:space="preserve">
+    <value>Tümüne Uygula</value>
+  </data>
+  <data name="001_Integrieren" xml:space="preserve">
+    <value>Entegre</value>
+  </data>
+  <data name="001_Klingeltöne" xml:space="preserve">
+    <value>Zil sesleri</value>
+  </data>
+  <data name="001_Kopieren" xml:space="preserve">
+    <value>Kopya</value>
+  </data>
+  <data name="001_Löschen" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="001_LöschenBestätigung" xml:space="preserve">
+    <value>Kalıcı olarak silme</value>
+  </data>
+  <data name="001_Musik" xml:space="preserve">
+    <value>Müzik</value>
+  </data>
+  <data name="001_NichtMöglich" xml:space="preserve">
+    <value>Mümkün değil</value>
+  </data>
+  <data name="001_OneDrive" xml:space="preserve">
+    <value>Bir sürücü</value>
+  </data>
+  <data name="001_Ordner" xml:space="preserve">
+    <value>Klasör</value>
+  </data>
+  <data name="001_OrdnerBereitsVorhanden" xml:space="preserve">
+    <value>Bu adda bir klasör zaten hedef var</value>
+  </data>
+  <data name="001_OrdnerMehrzahl" xml:space="preserve">
+    <value>Klasör</value>
+  </data>
+  <data name="001_OrdnerNichtErstellt" xml:space="preserve">
+    <value>Klasör oluşturulamadı</value>
+  </data>
+  <data name="001_OrdnerNichÖffnen" xml:space="preserve">
+    <value>Klasör açılamıyor</value>
+  </data>
+  <data name="001_Privat" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="001_SDKarte" xml:space="preserve">
+    <value>SD kartı</value>
+  </data>
+  <data name="001_Teilen" xml:space="preserve">
+    <value>Paylaş</value>
+  </data>
+  <data name="001_Umbenennen" xml:space="preserve">
+    <value>Yeniden Adlandır</value>
+  </data>
+  <data name="001_Verschieben" xml:space="preserve">
+    <value>Hareket</value>
+  </data>
+  <data name="001_Videos" xml:space="preserve">
+    <value>Videolar</value>
+  </data>
+  <data name="001_ZugriffVerweigert" xml:space="preserve">
+    <value>Erişim engellendi</value>
+  </data>
+  <data name="001_Überspringen" xml:space="preserve">
+    <value>Atlamak</value>
+  </data>
+  <data name="001_Hinzufügen" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="001_KeinName" xml:space="preserve">
+    <value>Hiçbir adı girilmedi</value>
+  </data>
+  <data name="001_Name" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="001_NeuerOrdner" xml:space="preserve">
+    <value>Klasör Ekle</value>
+  </data>
+  <data name="001_Schließen" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="001_NameFalsch" xml:space="preserve">
+    <value>Adı kullanılamıyor</value>
+  </data>
+  <data name="001_EinenMoment" xml:space="preserve">
+    <value>Bir dakika lütfen</value>
+  </data>
+  <data name="001_DateiNichtGelöscht" xml:space="preserve">
+    <value>Dosya silinemedi</value>
+  </data>
+  <data name="001_OrdnerNichtLöschen" xml:space="preserve">
+    <value>Klasör silinemedi</value>
+  </data>
+  <data name="001_DateienNichtEingefügt" xml:space="preserve">
+    <value>Dosya ekli değil</value>
+  </data>
+  <data name="001_DateienNichtVorhanden" xml:space="preserve">
+    <value>Dosyaları artık kullanılabilir değil</value>
+  </data>
+  <data name="001_DateiNichtVorhanden" xml:space="preserve">
+    <value>Dosya artık kullanılamıyor</value>
+  </data>
+  <data name="001_KopierenVerschieben" xml:space="preserve">
+    <value>Kopyalama veya taşıma</value>
+  </data>
+  <data name="000_AppName" xml:space="preserve">
+    <value>Dosya Gezgini X</value>
+  </data>
+  <data name="001_AllesAbwählen" xml:space="preserve">
+    <value>Tüm dışında tercih</value>
+  </data>
+  <data name="001_AllesAuswählen" xml:space="preserve">
+    <value>Tümünü Seç</value>
+  </data>
+  <data name="001_DateiNichtUmbenannt" xml:space="preserve">
+    <value>Dosya adlandırılamadı</value>
+  </data>
+  <data name="001_OrdnerNichtUmbenannt" xml:space="preserve">
+    <value>Klasör adlandırılamadı</value>
+  </data>
+  <data name="001_Heimnetzgruppe" xml:space="preserve">
+    <value>Ev grubu</value>
+  </data>
+  <data name="001_NurVollversion" xml:space="preserve">
+    <value>Biricik elde edilebilir içinde belgili tanımlık dolu yorum</value>
+  </data>
+  <data name="001_Warnung" xml:space="preserve">
+    <value>Uyarı</value>
+  </data>
+  <data name="001_WarnungPrivate" xml:space="preserve">
+    <value>Özel sektör app dizininde tutulur ve bir şifre ile korunmaktadır. Lütfen parolanızı yazmanız ve güvenli bir yerde saklayın.
+Önemli!
+Parolanızı veya veri sonsuza dek kaybolur bu app kaldırma kaybetmek yok.</value>
+  </data>
+  <data name="001_Weiter" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
+  <data name="001_Fehler" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="001_KeinPasswort" xml:space="preserve">
+    <value>Girilen parola</value>
+  </data>
+  <data name="001_Passwort" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="001_PasswortErstellen" xml:space="preserve">
+    <value>Parola oluşturma</value>
+  </data>
+  <data name="001_PasswortNicht" xml:space="preserve">
+    <value>Parola kullanılamaz</value>
+  </data>
+  <data name="001_PasswortUnterschied" xml:space="preserve">
+    <value>Parolalar farklı</value>
+  </data>
+  <data name="001_PasswortWiederholen" xml:space="preserve">
+    <value>Tekrar şifre</value>
+  </data>
+  <data name="001_Datum" xml:space="preserve">
+    <value>Tarihi</value>
+  </data>
+  <data name="001_FileType" xml:space="preserve">
+    <value>Türü</value>
+  </data>
+  <data name="001_OrdnerSortieren" xml:space="preserve">
+    <value>Sıralama klasörler</value>
+  </data>
+  <data name="001_Entfernen" xml:space="preserve">
+    <value>Kaldır</value>
+  </data>
+  <data name="001_VerbindungNicht" xml:space="preserve">
+    <value>Bağlantı başarısız oldu</value>
+  </data>
+  <data name="001_DateiNichtGeöffnet" xml:space="preserve">
+    <value>Dosya açılamadı</value>
+  </data>
+  <data name="001_DateiHeruntergeladen" xml:space="preserve">
+    <value>Dosya indirmek için kullanılabilir</value>
+  </data>
+  <data name="001_ArtDerVerbindung" xml:space="preserve">
+    <value>Bağlantı türü</value>
+  </data>
+  <data name="001_VerknüpftesKonto" xml:space="preserve">
+    <value>Bağlantılı rapor</value>
+  </data>
+  <data name="001_AnderesKonto" xml:space="preserve">
+    <value>Başka bir hesap</value>
+  </data>
+  <data name="001_DateiOrdnerNichtGelöscht" xml:space="preserve">
+    <value>Dosya veya klasör silinemedi</value>
+  </data>
+  <data name="001_Abmelden" xml:space="preserve">
+    <value>Kütük uzakta</value>
+  </data>
+  <data name="001_Berechtigung" xml:space="preserve">
+    <value>Erişim izni</value>
+  </data>
+  <data name="001_DateienOrdnerNichtEingefügt" xml:space="preserve">
+    <value>Dosya veya klasör eklenemedi</value>
+  </data>
+  <data name="001_DateienSortieren" xml:space="preserve">
+    <value>Sıralama dosyalara</value>
+  </data>
+  <data name="001_DateiOrdnerBereitsVorhanden" xml:space="preserve">
+    <value>Zaten hedef adına sahip bir dosya veya klasör var</value>
+  </data>
+  <data name="001_DateiOrdnerNichtVorhanden" xml:space="preserve">
+    <value>Dosya veya klasör artık kullanılamıyor</value>
+  </data>
+  <data name="001_FreigabeLink" xml:space="preserve">
+    <value>Pay bağlantı</value>
+  </data>
+  <data name="001_Lesen" xml:space="preserve">
+    <value>Okuma</value>
+  </data>
+  <data name="001_LesenSchreiben" xml:space="preserve">
+    <value>Okuma ve yazma</value>
+  </data>
+  <data name="001_OneDriveÄndern" xml:space="preserve">
+    <value>Hesabını değiştirmek bir sürücü
+-Geçerli bağlantı
+-Bağlantı oturum kapatma
+-Yeni bağlantı</value>
+  </data>
+  <data name="001_AnStart" xml:space="preserve">
+    <value>Pin Başlat</value>
+  </data>
+  <data name="001_DateiGrößerLimit" xml:space="preserve">
+    <value>Dosya sınırdan daha büyük</value>
+  </data>
+  <data name="001_DDBestätigen" xml:space="preserve">
+    <value>Sürükle - ve - damla bırak</value>
+  </data>
+  <data name="001_DDUmgang" xml:space="preserve">
+    <value>Sürükle - ve - damla eylem</value>
+  </data>
+  <data name="001_DownloadLimit" xml:space="preserve">
+    <value>Download limit dosyaları açmak için</value>
+  </data>
+  <data name="001_DragAndDrop" xml:space="preserve">
+    <value>Sürükle - ve - damla</value>
+  </data>
+  <data name="001_Einmal" xml:space="preserve">
+    <value>Belgili tanımlık app kapatıldıktan sonra</value>
+  </data>
+  <data name="001_Einstellungen" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="001_Fragen" xml:space="preserve">
+    <value>Sorular</value>
+  </data>
+  <data name="001_Ignorieren" xml:space="preserve">
+    <value>Yoksay</value>
+  </data>
+  <data name="001_Immer" xml:space="preserve">
+    <value>Her zaman</value>
+  </data>
+  <data name="001_Ja" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="001_Mehreren" xml:space="preserve">
+    <value>Birkaç</value>
+  </data>
+  <data name="001_Nein" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="001_Nie" xml:space="preserve">
+    <value>Asla</value>
+  </data>
+  <data name="001_OnlineVerhalten" xml:space="preserve">
+    <value>Dosyaları açmak için online davranış</value>
+  </data>
+  <data name="001_OnlineÖffnen" xml:space="preserve">
+    <value>Online açık</value>
+  </data>
+  <data name="001_PasswortAbfrage" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="001_PasswortZurück" xml:space="preserve">
+    <value>Parola sıfırlama</value>
+  </data>
+  <data name="001_PrivaterOrdner" xml:space="preserve">
+    <value>Özel klasör</value>
+  </data>
+  <data name="001_Sortierung" xml:space="preserve">
+    <value>Sıralama</value>
+  </data>
+  <data name="001_SortierungSpeichern" xml:space="preserve">
+    <value>Sipariş kaydetmek</value>
+  </data>
+  <data name="001_Standard" xml:space="preserve">
+    <value>Standart</value>
+  </data>
+  <data name="001_Unendlich" xml:space="preserve">
+    <value>Sonsuzluk</value>
+  </data>
+  <data name="001_Zurück" xml:space="preserve">
+    <value>Geri</value>
+  </data>
+  <data name="001_ÖffnenVomOrdner" xml:space="preserve">
+    <value>Klasörü her açtığınızda</value>
+  </data>
+  <data name="001_Benutzername" xml:space="preserve">
+    <value>Kullanıcı adı</value>
+  </data>
+  <data name="001_PasswortSpeichern" xml:space="preserve">
+    <value>Parolayı Kaydet</value>
+  </data>
+  <data name="001_Server" xml:space="preserve">
+    <value>Sunucu</value>
+  </data>
+  <data name="001_Übernehmen" xml:space="preserve">
+    <value>Devam et</value>
+  </data>
+  <data name="001_TemporäreDateien" xml:space="preserve">
+    <value>Geçici dosyaları</value>
+  </data>
+  <data name="001_TemporäreDateienAnzeigen" xml:space="preserve">
+    <value>Geçici dosyaları görüntüleme</value>
+  </data>
+  <data name="001_TemporäreDateienLöschen" xml:space="preserve">
+    <value>Başlatma sırasında geçici dosyaları sil</value>
+  </data>
+  <data name="001_TemporäreDateienLöschenTask" xml:space="preserve">
+    <value>Geçici dosyaları sil</value>
+  </data>
+  <data name="001_KopierenVerschiebenOnlineOnline" xml:space="preserve">
+    <value>Kopyalama veya taşıma üzerinden online online için desteklenmiyor.
+Telefon ve sonra online dosyaları kopyalayın.</value>
+  </data>
+  <data name="002_BegrüßungTitel" xml:space="preserve">
+    <value>Lütfen bu talimatları dikkatle okuyun</value>
+  </data>
+  <data name="002_Bergrüßung" xml:space="preserve">
+    <value>Bu app kullandığınız için teşekkürler.
+Bu app bir sürükle - ve - damla sistemi kullanır.
+Kaydırma için pencerenin sağındaki gri çubuğunu kullanın.</value>
+  </data>
+  <data name="002_NichtAnzeigen" xml:space="preserve">
+    <value>Başlangıçta gösterme</value>
+  </data>
+  <data name="002_Dateiauswahl" xml:space="preserve">
+    <value>Dosya seçimi</value>
+  </data>
+  <data name="002_DateiauswahlInfo" xml:space="preserve">
+    <value>Dosya seçici değil açılabilir klasörlerdeki dosyaları kopyalamak sağlar.
+-Belgeler
+-Kere indirildi
+-Zil sesleri</value>
+  </data>
+  <data name="002_DateiauswahlKopiert" xml:space="preserve">
+    <value>Dosya kopyalandı.
+Şimdi bir yere yapıştırabilirsiniz.</value>
+  </data>
+  <data name="000_Beschreibung" xml:space="preserve">
+    <value>Dosya Yöneticisi Windows 10 mobil için yeni nesil. İki Windows ve sürükle ve bırak ile. Mutlak kolay kullanım için tasarlanmış. Hafıza kartları, bir sürücü ve dropbox destekler.
+Şimdi ücretsiz deneyin.</value>
+  </data>
+  <data name="000_Funktionen_1" xml:space="preserve">
+    <value>İki yeniden boyutlandırılabilir pencere</value>
+  </data>
+  <data name="000_Funktionen_10" xml:space="preserve">
+    <value>Tüm ekran formatlarını destekler</value>
+  </data>
+  <data name="000_Funktionen_2" xml:space="preserve">
+    <value>Sürükle ve bırak için hızlı kopyalama veya taşıma</value>
+  </data>
+  <data name="000_Funktionen_3" xml:space="preserve">
+    <value>Birden çok bellek kartlarını destekliyor</value>
+  </data>
+  <data name="000_Funktionen_4" xml:space="preserve">
+    <value>Bir sürücünün tam entegrasyon</value>
+  </data>
+  <data name="000_Funktionen_5" xml:space="preserve">
+    <value>Tam dropbox Tümleştirme</value>
+  </data>
+  <data name="000_Funktionen_6" xml:space="preserve">
+    <value>Parola koruma özel alanı</value>
+  </data>
+  <data name="000_Funktionen_7" xml:space="preserve">
+    <value>Birden çok yeniden adlandır</value>
+  </data>
+  <data name="000_Funktionen_8" xml:space="preserve">
+    <value>Sıralama seçenekleri gelişmiş</value>
+  </data>
+  <data name="000_Funktionen_9" xml:space="preserve">
+    <value>Güvenli alanlar için dosya seçimi</value>
+  </data>
+  <data name="000_Schlagwort_1" xml:space="preserve">
+    <value>dosya</value>
+  </data>
+  <data name="000_Schlagwort_2" xml:space="preserve">
+    <value>Yöneticisi</value>
+  </data>
+  <data name="000_Schlagwort_3" xml:space="preserve">
+    <value>Explorer</value>
+  </data>
+  <data name="000_Schlagwort_4" xml:space="preserve">
+    <value>bir sürücü</value>
+  </data>
+  <data name="000_Schlagwort_5" xml:space="preserve">
+    <value>Dropbox</value>
+  </data>
+  <data name="000_Schlagwort_6" xml:space="preserve">
+    <value>bulut</value>
+  </data>
+  <data name="000_Schlagwort_7" xml:space="preserve">
+    <value>klasör Ağ</value>
+  </data>
+  <data name="002_Bewerten" xml:space="preserve">
+    <value>Bu app oranı</value>
+  </data>
+  <data name="002_BewertenText" xml:space="preserve">
+    <value>Bize bu app yaymak yardımcı.
+Oranı ve bu app 5 yıldız gözden geçirin.
+Ve bu en iyi app ücretsiz olsun.</value>
+  </data>
+  <data name="002_BewertungNachricht" xml:space="preserve">
+    <value>Bize bir e-posta gönderin.
+Adınızı girin.
+Microsoft hesabınızla kullanıyorsanız bir.
+Biz o zaman bir bağlantı göndermek.</value>
+  </data>
+  <data name="002_Danke_1" xml:space="preserve">
+    <value>Bizim apps kullandığınız için teşekkür ederiz.</value>
+  </data>
+  <data name="002_Danke_2" xml:space="preserve">
+    <value>Özel teşekkürler</value>
+  </data>
+  <data name="002_Hilfe" xml:space="preserve">
+    <value>El ile</value>
+  </data>
+  <data name="002_JetztBewerten" xml:space="preserve">
+    <value>Şimdi oranı</value>
+  </data>
+  <data name="002_Kaufen" xml:space="preserve">
+    <value>Bu app satın</value>
+  </data>
+  <data name="002_Kontakt" xml:space="preserve">
+    <value>İle iletişim kurma</value>
+  </data>
+  <data name="002_Kostenlos" xml:space="preserve">
+    <value>Beş yıldız için ücretsiz</value>
+  </data>
+  <data name="002_MicrosoftBenutzerName" xml:space="preserve">
+    <value>Microsoft hesabınızda kullandığınız adı</value>
+  </data>
+  <data name="002_Postanschrift" xml:space="preserve">
+    <value>Posta adresi</value>
+  </data>
+  <data name="002_PromoApp" xml:space="preserve">
+    <value>8.1 kilit ekranı</value>
+  </data>
+  <data name="002_Sprache" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="002_SpracheÄndern" xml:space="preserve">
+    <value>Dili Değiştir</value>
+  </data>
+  <data name="002_VielenDank" xml:space="preserve">
+    <value>Çok teşekkür ederim</value>
+  </data>
+  <data name="002_Webseite" xml:space="preserve">
+    <value>Web sayfası</value>
+  </data>
+  <data name="002_Über" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+</root>

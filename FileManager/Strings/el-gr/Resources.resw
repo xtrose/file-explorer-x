@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="001_Abbrechen" xml:space="preserve">
+    <value>Άκυρο</value>
+  </data>
+  <data name="001_Ausschneiden" xml:space="preserve">
+    <value>Κόψτε</value>
+  </data>
+  <data name="001_Bilder" xml:space="preserve">
+    <value>Εικόνες</value>
+  </data>
+  <data name="001_Datei" xml:space="preserve">
+    <value>Αρχείο</value>
+  </data>
+  <data name="001_DateiBereitsVorhanden" xml:space="preserve">
+    <value>Στο τέρμα, υπάρχει ήδη ένα αρχείο με το όνομα</value>
+  </data>
+  <data name="001_DateienNichtKopiert" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η αντιγραφή αρχείων</value>
+  </data>
+  <data name="001_DateienNichtVerschoben" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η μετακίνηση αρχείων</value>
+  </data>
+  <data name="001_DateiMehrzahl" xml:space="preserve">
+    <value>Αρχεία</value>
+  </data>
+  <data name="001_DiesesGerät" xml:space="preserve">
+    <value>Αυτή η συσκευή</value>
+  </data>
+  <data name="001_Dokumente" xml:space="preserve">
+    <value>Έγγραφα</value>
+  </data>
+  <data name="001_Downloads" xml:space="preserve">
+    <value>Λήψεις</value>
+  </data>
+  <data name="001_Einfügen" xml:space="preserve">
+    <value>Εισαγωγή</value>
+  </data>
+  <data name="001_Ersetzen" xml:space="preserve">
+    <value>Αντικατάσταση</value>
+  </data>
+  <data name="001_FürAlle" xml:space="preserve">
+    <value>Ισχύουν για όλους</value>
+  </data>
+  <data name="001_Integrieren" xml:space="preserve">
+    <value>Ενσωμάτωση</value>
+  </data>
+  <data name="001_Klingeltöne" xml:space="preserve">
+    <value>Ήχοι κλήσης</value>
+  </data>
+  <data name="001_Kopieren" xml:space="preserve">
+    <value>Αντίγραφο</value>
+  </data>
+  <data name="001_Löschen" xml:space="preserve">
+    <value>Διαγραφή του</value>
+  </data>
+  <data name="001_LöschenBestätigung" xml:space="preserve">
+    <value>Διαγράφοντας μόνιμα</value>
+  </data>
+  <data name="001_Musik" xml:space="preserve">
+    <value>Μουσική</value>
+  </data>
+  <data name="001_NichtMöglich" xml:space="preserve">
+    <value>Δεν είναι δυνατόν</value>
+  </data>
+  <data name="001_OneDrive" xml:space="preserve">
+    <value>Μία μονάδα</value>
+  </data>
+  <data name="001_Ordner" xml:space="preserve">
+    <value>Φάκελος</value>
+  </data>
+  <data name="001_OrdnerBereitsVorhanden" xml:space="preserve">
+    <value>Ένας φάκελος με αυτό το όνομα υπάρχει ήδη στο στόχο</value>
+  </data>
+  <data name="001_OrdnerMehrzahl" xml:space="preserve">
+    <value>Φάκελος</value>
+  </data>
+  <data name="001_OrdnerNichtErstellt" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η δημιουργία του φακέλου</value>
+  </data>
+  <data name="001_OrdnerNichÖffnen" xml:space="preserve">
+    <value>Δεν μπορείτε να ανοίξετε το φάκελο</value>
+  </data>
+  <data name="001_Privat" xml:space="preserve">
+    <value>Ιδιωτικό</value>
+  </data>
+  <data name="001_SDKarte" xml:space="preserve">
+    <value>Κάρτα SD</value>
+  </data>
+  <data name="001_Teilen" xml:space="preserve">
+    <value>Μετοχή</value>
+  </data>
+  <data name="001_Umbenennen" xml:space="preserve">
+    <value>Μετονομασία</value>
+  </data>
+  <data name="001_Verschieben" xml:space="preserve">
+    <value>Κίνηση</value>
+  </data>
+  <data name="001_Videos" xml:space="preserve">
+    <value>Βίντεο</value>
+  </data>
+  <data name="001_ZugriffVerweigert" xml:space="preserve">
+    <value>Δεν επιτρέπεται η πρόσβαση</value>
+  </data>
+  <data name="001_Überspringen" xml:space="preserve">
+    <value>Skip</value>
+  </data>
+  <data name="001_Hinzufügen" xml:space="preserve">
+    <value>Προσθέστε</value>
+  </data>
+  <data name="001_KeinName" xml:space="preserve">
+    <value>Το όνομα δεν τέθηκε</value>
+  </data>
+  <data name="001_Name" xml:space="preserve">
+    <value>Όνομα</value>
+  </data>
+  <data name="001_NeuerOrdner" xml:space="preserve">
+    <value>Προσθήκη φακέλου</value>
+  </data>
+  <data name="001_Schließen" xml:space="preserve">
+    <value>Κλείστε</value>
+  </data>
+  <data name="001_NameFalsch" xml:space="preserve">
+    <value>Το όνομα δεν μπορεί να χρησιμοποιηθεί</value>
+  </data>
+  <data name="001_EinenMoment" xml:space="preserve">
+    <value>Μια στιγμή παρακαλώ</value>
+  </data>
+  <data name="001_DateiNichtGelöscht" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η διαγραφή του αρχείου</value>
+  </data>
+  <data name="001_OrdnerNichtLöschen" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η διαγραφή του φακέλου</value>
+  </data>
+  <data name="001_DateienNichtEingefügt" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η προσθήκη του αρχείου</value>
+  </data>
+  <data name="001_DateienNichtVorhanden" xml:space="preserve">
+    <value>Τα αρχεία δεν είναι πλέον διαθέσιμα</value>
+  </data>
+  <data name="001_DateiNichtVorhanden" xml:space="preserve">
+    <value>Το αρχείο δεν είναι πλέον διαθέσιμη</value>
+  </data>
+  <data name="001_KopierenVerschieben" xml:space="preserve">
+    <value>Αντιγράψετε ή να μετακινήσετε</value>
+  </data>
+  <data name="000_AppName" xml:space="preserve">
+    <value>Εξερεύνηση αρχείων X</value>
+  </data>
+  <data name="001_AllesAbwählen" xml:space="preserve">
+    <value>Εξαιρεθείτε από όλες τις</value>
+  </data>
+  <data name="001_AllesAuswählen" xml:space="preserve">
+    <value>Επιλογή όλων</value>
+  </data>
+  <data name="001_DateiNichtUmbenannt" xml:space="preserve">
+    <value>Δεν θα μπορούσε να μετονομαστεί το αρχείο</value>
+  </data>
+  <data name="001_OrdnerNichtUmbenannt" xml:space="preserve">
+    <value>Δεν θα μπορούσε να μετονομαστεί φάκελο</value>
+  </data>
+  <data name="001_Heimnetzgruppe" xml:space="preserve">
+    <value>Οικιακή ομάδα</value>
+  </data>
+  <data name="001_NurVollversion" xml:space="preserve">
+    <value>Διαθέσιμη μόνο στην πλήρη έκδοση</value>
+  </data>
+  <data name="001_Warnung" xml:space="preserve">
+    <value>Προειδοποίηση</value>
+  </data>
+  <data name="001_WarnungPrivate" xml:space="preserve">
+    <value>Ο ιδιωτικός τομέας βρίσκεται στον κατάλογο της εφαρμογής και προστατεύεται από κωδικό πρόσβασης. Παρακαλώ γράψτε τον κωδικό πρόσβασής σας και να κρατήσει σε ασφαλές μέρος.
+Σημαντικό!
+Να χάσετε τον κωδικό πρόσβασής σας ή την απεγκατάσταση αυτό το app, έτσι ώστε τα δεδομένα θα χαθούν για πάντα.</value>
+  </data>
+  <data name="001_Weiter" xml:space="preserve">
+    <value>Επόμενη</value>
+  </data>
+  <data name="001_Fehler" xml:space="preserve">
+    <value>Σφάλμα</value>
+  </data>
+  <data name="001_KeinPasswort" xml:space="preserve">
+    <value>Δεν υπάρχει κωδικός πρόσβασης που πληκτρολογήσατε</value>
+  </data>
+  <data name="001_Passwort" xml:space="preserve">
+    <value>Κωδικό πρόσβασης</value>
+  </data>
+  <data name="001_PasswortErstellen" xml:space="preserve">
+    <value>Δημιουργία κωδικού πρόσβασης</value>
+  </data>
+  <data name="001_PasswortNicht" xml:space="preserve">
+    <value>Κωδικός πρόσβασης δεν μπορεί να χρησιμοποιηθεί</value>
+  </data>
+  <data name="001_PasswortUnterschied" xml:space="preserve">
+    <value>Κωδικοί πρόσβασης είναι διαφορετικές</value>
+  </data>
+  <data name="001_PasswortWiederholen" xml:space="preserve">
+    <value>Επανάληψη κωδικού</value>
+  </data>
+  <data name="001_Datum" xml:space="preserve">
+    <value>Ημερομηνία</value>
+  </data>
+  <data name="001_FileType" xml:space="preserve">
+    <value>Τύπος</value>
+  </data>
+  <data name="001_OrdnerSortieren" xml:space="preserve">
+    <value>Ταξινόμηση φακέλους</value>
+  </data>
+  <data name="001_Entfernen" xml:space="preserve">
+    <value>Κατάργηση</value>
+  </data>
+  <data name="001_VerbindungNicht" xml:space="preserve">
+    <value>Η σύνδεση απέτυχε</value>
+  </data>
+  <data name="001_DateiNichtGeöffnet" xml:space="preserve">
+    <value>Δεν ήταν δυνατό το άνοιγμα του αρχείου</value>
+  </data>
+  <data name="001_DateiHeruntergeladen" xml:space="preserve">
+    <value>Το αρχείο είναι διαθέσιμο για λήψη</value>
+  </data>
+  <data name="001_ArtDerVerbindung" xml:space="preserve">
+    <value>Τύπος σύνδεσης</value>
+  </data>
+  <data name="001_VerknüpftesKonto" xml:space="preserve">
+    <value>Συνδεδεμένο λογαριασμό</value>
+  </data>
+  <data name="001_AnderesKonto" xml:space="preserve">
+    <value>Άλλο λογαριασμό</value>
+  </data>
+  <data name="001_DateiOrdnerNichtGelöscht" xml:space="preserve">
+    <value>Το αρχείο ή ο φάκελος δεν ήταν δυνατό να διαγραφεί</value>
+  </data>
+  <data name="001_Abmelden" xml:space="preserve">
+    <value>Αποσύνδεση</value>
+  </data>
+  <data name="001_Berechtigung" xml:space="preserve">
+    <value>Δικαιώματα πρόσβασης</value>
+  </data>
+  <data name="001_DateienOrdnerNichtEingefügt" xml:space="preserve">
+    <value>Το αρχείο ή ο φάκελος δεν μπορεί να προστεθεί</value>
+  </data>
+  <data name="001_DateienSortieren" xml:space="preserve">
+    <value>Είδος αρχείων</value>
+  </data>
+  <data name="001_DateiOrdnerBereitsVorhanden" xml:space="preserve">
+    <value>Υπάρχει ήδη ένα αρχείο ή φάκελο με το όνομα του στόχου</value>
+  </data>
+  <data name="001_DateiOrdnerNichtVorhanden" xml:space="preserve">
+    <value>Το αρχείο ή ο φάκελος δεν είναι πλέον διαθέσιμη</value>
+  </data>
+  <data name="001_FreigabeLink" xml:space="preserve">
+    <value>Μοιράζομαι σύνδεσμος</value>
+  </data>
+  <data name="001_Lesen" xml:space="preserve">
+    <value>Ανάγνωση</value>
+  </data>
+  <data name="001_LesenSchreiben" xml:space="preserve">
+    <value>ΔΙΑΒΑΣΤΕ και ΓΡΑΨΤΕ</value>
+  </data>
+  <data name="001_OneDriveÄndern" xml:space="preserve">
+    <value>Λογαριασμός αλλάξει μία μονάδα
+-Τρέχουσα σύνδεση
+-Σύνδεση αποσύνδεση
+-Νέα σύνδεση</value>
+  </data>
+  <data name="001_AnStart" xml:space="preserve">
+    <value>ΚΑΡΦΊΤΣΩΜΑ στην έναρξη</value>
+  </data>
+  <data name="001_DateiGrößerLimit" xml:space="preserve">
+    <value>Το αρχείο είναι μεγαλύτερο από το όριο</value>
+  </data>
+  <data name="001_DDBestätigen" xml:space="preserve">
+    <value>Επιβεβαιώστε έλξη-και-πτώση δράση</value>
+  </data>
+  <data name="001_DDUmgang" xml:space="preserve">
+    <value>Έλξη-και-σταγόνα δράση</value>
+  </data>
+  <data name="001_DownloadLimit" xml:space="preserve">
+    <value>Κατεβάζω όριο για να ανοίξετε αρχεία</value>
+  </data>
+  <data name="001_DragAndDrop" xml:space="preserve">
+    <value>Έλξη-και-πτώσης</value>
+  </data>
+  <data name="001_Einmal" xml:space="preserve">
+    <value>Μόλις η εφαρμογή είναι κλειστή</value>
+  </data>
+  <data name="001_Einstellungen" xml:space="preserve">
+    <value>Ρυθμίσεις</value>
+  </data>
+  <data name="001_Fragen" xml:space="preserve">
+    <value>Ερωτήσεις</value>
+  </data>
+  <data name="001_Ignorieren" xml:space="preserve">
+    <value>Παράβλεψη</value>
+  </data>
+  <data name="001_Immer" xml:space="preserve">
+    <value>Πάντα</value>
+  </data>
+  <data name="001_Ja" xml:space="preserve">
+    <value>Ναι</value>
+  </data>
+  <data name="001_Mehreren" xml:space="preserve">
+    <value>Αρκετές</value>
+  </data>
+  <data name="001_Nein" xml:space="preserve">
+    <value>Όχι</value>
+  </data>
+  <data name="001_Nie" xml:space="preserve">
+    <value>Ποτέ δεν</value>
+  </data>
+  <data name="001_OnlineVerhalten" xml:space="preserve">
+    <value>Σε απευθείας σύνδεση συμπεριφορά για να ανοίξετε αρχεία</value>
+  </data>
+  <data name="001_OnlineÖffnen" xml:space="preserve">
+    <value>Ανοίξτε online</value>
+  </data>
+  <data name="001_PasswortAbfrage" xml:space="preserve">
+    <value>Κωδικό πρόσβασης</value>
+  </data>
+  <data name="001_PasswortZurück" xml:space="preserve">
+    <value>Επαναφορά κωδικού πρόσβασης</value>
+  </data>
+  <data name="001_PrivaterOrdner" xml:space="preserve">
+    <value>Ιδιωτικό φάκελο</value>
+  </data>
+  <data name="001_Sortierung" xml:space="preserve">
+    <value>Ταξινόμηση</value>
+  </data>
+  <data name="001_SortierungSpeichern" xml:space="preserve">
+    <value>Αποθηκεύσετε την παραγγελία</value>
+  </data>
+  <data name="001_Standard" xml:space="preserve">
+    <value>Πρότυπο</value>
+  </data>
+  <data name="001_Unendlich" xml:space="preserve">
+    <value>Άπειρο</value>
+  </data>
+  <data name="001_Zurück" xml:space="preserve">
+    <value>Πίσω</value>
+  </data>
+  <data name="001_ÖffnenVomOrdner" xml:space="preserve">
+    <value>Κάθε φορά που ανοίγετε το φάκελο</value>
+  </data>
+  <data name="001_Benutzername" xml:space="preserve">
+    <value>Όνομα χρήστη</value>
+  </data>
+  <data name="001_PasswortSpeichern" xml:space="preserve">
+    <value>Αποθήκευση κωδικού πρόσβασης</value>
+  </data>
+  <data name="001_Server" xml:space="preserve">
+    <value>Διακομιστή</value>
+  </data>
+  <data name="001_Übernehmen" xml:space="preserve">
+    <value>Αναλάβει</value>
+  </data>
+  <data name="001_TemporäreDateien" xml:space="preserve">
+    <value>Προσωρινά αρχεία</value>
+  </data>
+  <data name="001_TemporäreDateienAnzeigen" xml:space="preserve">
+    <value>Προβολή προσωρινών αρχείων</value>
+  </data>
+  <data name="001_TemporäreDateienLöschen" xml:space="preserve">
+    <value>Διαγραφή προσωρινών αρχείων κατά την εκκίνηση</value>
+  </data>
+  <data name="001_TemporäreDateienLöschenTask" xml:space="preserve">
+    <value>Διαγραφή προσωρινών αρχείων</value>
+  </data>
+  <data name="001_KopierenVerschiebenOnlineOnline" xml:space="preserve">
+    <value>Αντιγράψετε ή να μετακινήσετε από το σε απευθείας σύνδεση σε απευθείας σύνδεση δεν υποστηρίζεται.
+Αντιγράψτε τα αρχεία στο τηλέφωνο, και στη συνέχεια σε απευθείας σύνδεση.</value>
+  </data>
+  <data name="002_BegrüßungTitel" xml:space="preserve">
+    <value>Παρακαλούμε διαβάστε προσεκτικά αυτές τις οδηγίες</value>
+  </data>
+  <data name="002_Bergrüßung" xml:space="preserve">
+    <value>Σας ευχαριστούμε που χρησιμοποιείτε αυτό το app.
+Αυτή η εφαρμογή χρησιμοποιεί ένα σύστημα έλξη - και - σταγόνα.
+Χρησιμοποιήστε τη γκρι γραμμή στα δεξιά του παραθύρου για να μετακινηθείτε.</value>
+  </data>
+  <data name="002_NichtAnzeigen" xml:space="preserve">
+    <value>Να μην εμφανίζονται κατά την εκκίνηση</value>
+  </data>
+  <data name="002_Dateiauswahl" xml:space="preserve">
+    <value>Επιλογή αρχείου</value>
+  </data>
+  <data name="002_DateiauswahlInfo" xml:space="preserve">
+    <value>Το αρχείο επιλογής σάς επιτρέπει να αντιγράψετε τα αρχεία από τους φακέλους που δεν μπορεί να ανοίξει.
+-Έγγραφα
+-Downloads
+-Ήχοι κλήσης</value>
+  </data>
+  <data name="002_DateiauswahlKopiert" xml:space="preserve">
+    <value>Τα αρχεία έχουν αντιγραφεί.
+Τώρα μπορείτε να το επικολλήσετε οπουδήποτε.</value>
+  </data>
+  <data name="000_Beschreibung" xml:space="preserve">
+    <value>Μια νέα γενιά του διαχειριστή αρχείων για Windows 10 κινητό. Με δύο παράθυρα και drag-and-drop. Σχεδιασμένη για απόλυτη ευκολία στη χρήση. Υποστηρίζει κάρτες μνήμης, μία μονάδα δίσκου και το dropbox.
+Δοκιμάστε το τώρα δωρεάν.</value>
+  </data>
+  <data name="000_Funktionen_1" xml:space="preserve">
+    <value>Δύο resizable παράθυρο</value>
+  </data>
+  <data name="000_Funktionen_10" xml:space="preserve">
+    <value>Υποστηρίζει όλα τα φορμά οθόνης</value>
+  </data>
+  <data name="000_Funktionen_2" xml:space="preserve">
+    <value>Έλξη-και-σταγόνα για γρήγορη αντιγραφή ή μετακίνηση</value>
+  </data>
+  <data name="000_Funktionen_3" xml:space="preserve">
+    <value>Υποστηρίζει πολλαπλές κάρτες μνήμης</value>
+  </data>
+  <data name="000_Funktionen_4" xml:space="preserve">
+    <value>Πλήρης ενσωμάτωση του ενός δίσκου</value>
+  </data>
+  <data name="000_Funktionen_5" xml:space="preserve">
+    <value>Πλήρη dropbox ολοκλήρωσης</value>
+  </data>
+  <data name="000_Funktionen_6" xml:space="preserve">
+    <value>Ιδιωτική περιοχή προστατεύεται με κωδικό πρόσβασης</value>
+  </data>
+  <data name="000_Funktionen_7" xml:space="preserve">
+    <value>Πολλαπλές Μετονομασία</value>
+  </data>
+  <data name="000_Funktionen_8" xml:space="preserve">
+    <value>Προηγμένες επιλογές ταξινόμησης</value>
+  </data>
+  <data name="000_Funktionen_9" xml:space="preserve">
+    <value>Επιλογή αρχείων για ασφαλείς περιοχές</value>
+  </data>
+  <data name="000_Schlagwort_1" xml:space="preserve">
+    <value>αρχείο</value>
+  </data>
+  <data name="000_Schlagwort_2" xml:space="preserve">
+    <value>Διαχείριση</value>
+  </data>
+  <data name="000_Schlagwort_3" xml:space="preserve">
+    <value>Εξερεύνηση</value>
+  </data>
+  <data name="000_Schlagwort_4" xml:space="preserve">
+    <value>μία μονάδα</value>
+  </data>
+  <data name="000_Schlagwort_5" xml:space="preserve">
+    <value>Dropbox</value>
+  </data>
+  <data name="000_Schlagwort_6" xml:space="preserve">
+    <value>σύννεφο</value>
+  </data>
+  <data name="000_Schlagwort_7" xml:space="preserve">
+    <value>φάκελο δικτύου</value>
+  </data>
+  <data name="002_Bewerten" xml:space="preserve">
+    <value>Βαθμολογήστε αυτό το app</value>
+  </data>
+  <data name="002_BewertenText" xml:space="preserve">
+    <value>Βοηθήστε μας να εξαπλωθεί αυτό το app.
+Αξιολογήσετε και να γράψετε αυτό το app 5 αστέρων.
+Και μπορείτε να πάρετε επάνω αυτό το app για δωρεάν.</value>
+  </data>
+  <data name="002_BewertungNachricht" xml:space="preserve">
+    <value>Στείλτε μας ένα μήνυμα ηλεκτρονικού ταχυδρομείου.
+Εισάγετε το όνομά σας.
+Το ένα που χρησιμοποιείτε με το λογαριασμό Microsoft.
+Σας στείλουμε ένα σύνδεσμο στη συνέχεια.</value>
+  </data>
+  <data name="002_Danke_1" xml:space="preserve">
+    <value>Σας ευχαριστούμε που χρησιμοποιείτε τις εφαρμογές μας.</value>
+  </data>
+  <data name="002_Danke_2" xml:space="preserve">
+    <value>Ιδιαίτερες ευχαριστίες στους</value>
+  </data>
+  <data name="002_Hilfe" xml:space="preserve">
+    <value>Εγχειρίδιο</value>
+  </data>
+  <data name="002_JetztBewerten" xml:space="preserve">
+    <value>Βαθμολογήστε Τώρα</value>
+  </data>
+  <data name="002_Kaufen" xml:space="preserve">
+    <value>Αγοράστε αυτό το app</value>
+  </data>
+  <data name="002_Kontakt" xml:space="preserve">
+    <value>Πώς να επικοινωνήσετε με</value>
+  </data>
+  <data name="002_Kostenlos" xml:space="preserve">
+    <value>Δωρεάν για πέντε αστέρων</value>
+  </data>
+  <data name="002_MicrosoftBenutzerName" xml:space="preserve">
+    <value>Το όνομα που χρησιμοποιείτε στο λογαριασμό σας Microsoft</value>
+  </data>
+  <data name="002_Postanschrift" xml:space="preserve">
+    <value>Ταχυδρομική διεύθυνση</value>
+  </data>
+  <data name="002_PromoApp" xml:space="preserve">
+    <value>8,1 κλειδώματος οθόνης</value>
+  </data>
+  <data name="002_Sprache" xml:space="preserve">
+    <value>Γλώσσα</value>
+  </data>
+  <data name="002_SpracheÄndern" xml:space="preserve">
+    <value>Αλλαγή γλώσσας</value>
+  </data>
+  <data name="002_VielenDank" xml:space="preserve">
+    <value>Σε ευχαριστώ πολύ</value>
+  </data>
+  <data name="002_Webseite" xml:space="preserve">
+    <value>Ιστοσελίδα</value>
+  </data>
+  <data name="002_Über" xml:space="preserve">
+    <value>Σχετικά με</value>
+  </data>
+</root>

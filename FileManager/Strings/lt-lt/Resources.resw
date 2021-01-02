@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="001_Abbrechen" xml:space="preserve">
+    <value>Atšaukti</value>
+  </data>
+  <data name="001_Ausschneiden" xml:space="preserve">
+    <value>Iškirpti</value>
+  </data>
+  <data name="001_Bilder" xml:space="preserve">
+    <value>Nuotraukos</value>
+  </data>
+  <data name="001_Datei" xml:space="preserve">
+    <value>Failą</value>
+  </data>
+  <data name="001_DateiBereitsVorhanden" xml:space="preserve">
+    <value>Tuo apdaila, ji jau yra failas pavadinimu</value>
+  </data>
+  <data name="001_DateienNichtKopiert" xml:space="preserve">
+    <value>Nepavyko nukopijuoti failus</value>
+  </data>
+  <data name="001_DateienNichtVerschoben" xml:space="preserve">
+    <value>Failai gali būti neperkelti</value>
+  </data>
+  <data name="001_DateiMehrzahl" xml:space="preserve">
+    <value>Failai</value>
+  </data>
+  <data name="001_DiesesGerät" xml:space="preserve">
+    <value>Šis prietaisas</value>
+  </data>
+  <data name="001_Dokumente" xml:space="preserve">
+    <value>Dokumentai</value>
+  </data>
+  <data name="001_Downloads" xml:space="preserve">
+    <value>Atsisiuntimai</value>
+  </data>
+  <data name="001_Einfügen" xml:space="preserve">
+    <value>Įterpti</value>
+  </data>
+  <data name="001_Ersetzen" xml:space="preserve">
+    <value>Pakeisti</value>
+  </data>
+  <data name="001_FürAlle" xml:space="preserve">
+    <value>Taikyti visiems</value>
+  </data>
+  <data name="001_Integrieren" xml:space="preserve">
+    <value>Integruoti</value>
+  </data>
+  <data name="001_Klingeltöne" xml:space="preserve">
+    <value>Melodijos</value>
+  </data>
+  <data name="001_Kopieren" xml:space="preserve">
+    <value>Kopija</value>
+  </data>
+  <data name="001_Löschen" xml:space="preserve">
+    <value>Naikinti</value>
+  </data>
+  <data name="001_LöschenBestätigung" xml:space="preserve">
+    <value>Panaikinti visam laikui</value>
+  </data>
+  <data name="001_Musik" xml:space="preserve">
+    <value>Muzika</value>
+  </data>
+  <data name="001_NichtMöglich" xml:space="preserve">
+    <value>Tai neįmanoma</value>
+  </data>
+  <data name="001_OneDrive" xml:space="preserve">
+    <value>Vienas diskas</value>
+  </data>
+  <data name="001_Ordner" xml:space="preserve">
+    <value>Aplankas</value>
+  </data>
+  <data name="001_OrdnerBereitsVorhanden" xml:space="preserve">
+    <value>Aplankas su tokiu pavadinimu jau yra paskirties</value>
+  </data>
+  <data name="001_OrdnerMehrzahl" xml:space="preserve">
+    <value>Aplankas</value>
+  </data>
+  <data name="001_OrdnerNichtErstellt" xml:space="preserve">
+    <value>Negalima sukurti aplanko</value>
+  </data>
+  <data name="001_OrdnerNichÖffnen" xml:space="preserve">
+    <value>Neįmanoma atidaryti aplanką</value>
+  </data>
+  <data name="001_Privat" xml:space="preserve">
+    <value>Privatus</value>
+  </data>
+  <data name="001_SDKarte" xml:space="preserve">
+    <value>SD kortelė</value>
+  </data>
+  <data name="001_Teilen" xml:space="preserve">
+    <value>Dalis</value>
+  </data>
+  <data name="001_Umbenennen" xml:space="preserve">
+    <value>Pervardyti</value>
+  </data>
+  <data name="001_Verschieben" xml:space="preserve">
+    <value>Perkelti</value>
+  </data>
+  <data name="001_Videos" xml:space="preserve">
+    <value>Vaizdo įrašai</value>
+  </data>
+  <data name="001_ZugriffVerweigert" xml:space="preserve">
+    <value>Prieiga uždrausta</value>
+  </data>
+  <data name="001_Überspringen" xml:space="preserve">
+    <value>Praleisti</value>
+  </data>
+  <data name="001_Hinzufügen" xml:space="preserve">
+    <value>Pridėti</value>
+  </data>
+  <data name="001_KeinName" xml:space="preserve">
+    <value>Nėra įvestas vardas</value>
+  </data>
+  <data name="001_Name" xml:space="preserve">
+    <value>vardas, pavadinimas</value>
+  </data>
+  <data name="001_NeuerOrdner" xml:space="preserve">
+    <value>Pridėti aplanką</value>
+  </data>
+  <data name="001_Schließen" xml:space="preserve">
+    <value>Uždaryti</value>
+  </data>
+  <data name="001_NameFalsch" xml:space="preserve">
+    <value>Pavadinimas negali būti naudojamas</value>
+  </data>
+  <data name="001_EinenMoment" xml:space="preserve">
+    <value>Prašome luktelėti</value>
+  </data>
+  <data name="001_DateiNichtGelöscht" xml:space="preserve">
+    <value>Failas negali būti panaikintas</value>
+  </data>
+  <data name="001_OrdnerNichtLöschen" xml:space="preserve">
+    <value>Negalima naikinti aplanką</value>
+  </data>
+  <data name="001_DateienNichtEingefügt" xml:space="preserve">
+    <value>Negalima pridėti failą</value>
+  </data>
+  <data name="001_DateienNichtVorhanden" xml:space="preserve">
+    <value>Failai nebebus pasiekiami</value>
+  </data>
+  <data name="001_DateiNichtVorhanden" xml:space="preserve">
+    <value>Failas nėra prieinamas</value>
+  </data>
+  <data name="001_KopierenVerschieben" xml:space="preserve">
+    <value>Kopijuoti arba perkelti</value>
+  </data>
+  <data name="000_AppName" xml:space="preserve">
+    <value>Failų naršyklėje X</value>
+  </data>
+  <data name="001_AllesAbwählen" xml:space="preserve">
+    <value>Atsisakyti visų</value>
+  </data>
+  <data name="001_AllesAuswählen" xml:space="preserve">
+    <value>Pasirinkti visus</value>
+  </data>
+  <data name="001_DateiNichtUmbenannt" xml:space="preserve">
+    <value>Failas negali būti pervardintas</value>
+  </data>
+  <data name="001_OrdnerNichtUmbenannt" xml:space="preserve">
+    <value>Nepavyko pervardyti aplanką</value>
+  </data>
+  <data name="001_Heimnetzgruppe" xml:space="preserve">
+    <value>Namų grupės</value>
+  </data>
+  <data name="001_NurVollversion" xml:space="preserve">
+    <value>Galima naudoti tik pilna versija</value>
+  </data>
+  <data name="001_Warnung" xml:space="preserve">
+    <value>Įspėjimas</value>
+  </data>
+  <data name="001_WarnungPrivate" xml:space="preserve">
+    <value>Privačiame sektoriuje yra app katalogas ir yra apsaugota slaptažodžiu. Užsirašykite savo slaptažodį ir laikykite jį saugioje vietoje.
+Svarbu!
+Ar jūs prarasite savo slaptažodį arba galite pašalinti šią programėlę, kad duomenys yra prarastas visam laikui.</value>
+  </data>
+  <data name="001_Weiter" xml:space="preserve">
+    <value>Kitas</value>
+  </data>
+  <data name="001_Fehler" xml:space="preserve">
+    <value>Klaida</value>
+  </data>
+  <data name="001_KeinPasswort" xml:space="preserve">
+    <value>Nėra įvestas slaptažodis</value>
+  </data>
+  <data name="001_Passwort" xml:space="preserve">
+    <value>Slaptažodis</value>
+  </data>
+  <data name="001_PasswortErstellen" xml:space="preserve">
+    <value>Sukurkite slaptažodį</value>
+  </data>
+  <data name="001_PasswortNicht" xml:space="preserve">
+    <value>Slaptažodis negali būti naudojamas</value>
+  </data>
+  <data name="001_PasswortUnterschied" xml:space="preserve">
+    <value>Slaptažodžiuose svarbu tinkamai naudoti skirtingų</value>
+  </data>
+  <data name="001_PasswortWiederholen" xml:space="preserve">
+    <value>Pakartokite slaptažodį</value>
+  </data>
+  <data name="001_Datum" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="001_FileType" xml:space="preserve">
+    <value>Tipas</value>
+  </data>
+  <data name="001_OrdnerSortieren" xml:space="preserve">
+    <value>Rūšiuoti aplankus</value>
+  </data>
+  <data name="001_Entfernen" xml:space="preserve">
+    <value>Pašalinti</value>
+  </data>
+  <data name="001_VerbindungNicht" xml:space="preserve">
+    <value>Ryšys nutrūko</value>
+  </data>
+  <data name="001_DateiNichtGeöffnet" xml:space="preserve">
+    <value>Failas negali būti atidarytas</value>
+  </data>
+  <data name="001_DateiHeruntergeladen" xml:space="preserve">
+    <value>Failas yra galima atsisiųsti</value>
+  </data>
+  <data name="001_ArtDerVerbindung" xml:space="preserve">
+    <value>Ryšio tipas</value>
+  </data>
+  <data name="001_VerknüpftesKonto" xml:space="preserve">
+    <value>Susietos paskyros</value>
+  </data>
+  <data name="001_AnderesKonto" xml:space="preserve">
+    <value>Kitą abonementą</value>
+  </data>
+  <data name="001_DateiOrdnerNichtGelöscht" xml:space="preserve">
+    <value>Negalima naikinti failą arba aplanką</value>
+  </data>
+  <data name="001_Abmelden" xml:space="preserve">
+    <value>Atsijungti</value>
+  </data>
+  <data name="001_Berechtigung" xml:space="preserve">
+    <value>Prieigos teisę</value>
+  </data>
+  <data name="001_DateienOrdnerNichtEingefügt" xml:space="preserve">
+    <value>Negalima pridėti failą arba aplanką</value>
+  </data>
+  <data name="001_DateienSortieren" xml:space="preserve">
+    <value>Failų rikiavimas</value>
+  </data>
+  <data name="001_DateiOrdnerBereitsVorhanden" xml:space="preserve">
+    <value>Ten jau yra failas arba aplankas pavadinimu tikslą</value>
+  </data>
+  <data name="001_DateiOrdnerNichtVorhanden" xml:space="preserve">
+    <value>Failo arba aplanko nėra prieinamas</value>
+  </data>
+  <data name="001_FreigabeLink" xml:space="preserve">
+    <value>Dalis nuorodą</value>
+  </data>
+  <data name="001_Lesen" xml:space="preserve">
+    <value>Skaityti</value>
+  </data>
+  <data name="001_LesenSchreiben" xml:space="preserve">
+    <value>Skaityti ir rašyti</value>
+  </data>
+  <data name="001_OneDriveÄndern" xml:space="preserve">
+    <value>Sąskaita pakeisti vieną įrenginį
+-Esamo ryšio
+-Prisijungimo, atsijungimo
+-Naujas ryšys</value>
+  </data>
+  <data name="001_AnStart" xml:space="preserve">
+    <value>PRISEGTI prie pradžios ekrano</value>
+  </data>
+  <data name="001_DateiGrößerLimit" xml:space="preserve">
+    <value>Failas yra didesnis nei</value>
+  </data>
+  <data name="001_DDBestätigen" xml:space="preserve">
+    <value>Patvirtinti Velkant ir numetant veiksmų</value>
+  </data>
+  <data name="001_DDUmgang" xml:space="preserve">
+    <value>Velkant ir numetant veiksmą</value>
+  </data>
+  <data name="001_DownloadLimit" xml:space="preserve">
+    <value>Parsiuntimo limitas atidaryti failus</value>
+  </data>
+  <data name="001_DragAndDrop" xml:space="preserve">
+    <value>Velkant ir numetant</value>
+  </data>
+  <data name="001_Einmal" xml:space="preserve">
+    <value>Kai programėlė bus uždaryta</value>
+  </data>
+  <data name="001_Einstellungen" xml:space="preserve">
+    <value>Parametrai</value>
+  </data>
+  <data name="001_Fragen" xml:space="preserve">
+    <value>Klausimai</value>
+  </data>
+  <data name="001_Ignorieren" xml:space="preserve">
+    <value>Ignoruoti</value>
+  </data>
+  <data name="001_Immer" xml:space="preserve">
+    <value>Visada</value>
+  </data>
+  <data name="001_Ja" xml:space="preserve">
+    <value>taip</value>
+  </data>
+  <data name="001_Mehreren" xml:space="preserve">
+    <value>Keletas</value>
+  </data>
+  <data name="001_Nein" xml:space="preserve">
+    <value>ne</value>
+  </data>
+  <data name="001_Nie" xml:space="preserve">
+    <value>Niekada</value>
+  </data>
+  <data name="001_OnlineVerhalten" xml:space="preserve">
+    <value>Veikimo būdą tinkle atidaryti failus</value>
+  </data>
+  <data name="001_OnlineÖffnen" xml:space="preserve">
+    <value>Atidaryti tnkl.</value>
+  </data>
+  <data name="001_PasswortAbfrage" xml:space="preserve">
+    <value>Slaptažodis</value>
+  </data>
+  <data name="001_PasswortZurück" xml:space="preserve">
+    <value>Iš naujo nustatyti slaptažodį</value>
+  </data>
+  <data name="001_PrivaterOrdner" xml:space="preserve">
+    <value>Asmeninį aplanką</value>
+  </data>
+  <data name="001_Sortierung" xml:space="preserve">
+    <value>Rūšiavimas</value>
+  </data>
+  <data name="001_SortierungSpeichern" xml:space="preserve">
+    <value>Gaukite užsakymą</value>
+  </data>
+  <data name="001_Standard" xml:space="preserve">
+    <value>Standartas</value>
+  </data>
+  <data name="001_Unendlich" xml:space="preserve">
+    <value>Begalybė</value>
+  </data>
+  <data name="001_Zurück" xml:space="preserve">
+    <value>Atgal</value>
+  </data>
+  <data name="001_ÖffnenVomOrdner" xml:space="preserve">
+    <value>Kiekvieną kartą, kai atidarote aplanką</value>
+  </data>
+  <data name="001_Benutzername" xml:space="preserve">
+    <value>Vartotojo vardas</value>
+  </data>
+  <data name="001_PasswortSpeichern" xml:space="preserve">
+    <value>Įrašyti slaptažodį</value>
+  </data>
+  <data name="001_Server" xml:space="preserve">
+    <value>Serverio</value>
+  </data>
+  <data name="001_Übernehmen" xml:space="preserve">
+    <value>Perimti</value>
+  </data>
+  <data name="001_TemporäreDateien" xml:space="preserve">
+    <value>Laikinuosius failus</value>
+  </data>
+  <data name="001_TemporäreDateienAnzeigen" xml:space="preserve">
+    <value>Laikinųjų failų peržiūros</value>
+  </data>
+  <data name="001_TemporäreDateienLöschen" xml:space="preserve">
+    <value>Naikinti laikinuosius failus paleidžiant</value>
+  </data>
+  <data name="001_TemporäreDateienLöschenTask" xml:space="preserve">
+    <value>Naikinti laikinuosius failus</value>
+  </data>
+  <data name="001_KopierenVerschiebenOnlineOnline" xml:space="preserve">
+    <value>Kopijuoti arba perkelti iš interneto ir interneto nėra palaikomas.
+Kopijuoti failus į telefoną, tada prie interneto.</value>
+  </data>
+  <data name="002_BegrüßungTitel" xml:space="preserve">
+    <value>Prašome atidžiai perskaityti šias instrukcijas</value>
+  </data>
+  <data name="002_Bergrüßung" xml:space="preserve">
+    <value>Ačiū už šią programėlę.
+Ši programa naudoja sistemą, vilkite - ir - lašas.
+Naudoti pilką juostą dešinėje lango pereikite.</value>
+  </data>
+  <data name="002_NichtAnzeigen" xml:space="preserve">
+    <value>Nerodo paleisties metu</value>
+  </data>
+  <data name="002_Dateiauswahl" xml:space="preserve">
+    <value>Failo pasirinkimas</value>
+  </data>
+  <data name="002_DateiauswahlInfo" xml:space="preserve">
+    <value>Failo pasirinkimas leidžia kopijuoti failus aplankuose, kuriuose negali būti atidaryta.
+-Dokumentai
+-Atsisiunčiami failai
+-Melodijos</value>
+  </data>
+  <data name="002_DateiauswahlKopiert" xml:space="preserve">
+    <value>Failai buvo nukopijuoti.
+Dabar galite įklijuoti jį bet kurioje vietoje.</value>
+  </data>
+  <data name="000_Beschreibung" xml:space="preserve">
+    <value>Naujos kartos failų tvarkyklė Windows 10 Mobilus. Su dviem langais ir velkant ir numetant. Sukurta absoliutus lengva naudoti. Palaiko atminties korteles, vienas diskas ir dropbox.
+Išbandykite dabar nemokamai.</value>
+  </data>
+  <data name="000_Funktionen_1" xml:space="preserve">
+    <value>Dvi keičiamo dydžio langas</value>
+  </data>
+  <data name="000_Funktionen_10" xml:space="preserve">
+    <value>Palaiko visus ekrano formatus</value>
+  </data>
+  <data name="000_Funktionen_2" xml:space="preserve">
+    <value>Vilkimo ir numetimo, greitas kopijavimas arba perkėlimas</value>
+  </data>
+  <data name="000_Funktionen_3" xml:space="preserve">
+    <value>Palaiko kelis monitorius</value>
+  </data>
+  <data name="000_Funktionen_4" xml:space="preserve">
+    <value>Visiškos integracijos vienas diskas</value>
+  </data>
+  <data name="000_Funktionen_5" xml:space="preserve">
+    <value>Pilnas dropbox integracija</value>
+  </data>
+  <data name="000_Funktionen_6" xml:space="preserve">
+    <value>Slaptažodžiu apsaugotas privati</value>
+  </data>
+  <data name="000_Funktionen_7" xml:space="preserve">
+    <value>Pervardyti kelis</value>
+  </data>
+  <data name="000_Funktionen_8" xml:space="preserve">
+    <value>Išplėstinė rū iavimo parinktys</value>
+  </data>
+  <data name="000_Funktionen_9" xml:space="preserve">
+    <value>Failų žymėjimo užtikrintos teritorijų</value>
+  </data>
+  <data name="000_Schlagwort_1" xml:space="preserve">
+    <value>failą</value>
+  </data>
+  <data name="000_Schlagwort_2" xml:space="preserve">
+    <value>Vadybininkas</value>
+  </data>
+  <data name="000_Schlagwort_3" xml:space="preserve">
+    <value>"Internet Explorer"</value>
+  </data>
+  <data name="000_Schlagwort_4" xml:space="preserve">
+    <value>vienas diskas</value>
+  </data>
+  <data name="000_Schlagwort_5" xml:space="preserve">
+    <value>Dropbox</value>
+  </data>
+  <data name="000_Schlagwort_6" xml:space="preserve">
+    <value>Debesis</value>
+  </data>
+  <data name="000_Schlagwort_7" xml:space="preserve">
+    <value>aplanke tinklas</value>
+  </data>
+  <data name="002_Bewerten" xml:space="preserve">
+    <value>Įvertinti šią programą</value>
+  </data>
+  <data name="002_BewertenText" xml:space="preserve">
+    <value>Padėkite mums skleisti šią programėlę.
+Įvertinti ir apžvelgti šią programėlę 5 žvaigždutės.
+Ir jums šis viršų app nemokamai.</value>
+  </data>
+  <data name="002_BewertungNachricht" xml:space="preserve">
+    <value>Atsiųskite mums el. laišką.
+Įveskite savo vardą.
+Vienas, kurį naudojate su "Microsoft" abonementą.
+Mes atsiųsime nuorodą tada.</value>
+  </data>
+  <data name="002_Danke_1" xml:space="preserve">
+    <value>Ačiū, kad naudojatės mūsų programėles.</value>
+  </data>
+  <data name="002_Danke_2" xml:space="preserve">
+    <value>Ypatingą padėką</value>
+  </data>
+  <data name="002_Hilfe" xml:space="preserve">
+    <value>Naudojimo instrukcija</value>
+  </data>
+  <data name="002_JetztBewerten" xml:space="preserve">
+    <value>Įvertinkite dabar</value>
+  </data>
+  <data name="002_Kaufen" xml:space="preserve">
+    <value>Pirkti šią programą</value>
+  </data>
+  <data name="002_Kontakt" xml:space="preserve">
+    <value>Kaip susisiekti su</value>
+  </data>
+  <data name="002_Kostenlos" xml:space="preserve">
+    <value>Nemokamas penkių žvaigždučių</value>
+  </data>
+  <data name="002_MicrosoftBenutzerName" xml:space="preserve">
+    <value>Naudojate "Microsoft" abonemento pavadinimas</value>
+  </data>
+  <data name="002_Postanschrift" xml:space="preserve">
+    <value>Pašto adresas</value>
+  </data>
+  <data name="002_PromoApp" xml:space="preserve">
+    <value>8.1 užrakto ekranas</value>
+  </data>
+  <data name="002_Sprache" xml:space="preserve">
+    <value>Kalba</value>
+  </data>
+  <data name="002_SpracheÄndern" xml:space="preserve">
+    <value>Keisti kalbą</value>
+  </data>
+  <data name="002_VielenDank" xml:space="preserve">
+    <value>labai ačiū</value>
+  </data>
+  <data name="002_Webseite" xml:space="preserve">
+    <value>Interneto puslapis</value>
+  </data>
+  <data name="002_Über" xml:space="preserve">
+    <value>Apie</value>
+  </data>
+</root>

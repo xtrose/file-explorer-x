@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="001_Abbrechen" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="001_Ausschneiden" xml:space="preserve">
+    <value>Cortar</value>
+  </data>
+  <data name="001_Bilder" xml:space="preserve">
+    <value>Fotos</value>
+  </data>
+  <data name="001_Datei" xml:space="preserve">
+    <value>Arquivo</value>
+  </data>
+  <data name="001_DateiBereitsVorhanden" xml:space="preserve">
+    <value>No final, já existe um arquivo com o nome</value>
+  </data>
+  <data name="001_DateienNichtKopiert" xml:space="preserve">
+    <value>Arquivos não podem ser copiados</value>
+  </data>
+  <data name="001_DateienNichtVerschoben" xml:space="preserve">
+    <value>Arquivos não podem ser movidos</value>
+  </data>
+  <data name="001_DateiMehrzahl" xml:space="preserve">
+    <value>Arquivos</value>
+  </data>
+  <data name="001_DiesesGerät" xml:space="preserve">
+    <value>Este dispositivo</value>
+  </data>
+  <data name="001_Dokumente" xml:space="preserve">
+    <value>Documentos</value>
+  </data>
+  <data name="001_Downloads" xml:space="preserve">
+    <value>Downloads</value>
+  </data>
+  <data name="001_Einfügen" xml:space="preserve">
+    <value>Inserir</value>
+  </data>
+  <data name="001_Ersetzen" xml:space="preserve">
+    <value>Substitua</value>
+  </data>
+  <data name="001_FürAlle" xml:space="preserve">
+    <value>Se aplicam a todas</value>
+  </data>
+  <data name="001_Integrieren" xml:space="preserve">
+    <value>Integrar</value>
+  </data>
+  <data name="001_Klingeltöne" xml:space="preserve">
+    <value>Ringtones</value>
+  </data>
+  <data name="001_Kopieren" xml:space="preserve">
+    <value>Cópia</value>
+  </data>
+  <data name="001_Löschen" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="001_LöschenBestätigung" xml:space="preserve">
+    <value>Excluir permanentemente</value>
+  </data>
+  <data name="001_Musik" xml:space="preserve">
+    <value>Música</value>
+  </data>
+  <data name="001_NichtMöglich" xml:space="preserve">
+    <value>Não é possível</value>
+  </data>
+  <data name="001_OneDrive" xml:space="preserve">
+    <value>Uma unidade de disco</value>
+  </data>
+  <data name="001_Ordner" xml:space="preserve">
+    <value>Pasta</value>
+  </data>
+  <data name="001_OrdnerBereitsVorhanden" xml:space="preserve">
+    <value>Uma pasta com esse nome já existe no destino</value>
+  </data>
+  <data name="001_OrdnerMehrzahl" xml:space="preserve">
+    <value>Pasta</value>
+  </data>
+  <data name="001_OrdnerNichtErstellt" xml:space="preserve">
+    <value>Pasta não pôde ser criada.</value>
+  </data>
+  <data name="001_OrdnerNichÖffnen" xml:space="preserve">
+    <value>Não é possível abrir a pasta</value>
+  </data>
+  <data name="001_Privat" xml:space="preserve">
+    <value>Privada</value>
+  </data>
+  <data name="001_SDKarte" xml:space="preserve">
+    <value>Cartão SD</value>
+  </data>
+  <data name="001_Teilen" xml:space="preserve">
+    <value>Compartilhar</value>
+  </data>
+  <data name="001_Umbenennen" xml:space="preserve">
+    <value>Renomear</value>
+  </data>
+  <data name="001_Verschieben" xml:space="preserve">
+    <value>Mudança</value>
+  </data>
+  <data name="001_Videos" xml:space="preserve">
+    <value>Vídeos</value>
+  </data>
+  <data name="001_ZugriffVerweigert" xml:space="preserve">
+    <value>Acesso negado</value>
+  </data>
+  <data name="001_Überspringen" xml:space="preserve">
+    <value>Pular</value>
+  </data>
+  <data name="001_Hinzufügen" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <data name="001_KeinName" xml:space="preserve">
+    <value>Nenhum nome digitado</value>
+  </data>
+  <data name="001_Name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="001_NeuerOrdner" xml:space="preserve">
+    <value>Adicionar pasta</value>
+  </data>
+  <data name="001_Schließen" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="001_NameFalsch" xml:space="preserve">
+    <value>O nome não pode ser usado</value>
+  </data>
+  <data name="001_EinenMoment" xml:space="preserve">
+    <value>Um momento por favor</value>
+  </data>
+  <data name="001_DateiNichtGelöscht" xml:space="preserve">
+    <value>Arquivo não pôde ser excluído</value>
+  </data>
+  <data name="001_OrdnerNichtLöschen" xml:space="preserve">
+    <value>Pasta não pôde ser excluída</value>
+  </data>
+  <data name="001_DateienNichtEingefügt" xml:space="preserve">
+    <value>Arquivo não pôde ser adicionado.</value>
+  </data>
+  <data name="001_DateienNichtVorhanden" xml:space="preserve">
+    <value>Arquivos não estão mais disponíveis</value>
+  </data>
+  <data name="001_DateiNichtVorhanden" xml:space="preserve">
+    <value>Arquivo não está mais disponível</value>
+  </data>
+  <data name="001_KopierenVerschieben" xml:space="preserve">
+    <value>Copiar ou mover</value>
+  </data>
+  <data name="000_AppName" xml:space="preserve">
+    <value>Explorador de Ficheiros X</value>
+  </data>
+  <data name="001_AllesAbwählen" xml:space="preserve">
+    <value>Desmarque</value>
+  </data>
+  <data name="001_AllesAuswählen" xml:space="preserve">
+    <value>Selecionar tudo</value>
+  </data>
+  <data name="001_DateiNichtUmbenannt" xml:space="preserve">
+    <value>Arquivo não pode ser renomeado.</value>
+  </data>
+  <data name="001_OrdnerNichtUmbenannt" xml:space="preserve">
+    <value>Pasta não pode ser renomeada.</value>
+  </data>
+  <data name="001_Heimnetzgruppe" xml:space="preserve">
+    <value>Grupo doméstico</value>
+  </data>
+  <data name="001_NurVollversion" xml:space="preserve">
+    <value>Disponível apenas na versão completa</value>
+  </data>
+  <data name="001_Warnung" xml:space="preserve">
+    <value>Aviso</value>
+  </data>
+  <data name="001_WarnungPrivate" xml:space="preserve">
+    <value>O setor privado está localizado no diretório do aplicativo e é protegido por senha. Por favor anote sua senha e mantê-lo em um lugar seguro.
+Importante!
+Você perdeu sua senha ou você desinstalar este app, então os dados serão perdidos para sempre.</value>
+  </data>
+  <data name="001_Weiter" xml:space="preserve">
+    <value>Na próxima</value>
+  </data>
+  <data name="001_Fehler" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="001_KeinPasswort" xml:space="preserve">
+    <value>Nenhuma senha digitada</value>
+  </data>
+  <data name="001_Passwort" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="001_PasswortErstellen" xml:space="preserve">
+    <value>Criar senha</value>
+  </data>
+  <data name="001_PasswortNicht" xml:space="preserve">
+    <value>Senha não pode ser usada</value>
+  </data>
+  <data name="001_PasswortUnterschied" xml:space="preserve">
+    <value>As senhas são diferentes</value>
+  </data>
+  <data name="001_PasswortWiederholen" xml:space="preserve">
+    <value>Repita a senha</value>
+  </data>
+  <data name="001_Datum" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="001_FileType" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="001_OrdnerSortieren" xml:space="preserve">
+    <value>Pastas de tipo</value>
+  </data>
+  <data name="001_Entfernen" xml:space="preserve">
+    <value>Remover</value>
+  </data>
+  <data name="001_VerbindungNicht" xml:space="preserve">
+    <value>Conexão falhado</value>
+  </data>
+  <data name="001_DateiNichtGeöffnet" xml:space="preserve">
+    <value>Arquivo não pôde ser aberto.</value>
+  </data>
+  <data name="001_DateiHeruntergeladen" xml:space="preserve">
+    <value>Arquivo está disponível para download</value>
+  </data>
+  <data name="001_ArtDerVerbindung" xml:space="preserve">
+    <value>Tipo de conexão</value>
+  </data>
+  <data name="001_VerknüpftesKonto" xml:space="preserve">
+    <value>Conta vinculada</value>
+  </data>
+  <data name="001_AnderesKonto" xml:space="preserve">
+    <value>Outra conta</value>
+  </data>
+  <data name="001_DateiOrdnerNichtGelöscht" xml:space="preserve">
+    <value>Arquivo ou pasta não pôde ser excluída</value>
+  </data>
+  <data name="001_Abmelden" xml:space="preserve">
+    <value>Fazer logoff</value>
+  </data>
+  <data name="001_Berechtigung" xml:space="preserve">
+    <value>Permissão de acesso</value>
+  </data>
+  <data name="001_DateienOrdnerNichtEingefügt" xml:space="preserve">
+    <value>Arquivo ou pasta não pôde ser adicionada</value>
+  </data>
+  <data name="001_DateienSortieren" xml:space="preserve">
+    <value>Arquivos do tipo</value>
+  </data>
+  <data name="001_DateiOrdnerBereitsVorhanden" xml:space="preserve">
+    <value>Já existe um arquivo ou pasta com o nome de destino</value>
+  </data>
+  <data name="001_DateiOrdnerNichtVorhanden" xml:space="preserve">
+    <value>Arquivo ou pasta não está mais disponível</value>
+  </data>
+  <data name="001_FreigabeLink" xml:space="preserve">
+    <value>Ligação de compartilhamento</value>
+  </data>
+  <data name="001_Lesen" xml:space="preserve">
+    <value>Leitura</value>
+  </data>
+  <data name="001_LesenSchreiben" xml:space="preserve">
+    <value>Read e write</value>
+  </data>
+  <data name="001_OneDriveÄndern" xml:space="preserve">
+    <value>Conta mudar uma unidade
+-Conexão atual
+-Conexão logoff
+-Conexão novo</value>
+  </data>
+  <data name="001_AnStart" xml:space="preserve">
+    <value>Pin para Iniciar</value>
+  </data>
+  <data name="001_DateiGrößerLimit" xml:space="preserve">
+    <value>O arquivo é maior do que o limite</value>
+  </data>
+  <data name="001_DDBestätigen" xml:space="preserve">
+    <value>Confirmar a drag- and -drop a ação</value>
+  </data>
+  <data name="001_DDUmgang" xml:space="preserve">
+    <value>Ação de drag- and -drop</value>
+  </data>
+  <data name="001_DownloadLimit" xml:space="preserve">
+    <value>Limite para abrir arquivos de download</value>
+  </data>
+  <data name="001_DragAndDrop" xml:space="preserve">
+    <value>Drag- and -drop</value>
+  </data>
+  <data name="001_Einmal" xml:space="preserve">
+    <value>Uma vez que o app está fechado</value>
+  </data>
+  <data name="001_Einstellungen" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="001_Fragen" xml:space="preserve">
+    <value>Perguntas</value>
+  </data>
+  <data name="001_Ignorieren" xml:space="preserve">
+    <value>Ignorar</value>
+  </data>
+  <data name="001_Immer" xml:space="preserve">
+    <value>Sempre</value>
+  </data>
+  <data name="001_Ja" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="001_Mehreren" xml:space="preserve">
+    <value>Vários</value>
+  </data>
+  <data name="001_Nein" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="001_Nie" xml:space="preserve">
+    <value>Nunca</value>
+  </data>
+  <data name="001_OnlineVerhalten" xml:space="preserve">
+    <value>Comportamento on-line para abrir arquivos</value>
+  </data>
+  <data name="001_OnlineÖffnen" xml:space="preserve">
+    <value>Aberta on-line</value>
+  </data>
+  <data name="001_PasswortAbfrage" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="001_PasswortZurück" xml:space="preserve">
+    <value>Redefinir senha</value>
+  </data>
+  <data name="001_PrivaterOrdner" xml:space="preserve">
+    <value>Pasta privada</value>
+  </data>
+  <data name="001_Sortierung" xml:space="preserve">
+    <value>Classificação</value>
+  </data>
+  <data name="001_SortierungSpeichern" xml:space="preserve">
+    <value>Salvar a ordenação</value>
+  </data>
+  <data name="001_Standard" xml:space="preserve">
+    <value>Padrão</value>
+  </data>
+  <data name="001_Unendlich" xml:space="preserve">
+    <value>Infinito</value>
+  </data>
+  <data name="001_Zurück" xml:space="preserve">
+    <value>Voltar</value>
+  </data>
+  <data name="001_ÖffnenVomOrdner" xml:space="preserve">
+    <value>Cada vez que você abrir a pasta</value>
+  </data>
+  <data name="001_Benutzername" xml:space="preserve">
+    <value>Nome de usuário</value>
+  </data>
+  <data name="001_PasswortSpeichern" xml:space="preserve">
+    <value>Salvar senha</value>
+  </data>
+  <data name="001_Server" xml:space="preserve">
+    <value>Servidor</value>
+  </data>
+  <data name="001_Übernehmen" xml:space="preserve">
+    <value>Assumir</value>
+  </data>
+  <data name="001_TemporäreDateien" xml:space="preserve">
+    <value>Arquivos temporários</value>
+  </data>
+  <data name="001_TemporäreDateienAnzeigen" xml:space="preserve">
+    <value>Visualização de arquivos temporários</value>
+  </data>
+  <data name="001_TemporäreDateienLöschen" xml:space="preserve">
+    <value>Excluir arquivos temporários na inicialização</value>
+  </data>
+  <data name="001_TemporäreDateienLöschenTask" xml:space="preserve">
+    <value>Excluir arquivos temporários</value>
+  </data>
+  <data name="001_KopierenVerschiebenOnlineOnline" xml:space="preserve">
+    <value>Copiar ou mover de on-line para on-line não é suportado.
+Copie os arquivos para o telefone e depois para on-line.</value>
+  </data>
+  
+  
+  
+  
+  
+  <data name="002_BegrüßungTitel" xml:space="preserve">
+        <value>Por favor, leia atentamente estas instruções</value>
+    </data>
+    <data name="002_Bergrüßung" xml:space="preserve">
+        <value>Obrigado por usar este app.
+Este app usa um sistema de arrastar - e - soltar.
+Use a barra cinza à direita da janela para rolar.</value>
+    </data>
+    <data name="002_NichtAnzeigen" xml:space="preserve">
+        <value>Não mostrar na inicialização</value>
+    </data>
+    <data name="002_Dateiauswahl" xml:space="preserve">
+        <value>Seleção de arquivo</value>
+    </data>
+    <data name="002_DateiauswahlInfo" xml:space="preserve">
+        <value>O seletor de arquivos permite que você copie arquivos de pastas que não podem ser abertas.
+-Documentos
+-Downloads
+-Ringtones</value>
+    </data>
+    <data name="002_DateiauswahlKopiert" xml:space="preserve">
+        <value>Os arquivos foram copiados.
+Você agora pode colá-lo em qualquer lugar.</value>
+    </data>
+    <data name="000_Beschreibung" xml:space="preserve">
+        <value>Uma nova geração de Gerenciador de arquivos para Windows 10 móveis. Com duas janelas e arrastar-e-soltar. Projetado para absoluta facilidade de uso. Suporta cartões de memória, uma unidade de disco e dropbox.
+Tente agora para livre.</value>
+    </data>
+    <data name="000_Funktionen_1" xml:space="preserve">
+        <value>Duas janela redimensionável</value>
+    </data>
+    <data name="000_Funktionen_10" xml:space="preserve">
+        <value>Suporta todos os formatos de tela</value>
+    </data>
+    <data name="000_Funktionen_2" xml:space="preserve">
+        <value>Arrastar e soltar para cópia rápida ou mover</value>
+    </data>
+    <data name="000_Funktionen_3" xml:space="preserve">
+        <value>Suporta vários cartões de memória</value>
+    </data>
+    <data name="000_Funktionen_4" xml:space="preserve">
+        <value>Integração completa de uma unidade</value>
+    </data>
+    <data name="000_Funktionen_5" xml:space="preserve">
+        <value>Integração completa dropbox</value>
+    </data>
+    <data name="000_Funktionen_6" xml:space="preserve">
+        <value>Protegido por senha área privada</value>
+    </data>
+    <data name="000_Funktionen_7" xml:space="preserve">
+        <value>Renomear múltiplos</value>
+    </data>
+    <data name="000_Funktionen_8" xml:space="preserve">
+        <value>Avançadas opções de ordenação</value>
+    </data>
+    <data name="000_Funktionen_9" xml:space="preserve">
+        <value>Seleção de arquivo para áreas seguras</value>
+    </data>
+    <data name="000_Schlagwort_1" xml:space="preserve">
+        <value>arquivo</value>
+    </data>
+    <data name="000_Schlagwort_2" xml:space="preserve">
+        <value>Gerente</value>
+    </data>
+    <data name="000_Schlagwort_3" xml:space="preserve">
+        <value>Explorador</value>
+    </data>
+    <data name="000_Schlagwort_4" xml:space="preserve">
+        <value>uma unidade de disco</value>
+    </data>
+    <data name="000_Schlagwort_5" xml:space="preserve">
+        <value>Dropbox</value>
+    </data>
+    <data name="000_Schlagwort_6" xml:space="preserve">
+        <value>nuvem</value>
+    </data>
+    <data name="000_Schlagwort_7" xml:space="preserve">
+        <value>rede de pasta</value>
+    </data>
+    <data name="002_Bewerten" xml:space="preserve">
+        <value>Classifique este app</value>
+    </data>
+    <data name="002_BewertenText" xml:space="preserve">
+        <value>Ajude-na espalhar este app.
+Taxa e rever estrelas este app 5.
+E você tem esse app de topo de graça.</value>
+    </data>
+    <data name="002_BewertungNachricht" xml:space="preserve">
+        <value>Envie-em um e-mail.
+Digite o seu nome.
+Essa que você está usando sua conta da Microsoft.
+Então nós emitir-lhe um link.</value>
+    </data>
+    <data name="002_Danke_1" xml:space="preserve">
+        <value>Obrigado por usar nossos apps.</value>
+    </data>
+    <data name="002_Danke_2" xml:space="preserve">
+        <value>Especial graças ao</value>
+    </data>
+    <data name="002_Hilfe" xml:space="preserve">
+        <value>Manual</value>
+    </data>
+    <data name="002_JetztBewerten" xml:space="preserve">
+        <value>Taxa de agora</value>
+    </data>
+    <data name="002_Kaufen" xml:space="preserve">
+        <value>Comprar este app</value>
+    </data>
+    <data name="002_Kontakt" xml:space="preserve">
+        <value>Como entrar em contato com</value>
+    </data>
+    <data name="002_Kostenlos" xml:space="preserve">
+        <value>Livre para cinco estrelas</value>
+    </data>
+    <data name="002_MicrosoftBenutzerName" xml:space="preserve">
+        <value>Nome que você está usando sua conta Microsoft</value>
+    </data>
+    <data name="002_Postanschrift" xml:space="preserve">
+        <value>Endereço postal</value>
+    </data>
+    <data name="002_PromoApp" xml:space="preserve">
+        <value>tela do fechamento 8.1</value>
+    </data>
+    <data name="002_Sprache" xml:space="preserve">
+        <value>Língua</value>
+    </data>
+    <data name="002_SpracheÄndern" xml:space="preserve">
+        <value>Alterar Idioma</value>
+    </data>
+    <data name="002_VielenDank" xml:space="preserve">
+        <value>Muito Obrigado</value>
+    </data>
+    <data name="002_Webseite" xml:space="preserve">
+        <value>Página da Web</value>
+    </data>
+    <data name="002_Über" xml:space="preserve">
+        <value>Sobre</value>
+    </data>
+</root>
